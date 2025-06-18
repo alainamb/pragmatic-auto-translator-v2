@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>About - Pragmatic Auto-Translator</title>
+    <meta name="description" content="Learn about the research behind the corpus-informed, whole-document approach of the Pragmatic Auto-Translator." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <h1 class="nav-title">Pragmatic Auto-Translator</h1>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Auto-Translator</a>
+                <a href="corpora.html"" class="nav-item">Corpora</a>
+                <a href="about.html" class="nav-item" style="border-bottom-color: var(--gray-300);">About</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <!-- All content in one continuous section -->
+        <section class="section-card">
+            <h2>About the Pragmatic Auto-Translator</h2>
+            <p>The Pragmatic Auto-Translator project challenges the dominant approach to both human and machine translation, where content is divided up and translated sentence-by-sentence using opaque automatic translation systems. This iteration has been designed to teach workshop attendees at UNAM San Miguel Allende a more pragmatic approach to translation technology.</p>
+
+            <h2 style="margin-top: 1.5rem;">Rethinking How Translation Works</h2>
+            <p>Our workshop starts with a fundamental question: <strong>How do people actually write?</strong></p>
+            <p style="margin-bottom: 1.5rem;">Writing is a non-linear process of drafting and revising. Writers don’t create a table and write each sentence in its own cell, yet this is exactly how most translation technology works today. We believe this mismatch is at the heart of many translation quality problems.</p>
+
+            <h2 style="margin-top: 1.5rem;">What Makes Translation Pragmatically Appropriate?</h2>
+            <p>Pragmatics in translation serves as a measure of coherence on two crucial levels:</p>
+            
+            <p style="margin-top: 1.5rem;"><strong>Local coherence:</strong> Is the translation coherent as a complete piece of content for the destination culture? Does information flow naturally and meet audience expectations for that type of text?</p>
+
+            <p style="margin-bottom: 1.5rem;"><strong>Global coherence:</strong> Does the translation fit with the broader knowledge, needs, and cultural expectations of the destination audience?</p>
+
+            <p>Achieving pragmatically appropriate translation requires refashioning ideas so they align with both document-level expectations (how this type of text typically works) and cultural expectations (how this audience thinks and communicates). Good writing will sometimes break the rules, but we believe sentence-by-sentence translation has little chance of achieving true pragmatic appropriateness.</p>
+
+            <h2 style="margin-top: 1.5rem;">Our Corpus-Informed Approach</h2>
+            <p style="margin-bottom: 1.5rem;">We’re designing an automatic translator that embraces two major paradigm shifts:</p>
+            
+            <div class="spex-grid">
+                <div class="spex-box">
+                    <h3>1. Whole-document translation</h3>
+                    <p>Moving beyond sentence-by-sentence processing to consider entire documents as coherent units</p>
+                </div>
+                <div class="spex-box">
+                    <h3>2. Corpus-informed methodology</h3>
+                    <p>Using authentic writing samples rather than translation-informed training data</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 1.0rem;">How Our Specialized Corpora Work</h2>
+            <p style="margin-bottom: 1.5rem;">We curate specialized corpora that reflect how people actually write in specific contexts. From this knowledge, we create vectors at three levels:</p>
+            
+            <table style="margin-bottom: 1.5rem;">
+                <tr>
+                    <td><strong>✅ Document-level vectors</strong></td>
+                    <td>Used to analyze text organization and discourse patterns</td>
+                </tr>
+                <tr>
+                    <td><strong>✅ Section-level vectors</strong></td>
+                    <td>Used to identify relevant passages for context</td>
+                </tr>
+                <tr>
+                    <td><strong>✅ Paragraph-level vectors</strong></td>
+                    <td>Used for concept and terminology matching</td>
+                </tr>
+            </table>
+
+            <h2 style="margin-top: 1.5rem;">Why We Avoid Translation Data</h2>
+            <p>We deliberately exclude translations from our corpora because of inherent characteristics identified in <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9780429024221-4/corpus-based-translation-studies-mona-baker" target="_blank">Baker’s research</a> on translation tendencies:</p>
+            
+            <ul style="margin: 1.5rem 0;">
+                <li style="margin-bottom: 0.75rem;"><strong>1️⃣ Making implicit information overly explicit,</strong> eliminating nuance</li>
+                <li style="margin-bottom: 0.75rem;"><strong>2️⃣ Using unnecessarily simplified language</strong></li>
+                <li style="margin-bottom: 0.75rem;"><strong>3️⃣ Mimicking destination language structures</strong> to an exaggerated degree</li>
+                <li style="margin-bottom: 0.75rem;"><strong>4️⃣ Taking a “safe middle road”</strong> between free and literal translation</li>
+            </ul>
+            
+            <p>Most publicly available translations were also produced sentence-by-sentence, imposing source language structures onto target languages. This creates writing that doesn’t reflect how content is naturally produced in the destination language.</p>
+
+            <h2 style="margin-top: 1.5rem;">Transparent and Ethical Development</h2>
+            <p style="margin-bottom: 1.5rem;"><strong>Curation is key.</strong> Following <a href="https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf" target="_blank">Bender and Gebru’s research</a>, we recognize that the opacity of training data in large language models amplifies problematic biases, misinformation, and English-centric perspectives. Carefully selecting and transparently citing our corpus sources is therefore fundamental to our approach.</p>
+
+            <h2 style="margin-top: 1.5rem;">Current Implementation</h2>
+            <p style="margin-bottom: 1.5rem;">While building toward our vision, this first iteration incorporates the following technologies. We’ve also worked extensively with Claude Sonnet 4 during code development, and DeepSeek contributed key recommendations for model selection.</p>
+            
+            <div class="corpus-info" style="margin-bottom: 1.5rem;">
+                <ul>
+                    <li><code>jina-embeddings-v3</code> model for corpus vectorization and input feature extraction</li>
+                    <li>DeepSeek for English-Spanish and Spanish-English translation</li>
+                </ul>
+            </div>
+            
+            <p>We’re starting small to build thoughtfully and move away from harmful industry trends while developing our pragmatic approach.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Pragmatic Auto-Translator - UNAM-SMA Workshop Demo</p>
+        <p>By Alaina Brandt - 2025</p>
+    </footer>
+
+    <script>
+        // Simple script to highlight the active navigation item
+        document.addEventListener('DOMContentLoaded', function() {
+            const aboutLink = document.querySelector('a[href="about.html"]');
+            if (aboutLink) {
+                aboutLink.style.color = 'var(--gray-900)';
+            }
+        });
+    </script>
+</body>
+</html>

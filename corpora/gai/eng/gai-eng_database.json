@@ -1,0 +1,212 @@
+{
+  "documents": {
+    "gai-eng_item001": {
+      "document_metadata": {
+        "language_family": "eng",
+        "language_variant": "usa",
+        "title": "Attention is All You Need",
+        "authors": [
+          {
+            "name": "Ashish Vaswani",
+            "affiliation": "Google Brain"
+          },
+          {
+            "name": "Noam Shazeer",
+            "affiliation": "Google Brain"
+          },
+          {
+            "name": "Niki Parmar",
+            "affiliation": "Google Research"
+          },
+          {
+            "name": "Jakob Uszkoreit",
+            "affiliation": "Google Research"
+          },
+          {
+            "name": "Llion Jones",
+            "affiliation": "Google Research"
+          },
+          {
+            "name": "Aidan N. Gomez",
+            "affiliation": "University of Toronto"
+          },
+          {
+            "name": "Łukasz Kaiser",
+            "affiliation": "Google Brain"
+          },
+          {
+            "name": "Illia Polosukhin"
+          }
+        ],
+        "publisher": "31st Conference on Neural Information Processing Systems (NIPS 2017)",
+        "publication_year": "2017",
+        "domain": "generative_ai",
+        "text_type": "Academic paper",
+        "purpose": "Informational",
+        "point_of_view": "Academic",
+        "audience": "Researchers",
+        "reach": "Global",
+        "topics": [
+          "transformer",
+          "neural networks",
+          "attention mechanism",
+          "machine translation"
+        ],
+        "summary": "This seminal paper introduces the Transformer architecture, a novel neural network model that relies entirely on attention mechanisms for sequence transduction tasks, eliminating the need for recurrent or convolutional layers. The Transformer uses multi-head self-attention to process sequences in parallel, significantly improving training efficiency while achieving superior performance. On machine translation benchmarks, the model established new state-of-the-art results on WMT 2014 English-to-German (28.4 BLEU) and English-to-French (41.8 BLEU) translation tasks while requiring substantially less computational resources for training. The architecture consists of encoder and decoder stacks with multi-head attention, position-wise feed-forward networks, and positional encoding. Beyond translation, the paper demonstrates the Transformer's versatility by successfully applying it to English constituency parsing. This work fundamentally changed the landscape of natural language processing and became the foundation for subsequent breakthroughs in large language models.",
+        "suggested_citation": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, Ł. and Polosukhin, I. (2017) 'Attention is All You Need', 31st Conference on Neural Information Processing Systems (NIPS 2017)."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Vaswani_AttentionIsAllYouNeed_2017.pdf",
+        "creation_date": "2024-05-16",
+        "word_count": 5817,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/eng/submissions/Vaswani_AttentionIsAllYouNeed_2017.pdf",
+          "processed": "gai/eng/processed/gai-eng_item001.json"
+        },
+        "processing_notes": "Have not yet determined a way to maintain italicized and bolded text in JSON files."
+      }
+    },
+    "gai-eng_item002": {
+      "document_metadata": {
+        "language_family": "eng",
+        "language_variant": "usa",
+        "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+        "authors": [
+          {
+            "name": "Emily M. Bender",
+            "affiliation": "University of Washington"
+          },
+          {
+            "name": "Timnit Gebru",
+            "affiliation": "Black in AI"
+          },
+          {
+            "name": "Angelina McMillan-Major",
+            "affiliation": "University of Washington"
+          },
+          {
+            "name": "Shmargaret Shmitchell",
+            "affiliation": "The Aether"
+          }
+        ],
+        "publisher": "Conference on Fairness, Accountability, and Transparency (FAccT '21)",
+        "publication_year": "2021",
+        "domain": "generative_ai",
+        "text_type": "Academic paper",
+        "purpose": "Informational",
+        "point_of_view": "Academic",
+        "audience": "Researchers",
+        "reach": "Global",
+        "topics": [
+          "language models",
+          "AI ethics",
+          "environmental impact",
+          "bias",
+          "NLP",
+          "machine learning"
+        ],
+        "summary": "This paper critically examines the trend toward ever-larger language models in NLP, questioning whether “bigger is always better.” The authors identify four major areas of concern: (1) Environmental and financial costs - training large models produces substantial CO2 emissions and creates barriers to entry; (2) Unfathomable training data - massive internet-scraped datasets encode hegemonic viewpoints and biases that harm marginalized communities; (3) Misdirected research effort - focus on benchmark performance may not lead to genuine language understanding; and (4) Risk of harm - these models can generate seemingly coherent but biased or harmful text, which the authors term “stochastic parrots.” The paper argues that large language models manipulate linguistic form without true understanding, yet their fluent output can mislead users into attributing meaning and intent where none exists. This creates risks including reinforcement of stereotypes, generation of abusive content, and potential misuse by bad actors. The authors recommend shifting toward more careful data curation, stakeholder-centered design approaches, and research directions that prioritize understanding over scale, while considering the environmental and social costs of increasingly large models.",
+        "suggested_citation": "Bender, E.M., Gebru, T., McMillan-Major, A. and Shmitchell, S. (2021) 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?', Conference on Fairness, Accountability, and Transparency (FAccT '21)."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Bender_DangersOfStochasticParrots_2021.pdf",
+        "creation_date": "2024-05-19",
+        "word_count": 15544,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/eng/submissions/Bender_DangersOfStochasticParrots_2021.pdf",
+          "processed": "gai/eng/processed/gai-eng_item002.json"
+        },
+        "processing_notes": "Have not yet determined a way to maintain italicized and bolded text in JSON files."
+      }
+    },
+    "gai-eng_item003": {
+      "document_metadata": {
+        "language_family": "eng",
+        "language_variant": "eur",
+        "title": "Recommendation on the Ethics of Artificial Intelligence",
+        "authors": [
+          {
+            "name": "UNESCO",
+            "affiliation": "United Nations Educational, Scientific and Cultural Organization"
+          }
+        ],
+        "publisher": "UNESCO",
+        "publication_year": "2022",
+        "domain": "generative_ai",
+        "text_type": "Policy document",
+        "purpose": "Informational",
+        "point_of_view": "Regulatory body",
+        "audience": "Policy makers",
+        "reach": "Global",
+        "topics": [
+          "AI ethics",
+          "responsible AI",
+          "policy framework",
+          "human rights",
+          "governance",
+          "data protection",
+          "sustainability",
+          "international cooperation"
+        ],
+        "summary": "This document contains the UNESCO Recommendation on the Ethics of Artificial Intelligence, adopted on November 23, 2021. It provides the first global standard-setting instrument on AI ethics, establishing a comprehensive framework of values, principles, and policy actions to guide the ethical development and deployment of AI systems throughout their lifecycle. The recommendation addresses AI ethics across UNESCO's core domains: education, science, culture, and communication/information. It emphasizes human rights, environmental protection, gender equality, and inclusive development, with particular attention to the needs of developing countries. The framework includes four foundational values (human rights and dignity, environmental flourishing, diversity and inclusiveness, and peaceful interconnected societies) and ten guiding principles covering areas such as proportionality, fairness, transparency, accountability, and human oversight. The document outlines eleven policy areas for implementation, including ethical impact assessment, governance frameworks, data policy, international cooperation, and sector-specific guidance for education, health, economy, and culture. It establishes mechanisms for monitoring and evaluation, and emphasizes the need for multi-stakeholder collaboration to ensure AI technologies serve humanity's benefit while preventing harm to individuals, societies, and ecosystems.",
+        "suggested_citation": "UNESCO (2022) Recommendation on the Ethics of Artificial Intelligence. UNESCO."
+      },
+      "processing_metadata": {
+        "submission_file_name": "UNESCO_EthicsInAI_2022.pdf",
+        "creation_date": "2024-05-20",
+        "word_count": 14571,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/eng/submissions/UNESCO_EthicsInAI_2022.pdf",
+          "processed": "gai/eng/processed/gai-eng_item003.json"
+        },
+        "processing_notes": "The JSON captures the main contents but omits the copyright content on page two and the content from the back cover."
+      }
+    },
+    "gai-eng_item004": {
+      "document_metadata": {
+        "language_family": "eng",
+        "language_variant": "usa",
+        "title": "The Age of AI has begun",
+        "authors": [
+          {
+            "name": "Bill Gates",
+            "affiliation": "Gates Notes"
+          }
+        ],
+        "publisher": "Gates Notes",
+        "publication_year": "2023",
+        "domain": "generative_ai",
+        "text_type": "Blog post",
+        "purpose": "Informational",
+        "point_of_view": "Philanthropist",
+        "audience": "General public",
+        "reach": "Global",
+        "topics": [
+          "Bill Gates", 
+          "AI productivity enhancement",
+          "AI and health",
+          "AI and education",
+          "risks and problems with AI",
+          "age of AI",
+          "AI revolution"
+        ],
+        "summary": "Bill Gates reflects on the revolutionary potential of artificial intelligence, comparing it to the impact of the graphical user interface and the Internet. He discusses his experiences with OpenAI's GPT model and its breakthrough performance on the AP Biology exam. The document explores AI's transformative applications across multiple sectors: productivity enhancement through AI assistants and automation, healthcare improvements including AI-powered diagnostics and medical breakthroughs, and educational revolution through personalized learning systems. Gates addresses the risks and challenges of AI development, including technical limitations and ethical concerns about AI control. He concludes with three guiding principles for AI's future: balancing fears with benefits, ensuring equitable access to reduce inequality, and recognizing that AI development is still in its early stages with limitless potential for positive impact on global challenges.",
+        "suggested_citation": "Gates, B. (2023) 'The Age of AI has begun', Gates Notes."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Gates_AgeOfAIHasBegun_2023.pdf",
+        "creation_date": "2024-05-20",
+        "word_count": 3672,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/eng/submissions/Gates_AgeOfAIHasBegun_2023.pdf",
+          "processed": "gai/eng/processed/gai-eng_item004.json"
+        },
+        "processing_notes": "Need to establish the standard format for modeling HTML content in JSONs. The standard format should take into account metadata related to SEO, images and alt text, etc."
+      }
+    }
+  }  
+}

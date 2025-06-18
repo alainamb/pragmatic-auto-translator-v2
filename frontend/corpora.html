@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Corpora - Pragmatic Auto-Translator</title>
+    <meta name="description" content="Explore the curated and authentic authentic English and Spanish writing samples that inform the Pragmatic Auto-Translator’s translation outputs in the domain of AI." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <h1 class="nav-title">Pragmatic Auto-Translator</h1>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Auto-Translator</a>
+                <a href="corpora.html" class="nav-item" style="border-bottom-color: var(--gray-300);">Corpora</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section class="section-card">
+            <h2>Corpus Sources</h2>
+            <p>Our corpus-informed approach has been developed specifically for the domain of <strong>Generative Artificial Intelligence</strong>. We are actively developing corpora for additional domains including climate change and immigration policy.</p>
+            
+            <p style="margin-top: 1rem;">The documents below represent carefully curated sources that reflect authentic writing patterns in English and Spanish within the AI domain. These sources inform our translation system’s understanding of how ideas are naturally expressed in each language.</p>
+        </section>
+
+        <!-- Loading indicator -->
+        <div id="loadingIndicator" class="section-card">
+            <p style="text-align: center; color: var(--gray-500);">Loading corpus sources...</p>
+        </div>
+
+        <!-- Error message -->
+        <div id="errorMessage" class="section-card hidden">
+            <p style="text-align: center; color: #991b1b;">Unable to load corpus data. Please try again later.</p>
+        </div>
+
+        <!-- English corpus section -->
+        <section id="englishCorpus" class="section-card hidden">
+            <h2>English Sources</h2>
+            <div id="englishCards" class="corpus-grid"></div>
+        </section>
+
+        <!-- Spanish corpus section -->
+        <section id="spanishCorpus" class="section-card hidden">
+            <h2>Spanish Sources</h2>
+            <div id="spanishCards" class="corpus-grid"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Pragmatic Auto-Translator - UNAM-SMA Workshop Demo</p>
+        <p>By Alaina Brandt - 2025</p>
+    </footer>
+
+    <script>
+        // Simple script to highlight the active navigation item
+        document.addEventListener('DOMContentLoaded', function() {
+            const aboutLink = document.querySelector('a[href="about.html"]');
+            if (aboutLink) {
+                aboutLink.style.color = 'var(--gray-900)';
+            }
+        });
+    </script>
+    <script src="js/corpora-page.js"></script>
+</body>
+</html>

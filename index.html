@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Pragmatic Auto-Translator</title>
+    <meta name="description" content="Corpus-informed auto-translator that takes a whole document instead of a sentence-by-sentence approach." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragmatic Auto-Translator</title>
+    <link rel="stylesheet" href="frontend/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <h1 class="nav-title">Pragmatic Auto-Translator</h1>
+            <div class="nav-items">
+                <a href="#" class="nav-item">Auto-Translator</a>
+                <a href="frontend/corpora.html" class="nav-item">Corpora</a>
+                <a href="frontend/about.html" class="nav-item">About</a>
+                <a href="frontend/contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <!-- Language Selection -->
+        <section class="section-card">
+            <h2>Translation Direction</h2>
+            <div class="language-switcher">
+                <span>Translate from:</span>
+                <div class="language-toggle">
+                    <button class="language-option active" data-lang="en">English</button>
+                    <button class="language-option" data-lang="es">Spanish</button>
+                </div>
+                <span>→</span>
+                <span id="targetLanguage">Spanish</span>
+            </div>
+            <div class="corpus-info">
+                <strong>Corpus Domain:</strong> Generative Artificial Intelligence
+                <br>
+                <strong>Context:</strong> This translator references domain-specific content to provide contextually-aware translations
+            </div>
+        </section>
+
+        <!-- Source Text Input -->
+        <section class="section-card">
+            <h2>Source Text</h2>
+            <textarea 
+                id="sourceText" 
+                class="text-input" 
+                placeholder="Enter your text here for translation..."
+                rows="8"></textarea>
+            <button id="translateButton" class="translate-button">
+                Translate with Context
+            </button>
+            </div>
+            <div id="statusIndicator" class="status-indicator hidden"></div>
+        </section>
+
+        <!-- Context Output -->
+        <section class="section-card">
+            <h2 style="margin-bottom: 0rem;">Context</h2>
+                <div class="corpus-info" style="margin-top: 0; margin-bottom: 1rem;">
+                    <p style="margin: 0 0 8px 0;"><strong>Context Similarity Explained:</strong></p>
+                    <p style="margin: 0 0 6px 0;">Our system uses cosine similarity to find the most relevant content from our corpus to inform your translation. Cosine similarity measures how similar two pieces of text are by comparing their semantic “direction” in high-dimensional space, producing scores from -1.0 (completely different) to 1.0 (identical meaning).</p>
+                    <p style="margin: 0 0 6px 0;"><strong>Thematic Match:</strong> Content from documents that are topically similar to your input text - this provides coherent domain context.</p>
+                    <p style="margin: 0 0 6px 0;"><strong>High Similarity:</strong> Individual passages with strong semantic similarity to your input - this provides precise terminological guidance.</p>
+                    <p style="margin: 0;">Higher similarity scores (closer to 1.0) indicate more relevant context that will help produce better, more contextually-aware translations.</p>
+                </div>
+            <div id="contextInfo" class="output-containers">
+                <p style="color: var(--gray-500); font-style: italic;">
+                    Similar content from the corpus that will inform your translation will be shown here...
+                </p>
+            </div>
+        </section>
+            
+        <!-- Translation Output -->
+        <section class="section-card">
+            <h2>Translation</h2>
+            <div id="translationOutput" class="output-containers">
+                <p style="color: var(--gray-500); font-style: italic;">
+                    Your translation will appear here...
+                </p>
+            </div>
+        </section>
+
+        <!-- Quality Evaluation Framework -->
+        <section class="section-card">
+            <h2>Next Stop: Quality Evaluation</h2>
+            <p>Once translations have been generated, the real research on this project can begin. That means determining if our hypothesis that a corpus-informed, whole document approach outperforms traditional translation-informed, sentence-by-sentence translation. Evaluation of our automatic translator outputs requires a three-tier approach that addresses micro-level accuracy and macro-level communicative effectiveness.</p>
+
+            <h3>1. Individual Error Identification</h3>
+            <p>Systematic error identification using the <a href="https://themqm.org/the-mqm-typology/" target="_blank" class="info-link">MQM error typology</a> to identify patterns, assess severity, and implement preventative measures in the translation system.</p>
+
+            <h3>2. Holistic Quality Evaluation</h3>
+            <p>Following an emerging <a href="https://www.astm.org/membership-participation/technical-committees/committee-f43" target="_blank" class="info-link">ASTM F43</a> standard, evaluation across two dimensions:</p>
+            
+            <div class="spex-grid">
+                <div class="spex-box">
+                    <h4><strong>Overall Correspondence</strong></h4>
+                    <p>Semantic and functional equivalence between source and target texts, given such parameters as audience, purpose and communicative intent</p>
+                </div>
+                
+                <div class="spex-box">
+                    <h4><strong>Pragmatic Appropriateness</strong></h4>
+                    <p>Local coherence (internal consistency) and global coherence (document-level unit and cultural communication norms)</p>
+                </div>
+            </div>
+
+            <h3>3. Comparative Analysis</h3>
+            <p>Benchmarking against established approaches:</p>
+                
+            <div class="spex-grid">
+                <div class="spex-box">
+                    <h4><strong>Human reference translations</strong></h4>
+                    <p>(gold standard)</p>
+                </div>               
+                <div class="spex-box">
+                    <h4><strong>Traditional NMT</strong></h4>
+                    <p>(sentence-level systems)</p>
+                </div>
+                <div class="spex-box">
+                    <h4><strong>General-purpose GAI translation</strong></h4>
+                    <p>(without domain context)</p>
+                </div>
+                <div class="spex-box">
+                    <h4><strong>Hybrid CAT workflows</strong></h4>
+                    <p>(baseline comparisons)</p>
+                </div>
+            </div>
+            
+            <div class="research-goal">
+                <p><strong>Research Goal:</strong> Establish measurable criteria for assessing translation quality improvements achieved through the corpus-informed, whole document approach.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Pragmatic Auto-Translator - UNAM-SMA Workshop Demo</p>
+        <p>By Alaina Brandt - 2025</p>
+    </footer>
+
+    <script>
+        // Simple script to highlight the active navigation item
+        document.addEventListener('DOMContentLoaded', function() {
+            const aboutLink = document.querySelector('a[href="about.html"]');
+            if (aboutLink) {
+                aboutLink.style.color = 'var(--gray-900)';
+            }
+        });
+    </script>
+    <script type="module" src="frontend/js/main.js"></script>
+</body>
+</html>
