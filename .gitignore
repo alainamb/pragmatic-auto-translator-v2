@@ -50,6 +50,9 @@ api-config.js
 # Visualization files - too large
 visualizations/gai/jina_v3_gai-corpus_visualization_20250612_051430.html
 
+# Workflow illustrations 
+workflow-illustrations/
+
 # Editor files
 # Please add these four lines to your .gitignore file too
 .vscode/
