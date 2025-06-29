@@ -75,6 +75,298 @@
       "document_metadata": {
         "language_family": "esp",
         "language_variant": "mex",
+        "title": "Inteligencia Artificial Generativa: ¿Qué es? ¿Es un riesgo o ventaja?",
+        "authors": [
+          {
+            "name": "Arleth Delgadillo",
+            "affiliation": "Tecnológico de Monterrey"
+          },
+          {
+            "name": "Carlos González",
+            "affiliation": "Tecnológico de Monterrey"
+          },
+          {
+            "name": "Juan Alberto Amézquita",
+            "affiliation": "Profesor e investigador del Hub de Inteligencia Artificial, Tec Guadalajara"
+          }
+        ],
+        "publisher": "Tecnológico de Monterrey",
+        "publication_year": "2023",
+        "domain": ["IA Generativa", "educación"],
+        "text_type": "artículo de divulgación educativa",
+        "purpose": "informativo y educativo",
+        "point_of_view": "académico con enfoque crítico",
+        "audience": "público general y comunidad educativa",
+        "reach": "nacional",
+        "topics": [
+          "Inteligencia Artificial Generativa",
+          "Riesgos de la IA",
+          "Ventajas educativas de la IA",
+          "Pensamiento crítico y creatividad"
+        ],
+        "summary": "El artículo explica qué es la Inteligencia Artificial Generativa, sus aplicaciones en la creatividad y educación, y sus riesgos, como la falta de confiabilidad, alucinaciones, y apropiación de datos. Se enfatiza en el papel irremplazable del pensamiento crítico y humano frente a la IA.",
+        "suggested_citation": "Delgadillo, A., González, C., & Amézquita, J. A. (2023). Inteligencia Artificial Generativa: ¿Qué es? ¿Es un riesgo o ventaja? Tecnológico de Monterrey."
+      },
+      "processing_metadata": {
+        "submission_file_name": "ITESM_IAG qué es_2023.pdf",
+        "creation_date": "2023-10-24",
+        "word_count": 1700,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/ITESM_IAG qué es_2023.pdf",
+          "processed": "gai/esp/processed/gai-esp_item002.json"
+        },
+        "processing_notes": ""
+      }
+    },
+    "gai-esp_item003": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "La inteligencia artificial y sus modelos de redes neuronales",
+        "authors": [
+          {
+            "name": "Alejandro E. Rodríguez-Sánchez",
+            "affiliation": "Universidad Panamericana"
+          }
+        ],
+        "publisher": "Ciencia Vital, Revista de Divulgación Científica de la UACJ",
+        "publication_year": "2023",
+        "domain": "ciencias aplicadas / inteligencia artificial",
+        "text_type": "artículo de divulgación científica",
+        "purpose": "explicar la relevancia de los modelos de redes neuronales en la inteligencia artificial",
+        "point_of_view": "científico-divulgativo",
+        "audience": "público general interesado en ciencia y tecnología",
+        "reach": "nacional",
+        "topics": [
+          "inteligencia artificial",
+          "modelos de redes neuronales",
+          "aplicaciones científicas",
+          "predicción y simulación de fenómenos"
+        ],
+        "summary": "El artículo analiza la importancia de los modelos, en particular las redes neuronales artificiales, como base de la inteligencia artificial moderna. Destaca su impacto en campos como astronomía y biología molecular, así como en aplicaciones cotidianas como asistentes virtuales y sistemas de recomendación.",
+        "suggested_citation": "Rodríguez-Sánchez, A. E. (2023). La inteligencia artificial y sus modelos de redes neuronales. Ciencia Vital, Revista de Divulgación Científica de la UACJ."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Rodríguez Sánchez_IA y sus modelos de redes neuronales.pdf",
+        "creation_date": "2023-01-01",
+        "word_count": 2300,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Rodríguez Sánchez_IA y sus modelos de redes neuronales.pdf",
+          "processed": "gai/esp/processed/gai-esp_item003.json"
+        },
+        "processing_notes": ""
+      }
+    },
+    "gai-esp_item004": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "México: Evaluación del estadío de preparación de la inteligencia artificial",
+        "authors": [
+          {
+            "name": "Gabriela Ramos",
+            "affiliation": "UNESCO"
+          },
+          {
+            "name": "Elena Estavillo",
+            "affiliation": "Centro-i"
+          },
+          {
+            "name": "Leonardo Martínez Flores",
+            "affiliation": "Centro-i"
+          },
+          {
+            "name": "Arzu Martínez",
+            "affiliation": "Centro-i"
+          },
+          {
+            "name": "Brenda Ruíz",
+            "affiliation": "Centro-i"
+          },
+          {
+            "name": "Alejandra Lagunes",
+            "affiliation": "Senadora y promotora desde ANIA"
+          }
+        ],
+        "publisher": "UNESCO",
+        "publication_year": "2024",
+        "domain": "evaluación de políticas públicas",
+        "text_type": "informe técnico",
+        "purpose": "Diagnosticar la preparación de México para el desarrollo y uso ético de la Inteligencia Artificial mediante la Metodología RAM de la UNESCO",
+        "point_of_view": "multilateral y técnico",
+        "audience": "gobiernos, académicos, formuladores de políticas, organizaciones civiles",
+        "reach": "nacional con contexto internacional",
+        "topics": [
+          "inteligencia artificial",
+          "ética tecnológica",
+          "gobernanza digital",
+          "política pública"
+        ],
+        "summary": "Este informe, desarrollado por UNESCO en colaboración con ANIA y Centro-i, aplica la Metodología de Evaluación del Estadio de Preparación (RAM) para analizar la situación de México en cuanto a su preparación para implementar políticas de inteligencia artificial con enfoque ético. Evalúa cinco dimensiones: legal, sociocultural, científica/educativa, económica y técnica, e incluye recomendaciones para establecer un ecosistema de IA que respete los derechos humanos y promueva el desarrollo sostenible. Identifica fortalezas normativas, como la protección de datos y el marco de transparencia, así como desafíos en gobernanza, equidad de género, ciberseguridad, e infraestructura tecnológica.",
+        "suggested_citation": "UNESCO. (2024). México: Evaluación del estadío de preparación de la inteligencia artificial. París: Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura."
+      },
+      "processing_metadata": {
+        "submission_file_name": "UNESCO_Evaluacion de la preparación para la IA de México_2024.pdf",
+        "creation_date": "2024-06-01",
+        "word_count": 18900,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/UNESCO_Evaluacion de la preparación para la IA de México_2024.pdf",
+          "processed": "gai/esp/processed/gai-esp_item004.json"
+        },
+        "processing_notes": "Documento técnico exhaustivo que aplica la Metodología RAM para diagnosticar la preparación nacional para el desarrollo ético de la IA. Incluye múltiples dimensiones temáticas y recomendaciones estratégicas."
+      }
+    },
+    "gai-esp_item005": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "lat",
+        "title": "Coproducir IA: Una guía para hacer que la IA funcione para el bien común",
+        "authors": [
+          {
+            "name": "María Esther Cervantes",
+            "affiliation": "Iniciativa Latinoamericana de Datos Abiertos (ILDA)"
+          },
+          {
+            "name": "Fabrizio Scrollini",
+            "affiliation": "Iniciativa Latinoamericana de Datos Abiertos (ILDA)"
+          }
+        ],
+        "publisher": "Iniciativa Latinoamericana de Datos Abiertos (ILDA)",
+        "publication_year": "2022",
+        "domain": "gobernanza digital / inteligencia artificial en el sector público",
+        "text_type": "guía práctica y reporte de investigación",
+        "purpose": "ofrecer un marco metodológico para implementar proyectos de IA para el bien común mediante la coproducción",
+        "point_of_view": "colaborativo, técnico y ético",
+        "audience": "funcionarios públicos, investigadores, organizaciones de la sociedad civil y desarrolladores de IA",
+        "reach": "América Latina",
+        "topics": [
+          "coproducción de inteligencia artificial",
+          "políticas públicas y tecnología",
+          "proyectos colaborativos de IA",
+          "evaluación de infraestructura de datos"
+        ],
+        "summary": "Esta guía presenta un modelo metodológico basado en ocho pasos para la implementación de proyectos de inteligencia artificial orientados al bien común. Utiliza la experiencia de siete proyectos desarrollados en América Latina bajo el programa Empatía, promovido por ILDA, para ilustrar buenas prácticas y desafíos en el uso de la IA en el sector público. El enfoque de coproducción destaca la colaboración entre gobiernos, sociedad civil y expertos técnicos para enfrentar problemas públicos mediante el uso ético y efectivo de la tecnología.",
+        "suggested_citation": "Cervantes, M. E., & Scrollini, F. (2022). Coproducir IA: Una guía para hacer que la IA funcione para el bien común. Iniciativa Latinoamericana de Datos Abiertos (ILDA)."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Coproducir-IA-Scrollini-y-Cervantes-2022.pdf",
+        "creation_date": "2022-11-01",
+        "word_count": 8800,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Coproducir-IA-Scrollini-y-Cervantes-2022.pdf",
+          "processed": "gai/esp/processed/gai-esp_item005.json"
+        },
+        "processing_notes": "Basado en el programa Empatía de ILDA, apoyado por IDRC y BID."
+      }
+    },
+    "gai-esp_item006": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Iniciativa que expide la Ley para la Regulación Ética de la Inteligencia Artificial para los Estados Unidos Mexicanos",
+        "authors": [
+          {
+            "name": "Ignacio Loyola Vera",
+            "affiliation": "Diputado, Grupo Parlamentario del PAN"
+          },
+          {
+            "name": "Mónica Vargas Jiménez",
+            "affiliation": "Asesora técnica (memoria técnica adjunta)"
+          },
+          {
+            "name": "Nallely Pérez Barceló",
+            "affiliation": "Asesora técnica (memoria técnica adjunta)"
+          },
+          {
+            "name": "Rodolfo Loyola",
+            "affiliation": "Investigador, Proyecto Flamingo"
+          },
+          {
+            "name": "Israel Cedillo Lazcano",
+            "affiliation": "Profesor, Centro de Estudios Constitucionales SCJN"
+          },
+          {
+            "name": "Lasse Rouhiainen",
+            "affiliation": "Especialista en IA, autor citado"
+          }
+        ],
+        "publisher": "Cámara de Diputados de México",
+        "publication_year": "2023",
+        "domain": "legislación",
+        "text_type": "iniciativa de ley",
+        "purpose": "Proponer un marco legal ético para el desarrollo, uso y regulación de la Inteligencia Artificial en México",
+        "point_of_view": "legislativo",
+        "audience": "gobierno, sociedad civil, comunidad tecnológica, académica y legisladores",
+        "reach": "nacional",
+        "topics": [
+          "inteligencia artificial",
+          "ética tecnológica",
+          "legislación mexicana",
+          "derechos digitales"
+        ],
+        "summary": "La iniciativa busca establecer una Ley para la Regulación Ética de la Inteligencia Artificial y la Robótica en México. Define conceptos clave, establece lineamientos para el uso ético de IA, crea el Consejo Mexicano de Ética para la Inteligencia Artificial y la Robótica, y propone una Red Nacional de Estadística para su monitoreo. El texto se apoya en antecedentes nacionales e internacionales para justificar su necesidad urgente ante el crecimiento acelerado de la tecnología sin un marco regulatorio en el país.",
+        "suggested_citation": "Loyola Vera, I. (2023). Iniciativa que expide la Ley para la Regulación Ética de la Inteligencia Artificial y la Robótica. Cámara de Diputados de México."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Mexico_Ley para IA.pdf",
+        "creation_date": "2023-03-30",
+        "word_count": 10650,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Mexico_Ley para IA.pdf",
+          "processed": "gai/esp/processed/gai-esp_item006.json"
+        },
+        "processing_notes": "Documento legislativo con secciones estructuradas: exposición de motivos, articulado legal, referencias técnicas y antecedentes internacionales."
+      }
+    },
+    "gai-esp_item007": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "México avanza con su plan nacional para el desarrollo ético de la inteligencia artificial",
+        "authors": [
+          {
+            "name": "Anna Lagos",
+            "affiliation": "WIRED México"
+          }
+        ],
+        "publisher": "WIRED México",
+        "publication_year": "2024",
+        "domain": "gobernanza tecnológica / inteligencia artificial",
+        "text_type": "artículo periodístico",
+        "purpose": "informar sobre la presentación de la evaluación RAM y el desarrollo de políticas públicas de IA en México",
+        "point_of_view": "informativo con enfoque en política pública y desarrollo institucional",
+        "audience": "público general, actores políticos, comunidad académica y tecnológica",
+        "reach": "nacional",
+        "topics": [
+          "ética de la inteligencia artificial",
+          "evaluación RAM de la UNESCO",
+          "política pública y gobernanza de IA",
+          "desarrollo tecnológico en México"
+        ],
+        "summary": "El artículo describe los esfuerzos recientes en México para avanzar hacia una estrategia nacional de inteligencia artificial ética. Destaca la presentación de la evaluación de preparación para la IA (RAM) desarrollada por la UNESCO, en colaboración con ANIA y Centro-i. La senadora Alejandra Lagunes lidera este impulso mediante iniciativas legislativas, alianzas internacionales y capacitación a PYMEs. Se mencionan desafíos pendientes como la baja inversión en I+D y la necesidad de cerrar brechas sociales y tecnológicas.",
+        "suggested_citation": "Lagos, A. (2024). México avanza con su plan nacional para el desarrollo ético de la inteligencia artificial. WIRED México."
+      },
+      "processing_metadata": {
+        "submission_file_name": "WIRED_México avanza con su plan nacional para la IA_2024.html",
+        "creation_date": "2024-07-03",
+        "word_count": 1900,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/WIRED_México avanza con su plan nacional para la IA_2024.html",
+          "processed": "gai/esp/processed/gai-esp_item007.json"
+        },
+        "processing_notes": "Artículo periodístico alojado en línea; fuente confiable WIRED México."
+      }
+    },
+    "gai-esp_item008": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
         "title": "Conversando con una computadora: ¿Cómo entienden las inteligencias artificiales lo que les pedimos?",
         "authors": [
           {
@@ -107,9 +399,695 @@
         "status": "vectorization_pending",
         "file_paths": {
           "original": "gai/esp/submissions/MejiaBerzunza_ConversandoConUnaComputadora_2023.pdf",
-          "processed": "gai/esp/processed/gai-esp_item002.json"
+          "processed": "gai/esp/processed/gai-esp_item008.json"
         },
         "processing_notes": "The date of publication is not listed. I’ve reached out to the publishers for confirmation on the date of publication."
+      }
+    },
+    "gai-esp_item009": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Inteligencia artificial generativa: irrupción y desafíos",
+        "authors": [
+          {
+            "name": " Karla María Gutiérrez López",
+            "affiliation": "Universidad Mesoamericana"
+          }
+        ],
+        "publisher": "Revista Enfoques",
+        "publication_year": "2023",
+        "domain": "generative_ai",
+        "text_type": "Academic paper",
+        "purpose": "Informational",
+        "point_of_view": 
+          [ "Academic", "Researcher" ],
+        "audience": 
+          [ "Academic", "Educators", "General public", "Researchers", "Students", "Subject matter experts" ],
+        "reach": 
+          [ "Global", "Regional" ],
+        "topics": [
+          "inteligencia artificial",
+          "revolución tecnológica",
+          "ética de la tecnología",
+          "gestión del conocimiento"
+        ],
+        "summary": "Este artículo examina la irrupción de la inteligencia artificial generativa (IAG) y los desafíos que plantea en la sociedad digital actual. A través de una metodología cualitativa con cuestionarios aplicados a 108 usuarios de aplicaciones de IAG, se analiza el impacto de herramientas como ChatGPT en la generación de contenidos, la gestión del conocimiento y las interacciones humanas. El estudio aborda los antecedentes históricos de la IA desde Torres y Quevedo hasta la actualidad, examina las percepciones de los usuarios sobre la calidad de la información, el impacto en el pensamiento crítico y las preocupaciones éticas. Se concluye que aunque estas tecnologías ofrecen beneficios potenciales para la democratización del conocimiento y la creatividad, también plantean desafíos significativos relacionados con la veracidad de la información, la dependencia tecnológica y la necesidad de marcos éticos regulatorios. El trabajo enfatiza la importancia de integrar estas herramientas de manera equilibrada en los procesos de gestión del conocimiento, considerando tanto sus beneficios como sus limitaciones.",
+        "suggested_citation": "Gutiérrez, K. (2023). Inteligencia artificial generativa: irrupción y desafíos. Revista Enfoques. 4(2), 57-82."
+      },
+      "processing_metadata": {
+        "submission_file_name": "GutiérrezLópez_IrrupciónYdesafíos_2023.pdf",
+          "creation_date": "2025-06-18",
+          "word_count": 10500,
+          "status": "vectorization_pending",
+          "file_paths": {
+            "original": "gai/esp/submissions/GutiérrezLópez_IrrupciónYdesafíos_2023.pdf",
+            "processed": "gai/esp/processed/gai-esp_item009.json"
+          },
+          "processing_notes": "Bibliographic references are not currently included in the content file. Each table was copied into a single paragraph."
+       }
+    },
+    "gai-esp_item010": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Inteligencia Artificial para la Paz",
+        "authors": [
+          {
+            "name": "Roberto Morales Estrella",
+            "affiliation": "Profesor Investigador de la UAEH"
+          }
+        ],
+        "publisher": "Tecno-dgital",
+        "publication_year": "2025",
+        "domain": "ética tecnológica",
+        "text_type": "ensayo académico",
+        "purpose": "Reflexionar sobre el uso de la inteligencia artificial como herramienta para la construcción de la paz y el bienestar social",
+        "point_of_view": "crítico-humanista",
+        "audience": "comunidad académica, legisladores, responsables de políticas públicas, sociedad civil",
+        "reach": "internacional",
+        "topics": [
+          "inteligencia artificial",
+          "cultura de paz",
+          "ética tecnológica",
+          "desarrollo sustentable"
+        ],
+        "summary": "Este ensayo analiza el papel dual de la inteligencia artificial como herramienta de construcción de paz y, al mismo tiempo, como tecnología con potencial destructivo. Se destaca el rol de las universidades, especialmente las públicas, en liderar el desarrollo de IA orientada a la salud, educación y valores culturales. El autor aboga por un diseño ético de tecnologías centradas en el ser humano y basadas en derechos humanos, sostenibilidad y justicia social, en contraposición al uso de la IA para el control, la guerra y el dominio geopolítico.",
+        "suggested_citation": "Morales Estrella, R. (2025). Inteligencia Artificial para la Paz. Tecno-dgital."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Morales Estrella_IA para la Paz_2025.pdf",
+        "creation_date": "2025-01-06",
+        "word_count": 2150,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Morales Estrella_IA para la Paz_2025.pdf",
+          "processed": "gai/esp/processed/gai-esp_item010.json"
+        },
+        "processing_notes": "Ensayo académico con enfoque crítico y filosófico sobre el uso pacífico de la inteligencia artificial. Incluye referencias bibliográficas extensas y contexto geopolítico actual."
+      }
+    },
+    "gai-esp_item011": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "arg",
+        "title": "El papel de la ética en el desarrollo de sistemas de inteligencia artificial en el sector emprendedor en América Latina",
+        "authors": [
+          {
+            "name": "Carolina Aguerre",
+            "affiliation": "CETyS, Universidad de San Andrés"
+          },
+          {
+            "name": "Delfina Ferracutti",
+            "affiliation": "CETyS, Universidad de San Andrés"
+          },
+          {
+            "name": "Iván Kirschbaum",
+            "affiliation": "Centro Latam Digital"
+          },
+          {
+            "name": "Maia Levy Daniel",
+            "affiliation": "Centro Latam Digital"
+          },
+          {
+            "name": "Antonella Perini",
+            "affiliation": "Centro Latam Digital"
+          }
+        ],
+        "publisher": "Proyecto GuIA, CETyS (Universidad de San Andrés) y Centro Latam Digital",
+        "publication_year": "2022",
+        "domain": "ética tecnológica",
+        "text_type": "informe técnico",
+        "purpose": "Analizar cómo los emprendimientos latinoamericanos interpretan y aplican principios éticos en el desarrollo de sistemas de inteligencia artificial",
+        "point_of_view": "investigación empírica y académica",
+        "audience": "emprendedores, académicos, formuladores de políticas, sociedad civil",
+        "reach": "regional (América Latina)",
+        "topics": [
+          "ética de la inteligencia artificial",
+          "emprendimientos tecnológicos",
+          "gobernanza digital",
+          "privacidad de datos"
+        ],
+        "summary": "Este informe explora cómo los pequeños emprendimientos tecnológicos en América Latina entienden y aplican principios éticos en el desarrollo de sistemas de inteligencia artificial. Mediante encuestas y entrevistas a startups de 11 países, se identifican percepciones sobre riesgos éticos, barreras normativas y prácticas de mitigación. Los principales riesgos percibidos son el uso indebido de datos personales y los sesgos algorítmicos. Se observa una alta sensibilización, pero una escasa estandarización de prácticas éticas en estos entornos. El informe resalta la necesidad de marcos éticos aplicables, apoyos institucionales y formación especializada.",
+        "suggested_citation": "Aguerre, C., Ferracutti, D., Kirschbaum, I., Levy Daniel, M., & Perini, A. (2022). El papel de la ética en el desarrollo de sistemas de inteligencia artificial en el sector emprendedor en América Latina. Proyecto GuIA, CETyS y Centro Latam Digital."
+      },
+      "processing_metadata": {
+        "submission_file_name": "GuIA.ai_El papel de la ética.pdf",
+        "creation_date": "2022-12-01",
+        "word_count": 13800,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/GuIA.ai_El papel de la ética.pdf",
+          "processed": "gai/esp/processed/gai-esp_item011.json"
+        },
+        "processing_notes": "Informe técnico con base empírica sólida, metodologías mixtas, encuestas y entrevistas a emprendimientos de IA en América Latina. Alta relevancia para políticas públicas e innovación responsable."
+      }
+    },
+    "gai-esp_item012": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Recomendaciones para el uso de Inteligencia Artificial Generativa en la docencia",
+        "authors": [
+          {
+            "name": "Grupo de trabajo de Inteligencia Artificial Generativa",
+            "affiliation": "Universidad Nacional Autónoma de México"
+          }
+        ],
+        "publisher": "Universidad Nacional Autónoma de México",
+        "publication_year": "2023",
+        "domain": "educación superior",
+        "text_type": "guía académica",
+        "purpose": "Emitir recomendaciones prácticas para el uso de IAG en la docencia universitaria",
+        "point_of_view": "institucional y pedagógico",
+        "audience": "docentes universitarios",
+        "reach": "nacional",
+        "topics": [
+          "inteligencia artificial generativa",
+          "educación superior",
+          "ética tecnológica",
+          "evaluación educativa"
+        ],
+        "summary": "Este documento, elaborado por un grupo de trabajo de la UNAM, ofrece recomendaciones para el uso ético, crítico y efectivo de herramientas de inteligencia artificial generativa (IAG) en la enseñanza, aprendizaje y evaluación en la educación universitaria. Se abordan beneficios, riesgos, estrategias de implementación y casos de uso tanto para docentes como estudiantes.",
+        "suggested_citation": "Grupo de trabajo de Inteligencia Artificial Generativa de la UNAM. (2023). Recomendaciones para el uso de Inteligencia Artificial Generativa en la docencia. UNAM."
+      },
+      "processing_metadata": {
+        "submission_file_name": "UNAM_Recomendaciones para el uso de IAG en la docencia_2023.pdf",
+        "creation_date": "2023-10-01",
+        "word_count": 12750,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/UNAM_Recomendaciones_para_el_uso_de_IAG_en_la_docencia_2023.pdf",
+          "processed": "gai/esp/processed/gai-esp_item012.json"
+        },
+        "processing_notes": "Documento académico institucional de tipo guía con propósito pedagógico y ético."
+      }
+    },
+    "gai-esp_item013": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Glosario de Inteligencia Artificial (IA) para la educación",
+        "authors": [
+          {
+            "name": "Melissa Guerra Jáuregui",
+            "affiliation": "Observatorio / Instituto para el Futuro de la Educación, Tecnológico de Monterrey"
+          }
+        ],
+        "publisher": "Instituto para el Futuro de la Educación, Tecnológico de Monterrey",
+        "publication_year": "2024",
+        "domain": "educación superior",
+        "text_type": "glosario informativo",
+        "purpose": "Proporcionar definiciones clave sobre términos de inteligencia artificial relevantes para el ámbito educativo",
+        "point_of_view": "divulgativo y educativo",
+        "audience": "educadores, investigadores, público interesado en IA aplicada a la educación",
+        "reach": "internacional",
+        "topics": [
+          "inteligencia artificial",
+          "glosario educativo",
+          "tecnología educativa",
+          "innovación docente"
+        ],
+        "summary": "Este glosario presenta términos fundamentales relacionados con la inteligencia artificial en el contexto educativo. Su objetivo es facilitar la comprensión de conceptos clave para docentes, investigadores y profesionales interesados en integrar estas tecnologías en sus prácticas.",
+        "suggested_citation": "Guerra Jáuregui, M. (2024). Glosario de Inteligencia Artificial (IA) para la educación. Observatorio / Instituto para el Futuro de la Educación, Tecnológico de Monterrey."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Glosario IA para la educación - Observatorio_Tec de Monterrey.html",
+        "creation_date": "2024-08-05",
+        "word_count": 1653,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Glosario_IA_educacion_Observatorio_TecMonterrey.html",
+          "processed": "gai/esp/processed/gai-esp_item013.json"
+        },
+        "processing_notes": "Contenido en formato HTML extraído del sitio del Observatorio del Tec de Monterrey, con enfoque en terminología IA aplicada a educación."
+      }
+    },
+    "gai-esp_item014": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "¿Cómo escribir prompts para la inteligencia artificial (IA)?",
+        "authors": [
+          {
+            "name": "Biblioteca ITESO",
+            "affiliation": "Universidad ITESO"
+          }
+        ],
+        "publisher": "ITESO, Universidad Jesuita de Guadalajara",
+        "publication_year": "2023",
+        "domain": "educación superior",
+        "text_type": "infografía",
+        "purpose": "Guiar a los usuarios en la redacción efectiva de prompts para herramientas de inteligencia artificial generativa",
+        "point_of_view": "educativo y práctico",
+        "audience": "estudiantes, docentes y usuarios de IAG",
+        "reach": "institucional",
+        "topics": [
+          "prompts",
+          "inteligencia artificial",
+          "educación tecnológica",
+          "uso responsable de IA"
+        ],
+        "summary": "Esta infografía elaborada por la Biblioteca del ITESO ofrece estrategias claras y ejemplos para escribir prompts efectivos dirigidos a herramientas de inteligencia artificial generativa. Incluye fórmulas prácticas, sugerencias de estructura, y advertencias sobre el uso y limitaciones de estas tecnologías.",
+        "suggested_citation": "Biblioteca ITESO. (2023). ¿Cómo escribir prompts para la inteligencia artificial (IA)? ITESO, Universidad Jesuita de Guadalajara."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Infografía_Cómo escribir prompts para IA.pdf",
+        "creation_date": "2023-11-15",
+        "word_count": 650,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Infografia_Como_escribir_prompts_para_IA.pdf",
+          "processed": "gai/esp/processed/gai-esp_item014.json"
+        },
+        "processing_notes": "Infografía educativa con contenido visual y explicativo sobre la redacción de prompts para IAG. Uso bajo licencia CC BY-NC-SA 4.0."
+      }
+    },
+    "gai-esp_item015": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Diplomado en Inteligencia Artificial",
+        "authors": [
+          {
+            "name": "",
+            "affiliation": "Instituto Politécnico Nacional, Centro de Investigación en Computación"
+          }
+        ],
+        "publisher": "Instituto Politécnico Nacional",
+        "publication_year": "2024",
+        "domain": "educación tecnológica",
+        "text_type": "programa académico / plan de estudios",
+        "purpose": "formar profesionales en inteligencia artificial desde fundamentos hasta técnicas avanzadas",
+        "point_of_view": "educativo y técnico",
+        "audience": "profesionistas y estudiantes con conocimientos en programación y matemáticas",
+        "reach": "nacional",
+        "topics": [
+          "inteligencia artificial",
+          "aprendizaje automático",
+          "redes neuronales",
+          "procesamiento del lenguaje natural"
+        ],
+        "summary": "El diplomado del IPN proporciona formación integral en Inteligencia Artificial con énfasis en programación en Python, matemáticas, aprendizaje automático, redes neuronales, procesamiento de lenguaje natural, grandes modelos de lenguaje, arquitecturas multimodales y técnicas de IA generativa. Su enfoque práctico y modular está diseñado para quienes desean dominar las tecnologías más actuales en IA.",
+        "suggested_citation": "Instituto Politécnico Nacional (2024). Diplomado en Inteligencia Artificial. Centro de Investigación en Computación."
+      },
+      "processing_metadata": {
+        "submission_file_name": "IPN_diplomado_en_inteligencia_artificial.pdf",
+        "creation_date": "2024-01-01",
+        "word_count": 5400,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/IPN_diplomado_en_inteligencia_artificial.pdf",
+          "processed": "gai/esp/processed/gai-esp_item015.json"
+        },
+        "processing_notes": "Estructura modular con 12 módulos y 140 horas totales, acreditación por prácticas y examen."
+      }
+    },
+    "gai-esp_item016": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Diseño y evaluación de un tutor inteligente basado en Inteligencia Artificial Generativa para la adquisición de habilidades de programación",
+        "authors": [
+          {
+            "name": "Oleksiy Levchuk",
+            "affiliation": "Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE)"
+          }
+        ],
+        "publisher": "CICESE",
+        "publication_year": "2024",
+        "domain": "educación en ciencias computacionales",
+        "text_type": "tesis de maestría",
+        "purpose": "investigar el diseño, desarrollo y evaluación de un tutor inteligente con IA generativa para enseñanza de programación",
+        "point_of_view": "académico, científico y aplicado",
+        "audience": "estudiantes, profesores e investigadores en informática educativa e inteligencia artificial",
+        "reach": "regional con enfoque latinoamericano",
+        "topics": [
+          "Inteligencia Artificial Generativa",
+          "Grandes Modelos de Lenguaje",
+          "Educación en programación",
+          "Sistemas de Tutoría Inteligente"
+        ],
+        "summary": "La tesis de Oleksiy Levchuk desarrolla y evalúa un tutor inteligente llamado EVA-Tutor, basado en IA Generativa y modelos de lenguaje como GPT-4. Se exploran su diseño arquitectónico, su implementación mediante ingeniería de prompts, y su validación con estudiantes y profesores de Latinoamérica. Se identifican las percepciones sobre ChatGPT en educación, los retos de integración responsable de estas herramientas y se confirma su utilidad para mejorar la enseñanza de programación.",
+        "suggested_citation": "Levchuk, O. (2024). Diseño y evaluación de un tutor inteligente basado en Inteligencia Artificial Generativa para la adquisición de habilidades de programación. Tesis de Maestría en Ciencias de la Computación. CICESE."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Levchuk_Tesis-Tutor IAG para la programación_2024.pdf",
+        "creation_date": "2024-05-15",
+        "word_count": 28700,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Levchuk_Tesis-Tutor IAG para la programación_2024.pdf",
+          "processed": "gai/esp/processed/gai-esp_item016.json"
+        },
+        "processing_notes": "Tesis respaldada por CONAHCyT y desarrollada en CICESE. Incluye evaluación de uso académico de ChatGPT en América Latina."
+      }
+    }, "gai-esp_item017": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Claves para pensar la historia de y desde las mujeres, en los tiempos de la inteligencia artificial",
+        "authors": [
+          {
+            "name": "Anelí Villa Avendaño",
+            "affiliation": "Universidad Nacional Autónoma de México (UNAM)"
+          }
+        ],
+        "publisher": "Revista DIDAC, UNAM",
+        "publication_year": "2024",
+        "domain": "educación superior",
+        "text_type": "ensayo académico",
+        "purpose": "Reflexionar críticamente sobre los sesgos de género en la historia y su reproducción en la inteligencia artificial generativa",
+        "point_of_view": "feminista, académico-crítico",
+        "audience": "docentes, investigadoras/es, comunidad académica",
+        "reach": "nacional",
+        "topics": [
+          "historia de las mujeres",
+          "inteligencia artificial generativa",
+          "sesgos de género",
+          "educación crítica"
+        ],
+        "summary": "Este ensayo explora cómo la historia ha sido tradicionalmente construida desde una visión masculina y cómo la inteligencia artificial generativa tiende a reproducir estos sesgos. Desde una perspectiva feminista, la autora analiza los desafíos que enfrentan docentes e investigadoras en la construcción de un discurso histórico más inclusivo, visibilizando las aportaciones de las mujeres en la historia y cuestionando los paradigmas dominantes.",
+        "suggested_citation": "Villa Avendaño, A. (2024). Claves para pensar la historia de y desde las mujeres, en los tiempos de la inteligencia artificial. *DIDAC*, 84, 113-120. https://doi.org/10.48102/didac.2024..84_JUL-DIC.215"
+      },
+      "processing_metadata": {
+        "submission_file_name": "Villa Avendaño_Historia mujeres en tiempos de IA_2024.pdf",
+        "creation_date": "2024-07-01",
+        "word_count": 5430,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Villa_Avendano_Historia_mujeres_IA_2024.pdf",
+          "processed": "gai/esp/processed/gai-esp_item017.json"
+        },
+        "processing_notes": "Ensayo académico con enfoque feminista sobre IA generativa e historia. Publicado en la Revista DIDAC, UNAM."
+      }
+    },
+    "gai-esp_item018": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "¿Cómo innovará el Tec con su nuevo Hub de Inteligencia Artificial?",
+        "authors": [
+          {
+            "name": "Redacción CONECTA",
+            "affiliation": "Tecnológico de Monterrey"
+          }
+        ],
+        "publisher": "CONECTA, Tecnológico de Monterrey",
+        "publication_year": "2019",
+        "domain": "educación superior",
+        "text_type": "nota informativa",
+        "purpose": "Informar sobre la inauguración del Hub de Inteligencia Artificial y sus objetivos tecnológicos y sociales",
+        "point_of_view": "institucional, divulgativo",
+        "audience": "comunidad académica, sector tecnológico, público general",
+        "reach": "nacional",
+        "topics": [
+          "inteligencia artificial",
+          "tecnología e innovación",
+          "emprendimiento tecnológico",
+          "educación superior"
+        ],
+        "summary": "El Tecnológico de Monterrey inauguró el primer Hub de Inteligencia Artificial en México, ubicado en Guadalajara. Su objetivo es impulsar el desarrollo de tecnologías de IA con alto impacto económico y social, integrando talento académico y empresarial para crear soluciones innovadoras en diversas industrias.",
+        "suggested_citation": "Redacción CONECTA. (2019). ¿Cómo innovará el Tec con su nuevo Hub de Inteligencia Artificial? Tecnológico de Monterrey. Recuperado de https://conecta.tec.mx/es/noticias/guadalajara/investigacion/como-innovara-el-tec-con-su-nuevo-hub-de-inteligencia-artificial"
+      },
+      "processing_metadata": {
+        "submission_file_name": "ITESM_Nuevo Hub de Inteligencia Artificial_2019.html",
+        "creation_date": "2019-11-11",
+        "word_count": 780,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/ITESM_Nuevo_Hub_de_IA_2019.html",
+          "processed": "gai/esp/processed/gai-esp_item018.json"
+        },
+        "processing_notes": "Nota institucional extraída del portal CONECTA del Tecnológico de Monterrey sobre la inauguración de un hub de IA en Guadalajara."
+      }
+    },
+    "gai-esp_item019": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Open Loop México: Prototipo de Políticas Públicas sobre Transparencia y Explicabilidad de Sistemas de IA",
+        "authors": [
+          {
+            "name": "Claudia May del Pozo",
+            "affiliation": "C Minds"
+          },
+          {
+            "name": "Norberto de Andrade",
+            "affiliation": "Meta"
+          },
+          {
+            "name": "Daniela Rojas Arroyo",
+            "affiliation": "C Minds"
+          }
+        ],
+        "publisher": "Open Loop México",
+        "publication_year": "2023",
+        "domain": "política pública y tecnología",
+        "text_type": "informe técnico",
+        "purpose": "Presentar un marco normativo prototipo y recomendaciones de política pública sobre transparencia y explicabilidad en sistemas de inteligencia artificial en México",
+        "point_of_view": "colaborativo, multisectorial y basado en evidencia",
+        "audience": "formuladores de políticas, sector tecnológico, academia y sociedad civil",
+        "reach": "nacional e internacional",
+        "topics": [
+          "inteligencia artificial",
+          "políticas públicas",
+          "transparencia",
+          "explicabilidad"
+        ],
+        "summary": "Este informe documenta el desarrollo e implementación de un prototipo de política pública enfocado en la transparencia y explicabilidad de sistemas de inteligencia artificial en México. Fue liderado por Meta y C Minds con el apoyo del BID y el INAI. Participaron 10 empresas mexicanas para probar un marco normativo y un manual práctico que guían buenas prácticas de transparencia en sistemas automatizados de toma de decisiones. Se evalúan la claridad, eficacia y viabilidad del marco, y se ofrecen recomendaciones concretas para fortalecer la gobernanza de la IA en México y América Latina.",
+        "suggested_citation": "Del Pozo, C., de Andrade, N., & Rojas Arroyo, D. (2023). Open Loop México: Prototipo de Políticas Públicas sobre Transparencia y Explicabilidad de Sistemas de IA. Open Loop. https://openloop.org/reports/2023/10/Prototipo-de-Politicas-Publicas-sobre-Transparencia-y-Explicabilidad-de-Sistemas-de-IA.pdf"
+      },
+      "processing_metadata": {
+        "submission_file_name": "Open Loop México_Prototipo de Políticas Públicas sobre Sistemas de IA_2023.pdf",
+        "creation_date": "2023-08-01",
+        "word_count": 14580,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/OpenLoop_Mexico_Prototipo_IA_2023.pdf",
+          "processed": "gai/esp/processed/gai-esp_item019.json"
+        },
+        "processing_notes": "Informe co-producido por Meta, C Minds, BID y el INAI con base en un programa de gobernanza experimental sobre IA en México."
+      }
+    },
+    "gai-esp_item020": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Derechos de autor en obras producidas por inteligencia artificial: un análisis jurídico",
+        "authors": [
+          {
+            "name": "Anahí Vargas Hernández",
+            "affiliation": "Universidad Iberoamericana Puebla"
+          },
+          {
+            "name": "Jorge Alejandro Esqueda Luna",
+            "affiliation": "Universidad Iberoamericana Puebla"
+          }
+        ],
+        "publisher": "Universidad Iberoamericana Puebla",
+        "publication_year": "2023",
+        "domain": "derecho",
+        "text_type": "trabajo recepcional",
+        "purpose": "analizar la posibilidad de atribuir derechos de autor a obras generadas por inteligencia artificial desde una perspectiva jurídica",
+        "point_of_view": "académico jurídico, con enfoque comparativo internacional",
+        "audience": "académicos, estudiantes y profesionales del derecho",
+        "reach": "nacional e internacional",
+        "topics": [
+          "derechos de autor",
+          "inteligencia artificial",
+          "propiedad intelectual",
+          "legislación comparada"
+        ],
+        "summary": "El documento examina la posibilidad legal de reconocer derechos de autor sobre obras generadas por inteligencia artificial, revisando legislaciones y casos de Estados Unidos, China, India, la Unión Europea y México. Analiza la participación humana requerida, la creatividad computacional y propone una revisión del marco legal mexicano.",
+        "suggested_citation": "Vargas Hernández, A. & Esqueda Luna, J. A. (2023). Derechos de autor en obras producidas por inteligencia artificial: un análisis jurídico. Universidad Iberoamericana Puebla. https://hdl.handle.net/20.500.11777/5950"
+      },
+      "processing_metadata": {
+        "submission_file_name": "Esqueda Luna_Derechos de autor en obras producidas por IA.pdf",
+        "creation_date": "2023-12-14",
+        "word_count": 16860,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Esqueda Luna_Derechos de autor en obras producidas por IA.pdf",
+          "processed": "gai/esp/processed/gai-esp_item020.json"
+        },
+        "processing_notes": "Trabajo recepcional de licenciatura en derecho, incluye entrevistas y análisis comparado de legislación."
+      }
+    },
+    "gai-esp_item021": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Derechos de Autor e Inteligencia Artificial",
+        "authors": [
+          {
+            "name": "Ricardo Arturo Gómez Hernández",
+            "affiliation": ""
+          },
+          {
+            "name": "Daniel Ascencio Rodríguez",
+            "affiliation": ""
+          }
+        ],
+        "publisher": "",
+        "publication_year": "2025",
+        "domain": "derecho",
+        "text_type": "artículo académico",
+        "purpose": "analizar la situación jurídica en México y compararla con otros países respecto al reconocimiento de derechos de autor en obras producidas con ayuda de inteligencia artificial",
+        "point_of_view": "académico jurídico, con perspectiva crítica",
+        "audience": "juristas, académicos, legisladores",
+        "reach": "internacional",
+        "topics": [
+          "derechos de autor",
+          "inteligencia artificial",
+          "legislación comparada",
+          "registro de obras"
+        ],
+        "summary": "El artículo examina la legislación mexicana vigente en materia de derechos de autor frente a obras generadas con inteligencia artificial. Se exploran problemáticas como la ausencia de reconocimiento legal de la IA como autora, la necesidad de intervención humana, y se contrastan soluciones adoptadas en otras jurisdicciones como EUA, Reino Unido, China y la Unión Europea. Finalmente, se proponen medidas para fortalecer el sistema de protección en México, como la implementación de filtros automáticos tipo Test de Turing Reverso y la creación de un servicio de consulta externa.",
+        "suggested_citation": "Gómez Hernández, R. A. & Ascencio Rodríguez, D. (2025). Derechos de Autor e Inteligencia Artificial. Publicación académica."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Gomez Hernandez_Derechos de autor e inteligencia artificial.pdf",
+        "creation_date": "2025-01-09",
+        "word_count": 4670,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Gomez Hernandez_Derechos de autor e inteligencia artificial.pdf",
+          "processed": "gai/esp/processed/gai-esp_item021.json"
+        },
+        "processing_notes": "Artículo bilingüe español-inglés que plantea propuestas de política pública y reformas legales sobre IA y derechos de autor."
+      }
+    },
+    "gai-esp_item022": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Reporte Futuro del Empleo 2025",
+        "authors": [
+          {
+            "name": "Instituto Mexicano para la Competitividad (IMCO)",
+            "affiliation": "IMCO"
+          },
+          {
+            "name": "Foro Económico Mundial (WEF)",
+            "affiliation": "WEF"
+          }
+        ],
+        "publisher": "IMCO",
+        "publication_year": "2025",
+        "domain": "economía y empleo",
+        "text_type": "reporte de investigación",
+        "purpose": "analizar las tendencias globales y nacionales del empleo, así como las habilidades necesarias para enfrentar los desafíos futuros del mercado laboral",
+        "point_of_view": "analítico, basado en encuestas empresariales",
+        "audience": "responsables de políticas públicas, empleadores, educadores, investigadores",
+        "reach": "global y nacional (México)",
+        "topics": [
+          "mercado laboral",
+          "habilidades del futuro",
+          "automatización",
+          "inteligencia artificial"
+        ],
+        "summary": "El informe analiza las transformaciones del empleo hacia 2025, enfocándose en los impactos de la tecnología, la sostenibilidad y la digitalización. En México, el 40% de las habilidades requeridas en los empleos cambiarán, superando el promedio global. Se destacan habilidades como inteligencia artificial, resiliencia, ciberseguridad y liderazgo social. El informe también explora políticas públicas que faciliten el upskilling, la contratación flexible y la adaptación educativa para un entorno laboral dinámico.",
+        "suggested_citation": "IMCO & WEF. (2025). Reporte Futuro del Empleo 2025. Instituto Mexicano para la Competitividad. Ciudad de México."
+      },
+      "processing_metadata": {
+        "submission_file_name": "IMCO_Reporte-Futuro-del-Empleo-2025-.pdf",
+        "creation_date": "2025-01-24",
+        "word_count": 2650,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/IMCO_Reporte-Futuro-del-Empleo-2025-.pdf",
+          "processed": "gai/esp/processed/gai-esp_item022.json"
+        },
+        "processing_notes": "Reporte con enfoque en políticas laborales y competencias clave del futuro, resultado de colaboración IMCO-WEF."
+      }
+    },
+    "gai-esp_item023": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "El futuro de la educación: ¿Cómo aprovechar la inteligencia artificial para impulsar el aprendizaje?",
+        "authors": [
+          {
+            "name": "Instituto Mexicano para la Competitividad (IMCO)",
+            "affiliation": "IMCO"
+          },
+          {
+            "name": "",
+            "affiliation": ""
+          }
+        ],
+        "publisher": "IMCO",
+        "publication_year": "2023",
+        "domain": "educación",
+        "text_type": "reporte de investigación",
+        "purpose": "Analizar cómo la inteligencia artificial puede mejorar la educación en México",
+        "point_of_view": "institucional",
+        "audience": "autoridades educativas, formuladores de políticas, docentes",
+        "reach": "nacional",
+        "topics": [
+          "inteligencia artificial",
+          "educación",
+          "política pública",
+          "tecnología educativa"
+        ],
+        "summary": "El reporte examina el impacto de la inteligencia artificial en la educación, presenta casos internacionales, identifica barreras como la desigualdad digital y la falta de capacitación docente, y propone una estrategia para integrar IA en el sistema educativo mexicano.",
+        "suggested_citation": "IMCO. (2023). El futuro de la educación: ¿Cómo aprovechar la inteligencia artificial para impulsar el aprendizaje?. Instituto Mexicano para la Competitividad."
+      },
+      "processing_metadata": {
+        "submission_file_name": "IMCO_ElFuturoDeLaEducacion_Reporte_20230614.pdf",
+        "creation_date": "2023-06-14",
+        "word_count": 9530,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/IMCO_ElFuturoDeLaEducacion_Reporte_20230614.pdf",
+          "processed": "gai/esp/processed/gai-esp_item023.json"
+        },
+        "processing_notes": "Documento detallado sobre el impacto de la IA en el sistema educativo mexicano, incluye análisis, casos de uso y recomendaciones."
+      }
+    },
+    "gai-esp_item024": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "La creación de desnudos no consensuados como manifestación de la construcción social del cuerpo a través de la inteligencia artificial generativa (IAG)",
+        "authors": [
+          {
+            "name": "Fuerte Mora Karla Karen",
+            "affiliation": "Universidad Autónoma Metropolitana, Unidad Xochimilco"
+          },
+          {
+            "name": "Ángel José Martínez Salinas",
+            "affiliation": "Asesor académico"
+          }
+        ],
+        "publisher": "Universidad Autónoma Metropolitana",
+        "publication_year": "2024",
+        "domain": "sociología",
+        "text_type": "trabajo terminal de licenciatura",
+        "purpose": "Analizar el impacto de la construcción social del cuerpo en la creación de desnudos no consensuados con IAG",
+        "point_of_view": "crítico-feminista",
+        "audience": "académicos, estudiantes, sociedad civil interesada en género y tecnología",
+        "reach": "nacional",
+        "topics": [
+          "inteligencia artificial generativa",
+          "construcción social del cuerpo",
+          "género",
+          "ética digital"
+        ],
+        "summary": "Este trabajo analiza cómo la creación de desnudos no consensuados con IAG está influenciada por la construcción social del cuerpo, enfocándose especialmente en el cuerpo femenino como objetivo recurrente de estas tecnologías. A través de teorías sociológicas y entrevistas con expertos, se abordan las implicaciones éticas, culturales y sociales del fenómeno.",
+        "suggested_citation": "Fuerte Mora, K. K. (2024). La creación de desnudos no consensuados como manifestación de la construcción social del cuerpo a través de la inteligencia artificial generativa. Universidad Autónoma Metropolitana, Unidad Xochimilco."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Fuerte Mora_Creación de desnudos no consensuados por IAG.pdf",
+        "creation_date": "2024-07-08",
+        "word_count": 14900,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Fuerte Mora_Creación de desnudos no consensuados por IAG.pdf",
+          "processed": "gai/esp/processed/gai-esp_item024.json"
+        },
+        "processing_notes": "Trabajo terminal de sociología con análisis crítico del uso de IAG en contextos de género; incluye marco teórico con autores como Le Breton, Beauvoir y Bourdieu."
       }
     }
   }
