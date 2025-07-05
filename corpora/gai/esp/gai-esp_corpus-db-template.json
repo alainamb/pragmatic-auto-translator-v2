@@ -1,0 +1,52 @@
+{
+  "documents": {
+    "gai-esp_corpus-itemXXX": {
+      "document_metadata": {
+        "language_family": "eng, esp",
+        "language_variant": "Lowercase three letter ISO code",
+        "title": "Título",
+        "authors": [
+          {
+            "name": "Nombre del autor",
+            "affiliation": "Organización (opcional)"
+          },
+          {
+            "name": "Nombre del autor",
+            "affiliation": "Organización (opcional)"
+          }
+        ],
+        "publisher": "Editorial",
+        "publication_year": "YYYY",
+        "domain": "GAI",
+        "text_type": 
+          [ "Academic paper", "Advertisement", "App/Website content", "Blog post", "Book chapter", "Case study", "Contract/Legal document", "Documentation", "Email", "Essay", "FAQ", "Journal article", "Manual/Guide", "Marketing material", "News article", "Policy document", "Press release", "Product description", "Report", "Research proposal", "Review", "Script", "Social media post", "Subtitles/Captions", "Technical specification", "Translation", "Tutorial", "White paper" ],
+        "purpose": 
+          [ "Entertainment", "Informational", "Persuasive", "Philosophical", "Religious" ],
+        "point_of_view": 
+          [ "Academic", "Content creator", "Copywriter", "Documentation specialist", "General public", "Grant writer", "Legal professional", "Marketing specialist", "Philanthropist", "Policy analyst", "Proposal writer", "Reporter", "Researcher", "Student", "Subject matter expert", "Technical writer" ],
+        "audience": 
+          [ "Academic", "Business", "Children/Youth", "Clients (B2B)", "Developers", "Educators", "General public", "Government", "Healthcare professionals", "Internal", "Investors", "Legal professionals", "Media", "Patients/Consumers", "Policy makers", "Professional", "Regulatory", "Researchers", "Students", "Subject matter experts", "Technical", "Users/Customers" ],
+        "reach": 
+          [ "Cross-organizational", "For informational purposes only", "Industry-specific", "Internal team", "International", "Local", "National", "Organization-wide", "Regional" ],
+        "topics": [
+          "tema 1",
+          "tema 2",
+          "tema 3"
+        ],
+        "summary": "Resumen",
+        "suggested_citation": "Estilo de Harvard"
+      },
+      "processing_metadata": {
+        "submission_file_name": "AuthorLastName_AbbreviatedTitle_YYYY.pdf",
+          "creation_date": "YYYY-MM-DD",
+          "word_count": 0,
+          "status": [ "corpus-JSON_pending", "vectorization_pending", "vectorization_complete" ],
+          "file_paths": {
+            "original": "gai/esp/submissions/AuthorLastName_AbbreviatedTitle_YYYY.pdf",
+            "processed": "gai/esp/processed/gai-esp_corpus-itemXXX.json"
+          },
+          "processing_notes": "Processing notes"
+      }
+    }
+  }  
+}
