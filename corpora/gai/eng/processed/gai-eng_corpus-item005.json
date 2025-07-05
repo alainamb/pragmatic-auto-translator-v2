@@ -1,0 +1,163 @@
+{
+  "document_id": "gai-eng_corpus-item005",
+  "content": {
+    "sections": [
+      {
+        "id": "section_1",
+        "title": null,
+        "paragraphs": [
+          {
+            "id": "p1_1",
+            "text": "Self-driving cars, robots, chatbots, drones, ChatGPT, and many other AI applications surround us daily. However, we rarely consider how these incredible technologies were created and who contributed to their development. Behind these sophisticated applications lies the hard work and dedication of countless data workers, who are often unrecognized. These individuals, whom I call the \"hidden soldiers\" of the Artificial Intelligence revolution, play a crucial yet overlooked role in the AI industry."
+          },
+          {
+            "id": "p1_2",
+            "text": "Developing and maintaining artificial intelligence (AI) and machine learning (ML) models requires more than just engineers, scientists, and data analysts – data annotators are important, too. They are responsible for accurately labeling and classifying data, an essential task for training algorithms. They assign labels to the data and ensure that these labels are accurate and consistent. Data annotators may work with images, text, audio, or video, drawing bounding boxes around objects in images, transcribing speech, or tagging entities in text. Their tasks also include reviewing and validating annotations to maintain high data quality, following specific guidelines, and using various annotation tools to facilitate their work. As the use of artificial intelligence and machine learning expands across industries such as healthcare, finance, retail, and manufacturing, the demand for skilled data annotators continues to rise. While automation can assist and streamline some aspects of data annotation, human input remains crucial to ensure the accuracy, quality, and contextual understanding needed for effective AI and machine learning models."
+          },
+          {
+            "id": "p1_3",
+            "text": "In this article, I explore the challenges faced by data annotators in Lebanon, focusing particularly on Syrian refugees. These data workers confront significant psychological and economic obstacles that prevent them from achieving financial stability. My experiences as a refugee in Lebanon, combined with my role as a supervisor and lead of an annotation team of 10 members (all of them graduates in Lebanon), provide valuable insights into the struggles of this community. Through direct engagement with the data labeling team and a series of interviews with them, I delve into the psychological impact of their work, their satisfaction with compensation, barriers to achieving work-life balance, and potential support from recruitment agencies. By participating in the Data Workers' Inquiry Project as a co-researcher, I hope I can amplify the voices of data workers, especially the data annotators, and ensure that their experiences resonate internationally. It is important to highlight how this marginalized group is restricted by Lebanon's strict labor laws and the limited availability of annotation projects and to capture their diverse perspectives and experiences to enrich our understanding of them and the industry. The focus on the psychological impact of this work and its relationship to wage satisfaction is closely related to my own experience. The lack of available job opportunities and reliance on a single source of income creates a climate of psychological stress and despair, which negatively affects well-being. By focusing on these issues, I aim to advocate for meaningful changes and better support for data workers in general and Syrian refugees in particular."
+          },
+          {
+            "id": "p1_4",
+            "text": "Hundreds of Syrian college graduates in Lebanon face significant employment challenges due to restrictive government policies that only allow Syrian refugees to seek employment in the limited sectors of agriculture, construction, and cleaning. This leaves many educated Syrians unemployed and searching for alternative sources of income."
+          },
+          {
+            "id": "p1_5",
+            "text": "Ola, a Syrian refugee who is pursuing her studies in the field of information technology and has extensive training in graphic design, for example, feels \"chained, outcast, and worthless\" whenever she applies for a job and is rejected because of her nationality. In Lebanon, Syrians registered as refugees with the United Nations High Commissioner for Refugees (UNHCR) are not allowed to obtain work permits except in the three fields mentioned. Ola used to secure paid volunteer opportunities with associations and organizations in Lebanon, which helped her generate income. However, due to Lebanon's deteriorating economic situation, many non-profit organizations started giving Lebanese citizens preference in their activities and have given priority to finding them opportunities."
+          },
+          {
+            "id": "p1_6",
+            "text": "Strict labor laws that require Syrians to obtain a work permit, which is expensive and often difficult to acquire, have forced many Syrians to work without a permit, which is illegal and makes them vulnerable to exploitation. Because they work illegally, they remain at the mercy of their employers. For example, one person talks about the pay discrimination he experienced solely because of his nationality. He says: I previously did paid volunteer work with a company specialized in monitoring UNHCR projects for people with disabilities. I was receiving $50 a day, while my less qualified colleague was receiving $200 only because he was not Syrian. The work included conducting interviews, entering data, and writing reports."
+          },
+          {
+            "id": "p1_7",
+            "text": "Another refugee described how she was paid little for her work collecting data for a research company. Due to a technical problem with her laptop, she was unable to submit her work on time and received only $300 of the promised $800. When she objected, she was told that there was no official contract because a Syrian is legally not allowed to do this work and she had to accept the reduced payment or not get anything at all."
+          },
+          {
+            "id": "p1_8",
+            "text": "These stories are just simple examples that reflect the suffering and loss experienced by Syrian graduates. The war not only destroyed their country but also their dreams, to the point that it has become common to see a Syrian engineer or teacher working illegally as a greengrocer in Lebanon to earn a living."
+          }          
+        ]
+      },
+      {
+        "id": "section_2",
+        "title": "DATA ANNOTATION: A GLIMMER OF HOPE",
+        "paragraphs": [
+          {
+            "id": "p2_1",
+            "text": "High-quality data annotation is a necessity for the functioning of artificial intelligence but is relatively new and not widely known in the Arab world. My colleagues and I began our journey in this field 2 years ago with Humans in the Loop (HITL), a social enterprise organization that connects conflict-affected communities with digital action by providing free demonstration courses and linking graduates to the labor market through paid projects. It was a strange field and the first time we heard about it -none of us had imagined that we would work in it before. We were very happy with this opportunity. Finally, there was a field in which we could work, show our skills, and feel our importance. I still remember my feeling when we worked on the first paid project. I felt that I had returned to life. The girl who holds a bachelor's degree in medical laboratory technology and is pursuing a master's degree in public health is no longer just a housewife, but she works remotely and earns an income, albeit a modest one. This was a very happy change for all of us."
+          },
+          {
+            "id": "p2_2",
+            "text": "Hala, an annotator with HITL, shares her story too: \"In light of the strict labor laws in Lebanon, the paid projects offered by HITL become my only source of income. I studied English literature and completed many training courses, but I could not find a job because I am a Syrian refugee in Lebanon.\""
+          },
+          {
+            "id": "p2_3",
+            "text": "This is how it started, but no journey is without obstacles. Even the medication used for treatment has side effects, and so does our journey with data annotation. As the negative effects of this work began to appear and affect the workers, our initial enthusiasm was no longer what it had been."
+          }
+        ]
+      },
+      {
+        "id": "section_3",
+        "title": "THE PSYCHOLOGICAL IMPACT OF DATA ANNOTATION WORK",
+        "paragraphs": [
+          {
+            "id": "p3_1",
+            "text": "Commitment to specific deadlines while maintaining high accuracy (minimum of 97%) is the foundation of data annotation."
+          },
+          {
+            "id": "p3_2",
+            "text": "In our line of work, we are governed by time. As a team supervisor, ensuring smooth project progression and meeting deadlines is my responsibility. I oversee the work of all participants, striving to maintain high performance and effective progress. The pressure of ensuring timely delivery can be stressful, and this stress often reflects on my team members. I assign daily tasks to each member, regardless of their circumstances. During a project, I cannot tolerate excuses and expect complete dedication from all participants. Though I may seem strict, my actions are driven by the collective goal of project success, which ultimately means team success. This pressure is exacerbated by Lebanon's unreliable electricity and internet, forcing some annotators to pay extra for a stable connection, often spending $10-$30 on projects that might only pay $40-$150, just to ensure timely delivery."
+          },
+          {
+            "id": "p3_3",
+            "text": "Additionally, I have to expect the annotators to be highly accurate in the tasks that they do; otherwise, the tasks will be returned to them to fix. This extra work is not paid, even though it takes just as long as the main tasks. Punctuality and accuracy are crucial for the entire team's benefit; any lapse can damage our reputation and make HITL hesitant to assign us future projects."
+          },
+          {
+            "id": "p3_4",
+            "text": "We are treated as freelancers and not as employees, which results in a lack of job security and stability. This, combined with our stressful working conditions, has a very negative impact on us and adversely affects our psychological health. Can you imagine the feeling of being abandoned or unwanted if you make a mistake, especially when you have no alternative for work?"
+          },
+          {
+            "id": "p3_5",
+            "text": "As a data annotation team in Lebanon, we depend entirely on projects from Humans in the Loop for our livelihood. Due to Lebanon's strict labor laws, these projects are our main source of income. While we are committed to delivering high-quality results and are eager to work, the projects we receive are often irregular. Sometimes, we receive only one project every few months. Consistent projects are crucial for us to achieve financial stability and improve our quality of life."
+          },
+          {
+            "id": "p3_6",
+            "text": "Many annotators feel compelled to accept any available work, even if they are not fully available to complete it, due to the irregular nature of the projects and their pressing need for income. Having a stable source of work is vital for us, as it would provide a more reliable income and alleviates the financial and psychological pressures we face."
+          },
+          {
+            "id": "p3_7",
+            "text": "One annotator who holds a bachelor's degree in interior design but is currently unemployed shared, \"when we get a project, I cannot refuse it even if I am not free because we do not get projects regularly. I need to seize every opportunity despite the pressure it creates, which negatively affects my mental health. If we had projects regularly, I would apologize for participating in the project when I am not free.\""
+          }
+        ]
+      },
+      {
+        "id": "section_4",
+        "title": "DATA ANNOTATION AND WAGE SATISFACTION",
+        "paragraphs": [
+          {
+            "id": "p4_1",
+            "text": "We all believe that fair compensation is crucial for our psychological well-being. We stress that adequate pay not only improves our quality of life but also motivates us to work diligently, feeling that our efforts are valued and rewarded. One annotator who is an electrical engineer but is also currently unemployed stated, \"fair compensation will make me enjoy my work, and good compensation will encourage me to take better care of my health. It will enable me to afford healthy food and participate in sports clubs. If my compensation is low, I will not be able to manage these expenses.\""
+          },
+          {
+            "id": "p4_2",
+            "text": "Conversely, low and unfair compensation negatively impacts our mental health and professional performance, causing stress and anxiety while reducing our motivation to work. Our desire to work stems not from satisfaction with our wages but from the necessity to secure ongoing projects, as we have no alternative employment options."
+          },
+          {
+            "id": "p4_3",
+            "text": "Through my series of interviews, most people expressed dissatisfaction with the project allowances they receive, believing that the compensation is not commensurate with the effort they put in. They usually get cleaning projects, ensuring that the datasets they work on are free of errors and inconsistencies based on the client's instructions. These projects are simple and low-paying, with workers typically earning between 0.014 and 0.04 Euros per image."
+          },
+          {
+            "id": "p4_4",
+            "text": "One annotator lamented, \"when we get a low-compensation project, we don't refuse it because we have no other options. It's better than no work, but we do it under duress. I complete my tasks just to get rid of them, not because I like what I do. In the cleaning projects, it seems that we exclude unwanted images with a 'click of a button,' but it actually requires a lot of attention and focus. Despite our efforts, we only earn 0.014 euros per image. These projects usually last between 7-14 days, and we spend 4-7 hours a day working on them. The effort is not equivalent to the pay; I finish 10,000 images for 140 euros. In Lebanon, this amount only covers food costs for 10 days. If I had another job, I would not accept data annotation tasks.\""
+          },
+          {
+            "id": "p4_5",
+            "text": "The annotators do not have direct communication with the client. They obtain the project details through HITL, which sends them the guidelines, which often do not cover all the cases in the project dataset. These anomalous cases need to be discussed with HITL, who communicates with the client. Sometimes, after completing and delivering the project, the client may show dissatisfaction with the results and send further clarifications of the guidelines. In this case, the annotators must repeat the work again, applying the client's modifications, even though HITL ensures the quality and correct implementation of instructions before submission. Some annotators describe this as working twice on the same tasks, double efforts for a single price, and that is very annoying. One annotator asked,\"why do we have to show flexibility and re-implement the work eventhough it is not our fault, as the instructions were not clear from the beginning? Would it not be better for us to work in direct communication with the client to understand their needs? Is it fair to work twice on a project for one wage? We were compelled to depart our homeland and must confront the unjust regulations in Lebanon that obstructed our pursuit of careers. Are they assigning these tasks to us because we are refugees and they want to support us, or because we are a marginalized group that cannot demand their rights? Would a citizen of their country accept this work and effort for these wages?\""
+          },
+          {
+            "id": "p4_6",
+            "text": "Data annotators repeatedly raise these inquiries, highlighting their powerless position. They have no choice but to accept the work assigned to them without objecting to its pay. They comply with all demands to ensure they get more opportunities, hoping that their efforts will be appreciated in the future and that they will get better projects and higher wages."
+          }
+        ]
+      },
+      {
+        "id": "section_5",
+        "title": "EFFORTS TO FIND ADDITIONAL OPPORTUNITIES",
+        "paragraphs": [
+          {
+            "id": "p5_1",
+            "text": "Many data annotators are looking for additional job opportunities through platforms like Remotask, Appen, and Upwork. However, the lack of access to bank and financial accounts greatly hampers their efforts. These platforms require accounts such as PayPal or Payoneer to make money transfers, but these options are not available to Syrian refugees in Lebanon due to legal restrictions. Refugees are prohibited from opening bank accounts and cannot access other financial services."
+          },
+          {
+            "id": "p5_2",
+            "text": "The consequences are dire: refugees are unable to get paid for their work, limiting their ability to earn a living and achieve financial stability. This financial exclusion exacerbates the economic difficulties they face and perpetuates their marginalized position. To confront this injustice, some workers resort to using the accounts of trusted friends or family members outside Lebanon. However, this method does not always succeed. One annotator shared his experience, saying: \"I opened an account on the Appen platform, and for financial transfers, it requires a Pioneer account, so I put the financial account of a friend of mine in Iraq: I received an audio transcription project, which paid an excellent allowance of two dollars for each audio recording, although its duration did not exceed 15 seconds. In the end, I could not get the money because the financial account must match the person who created the account. My friend created an account in his name to match his financial account and redid the work on the tasks I had finished and only this way I was able to get the money that arrived in his account and send it to me via Western Union.\" Our financial compensation from HITLis processed through an intermediary organization in Lebanon which partners with HITL. The organization handles financial transfers and distributes the money to us via telegraphic transfer. We receive the money from the bank that is associated with this organization. Since a valid residence permit is not required to receive the money, the process is convenient, but it can take some time. We sometimes do not receive our work allowances until after two months."
+          },
+          {
+            "id": "p5_3",
+            "text": "While these coping mechanisms provide temporary relief, they are not sustainable solutions. The international community and financial institutions must work to create comprehensive financial systems that accommodate the needs of refugees, ensure their ability to participate in the digital economy, and improve their financial well-being."
+          }
+        ]
+      },
+      {
+        "id": "section_6",
+        "title": "CONCLUSION AND CALL TO ACTION",
+        "paragraphs": [
+          {
+            "id": "p6_1",
+            "text": "The experiences of Syrian refugees working as data annotators in Lebanon highlight the urgent need to find solutions to the barriers they face. Despite their high skill levels and dedication, these workers are restricted by stringent and discriminatory labor laws. While digital work to some extent offers an alternative and is undoubtedly beneficial, the scarcity of project opportunities and inadequate compensation prevents these vulnerable workers from achieving financial stability and psychological well-being."
+          },
+          {
+            "id": "p6_2",
+            "text": "Addressing these challenges requires the combined efforts of international organizations, governments, and the tech industry, as workers hope that their cries will reach those with power and that they will begin to make decisions that will contribute to improving their lives. Efforts should be made to allow refugees access to bank accounts and financial services, which are essential for receiving payments and achieving financial stability. Financial institutions should develop services tailored to the needs of refugees, including simplified banking procedures, mobile banking solutions, and special financial products that cater to the unique circumstances of displaced individuals. Stakeholders such as HITL should work to increase the availability of consistent, fair-paying project opportunities, such as having agreements specifying the number of projects that will be assigned to the teams during the year or the month. Fostering solidarity among data annotators can empower them to advocate for their rights and push for better working conditions. This could include forming unions or workers' councils to address issues and negotiate with employers and policymakers collectively. The data workers hope that the \"Data Workers Inquiries Project\" will raise awareness about the plight of refugee data annotators and can garner support and drive action from global stakeholders."
+          },
+          {
+            "id": "p6_3",
+            "text": "It is time to act and ensure that the digital economy benefits all, including the most vulnerable and overlooked members of our global community."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "documents": {
+    "gai-esp_t9n-testing-item001": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "esp",
+        "title": "Máquinas que escriben: nuestras fantasías y las humanidades",
+        "authors": [
+          {
+            "name": "Ernesto Priani Saisó",
+            "affiliation": "Facultad de Filosofía, Universidad Nacional Autónoma de México"
+          }
+        ],
+        "publisher": "Boletín de Matemáticas, Facultad de Ciencias, UNAM",
+        "publication_year": "2024",
+        "domain": "GAI",
+        "text_type": "Journal article",
+        "purpose": "Philosophical",
+        "point_of_view": "Academic",
+        "audience": "Academic",
+        "reach": "Organization-wide",
+        "topics": [
+          "inteligencia artificial",
+          "humanidades",
+          "máquinas que escriben",
+          "tecnología y cultura",
+          "ChatGPT"
+        ],
+        "summary": "Ensayo filosófico sobre las máquinas que escriben y la inteligencia artificial generativa. El autor examina las fantasías históricas sobre máquinas inteligentes (desde el Gólem hasta HAL 9000) y analiza cómo ChatGPT y otras IA generativas representan un momento disruptivo para las humanidades al invadir el espacio del lenguaje que considerábamos exclusivamente humano.",
+        "suggested_citation": "Priani Saisó, E. (2024). Máquinas que escriben: nuestras fantasías y las humanidades. Boletín de Matemáticas, Facultad de Ciencias, UNAM, (808)."
+      },
+      "processing_metadata": {
+        "submission_file_name": "PrianiSaiso_MaquinasQueEscriben_2024.pdf",
+        "creation_date": "2025-01-04",
+        "word_count": 2847,
+        "status": "prepare_for_testing",
+        "file_paths": {
+          "original": "gai/esp/submissions/PrianiSaiso_MaquinasQueEscriben_2024.pdf",
+          "processed": "gai/esp/processed/gai-esp_t9n-testing-item001.txt"
+        },
+        "processing_notes": "Academic bulletin containing multiple articles; main article extracted for corpus. Also contains mathematics course announcements and other academic content."
+      }
+    },
+    "gai-esp_t9n-testing-item002": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Diseño y evaluación de un tutor inteligente basado en Inteligencia Artificial Generativa para la adquisición de habilidades de programación",
+        "authors": [
+          {
+            "name": "Oleksiy Levchuk",
+            "affiliation": "Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE)"
+          }
+        ],
+        "publisher": "CICESE",
+        "publication_year": "2024",
+        "domain": "GAI",
+        "text_type": "Academic paper",
+        "purpose": "Informational",
+        "point_of_view": "Student",
+        "audience": [ "Academic", "Researchers" ],
+        "reach": "Regional",
+        "topics": [
+          "Inteligencia Artificial Generativa",
+          "Grandes Modelos de Lenguaje",
+          "Educación en programación",
+          "Sistemas de Tutoría Inteligente"
+        ],
+        "summary": "La tesis de Oleksiy Levchuk desarrolla y evalúa un tutor inteligente llamado EVA-Tutor, basado en IA Generativa y modelos de lenguaje como GPT-4. Se exploran su diseño arquitectónico, su implementación mediante ingeniería de prompts, y su validación con estudiantes y profesores de Latinoamérica. Se identifican las percepciones sobre ChatGPT en educación, los retos de integración responsable de estas herramientas y se confirma su utilidad para mejorar la enseñanza de programación.",
+        "suggested_citation": "Levchuk, O. (2024). Diseño y evaluación de un tutor inteligente basado en Inteligencia Artificial Generativa para la adquisición de habilidades de programación. Tesis de Maestría en Ciencias de la Computación. CICESE."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Levchuk_TutorIAGparaLaProgramación_2024.pdf",
+        "creation_date": "2024-05-15",
+        "word_count": 28700,
+        "status": "prepare_for_testing",
+        "file_paths": {
+          "original": "gai/esp/submissions/Levchuk_TutorIAGparaLaProgramación_2024.pdf",
+          "processed": "gai/esp/processed/gai-esp_t9n-testing-item002.txt"
+        },
+        "processing_notes": "Part of this paper is assigned to translation students in an Spanish to English translation class. Because we have a reference translation by the instructor, this document is a good candidate for testing."
+      }
+    },
+    "gai-esp_t9n-testing-item003": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "arg",
+        "title": "El papel de la ética en el desarrollo de sistemas de inteligencia artificial en el sector emprendedor en América Latina",
+        "authors": [
+          {
+            "name": "Carolina Aguerre",
+            "affiliation": "CETyS, Universidad de San Andrés"
+          },
+          {
+            "name": "Delfina Ferracutti",
+            "affiliation": "CETyS, Universidad de San Andrés"
+          },
+          {
+            "name": "Iván Kirschbaum",
+            "affiliation": "Centro Latam Digital"
+          },
+          {
+            "name": "Maia Levy Daniel",
+            "affiliation": "Centro Latam Digital"
+          },
+          {
+            "name": "Antonella Perini",
+            "affiliation": "Centro Latam Digital"
+          }
+        ],
+        "publisher": "Proyecto GuIA, CETyS (Universidad de San Andrés) y Centro Latam Digital",
+        "publication_year": "2022",
+        "domain": "GAI",
+        "text_type": "Report",
+        "purpose": "Informational",
+        "point_of_view": "Researcher",
+        "audience": [ "Business", "Professional", "Researchers"],
+        "reach": "Regional",
+        "topics": [
+          "ética de la inteligencia artificial",
+          "emprendimientos tecnológicos",
+          "gobernanza digital",
+          "privacidad de datos"
+        ],
+        "summary": "Este informe explora cómo los pequeños emprendimientos tecnológicos en América Latina entienden y aplican principios éticos en el desarrollo de sistemas de inteligencia artificial. Mediante encuestas y entrevistas a startups de 11 países, se identifican percepciones sobre riesgos éticos, barreras normativas y prácticas de mitigación. Los principales riesgos percibidos son el uso indebido de datos personales y los sesgos algorítmicos. Se observa una alta sensibilización, pero una escasa estandarización de prácticas éticas en estos entornos. El informe resalta la necesidad de marcos éticos aplicables, apoyos institucionales y formación especializada.",
+        "suggested_citation": "Aguerre, C., Ferracutti, D., Kirschbaum, I., Levy Daniel, M., & Perini, A. (2022). El papel de la ética en el desarrollo de sistemas de inteligencia artificial en el sector emprendedor en América Latina. Proyecto GuIA, CETyS y Centro Latam Digital."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Aguerre_ÉticaEnDesarrolloDeIAenAméricaLatina.pdf",
+        "creation_date": "2025-07-04",
+        "word_count": 13800,
+        "status": "prepare_for_testing",
+        "file_paths": {
+          "original": "gai/esp/submissions/Aguerre_ÉticaEnDesarrolloDeIAenAméricaLatina.pdf",
+          "processed": "gai/esp/processed/gai-esp_t9n-testing-item003.txt"
+        },
+        "processing_notes": "Part of this paper is assigned to translation students in an Spanish to English translation class. Because we have a reference translation by the instructor, this document is a good candidate for testing."
+      }
+    }
+  }
+}

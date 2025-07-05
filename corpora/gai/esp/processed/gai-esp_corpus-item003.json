@@ -1,0 +1,272 @@
+{
+  "document_id": "gai-esp_corpus-item003",
+  "content": {
+        "abstract": "Las aplicaciones de la inteligencia artificial generativa (IAG) disponibles en versiones gratuitas online permiten a usuarios en general, en cuestión de segundos,  el acceso a la generación de diversos contenidos en un lenguaje natural. A través de prompts que permiten interactuar con chatbots, como el caso de ChatGPT y  otras similares, es posible recibir respuestas a las preguntas o planteamientos introducidos, e incluso mantener una especie de conversación con la máquina  inteligente. Su irrupción, su uso creciente y su impacto en la sociedad occidental, a la par de su desarrollo acelerado; conlleva a cuestionarse la serie de desafíos que estas tecnologías representan y la manera de integrarlas a los procesos de gestión del conocimiento, con base en una ética de la tecnología que permita potenciar sus beneficios y minimizar su impacto negativo en la calidad de vida y los valores de los seres humanos.",
+    "sections": [
+        {
+        "id": "section_1",
+        "title": "Introducción",
+        "paragraphs": [
+            {
+            "id": "p1_1",
+            "text": "En el marco de la revolución tecnológica, la irrupción de la inteligencia artificial generativa (IAG) supone un hito en la manera en la que la tecnología ha evolucionado y la función que cumple dentro de las sociedades contemporáneas, presentando avances sin precedentes en la actualidad. Atestiguamos una era en donde las máquinas inteligentes no sólo procesan datos, también son capaces de aprender información, mantener interacciones con lenguaje natural y generar contenidos diversos. El uso de sus aplicaciones con fines educativos, entretenimiento, profesionales, empresariales, creativos, etc. crece con rapidez; por lo tanto, este hecho permite cuestionarse acerca de sus implicaciones, influencia, desafíos, áreas de oportunidad y ética; con el fin de lograr una adopción y un uso eficaz y conveniente en los usuarios."
+            },
+            {
+            "id": "p1_2",
+            "text": "Pese a la popularidad actual y la aparente novedad de esta rama de la inteligencia artificial (IA), ésta significa un desarrollo cuyos antecedentes se remontan a la época temprana del siglo pasado, e incluso superan el siglo de historia, mucho antes de que Alan Turing apareciera en la escena. En 1910, el ingeniero español Leonardo Torres y Quevedo, proyectó la primera computadora digital electromecánica. Empleó el vocablo autómata —una máquina que imita y puede remplazar las funciones humanas—, un artefacto capaz de proceder en todo momento como \"un ser inteligente que sigue ciertas reglas\", destacando que \"procede como un ser inteligente en el momento en que hay que escoger un camino en cada caso particular\" (Torres y Quevedo, 2003)."
+            },
+            {
+            "id": "p1_3",
+            "text": "Cuatro décadas después, el matemático y científico de la computación británico Alan Turing cuestionó si las máquinas podían pensar. Para ello partió de la necesidad de definir los conceptos \"máquina\" y \"pensar\" y el uso habitual de éstos; no obstante, la dificultad intrínseca lo llevó a un mejor escenario: pensar en el \"juego de la imitación\", conocido también como el \"test de Turing\", dos asuntos relacionados y propuestos para poder determinar y evaluar la capacidad de una máquina para mostrar un comportamiento inteligente similar al de un ser humano. La prueba involucra a tres participantes: un humano (A), una máquina capaz de generar respuestas similares a las humanas (B) y un interrogador humano (C); de tal suerte que, mediante una prueba con una conversación textual en lenguaje natural, a través de preguntas entre la máquina (B) y el humano (A), el interrogador (C) no pueda distinguir consistentemente si se está comunicando con la otra persona (A) o con la máquina inteligente (B), en tal caso se consideraría que la máquina pasó el Test de Turing al demostrar un nivel de inteligencia equivalente a la humana. Pese a que esta prueba ha sido objeto de críticas y generado debates entre la comunidad científica al considerar que no se trata de un instrumento definitivo para probar y determinar la inteligencia de un autómata ni su posible comprensión profunda; sí puede demostrar su capacidad de simular la cognición humana relacionada a un sistema lógico en cuestión y continúa siendo un referente de influencia en la discusión pues, el \"juego de la imitación\" propuesto por Turing, se basa en un proceso de enseñanza y aprendizaje y, por lo tanto, no excluye el potencial de las máquinas para ejecutar tareas intelectuales propias de un humano (Turing, 1950)."
+            },
+            {
+            "id": "p1_4",
+            "text": "Los antecedentes sobre el desarrollo de la IA continuaron en Estados Unidos en 1956 con otros precursores como John McCarthy —fundador y el primero en dirigir los laboratorios de inteligencia artificial del Instituto de Tecnología de Massachussets (MIT) en 1957, además de atribuírsele la creación del término Inteligencia Artificial—; Marvin Minsky, quien después dirigiría el mismo laboratorio; Allen Newell y Herbert Simon (Mata y Grosch 2007); asimismo como Nathaniel Rochester, Claude Shannon, Trenchard More, Arthur Samuel, Ray Solomomoff y Oliver Selfridge los cuales asistieron a una histórica conferencia en el Dartmouth College de 1956, la cual colocó en el mapa a la IA como un campo de investigación y donde dieron forma a la idea del desarrollo tecnológico de máquinas electrónicas capaces de aprender, pensar, resolver problemas, ejecutar funciones vinculadas a las del cerebro de una persona y comunicarse en un lenguaje natural."
+            },
+            {
+            "id": "p1_5",
+            "text": "De acuerdo a Barrera (2012), el investigador Joseph Weizenbaum del MIT desarrolló ELIZA en 1965, un programa interactivo con algotitmos complejos capaz de mantener diálogos simulados sobre diferentes temas y respuestas de terapia conversacional, el cual fue considerado como precursor en la generación de lenguaje natural. Un año después se realizó en Escocia el primer taller de máquinas inteligentes. En 1968 se presentó MACSYMA el primer programa en usar razonamiento simbólico en la integración de problemas matemáticos desarrollado por Joel Moses del MIT y al año siguiente el Instituto de Investigación de Stanford ya presentaba Shakey The Robot, un desarrollo que combinaba la locomoción animal, la percepción y la solución de problemas. Pese a los avances demostrados y el optimismo por los logros obtenidos en este campo, 1969 también fue un año de decepción, pérdida de confianza y austeridad en los recursos para investigar tras la publicación Perceptrons, un trabajo de Marvin Minsky y Seymour Papert que demostró limitaciones en las redes neuronales. No obstante, este asunto no frenó los intentos y, a principios de 1970, Jaime Carbonell desarrolló SCHOLAR, un programa interactivo basado en redes semánticas para lograr representar conocimiento mediante una instrucción asistida por computadora. En 1979 se presentó el primer vehículo autónomo controlado por una máquina, producto desarrollado por Hans Moravec del Instituto de Investigación de Stanford, mismo lugar donde al año siguiente se llevó a cabo la primera Conferencia Nacional de la American Association for Artificial Intelligence."
+            },
+            {
+            "id": "p1_6",
+            "text": "En la década de los 90 se lograron grandes avances para la IA respecto al \"aprendizaje de máquinas, capacitación inteligente, razonamiento basado en casos, planificación de multi agentes, calendarización, razonamiento incierto, minería de datos, entendimiento y traducción de lenguaje natural, visión artificial, realidad virtual, juegos, etc.\", como los avances en la construcción de carros robots autónomos; el proyecto MIT COG de Brooks, Stein y Breazeal quienes en 1993 se propusieron crear a un niño robot humanoide; la conquista de la máquina de ajedrez de la IBM, conocida como Deep Blue, que le ganó una partida a Garry Kasparov, el campeón mundial de la época de ese juego; la comercialización de artefactos domésticos tipo mascota desarrollados con técnicas de IA como Furby o AIBO; los programas de extracción de información en internet basados en IA; o las demostraciones de habitaciones inteligentes y agentes emocionales mediante una red adaptativa que conectaba dispositivos móviles y computadoras estacionadas. Siguiendo la tendencia, el nuevo milenio irrumpió con más desarrollos como ASIMO, un robot humanoide artificialmente inteligente presentado por Honda en el 2005; y para el año siguiente se celebró la AI@50, llamada también Conferencia en Inteligencia Artificial de Dartmouth: los próximos 50 años, para conmemorar el medio siglo de su predecesora clave en el desarrollo del campo de la IA (Barrera 2012)."
+            },
+            {
+            "id": "p1_7",
+            "text": "El siglo XXI también fue clave para un hito tecnológico: el desarrollo de grandes redes neuronales artificiales en la IA de decenas o cientos de capas, conocidas como neuronas profundas, que originaron la arquitectura *Deep Learning* gracias en parte el acceso a cantidades innimaginables de datos y el abaratamiento del hardware, que han permitido los avances en lenguaje natural, el reconocimiento de imágenes o el paso en el 2014 a las Generative Adversarial Nets (GAN) introducidas por Ian Goodfellow y un equipo de colaboradores. El *Deep Learning* ha sido clave para el aprendizaje automático de las máquinas durante su entrenamiento y su capacidad de sintetizar y analizar datos, y ha permitido ir más allá al desarrollar sistemas capaces de aprender mediante la experiencia y de modificar de manera dinámica su comportamiento por medio de la retroalimentación arrojada por los resultados obtenidos, asunto estudiado por el *reinforcement learning* (aprendizaje por refuerzo). Esto último permitió a DeepMind introducir en el 2016 un sistema de IA llamado AlphaGO, entrenado por una persona para jugar GO, un juego de estrategia japonés mucho más complejo que el ajedrez, y que logró vencer al campeón mundial humano de entonces. En 2017, el mismo equipo presentó AlphaZero una máquina entrenada para competir contra sí misma en el GO y que no ha sido derrotada por persona alguna, lo que supone un verdadero suceso respecto a la capacidad de aprender de las IA, mejorar su comportamiento y superar en ciertas tareas cognitivas a los seres humanos (Caiafa y Lew, 2020)."
+            },
+            {
+            "id": "p1_8",
+            "text": "La acelerada evolución de la IA ha desencadenado el desarrollo de diversas y significativas tecnologías, a su vez campos de investigación, como el caso de la inteligencia artificial generativa (IAG), enfocada a generar contenidos de manera automática como ChatGPT, Perplexity, Bard, Copy.ai, Jasper, Writesonic o Claude, por citar algunas aplicaciones que permiten guiar y tener acceso a textos configurados por la IA en cuestión de segundos, a través del uso de chatbots. En el caso concreto de ChatGPT (Generative Pre-training Transformer), un sistema de IAG basado en un modelo de lenguaje generativo, mismo que fue creado con 175 millones de parámetros y entrenado con alrededor de 8 millones de documentos, archivos, artículos, etc. (Hughes, 2023). Esta aplicación fue desarrollada por la empresa Open AI y tiene la capacidad de utilizar técnicas de Procesamiento de Lenguaje Natural y generar respuestas escritas con coherencia y relevancia, en lenguaje natural del tipo humano, y en tiempo real; mediante conversaciones en un chat (Lopezosa, 2023)."
+            },
+            {
+            "id": "p1_9",
+            "text": "En un contexto de evolución acelerada y, al parecer imparable, las tecnologías de IAG introducen una transformación significativa en la manera en la que interactuamos con la información, la forma en la que tenemos acceso al conocimiento y cómo nos relacionamos en los entornos digitales contemporáneos en el marco de una revolución digital, llamada también revolución 4.0 o cuarta revolución industrial. Este término fue introducido por el economista alemán Klaus Schwab, quien considera que esta era, sin precedente ni par conocido por la humanidad, alterará todo lo conocido hasta el momento en términos relacionales, organizacionales y del entorno, a través de una confluencia entre esferas físicas, digitales y biológicas; mismas que producirán transformaciones en todos los niveles. La cuarta revolución industrial se caracteriza por el uso de tecnologías emergentes tales como \"la inteligencia artificial, la robótica, el internet de las cosas, los vehículos autónomos, la impresión 3D, la nanotecnología, la biotecnología, la ciencia de materiales, el almacenamiento de energía y la computación cuántica\" (Schwab, 2016)."
+            },
+            {
+            "id": "p1_10",
+            "text": "Dentro de esta época de notables avances en términos de inteligencia artificial generativa, no es posible cerrar la mirada al impacto profundo que estas tecnologías tienen en las interacciones humanas en diversos campos, lo que implica en sí un desafío para las sociedades contemporáneas, pues los escenarios en los que se aplica abarcan una variedad de contextos; desde asistencia en la redacción de productos sencillos, como una receta de cocina o una lluvia de ideas; hasta los más complejos, como la creación de un libro o un proyecto de investigación de interés académico con contenidos pertinentes según sea el caso."
+            },
+            {
+            "id": "p1_11",
+            "text": "Cabe destacar que el desarrollo y la implementación de tecnologías de la IAG conllevan también desafíos y cuestiones éticas, sobre todo en relación a la generación automática de contenidos, factor que plantea preguntas sobre la autoría, la originalidad y la veracidad de los mismos. Al respecto, Mantegna (2020) anota que \"la noción de originalidad tiene un componente subjetivo que se requiere del creador, a la par que un componente objetivo que se deriva de su observación y comparación con otras obras ya creadas\". Mientras que Muñoz (2022) ha aportado al tema desde el punto de vista legal y, ante la interrogante de si es posible proteger con el derecho de autor una obra generada totalmente por una aplicación de IA, alude que \"se ha intentado responder haciendo un estudio sobre la importancia de la autoría humana en el contexto de los derechos de autor, concluyendo que están exentas de ese amparo legal\"."
+            },
+            {
+            "id": "p1_12",
+            "text": "Otro punto a considerar tiene que ver con la responsabilidad de las y los usuarios en la difusión de información precisa y confiable obtenida de aplicaciones de IAG, ante la preocupación de la posible propagación de desinformación o sesgos informativos por el mal uso de estas tecnologías o por la carente validación y corroboración de los contenidos obtenidos. Sobre este asunto, Baeza (2023) anota que una tecnología como ChatGPT no entiende lo que escribe en realidad, \"sino que predice cuál es la siguiente palabra más probable en el texto que genera, no está realmente mintiendo, pues no sabe si un hecho es falso o no, pues no tiene una base de datos de conocimiento detrás\"; y anota que es tal la popularidad de esta herramienta que en tan sólo dos meses logró captar a 100 millones de usuarios. Este autor también reconoce que, siendo un modelo de lenguaje basado en IA, esta aplicación (ChatGPT) puede presentar diferentes problemas: sesgo en las respuestas, limitaciones de conocimiento, incoherencia, falta de comprensión del contexto y generación de contenido inapropiado. Sobre esta misma herramienta, Carrasco, et al., (2023) señalan que \"desde su lanzamiento ha cosechado un gran éxito, siendo capaz de generar respuestas automáticas a peticiones complejas como la elaboración de resúmenes, poemas, textos de programación informática y complejos problemas matemáticos\", razón por la cual se refuerza su creciente popularidad."
+            },
+            {
+            "id": "p1_13",
+            "text": "En la presente era digital, la IAG constituye una serie de sistemas complejos de lenguaje que supone avances tecnológicos y desafíos éticos en razón de su uso, alcance e impacto; sin poder evadir el asunto de la calidad de sus contenidos ni obviar el hecho de que en la actualidad son millones de personas las que interactúan con sus aplicaciones con fines variopintos; y su incorporación a la vida profesional, académica y del día a día no para de crecer, razón que motiva a investigar su impacto en los sistemas relacionales humanos, los productos propios del intelecto que generan, y su efecto en las sociedades y culturas por los propósitos y fines específicos de las personas que las utilizan. Es importante tener en cuenta las capacidades y limitaciones de las tecnologías de la IAG, y sus implicaciones en la producción, distribución y consumo de conocimiento en la sociedad actual."
+            },
+            {
+            "id": "p1_14",
+            "text": "Tras revisar la literatura citada, el presente documento busca considerar los desafíos que las aplicaciones de la IAG introducen a los contextos humanos desde su irrupción porque, desde entonces, han conseguido transformar las experiencias y las expectativas en la generación de contenidos y la manera en la que son gestionados y aplicados por las personas."
+            },
+            {
+            "id": "p1_15",
+            "text": "Cabe hacer mención que este artículo forma parte de un proyecto de tesis en curso (en vías de finalizar) para obtener el grado de doctorado en educación de la autora. El objetivo es explorar el impacto potencial de la IAG en la forma en la que se crea, consume, gestiona y comparte conocimiento. Esta pieza presenta resultados parciales, mismos que se complementarán con otros instrumentos a publicarse cuando concluya la investigación."
+            }
+        ]
+        },
+      {
+        "id": "section_2",
+        "title": "Metodología",
+        "paragraphs": [
+            {
+                "id": "p2_1",
+                "text": "El propósito del presente artículo es abordar la irrupción de la inteligencia artificial generativa y los desafíos que plantea esta rama de la IA en la sociedad digital actual. Para alcanzar tal objetivo se revisó la literatura disponible desde diversas ópticas y se desarrolló una metodología para aproximarse a la experiencia y opinión de usuarios de estas tecnologías respecto a la generación de textos."
+            },
+            {
+                "id": "p2_2",
+                "text": "El objeto de estudio está enmarcado la inteligencia artificial generativa y la percepción de su uso desde su irrupción, los retos que impone y la ética de la tecnología que exige; siendo los usuarios de las aplicaciones el sujeto de estudio del presente trabajo (Hernández, 2010)."
+            },
+            {
+                "id": "p2_3",
+                "text": "El trabajo se centra en la investigación cualitativa y se seleccionó la técnica de cuestionario, definida por Bresque et al., (2011) como \"una forma de encuesta caracterizada por la ausencia del encuestador, por considerar que para recoger información sobre el problema objeto de estudio es suficiente una interacción impersonal con el encuestado\". Por tal razón se acudió a esta técnica de recogida de datos que, según los propios autores, \"puede prestar un importante servicio en la investigación cualitativa\"."
+            },
+            {
+                "id": "p2_4",
+                "text": "Lo anterior motivó el diseño de un instrumento de 40 ítems cerrados en escala Likert para aproximarse a los usuarios. Cinco expertos de un grupo interdisciplinario lo evaluaron y validaron la confiabilidad y validez del mismo. La versión final se integró de 30 ítems cerrados en escala Likert. Cabe hacer mención que, de acuerdo a Arribas (2004), \"el propósito de la escala va a determinar en gran medida el contenido de sus ítems y algunos aspectos relacionados con su estructura y la logística de la recogida de los datos\". "
+            },
+            {
+                "id": "p2_5",
+                "text": "El instrumento se aplicó a una muestra por conveniencia en un muestreo no probabilístico, que según Otzen y Manterola (2017) \"permite seleccionar aquellos casos accesibles que acepten ser incluidos. Esto, fundamentado en la conveniente accesibilidad y proximidad de los sujetos para el investigador\". Los casos accesibles (usuarios de aplicaciones de inteligencia artificial generativa de textos) voluntariamente consintieron formar parte de la investigación al responder el cuestionario, mediante una invitación abierta del 17 al 19 de junio del 2023, a través de la red social Twitter (ahora X)."
+            },
+            {
+                "id": "p2_6",
+                "text": "En su primera parte, el instrumento solicitó datos sociodemográficos generales para conocer el perfil de los participantes: correo electrónico, edad, género, país de nacimiento, país de residencia, escolaridad y área de desempeño. "
+            },
+            {
+                "id": "p2_7",
+                "text": "Después de completar este apartado, se centraron 10 ítems en los usos de la inteligencia artificial generativa y la manera en que los usuarios se relacionan con estas tecnologías y cómo las utilizan: sensaciones y sentimientos al usarlas, utilidad y percepciones."
+            },
+            {
+                "id": "p2_8",
+                "text": "Los siguentes 7 ítems se enfocaron en la opinión de la calidad de la información arrojada por las aplicaciones de la inteligencia artificial generativa: confiabilidad, utilidad, corroboración de la información, preocupaciones y sesgos informativos."
+            },
+            {
+                "id": "p2_9",
+                "text": "En relación a las aplicaciones y el conocimiento de la inteligencia artificial generativa se cuestionó en 9 ítems sobre: contribuciones, sesgos y afectaciones al conocimiento, amenazas, democratización del acceso al conocimiento."
+            },
+            {
+                "id": "p2_10",
+                "text": "Los últimos 4 ítems se enfocaron en la opinión de las y los usuarios sobre la ética tecnológica: derechos de autor, propiedad intelectual, regulaciones y preocupaciones de su uso."
+            },
+            {
+                "id": "p2_11",
+                "text": "Es importante considerar que, de que los sujetos de estudio expresaron su consentimiento informado para participar en el instrumento al principio del cuestionario, todos los ítems requerían una respuesta obligatoria para poder avanzar y culminar."
+            }
+        ]
+      },
+        {
+            "id": "section_3",
+            "title": "Resultados",
+            "paragraphs": [
+                {
+                    "id": "p3_1",
+                    "text": "El estudio contó con la participación voluntaria de 108 personas usuarias de aplicaciones de la inteligencia artificial generativa."
+                },
+                {
+                    "id": "p3_2",
+                    "text": "Los resultados fueron divididos en las siguientes categorías de análisis, teniendo como eje las aplicaciones de la inteligencia artificial generativa: usos, calidad de la información, impacto en el conocimiento y ética tecnológica."
+                },
+                {
+                    "id": "p3_3",
+                    "text": "Un dato que llamó la atención es que la mayoría de los participantes, casi el 93%, nacieron en México y el resto en Estados Unidos, Honduras, Cuba, Colombia, Chile, Brasil, España y Francia. Una proporción similar indicó residir en territorio mexicano; los que no vivían en el país, lo hacían en Estados Unidos, Chile, Brasil, España y Alemania."
+                },
+                {
+                    "id": "p3_4",
+                    "text": "La mitad de los participantes manifestó tener entre 31 y 40 años cumplidos, siendo la mayoría hombres quienes respondieron el instrumento (casi 57%)."
+                },
+                {
+                    "id": "p3_5",
+                    "text": "La escolaridad predominante de los participantes es la licenciatura (47%), aunque el grado de maestría también registró una presencia importante (41%)."
+                },
+                {
+                    "id": "p3_6",
+                    "text": "La mayor parte de quienes contestaron el instrumento se desempeñan en el área de ciencias sociales y humanidades, seguidos por rubro de la educación."
+                },
+                {
+                    "id": "p3_7",
+                    "text": "Por el interés para este estudio, se destacan las siguientes respuestas que se presentan a continuación:"
+                },
+                {
+                    "id": "p3_8",
+                    "text": "Ítem 5. Creo que la inteligencia artificial ha influido directamente en la mejora de la calidad y las condiciones de vida de la sociedad, y que su uso creará nuevas y mejores oportunidades para los seres humanos: 6.50 Totalmente de acuerdo, 30.60 De acuerdo, 50.00 Indeciso, 8.30 En desacuerdo, 4.60 Totalmente en desacuerdo"
+                },
+                {
+                    "id": "p3_9",
+                    "text": "Ítem 9. Considero que el uso de la inteligencia artificial generativa sustituirá tareas realizadas por las personas, desatará una pérdida de empleos y llevará a una crisis del desarrollo y el pensamiento humano: 18.50 Totalmente de acuerdo, 31.50 De acuerdo, 28.70 Indeciso, 18.50 En desacuerdo, 2.80 Totalmente en desacuerdo"
+                },
+                {
+                    "id": "p3_10",
+                    "text": "Ítem 15. Me parece que las respuestas de los chats de las aplicaciones de inteligencia artificial generativa de textos como ChatGPT, Copy.ai, Jasper, Claude, Bard u otras similares ofrecen información limitada, superficial o incorrecta que puede afectar de manera negativa la transmisión del conocimiento: 9.30 Totalmente de acuerdo, 32.40 De acuerdo, 44.40 Indeciso, 13.90 En desacuerdo, 0.00 Totalmente en desacuerdo"
+                },
+                {
+                    "id": "p3_11",
+                    "text": "Ítem 18. Considero que las aplicaciones de inteligencia artificial generativa de textos son herramientas valiosas para el aprendizaje, la investigación y la generación de conocimiento: 12.00 Totalmente de acuerdo, 46.30 De acuerdo, 32.40 Indeciso, 7.40 En desacuerdo, 1.90 Totalmente en desacuerdo"
+                },
+                {
+                    "id": "p3_12",
+                    "text": "Ítem 20. Considero que el uso de aplicaciones de inteligencia artificial generativa de textos como ChatGPT, Copy.ai, Jasper, Claude, Bard u otras similares me hacen pensar menos y/o esforzarme menos: 18.50 Totalmente de acuerdo, 33.30 De acuerdo, 25.00 Indeciso, 22.20 En desacuerdo, 1.00 Totalmente en desacuerdo"
+                },
+                {
+                    "id": "p3_13",
+                    "text": "Ítem 23. Creo que las aplicaciones de inteligencia artificial generativa de textos pueden democratizar el acceso al conocimiento al hacerlo más accesible a públicos más amplios: 15.70 Totalmente de acuerdo, 41.70 De acuerdo, 25.90 Indeciso, 14.80 En desacuerdo, 1.90 Totalmente en desacuerdo"
+                },
+                {
+                    "id": "p3_14",
+                    "text": "Ítem 30. Tengo preocupaciones éticas relacionadas con el uso de aplicaciones de inteligencia artificial generativa de textos como ChatGPT, Copy.ai, Jasper, Claude, Bard u otras similares: 10.20 Todos los días, 11.10 Casi todos los días, 49.10 Ocasionalmente, 25.00 Casi nunca, 4.60 Nunca"
+                }
+            ]
+        },
+      {
+        "id": "section_4",
+        "title": "Discusión y conclusiones",
+        "paragraphs": [
+            {
+                "id": "p4_1",
+                "text": "La introducción de nuevas tecnologías a la vida cotidiana de los seres humanos implica una transformación, en mayor o menor escala, en sus interacciones y percepción de la vida."
+            },
+            {
+                "id": "p4_2",
+                "text": "La tecnología abraza una amplia gama de disciplinas que precisan de la puesta en práctica de \"conocimientos científicos y la comprensión del universo para resolver problemas y mejorar la vida humana\"; esto comprende un \"conjunto de herramientas, técnicas, procesos y sistemas que se utilizan para crear, diseñar, producir y mejorar productos, servicios y sistemas en diversos campos de actividad\" (Carvajal, 2023). En este sentido, \"las tecnologías disruptivas rompen con las que existían hasta el momento, generando resultados novedosos en sus aplicaciones, como hacer que los objetos hablen entre ellos\" (Pérez, 2019). Es posible inferir que esta literatura refuerza la opinión de los participantes en el instrumento de indecisión o de manifestarse de acuerdo (ambas suman el 80% de las respuestas) reflejadas en el ítem 5 respecto a si una tecnología como la IA influye directamente en la mejora de la calidad y las condiciones de vida de la sociedad, y que su uso creará nuevas y mejores oportunidades para los seres humanos."
+            },
+            {
+                "id": "p4_3",
+                "text": "Las características de la sociedad en la era digital, a diferencia de las generaciones predecesoras, permiten una buena acogida de las nuevas tecnologías. Terceiro (1996) ya lo vaticinaba hace casi treinta años cuando reflexionó que con los nuevos sistemas de comunicación la humanidad se dirigía a un panorama en donde los servicios serían más apreciados que los bienes, \"donde la gente preferirá ganar menos y tener más tiempo disponible para dedicarlo, precisamente, al consumo de esa más robusta oferta de servicios ofrecidos por el mundo hipermedia, ya sean de entretenimiento, educación o sanitario\"; cuyos efectos sociales incidirían en sectores específicos como el lugar de trabajo, el cual dejaría de requerir una ubicación en centros urbanos; y el hogar de las personas, que ya no tendría que estar en el mismo país de quien las contrata, aspectos de observamos como una realidad en nuestros días."
+            },
+            {
+                "id": "p4_4",
+                "text": "De acuerdo a Carvajal (2023) el uso de la tecnología —visible en dispositivos electrónicos y máquinas complejas, aplicaciones y sistemas informáticos avanzados— se centra en facilitar la adaptación de un individuo a su entorno individual y colectivo, por lo que buscará mecanismos de solución que sean veloces y precisos \"para satisfacer las necesidades y deseos de las personas en aspectos físicos, como la salud, la alimentación y la vivienda, así como en aspectos sociales y culturales, como la comunicación, el entretenimiento, la educación y el transporte\". Sin embargo, en la actualidad, es útil la visión de Pérez (2019) quien ha anotado un punto relevante para el cambio acelerado que experimenta la sociedad respecto al uso de la desarrollos generativos de la IA pues, según sus palabras, la tecnología siempre ha impulsado las capacidades humanas, pero de una forma pasiva, lo que ha sido de utilidad para lograr ciertas actividades, la cuestión es que en nuestros días \"se ve un cambio drástico. Por primera vez la tecnología toma un rol activo en el trabajo junto a los seres humanos y, en algunos casos, reemplazándolos\". Esta observación ayuda a comprender mejor la percepción de los participantes del instrumento, cuya opinión manifestada de acuerdo o postura indecisa (ambas suman el 60% de las respuestas) en el ítem 9, respecto a si consideran que el uso de la inteligencia artificial generativa sustituirá tareas realizadas por las personas, desatará una pérdida de empleos y llevará a una crisis del desarrollo y el pensamiento humano."
+            },
+            {
+                "id": "p4_5",
+                "text": "La conclusión de Terceiro (1996) anota que \"el exceso de información disponible conducirá al desbordamiento producido por la información de baja calidad, por lo que se hace necesario seleccionar y filtrar la información, lo que hará surgir un tipo de trabajo que requerirá un conocimiento especializado\", ayuda a dimensionar en parte la opinión indecisa o de acuerdo (ambas suman el 67 % de las respuestas) del ítem 15: Me parece que las respuestas de los chats de las aplicaciones de inteligencia artificial generativa de textos como ChatGPT, Sydney, Copy.ai, Jasper, Claude, Bard u otras similares ofrecen información limitada, superficial o incorrecta que puede afectar de manera negativa la transmisión del conocimiento. Cabe destacar que esto conduce a observar uno de los desafíos introducidos por la inteligencia artificial generativa en una era caracterizada por la hiperinformación, debido a que ante un flujo indiscriminado de información y de datos, es indispensable seleccionar, filtrar, corroborar y validar los productos de texto arrojados por las aplicaciones de la IAG para evitar sesgos, desinformación y una posible desvirtuación del conocimiento."
+            },
+            {
+                "id": "p4_6",
+                "text": "Respecto al ítem 18, sobre si las aplicaciones de inteligencia artificial generativa de textos son herramientas valiosas para el aprendizaje, la investigación y la generación de conocimiento, las mayoría de las respuestas (43%) manifestaron estar de acuerdo. Chomsky et al., (2023) han manifestado que \"ChatGPT de OpenAI, Bard de Google y Sydney de Microsoft son maravillas del aprendizaje automático\". Los teóricos explican que estas aplicaciones de la inteligencia artificial generativa \"toman enormes cantidades de datos, buscan patrones en ellos y se vuelven cada vez más competentes a la hora de generar resultados estadísticamente probables, como un lenguaje y un pensamiento aparentemente humanos\". De acuerdo a su visión, estas aplicaciones de la IA son prueba de aquello que se ha profetizado desde hace varias décadas respecto a que las mentes mecánicas puedan superar a los cerebro de los seres humanos \"no sólo cuantitativamente en términos de velocidad de procesamiento y tamaño de la memoria, sino también cualitativamente en términos de perspicacia intelectual, creatividad artística y cualquier otra facultad distintivamente humana (Chomsky et al., 2023)."
+            },
+            {
+                "id": "p4_7",
+                "text": "Una de las preocupaciones que introducen estas tecnologías disruptivas tienen que ver con el impacto que pueden tener los sistemas de IA y la tremenda dependecia o los usos desadaptativos al utilizarlas. En un campo específico como el de la educación, Zapata-Ros (2023) es contundente y advierte que \"se podría derivar una disminución de muchos de los rasgos que nos hacen humanos. En este caso, que contribuirían a una formación humana de los alumnos\". Cabe haer mención de que los rasgos a los que hace referencia están relacionados a \"la autorregulación, la metacognición, la orientación a objetivos, la planificación, las tormentas de ideas creativas y una variedad de habilidades que podrían verse afectadas negativamente por la automatización o la toma de control de las máquinas\". Esta concepción tiene una relación con el ítem 20, sobre la consideración de si el uso de aplicaciones de inteligencia artificial generativa de textos como ChatGPT, Copy.ai, Jasper, Claude, Bard u otras similares hacen pensar menos y/o esforzarse menos, donde cabe observar que en este punto se impuso la respuesta \"de acuerdo\" (46%), seguida del 32% que expresó indecisión. "
+            },
+            {
+                "id": "p4_8",
+                "text": "Sobre la creencia de si las aplicaciones de inteligencia artificial generativa de textos pueden democratizar el acceso al conocimiento al hacerlo más accesible a públicos más amplios, cuestión planteada en el ítem 23, el 41% de las respuestas de los participantes concidió estar de acuerdo. Miranda (2020), sugiere por su parte que \"la co creación, selección, divulgación, deconstrucción de tesis y elaboración de claves interpretativas de la realidad en discursos multi y transdisciplinarios a favor de la democratización del conocimiento y la inclusión\". Este pensamiento podría ser de utilidad en relación a lo que introducen las aplicaciones de la inteligencia artificial generativa, debido a que no son entes aislados sino que son operados por individuos que se enmarcan en contextos y coyunturas específicas, en tiempos determinados, y en sociedades heterogéneas; sin embargo, los esfuerzos actuales respecto a las bondades que ofrecen estas tecnologías novedosas podrían considerar una orientación hacia la democracia y el acceso del conocimiento a diferentes públicos, puesto que en palabras del autor: \"Las sociedades transitan hacia las libertades, diversidad, pluralidad, defensa de los derechos humanos y democracias más participativas\". Las máquinas inteligentes desarrolladas podrían contribuir a tal fin; trabajando en favor de los seres humanos como una extensión de sus propias mentes, y no en su contra, tal como lo sugiere Bidshahri (2017), quien anota que desde hace mucho se ha valorado a la tecnología como \"un mecanismo liberador de recursos, que nos garantiza un mejor acceso a recursos como la información, los alimentos y la energía\", complementando que, en lo que no reparamos es en \"el revolucionario impacto que la tecnología puede tener en nuestra capacidad para crear\". Mientras que Tobón y Rojas (2006), consideran que la gestión del conocimiento es un asunto de gran relevancia porque \"progresivamente se avanza hacia una sociedad del conocimiento en la cual el capital esencial es el conocimiento\" el cual es también un \"elemento clave para vivir, relacionarse con otros, y crear e innovar productos y servicios\"."
+            },
+            {
+                "id": "p4_9",
+                "text": "Tal como se ha mencionado con anterioridad, está en boga lo concerniente a las preocupaciones éticas de algunos teóricos en la materia respecto al uso de aplicaciones de inteligencia artificial generativa de textos por el público en general (ítem 30 del cuestionario). En el caso de las respuestas más recurrentes de las personas que respondieron el instrumento fueron: ocasionalmente y casi nunca (ambas suman el 79%). Esta tendencia se enmarca en las aportaciones de Chomsky et al., (2023) quienes se han considerado la preocupación o el optimismo con el que se han recibido los avances \"supuestamente revolucionarios\" en el campo de la inteligencia artificial. En el caso del optimismo, los autores observan que \"la inteligencia es el medio con el que resolvemos los problemas\"; mientras que la preocupación surge debido a que \"tememos que la variedad más popular y de moda de la inteligencia artificial —el aprendizaje automático— degrade nuestra ciencia y envilezca nuestra ética al incorporar a nuestra tecnología una concepción fundamentalmente errónea del lenguaje y el conocimiento\"."
+            },
+            {
+                "id": "p4_10",
+                "text": "En un artículo, Molina y Quinde (2023) citan la postura y políticas de ética editorial de la prestigiosa e importante publicación científica Cambridge University Press sobre artículos de investigación, libros y otros trabajos académicos. De la normatividad referida se destaca lo siguiente por ser de interés para la temática del presente documento: el uso de la inteligencia artificial \"debe declararse y explicarse claramente en publicaciones como los trabajos de investigación\"; la IA no cumple los requisitos de esa institución sobre la autoría debido a la imposibilidad de \"rendir cuentas\"; lo anterior conduce a que aplicaciones de la IAG no podrán aparecer como autores en las publicaciones; sin embargo, su uso tampoco debe transgredir sus políticas de plagio\"."
+            },
+            {
+                "id": "p4_11",
+                "text": "Observar un tema que implica tecnologías de tal nivel, compromete a explorar la perspectiva ética y la posibilidad de implementar un marco normativo que permitar hacer un uso equilibrado de éstas en razón del bien común; según Giraldo (2008) moverse hacia la ética permite lograr una comprensión mucho más amplia de la resistencia, vista esta como un preocupación, a la vez de \"estética de la existencia\" en relación al planteamiento de Michel Foucault. Por otro lado, sobre de qué manera proceder en este aspecto, según Flores y García (2023) \"las regulaciones y ética de la IA deben lograrse sin comprometer los valores humanos, sin socavar la diversidad y sin crear nuevas desigualdades\"."
+            },
+            {
+                "id": "p4_12",
+                "text": "En relación a la ética de las máquinas, Gamboa (2020) va más allá en sus consideraciones y refiere que parece que escapa al dominio humano la intención de \"ubicar a las inteligencias humana y artificial en un contexto universal, con orígenes comunes y desarrollos por procesos generales\"; lo anterior debido a que, en sus propias palabras, esto \"implica que en cada ser con IA general habrá necesariamente una condición moral: deberá ser respetado y tener los mismos derechos que los seres humanos\"."
+            },
+            {
+                "id": "p4_13",
+                "text": "Cabe destacar que, en los resultados de la investigación, la relación estrecha en las respuestas de los participantes entre estar de acuerdo o indeciso sobre los planteamientos del instrumento llaman especialmente la atención. Es pertinente inferir que es una reacción natural ante un escenario incipiente que aún no supera el año desde que la primera aplicación de IAG estuvo disponible para los usuarios, esto a propósito de lo planteado por Chomsky, Roberts y Watumull sobre las preocupaciones o el optimismo con el que estas tecnologías disruptivas pueden ser recibidas y adoptadas por el público en general, mismas que pueden estar más alimentadas por los prejuicios o la desinformación, que por una experiencia consistente en su uso. Estas dudas son legítimas, varios autores dan cuenta de ello, como Morcela (2022) que afirma que \"la IA puede tener beneficios para la eficiencia y la productividad en el lugar de trabajo, también plantea dudas legítimas sobre el impacto en el empleo, la justicia y la equidad, y la falta de control humano\"."
+            },
+            {
+                "id": "p4_14",
+                "text": "Respecto a la ética digital para las nuevas generaciones de la era digital, Balladares (2017) plantea la pertinencia de implementarla de manera urgente, debido a que \"desde una perspectiva ética, se pueden identificar valores de las generaciones digitales, para luego plantear una ética digital como una ética aplicada que busca síntesis y mediación entre el ser humano y la tecnología\"."
+            },
+            {
+                "id": "p4_15",
+                "text": "Es importante hacer mención de que \"no vivimos un tiempo de cambios, sino un cambio de tiempos. Esta trasformación del paradigma civilizatorio confronta las premisas del pasado\" (Miranda, 2020). Esta afirmación contundente de nos lleva a reflexionar sobre la necesidad de no evadir el tema de tecnologías disruptivas como la IAG por miedo o desconocimiento, pues no podemos abstraernos de lo que sucede aquí y ahora."
+            },
+            {
+                "id": "p4_16",
+                "text": "En tales circunstancias, un reto a considerar es el tiempo que los seres humanos en la era digital están dispuestos a destinar a tareas relacionadas a la información, investigación, redacción, generación de contenidos y validación de los mismos. Bauman (2015) plantea el concepto de modernidad líquida, con el propósito de describir la condición de la sociedad contemporánea caracterizada por la flexibilidad, la incertidumbre y la falta de estructuras sólidas y duraderas. Se caracteriza por el cambio frecuente de trabajos, lugares de residencia, de parejas e incluso identidades en comparación con épocas anteriores; por el desdén de cargar con las responsabilidades, la necesidad de contar con herramientas que indiquen cómo hacer las cosas, qué desechar y cómo moverse en un tiempo en donde todo fluye de manera acelerada; y por la noción de que las normas y los valores tradicionales ya no tienen la misma influencia, razón que conduce a las personas a enfocarse en la búsqueda de la satisfacción individual y la gratificación inmediata. Esta visión es de utilidad para comprender la buena acogida de aplicaciones de la inteligencia artificial generativa que ofrecen resultados casi en tiempo real. Este sociólogo también aborda el asunto de la desintegración de la trama social y la manera en que las agencias de acción colectiva se desmoronan en escenarios cambiantes, escurridizos y evasivos en una era de modernidad líquida, y advierte que \"la desintegración social es tanto una afección como un resultado de la nueva técnica del poder, que emplea como principales instrumentos el descompromiso y el arte de la huida\" de los seres humanos (Bauman, 2015)."
+            },
+            {
+                "id": "p4_17",
+                "text": "Lo expuesto anteriormente plantea retos, pues en ojos de autores como el filósofo Byung-Chul Han, \"lo que enferma a la sociedad no es la alienación, la sustracción, la prohibición ni la represión, sino la hipercomunicación, el exceso de información, la sobreproducción y el hiperconsumismo\" Han, (2018). Este pensador también ha ahondado en la revolución digital con la finalidad de explicar la dinámica de las sociedades actuales y analizar lo relacionado al vertiginoso crecimiento del mundo digital que, según su observación, implica una transición entre el universo de lo tangible hacia una era caracterizada por la información y los datos, factor que despoja al mundo de su condición material. Esta interpretación de la actualidad coincide con la de Copa (2019), quien anotó que en este siglo hemos transitado \"del espacio físico al hiperespacio digital y de las interacciones directas, cara a cara, a las mediadas por pantallas y dispositivos digitales\". Estas condiciones implican un cambio de paradigma en las interacciones humanas y también en las interacciones entre humanos y máquinas inteligentes que desafían los sistemas interrelacionales conocidos hasta ahora."
+            },
+            {
+                "id": "p4_18",
+                "text": "Hace más de dos décadas, Brunner (2001) advertía que la humanidad se encontraba en el umbral de un transformación profunda y, en ese tiempo, su hipótesis se concentraba en que se aproximaba una cuarta revolución de una magnitud extraordinaria. Tres lustros más adelante, Perasso (2016) vaticinó que la humanidad se encontraba al límite de \"una revolución tecnológica que modificará fundamentalmente la forma en que vivimos, trabajamos y nos relacionamos. En su escala, alcance y complejidad, la transformación será distinta a cualquier cosa que el género humano haya experimentado antes\". Sobre la cuarta revolución industrial, Schwab (2020) escribió pocos años depués que, aunque no existía una certeza de cómo se desarrollará, sí hizo hincapié en una de las posibles formas de hacerle frente y planteó que \"la respuesta a sus cambios debe ser integrada y exhaustiva, y deberá involucrar a todos los actores de la política global, desde los sectores público y privado, hasta la academia y la sociedad civil\"."
+            },
+            {
+                "id": "p4_19",
+                "text": "En conclusión, sin bien la manera en la que se utiliza la tecnología digital toca y transforma los sistemas sociales sin excepción, el desarrollo de la inteligenicia artificial en los últimos diez años, con un énfasis en la irrupción de herramientas de la inteligencia artificial generativa –como Chat GPT– ha cambiado los paradigmas e introduce nuevos desafíos sobre lo que se había proyectado (Giró y Sancho, 2022). Además, aunque cada vez es más evidente la utilización de las aplicaciones y herramientas de la inteligencia artificial en la vida cotidiana de los seres humanos; falta mucho por trabajar y por organizar antes de implementar esta tecnología de manera consistente en diferentes rubros (Padilla, 2019)."
+            },
+            {
+                "id": "p4_20",
+                "text": "En una era donde la información y la tecnología bien podrían servir como emblema, la irrupción de la inteligencia artificial generativa ha tenido un impacto sin precedentes con aplicaciones disponibles al público en general capaces de crear contenidos de texto de forma autónoma; mediante la guía y las solicitudes específicas de las y los usuarios de las mismas. Este fenómeno pone de manifiesto la redefinición de cómo se crean y gestionan los textos que generan estas herramientas, lo cual supone beneficios potenciales para las personas que las adopten como aliadas para incentivar la creatividad, el acceso al conocimiento o como una posibilidad de ahorrar tiempo al utilizarlas; sino considerar también los posibles efectos negativos provocados por su introducción como la falta de revisión de la información obtenida, la generación y reproducción de contenido sin aplicar filtros de calidad, o las laxas y/o inexistentes políticas sociales e institucionales sobre las cuestiones éticas y de responsabilidad que demandan. A medida de que estas tecnologías disruptivas crean contenidos de texto, surge de manera inherente la necesidad de comprender cómo funcionan, cuáles son sus limitaciones y de qué manera es posible potenciar su uso en beneficio no sólo de quienes las utilizan, sino de las sociedades y sus instituciones; y no en perjuicio de los mismos."
+            }         
+        ]
+      }
+    ]
+  }
+}

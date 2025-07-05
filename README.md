@@ -30,37 +30,59 @@ The system follows a corpus-informed translation pipeline:
 ## 📁 Repository Structure
 
 ```
-pragmatic-auto-translator-demo/
+pragmatic-auto-translator-v2/
 ├── .github/                        # GitHub workflow files
 │   └── workflows/    
 │       └── deploy.yml              # GitHub Pages deployment
 ├── corpora/                        # Corpus organization
-│   ├── gai/                        # Generative AI domain
-│   │   ├── eng/                    # English content
-│   │   │   ├── submissions/        # Source files
-│   │   │   ├── processed/          # JSON files (gai-eng_item001.json, etc.)
-│   │   │   └── gai-eng_database.json
-│   │   └── esp/                    # Spanish content  
-│   │       ├── submissions/        # Source files        
-│   │       ├── processed/          # JSON files (gai-esp_item001.json, etc.)
-│   │       └── gai-esp_database.json
+│   └── gai/                        # Generative AI domain
+│       ├── eng/                    # English content
+│       │   ├── for-processing/     # Source files requiring processing     
+│       │   ├── submissions/        # Source files that have been processed
+│       │   ├── processed/          # JSON files (gai-eng_corpus-item001.json, etc.)
+│       │   ├── t9n-testing/        # Source files that have been reserved for testing auto-translator
+│       │   └── gai-eng_corpus-database.json
+│       ├── esp/                    # Spanish content  
+│       │   ├── for-processing/       
+│       │   ├── submissions/        
+│       │   ├── processed/          
+│       │   ├── t9n-testing/        
+│       │   └── gai-esp_corpus-database.json
+│       ├── zho-chn/                # Simplified Chinese content  
+│       │   ├── for-processing/        
+│       │   ├── submissions/                
+│       │   ├── processed/          
+│       │   ├── t9n-testing/        
+│       │   └── gai-zho-chn_corpus-database.json
+│       ├── vectors/                # Vectors for all languages in shared space
+│       │   ├── gai-corpus-document-vectors.json    # Document-level vectors
+│       │   ├── gai-corpus-section-vectors.json     # Section-level vectors
+│       │   ├── gai-corpus-paragraph-vectors.json   # Paragraph-level vectors
+│       │   └── visualizations/                     # Vector mapping visualizations
+│       └── knowledge-graphs/       # Generated knowledge graphs
+│           ├── gai-multilingual.graphml     # Neo4j export format
+│           ├── cluster-mappings.json        # Cluster to concept mappings
+│           └── terminology-extractions.json # Sketch Engine comparisons
 ├── frontend/                       # Auto-Translator website
 │   ├── css/                        # Website styles
 │   ├── js/                         # JavaScript modules
 │   ├── about.html                  # About page
 │   ├── contact.html                # Contact page
-│   └── corpora.html                # Corpora page
-├── scripts/                        # Python scripts for vector creation
-│   ├── create_vectors_batch.ipynb  # Vectorization script (Google Colab)
-│   └── config.py                   # Configuration settings
-├── vectors/                        # Generated vector files
-│   └── gai/                        # Vectors for GAI domain
-│       ├── gai-document-vectors.json   # Document-level vectors
-│       ├── gai-section-vectors.json    # Section-level vectors
-│       └── gai-paragraph-vectors.json  # Paragraph-level vectors
-├── visualizations/                 # Vector mapping visualizations
+│   ├── corpora-view.html           # View corpora sources
+│   ├── corpora-add.html            # Add items to the corpora
+│   └── team.html                   # Team page
+├── scripts/                        # Analysis and processing notebooks
+│   ├── config.py                   # Shared configuration with global settings and paramters
+│   ├── vectorization/                      # Vector generation
+│   │   └── create_vectors_batch.ipynb      # Vectorization script
+│   └── clustering/                 # Clustering scripts
+│       ├── clusters-eng.ipynb      # English monolingual clustering
+│       ├── clusters-esp.ipynb      # Spanish monolingual clustering  
+│       ├── clusters-zho.ipynb      # Chinese monolingual clustering
+│       ├── clusters-multilingual.ipynb     # Cross-lingual clustering
+│       └── clusters-analysis.ipynb # Comparative analysis & KG generation
 ├── index.html                      # Main translator interface
-└── README.md                       # This file
+└── README.md                       # Project documentation
 ```
 
 ## 🚀 Getting Started
