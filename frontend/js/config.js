@@ -14,7 +14,7 @@ export const MODELS = {
 // Corpus Configuration - Dynamic Path Configuration
 // Detect environment and set base path
 const isGitHubPages = window.location.hostname.includes('github.io');
-const repoName = 'pragmatic-auto-translator-demo'; // Update this to match your actual repo name
+const repoName = 'pragmatic-auto-translator-v2'; // Update this to match your actual repo name
 const basePath = isGitHubPages ? `/${repoName}` : '.';
 
 console.log(`Environment: ${isGitHubPages ? 'GitHub Pages' : 'Local'}, Base path: ${basePath}`);
@@ -27,16 +27,16 @@ export const CORPUS = {
   // Vector file paths (dynamic for both local and GitHub Pages environments)
   // Update these to match your file paths and names
   VECTOR_PATHS: {
-    document: `${basePath}/vectors/gai/gai-document-vectors.json`,
-    section: `${basePath}/vectors/gai/gai-section-vectors.json`, 
-    paragraph: `${basePath}/vectors/gai/gai-paragraph-vectors.json`
+    document: `${basePath}/corpora/gai/vectors/gai-corpus-document-vectors.json`,
+    section: `${basePath}/corpora/gai/vectors/gai-corpus-section-vectors.json`, 
+    paragraph: `${basePath}/corpora/gai/vectors/gai-corpus-paragraph-vectors.json`
   },
   
   // Database paths (dynamic for both local and GitHub Pages environments)
   // Update these to match your file paths and names
   DATABASE_PATHS: {
-    en: `${basePath}/corpora/gai/eng/gai-eng_database.json`,
-    es: `${basePath}/corpora/gai/esp/gai-esp_database.json`
+    en: `${basePath}/corpora/gai/eng/gai-eng_corpus-database.json`,
+    es: `${basePath}/corpora/gai/esp/gai-esp_corpus-database.json`
   }
 };
 
@@ -101,13 +101,15 @@ export const LANGUAGE_MAPPING = {
   // Your 3-letter ISO codes → API 2-letter codes
   TO_API_CODES: {
     eng: 'en',
-    esp: 'es'
+    esp: 'es',
+    zho: 'zh'
   },
   
   // API 2-letter codes → Your 3-letter ISO codes  
   FROM_API_CODES: {
     en: 'eng',
-    es: 'esp'
+    es: 'esp',
+    zh: 'zho'
   }
 };
 

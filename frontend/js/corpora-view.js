@@ -1,4 +1,4 @@
-// corpora.js - Dynamic loading and display of corpus sources
+// corpora-view.js - Dynamic loading and display of corpus sources
 
 document.addEventListener('DOMContentLoaded', function() {
     loadCorpusSources();
@@ -16,11 +16,11 @@ async function loadCorpusSources() {
         // Load both corpus databases - using absolute paths for GitHub Pages
         const baseUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
             ? '../corpora/gai/' 
-            : '/pragmatic-auto-translator-demo/corpora/gai/';
+            : '/pragmatic-auto-translator-v2/corpora/gai/';
             
         const [englishData, spanishData] = await Promise.all([
-            fetchCorpusData(baseUrl + 'eng/gai-eng_database.json'),
-            fetchCorpusData(baseUrl + 'esp/gai-esp_database.json')
+            fetchCorpusData(baseUrl + 'eng/gai-eng_corpus-database.json'),
+            fetchCorpusData(baseUrl + 'esp/gai-esp_corpus-database.json')
         ]);
         
         console.log('English data loaded:', englishData);
@@ -154,7 +154,8 @@ function formatLanguageVariant(variant, language) {
         'usa': 'US English',
         'eur': 'European English',
         'mex': 'Mexican Spanish',
-        'esp': 'European Spanish'
+        'esp': 'European Spanish',
+        'syr': 'Syrian English'
     };
 
     return variantMap[variant] || `${language} (${variant})`;
