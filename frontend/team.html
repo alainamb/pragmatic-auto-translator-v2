@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Team - Pragmatic Auto-Translator</title>
+    <meta name="description" content="Meet the interdisciplinary team behind the Pragmatic Auto-Translator research project, combining expertise in linguistics, software development, and translation studies." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <h1 class="nav-title">Pragmatic Auto-Translator</h1>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Auto-Translator</a>
+                    <div class="nav-dropdown">
+                        <a href="#" class="nav-item">Corpora</a>
+                            <div class="dropdown-menu">
+                            <a href="corpora-view.html" class="dropdown-item" style="border-bottom-color: var(--gray-300);">View Corpora</a>
+                            <a href="corpora-add.html" class="dropdown-item">Add to Corpus</a>
+                            </div>
+                    </div>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="team.html" class="nav-item">Team</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section class="section-card">
+            <h2>Our Team</h2>
+            <p>The Pragmatic Auto-Translator project brings together researchers and developers from the fields of <strong>translation studies</strong>, <strong>natural language processing</strong>, and <strong>software development</strong>. Our interdisciplinary approach combines deep linguistic knowledge with technical innovation to advance automatic translation beyond traditional sentence-level processing.</p>
+        </section>
+
+        <!-- Loading indicator -->
+        <div id="loadingIndicator" class="section-card">
+            <p style="text-align: center; color: var(--gray-500);">Loading team information...</p>
+        </div>
+
+        <!-- Error message -->
+        <div id="errorMessage" class="section-card hidden">
+            <p style="text-align: center; color: #991b1b;">Unable to load team data. Please try again later.</p>
+        </div>
+
+        <!-- Team members section -->
+        <section id="teamSection" class="section-card hidden">
+            <h2>Team Members</h2>
+            <div class="team-controls">
+                <p>Our team believes in collaborative research where every voice matters equally. Click the button below to randomize the display order and see our commitment to shared leadership in action.</p>
+                <button id="mainButton" class="main-button" style="margin-top: 0.5rem;">
+                    Shuffle Team Order
+                </button>
+            </div>
+            <div id="teamCards" class="team-grid"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Pragmatic Auto-Translator - XISU Workshop Demo</p>
+        <p>By Alaina Brandt - 2025</p>
+    </footer>
+
+    <script>
+        // Simple script to highlight the active navigation item
+        document.addEventListener('DOMContentLoaded', function() {
+            const teamLink = document.querySelector('a[href="team.html"]');
+            if (teamLink) {
+                teamLink.style.color = 'var(--gray-900)';
+                teamLink.style.borderBottomColor = 'var(--gray-300)';
+            }
+        });
+    </script>
+    <script src="js/team-view.js"></script>
+</body>
+</html>

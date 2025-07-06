@@ -14,8 +14,15 @@
             <h1 class="nav-title">Pragmatic Auto-Translator</h1>
             <div class="nav-items">
                 <a href="#" class="nav-item">Auto-Translator</a>
-                <a href="frontend/corpora.html" class="nav-item">Corpora</a>
+                    <div class="nav-dropdown">
+                        <a href="#" class="nav-item">Corpora</a>
+                            <div class="dropdown-menu">
+                            <a href="frontend/corpora-view.html" class="dropdown-item">View Corpora</a>
+                            <a href="frontend/corpora-add.html" class="dropdown-item">Add to Corpus</a>
+                            </div>
+                    </div>
                 <a href="frontend/about.html" class="nav-item">About</a>
+                <a href="frontend/team.html" class="nav-item">Team</a>
                 <a href="frontend/contact.html" class="nav-item">Contact</a>
             </div>
         </nav>
@@ -34,7 +41,7 @@
                 <span>→</span>
                 <span id="targetLanguage">Spanish</span>
             </div>
-            <div class="corpus-info">
+            <div class="system-info">
                 <strong>Corpus Domain:</strong> Generative Artificial Intelligence
                 <br>
                 <strong>Context:</strong> This translator references domain-specific content to provide contextually-aware translations
@@ -49,7 +56,7 @@
                 class="text-input" 
                 placeholder="Enter your text here for translation..."
                 rows="8"></textarea>
-            <button id="translateButton" class="translate-button">
+            <button id="mainButton" class="main-button">
                 Translate with Context
             </button>
             </div>
@@ -59,7 +66,7 @@
         <!-- Context Output -->
         <section class="section-card">
             <h2 style="margin-bottom: 0rem;">Context</h2>
-                <div class="corpus-info" style="margin-top: 0; margin-bottom: 1rem;">
+                <div class="system-info" style="margin-top: 0; margin-bottom: 1rem;">
                     <p style="margin: 0 0 8px 0;"><strong>Context Similarity Explained:</strong></p>
                     <p style="margin: 0 0 6px 0;">Our system uses cosine similarity to find the most relevant content from our corpus to inform your translation. Cosine similarity measures how similar two pieces of text are by comparing their semantic “direction” in high-dimensional space, producing scores from -1.0 (completely different) to 1.0 (identical meaning).</p>
                     <p style="margin: 0 0 6px 0;"><strong>Thematic Match:</strong> Content from documents that are topically similar to your input text - this provides coherent domain context.</p>
@@ -135,7 +142,7 @@
     </main>
 
     <footer class="footer">
-        <p>Pragmatic Auto-Translator - UNAM-SMA Workshop Demo</p>
+        <p>Pragmatic Auto-Translator - XISU Workshop Demo</p>
         <p>By Alaina Brandt - 2025</p>
     </footer>
 

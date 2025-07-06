@@ -102,7 +102,7 @@ pragmatic-auto-translator-v2/
 
 #### 1. Fork and Clone Repository
 ```bash
-git clone https://github.com/your-username/pragmatic-auto-translator-demo.git
+git clone https://github.com/your-username/pragmatic-auto-translator-v2.git
 cd pragmatic-auto-translator-demo
 ```
 
@@ -173,7 +173,7 @@ Adjust translation behavior in `frontend/js/config.js`:
 ## 🗺️ Development Roadmap
 
 ### Version 2.0 (In Development)
-- **Expanded Languages**: English, Spanish, Mandarin Chinese, Swahili
+- **Expanded Languages**: English, Spanish, Mandarin Chinese
 - **Knowledge Graphs**: Integration of terminological data via knowledge graphs
 - **ISO Standards**: Contributing to ISO standard development on corpus-informed translation
 

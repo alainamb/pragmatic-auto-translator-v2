@@ -13,8 +13,15 @@
             <h1 class="nav-title">Pragmatic Auto-Translator</h1>
             <div class="nav-items">
                 <a href="../index.html" class="nav-item">Auto-Translator</a>
-                <a href="corpora.html"" class="nav-item">Corpora</a>
+                    <div class="nav-dropdown">
+                        <a href="#" class="nav-item">Corpora</a>
+                            <div class="dropdown-menu">
+                            <a href="corpora-view.html" class="dropdown-item">View Corpora</a>
+                            <a href="corpora-add.html" class="dropdown-item">Add to Corpus</a>
+                            </div>
+                    </div>
                 <a href="about.html" class="nav-item" style="border-bottom-color: var(--gray-300);">About</a>
+                <a href="team.html" class="nav-item">Team</a>
                 <a href="contact.html" class="nav-item">Contact</a>
             </div>
         </nav>
@@ -89,7 +96,7 @@
             <h2 style="margin-top: 1.5rem;">Current Implementation</h2>
             <p style="margin-bottom: 1.5rem;">While building toward our vision, this first iteration incorporates the following technologies. We’ve also worked extensively with Claude Sonnet 4 during code development, and DeepSeek contributed key recommendations for model selection.</p>
             
-            <div class="corpus-info" style="margin-bottom: 1.5rem;">
+            <div class="system-info" style="margin-bottom: 1.5rem;">
                 <ul>
                     <li><code>jina-embeddings-v3</code> model for corpus vectorization and input feature extraction</li>
                     <li>DeepSeek for English-Spanish and Spanish-English translation</li>
@@ -101,7 +108,7 @@
     </main>
 
     <footer class="footer">
-        <p>Pragmatic Auto-Translator - UNAM-SMA Workshop Demo</p>
+        <p>Pragmatic Auto-Translator - XISU Workshop Demo</p>
         <p>By Alaina Brandt - 2025</p>
     </footer>
 
