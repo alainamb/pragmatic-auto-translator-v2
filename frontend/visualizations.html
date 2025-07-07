@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Corpus Visualizations - Pragmatic Auto-Translator</title>
+    <meta name="description" content="Interactive visualizations of cross-lingual corpus embeddings and semantic clustering." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Plotly.js CDN for interactive charts -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <h1 class="nav-title">Pragmatic Auto-Translator</h1>
+            <div class="nav-items">
+                <a href="../index.html" class="nav-item">Auto-Translator</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-item">Corpora</a>
+                    <div class="dropdown-menu">
+                        <a href="corpora-view.html" class="dropdown-item">View Corpora</a>
+                        <a href="corpora-add.html" class="dropdown-item">Add to Corpus</a>
+                        <a href="visualizations.html" class="dropdown-item">Visualizations</a>
+                    </div>
+                </div>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="team.html" class="nav-item">Team</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <!-- Introduction Section -->
+        <section class="section-card">
+            <h2>Cross-lingual Corpus Visualizations</h2>
+            <p>These interactive visualizations show how document, section, and paragraph vectors from the domain of <strong>Generative Artificial Intelligence</strong> cluster in semantic space across English, Spanish, and Simplified Chinese. The embeddings reveal cross-lingual similarities and help identify related content for improved translation quality.</p>
+
+            <!-- Model Information -->
+            <div class="system-info">
+                <h3>Model Information</h3>
+                <p><strong>Model:</strong> <span id="model-name">Loading...</span></p>
+                <p><strong>Vector Dimension:</strong> <span id="vector-dimension">Loading...</span>D</p>
+                <p><strong>Task Optimization:</strong> <span id="task-optimization">Loading...</span></p>
+                <p><strong>Cross-lingual:</strong> English, Spanish and Simplified Chinese unified vector space</p>
+            </div>
+
+            <div>
+                <h3>Report Date</h3>
+                <p id="report-timestamp">Visualization data last updated: Loading...</p>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="section-card">
+            <h2>Corpus Statistics</h2>
+            
+            <!-- Total Documents (full width) -->
+            <div class="stats-card-large">
+                <h3 id="stat-documents">0</h3>
+                <p>Total Documents</p>
+            </div>
+
+            <!-- Language Distribution (3 cards in a row) -->
+            <div class="stats-grid">
+                <div class="stats-card">
+                    <h3 id="stat-eng-docs">0</h3>
+                    <p>English Documents</p>
+                </div>
+                <div class="stats-card">
+                    <h3 id="stat-esp-docs">0</h3>
+                    <p>Spanish Documents</p>
+                </div>
+                <div class="stats-card">
+                    <h3 id="stat-chn-docs">0</h3>
+                    <p>Chinese Documents</p>
+                </div>
+            </div>
+
+            <!-- Total Vectors (full width) -->
+            <div class="stats-card-large">
+                <h3 id="stat-total-vectors">0</h3>
+                <p>Total Vectors</p>
+            </div>
+
+            <!-- Vector Type Distribution (3 cards in a row) -->
+            <div class="stats-grid">
+                <div class="stats-card">
+                    <h3 id="stat-document-vectors">0</h3>
+                    <p>Document Vectors</p>
+                </div>
+                <div class="stats-card">
+                    <h3 id="stat-section-vectors">0</h3>
+                    <p>Section Vectors</p>
+                </div>
+                <div class="stats-card">
+                    <h3 id="stat-paragraph-vectors">0</h3>
+                    <p>Paragraph Vectors</p>
+                </div>
+            </div>
+
+            <!-- Corpus Coverage (full width) -->
+            <div class="stats-card-large">
+                <h3 id="stat-coverage">0%</h3>
+                <p>Corpus Coverage</p>
+            </div>
+        </section>
+
+        <!-- Language Distribution Chart Section -->
+        <section class="section-card">
+            <h2>Language Distribution Chart</h2>
+            <p>Vector count by language in your corpus, showing the balance of content across English, Spanish, and Simplified Chinese.</p>
+            
+            <!-- Interactive chart container -->
+            <div id="plot-dist-container" class="plot-container-distribution">
+                <div class="plot-loading">
+                    <h3>Loading Distribution Chart...</h3>
+                    <p>Fetching latest corpus data</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2D Visualization Section -->
+        <section class="section-card">
+            <h2>2D Cross-lingual Projection</h2>
+            <p>Interactive 2D view with language-based color coding. Semantically similar content should cluster together across languages. Use the toolbar above the chart to switch between Pan, Box Select, and Lasso Select modes.</p>
+
+            <!-- Interactive chart container -->
+            <div id="plot-2d-container" class="plot-container">
+                <div class="plot-loading">
+                    <h3>Loading 2D Visualization...</h3>
+                    <p>Fetching latest corpus data</p>
+                </div>
+            </div>
+
+            <!-- Visualization Legend -->
+            <div class="visualization-legend">
+                <p><em>Granularity levels: Document (darkest) → Section L0 → Section L1+ (subsections, subsubsections, etc.) → Paragraph (lightest)</em></p>
+            </div>
+        </section>
+
+        <!-- 3D Visualization Section -->
+        <section class="section-card">
+            <h2>3D Cross-lingual Projection</h2>
+            <p>Interactive 3D view of your vector space. Rotate and zoom to explore cross-lingual semantic relationships. The third dimension often reveals clustering patterns not visible in 2D.</p>
+            
+            <!-- Interactive chart container -->
+            <div id="plot-3d-container" class="plot-container">
+                <div class="plot-loading">
+                    <h3>Loading 3D Visualization...</h3>
+                    <p>Fetching latest corpus data</p>
+                </div>
+            </div>
+
+            <!-- Visualization Legend -->
+            <div class="visualization-legend">
+                <p><em>Granularity levels: Document (darkest) → Section L0 → Section L1+ (subsections, subsubsections, etc.) → Paragraph (lightest)</em></p>
+            </div>
+        </section>
+
+
+
+        <!-- Technical Details Section -->
+        <section class="section-card">
+            <h2>Further Details</h2>
+            <div class="system-info">
+                <h3>Understanding the Visualizations</h3>
+                <ul>
+                    <li><strong>Clustering:</strong> Points close together represent semantically similar content</li>
+                    <li><strong>Cross-lingual alignment:</strong> Similar content from each language appears near each other</li>
+                    <li><strong>Color patterns:</strong> Each language has its own color scale, with darker shades for higher-level content (documents) and lighter shades for details (paragraphs)</li>
+                    <li><strong>Interactive exploration:</strong> Hover over points to see detailed information, including the document or section of the vector</li>
+                    <li><strong>All popups:</strong> Show corpus item ID and title (no excerpt to reduce clutter)</li>
+                    <li><strong>Section/Paragraph popups:</strong> Include excerpts to further facilitate lookup of context</li>
+                </ul>
+            </div>
+
+            <h3>Technical Parameters</h3>
+                <p><strong>Model Architecture:</strong> Latest transformer architecture with enhanced multilingual training</p>
+                <p><strong>Training Data:</strong> Optimized for cross-lingual similarity and retrieval tasks</p>
+                <p><strong>Vector Quality:</strong> L2 normalized for consistent similarity calculations</p>
+                <p><strong>Performance:</strong> Enhanced accuracy for multilingual semantic similarity</p>
+                <p><strong>Dimensionality Reduction:</strong> PCA (Principal Component Analysis) preserves maximum variance while enabling visualization</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Pragmatic Auto-Translator - XISU Workshop Demo</p>
+        <p>By Alaina Brandt - 2025</p>
+    </footer>
+
+    <script src="js/visualizations.js"></script>
+</body>
+</html>

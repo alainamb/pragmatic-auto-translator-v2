@@ -53,6 +53,7 @@ corpora/gai/eng/for-processing
 corpora/gai/eng/in-progress
 corpora/gai/esp/for-processing
 corpora/gai/esp/gai-esp_corpus-for-processing-database.json
+corpora/gai/vectors/visualizations/
 
 # Editor files
 # Please add these four lines to your .gitignore file too
