@@ -1,0 +1,99 @@
+# Python dependencies Pragmatic Auto-Translator vectorization
+# Install these with: pip install -r scripts/requirements.txt
+# Requires Python 3.8+ for full compatibility
+
+# CORE MACHINE LEARNING LIBRARIES
+# ====================================
+# Main library for creating text embeddings/vectors
+# Version 2.7.0+ supports jina-embeddings-v3 model with trust_remote_code
+sentence-transformers>=2.7.0
+
+# PyTorch backend (required by sentence-transformers and jina-embeddings-v3)
+# Using CPU version for broader compatibility - GPU acceleration automatic if available
+torch>=2.0.0
+torchvision>=0.15.0
+
+# For numerical operations and array handling
+numpy>=1.24.0,<2.0.0
+
+# Machine learning utilities (PCA, cosine similarity, etc.)
+scikit-learn>=1.2.0
+
+# JINA-EMBEDDINGS-V3 SPECIFIC DEPENDENCIES
+# ====================================
+# Required for jina-embeddings-v3 model architecture
+einops>=0.6.0,<0.8.0
+
+# LOCAL DEVELOPMENT ENVIRONMENT
+# ====================================
+# Jupyter notebook environment for local development
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# For interactive elements in notebooks (progress bars, widgets)
+ipywidgets>=7.0.0,<9.0.0
+
+# For progress bars during batch processing
+tqdm>=4.65.0,<5.0.0
+
+# DATA PROCESSING AND ANALYSIS
+# ====================================
+# Data manipulation and analysis (used in corpus statistics)
+pandas>=1.5.0,<3.0.0
+Path handling (Python 3.8+ compatibility)
+pathlib2>=2.3.0; python_version < "3.8"
+
+# VISUALIZATION LIBRARIES
+# ====================================
+# Basic plotting for analysis
+matplotlib>=3.6.0,<4.0.0
+Statistical visualization
+seaborn>=0.11.0,<0.13.0
+# Interactive plots for PCA visualization and web interface
+plotly>=5.0.0,<6.0.0
+
+# JSON PROCESSING
+# ====================================
+# Faster JSON processing for large corpus files (optional but recommended)
+ujson>=5.0.0,<6.0.0
+
+# DEVELOPMENT AND DEBUGGING
+# ====================================
+# For better error reporting and debugging
+
+colorama>=0.4.0
+
+# Memory profiling for optimization (optional)
+psutil>=5.8.0
+
+# PERFORMANCE OPTIMIZATIONS (OPTIONAL)
+# ====================================
+# Faster matrix operations if available
+
+scipy>=1.9.0,<2.0.0
+
+# Faster data loading (optional)
+joblib>=1.2.0
+
+# LOCAL ENVIRONMENT NOTES
+# ====================================
+# Note: This requirements.txt assumes local installation
+# Note: The notebook includes dynamic package installation as fallback, but pre-installation is recommended
+# Note: GPU support is automatic if CUDA-compatible PyTorch is available
+# Note: For CPU-only environments, processing will be slower but fully functional
+# Note: Estimated disk space needed: ~3GB for model cache + vectors (varies by corpus size)
+
+# COMPATIBILITY NOTES
+# ====================================
+# Tested on Python 3.8+
+# Compatible with Windows, macOS, and Linux
+# Memory requirements: 4GB minimum, 8GB+ recommended for large corpora
+# Network required only for initial model download (~2GB jina-embeddings-v3)
+
+# JINA-EMBEDDINGS-V3 SPECIFIC NOTES
+# ====================================
+# Note: jina-embeddings-v3 requires trust_remote_code=True when loading
+# Note: Default output dimension is 1024
+# Note: The jina-embeddings-v3 model (~1.1GB) will download automatically on first use
+# Note: For cross-lingual tasks, consider using task='retrieval.passage' when creating corpus vectors
+# Note: Model supports 89 languages with excellent Spanish-English-Simplified Chinese cross-lingual performance

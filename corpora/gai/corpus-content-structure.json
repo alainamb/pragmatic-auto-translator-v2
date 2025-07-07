@@ -1,0 +1,83 @@
+{
+  "document_id": "domain-lang_corpus-itemXXX",
+  "content": {
+    "abstract": "text - if no text, replace quoted content with null (with no quotes around the word null)",
+    "sections": [
+        {
+            "id": "section_0 - if sections are numbered, and there is an unnumbered section before section 1, designate that section as section_0",
+            "title": "Section 0 title",
+            "paragraphs": [
+                {
+                    "id": "p0_1",
+                    "text": "paragraph: section 0, paragraph 1"
+                },
+                {
+                    "id": "p0_2",
+                    "text": "paragraph: section 0, paragraph 2"                   
+                }
+            ]
+        },
+        {
+            "id": "section_1 - if sections are not numbered, number the sections starting with section_1",
+            "title": "Section 1 title",
+            "subsections": [
+                {
+                    "id": "section_1_1",
+                    "title": "Subsection 1.1 title",
+                    "paragraphs": [
+                        {
+                            "id": "p1_1_1",
+                            "text": "paragraph: subsection 1.1, paragraph 1"   
+                        },
+                        {
+                            "id": "p1_1_2",
+                            "text": "Here's a sentence with a footnote.[^1] Here's a sentence that we'll imagine has linked content. Here's a sentence with an equation: a + b = c.",
+                            "footnotes": [
+                                {
+                                    "marker": "1",
+                                    "text": "Here is the contents of the footnote."
+                                }
+                            ],
+                            "external_links": [
+                                {
+                                    "marker": "linked content",
+                                    "url": "www.linkedcontent.com"
+                                }
+                            ],
+                            "inline_equations": [
+                                {
+                                    "marker": "a + b = c",
+                                    "latex": "a+b=c"
+                                }
+                            ]
+
+                        }
+                    ],
+                    "subsubsections": [
+                        {
+                            "id": "section_1_1_1",
+                            "title": "Susbsubsection 1.1.1 title",
+                            "paragraphs": [
+
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ],
+    "figures": [
+        {
+            "id": "figure_1",
+            "caption": "Caption for Figure 1"
+        }
+    ],
+    "tables": [
+        {
+            "id": "table_1",
+            "caption": "Caption for Table 1"
+        }
+    ]
+  }
+}
