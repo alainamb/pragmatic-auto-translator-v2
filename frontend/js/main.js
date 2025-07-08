@@ -427,41 +427,6 @@ async function handleTranslation() {
     }
 }
 
-/**
- * Setup info tooltips for similarity options
- */
-function setupSimilarityInfoTooltips() {
-    const scoringInfo = document.getElementById('scoringInfo');
-    const strategyInfo = document.getElementById('strategyInfo');
-    
-    if (scoringInfo) {
-        scoringInfo.addEventListener('click', (e) => {
-            e.preventDefault();
-            alert(`Advanced Similarity Scoring:
-
-When enabled, the system uses different strategies for each level:
-• Documents: Focuses on discourse and functional similarity
-• Sections: Balances topical and stylistic similarity  
-• Paragraphs: Emphasizes conceptual and terminological similarity
-
-When disabled, uses basic cosine similarity for all levels.`);
-        });
-    }
-    
-    if (strategyInfo) {
-        strategyInfo.addEventListener('click', (e) => {
-            e.preventDefault();
-            alert(`Context Strategy Options:
-
-• Balanced: Mixes different types of context for well-rounded translation
-• Documents First: Prioritizes document-level context for better discourse understanding
-• Paragraphs First: Prioritizes paragraph-level context for better terminology
-
-Recommendation: Use "Balanced" for most translations.`);
-        });
-    }
-}
-
 // =====================================
 // INITIALIZATION
 // =====================================
@@ -476,7 +441,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Setup UI components
         setupLanguageToggle();
         setupTranslateButton();
-        setupSimilarityInfoTooltips();
         
         // Show initialization sequence with delays
         await showStatusSequence([
