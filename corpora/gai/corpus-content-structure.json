@@ -31,19 +31,7 @@
                         },
                         {
                             "id": "p1_1_2",
-                            "text": "Here's a sentence with a footnote.[^1] Here's a sentence that we'll imagine has linked content. Here's a sentence with an equation: a + b = c.",
-                            "footnotes": [
-                                {
-                                    "marker": "1",
-                                    "text": "Here is the contents of the footnote."
-                                }
-                            ],
-                            "external_links": [
-                                {
-                                    "marker": "linked content",
-                                    "url": "www.linkedcontent.com"
-                                }
-                            ],
+                            "text": "Here's a sentence with a footnote. Here's a sentence with an equation: a + b = c.",
                             "inline_equations": [
                                 {
                                     "marker": "a + b = c",

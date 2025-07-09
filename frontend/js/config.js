@@ -36,7 +36,8 @@ export const CORPUS = {
   // Update these to match your file paths and names
   DATABASE_PATHS: {
     en: `${basePath}/corpora/gai/eng/gai-eng_corpus-database.json`,
-    es: `${basePath}/corpora/gai/esp/gai-esp_corpus-database.json`
+    es: `${basePath}/corpora/gai/esp/gai-esp_corpus-database.json`,
+    zh: `${basePath}/corpora/gai/zho/gai-zho_corpus-database.json`
   }
 };
 
@@ -75,7 +76,8 @@ export const UI = {
   // Supported language directions
   LANGUAGES: {
     en: { name: 'English' },
-    es: { name: 'Spanish' }
+    es: { name: 'Spanish' },
+    zh: { name: 'Chinese' }
   },
   
   // Default translation direction

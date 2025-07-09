@@ -1,0 +1,52 @@
+{
+  "documents": {
+    "gai-zho_corpus-itemXXX": {
+      "document_metadata": {
+        "language_family": "zho",
+        "language_variant": "chn",
+        "title": "Title of item in Simplified Chinese",
+        "authors": [
+          {
+            "name": "Author Name in Simplified Chinese/English, whichever makes most sense",
+            "affiliation": "Organization (optional) in Simplified Chinese/English, whichever makes most sense"
+          },
+          {
+            "name": "Author Name in Simplified Chinese/English, whichever makes most sense",
+            "affiliation": "Organization (optional) in Simplified Chinese/English, whichever makes most sense"
+          }
+        ],
+        "publisher": "Publisher in Simplified Chinese/English, whichever makes most sense",
+        "publication_year": "YYYY",
+        "domain": "GAI",
+        "text_type": 
+          [ "Academic paper", "Advertisement", "App/Website content", "Blog post", "Book chapter", "Case study", "Contract/Legal document", "Documentation", "Email", "Essay", "FAQ", "Journal article", "Manual/Guide", "Marketing material", "News article", "Policy document", "Press release", "Product description", "Report", "Research proposal", "Review", "Script", "Social media post", "Subtitles/Captions", "Technical specification", "Translation", "Tutorial", "White paper" ],
+        "purpose": 
+          [ "Entertainment", "Informational", "Persuasive", "Philosophical", "Religious" ],
+        "point_of_view": 
+          [ "Academic", "Content creator", "Copywriter", "Documentation specialist", "General public", "Grant writer", "Legal professional", "Marketing specialist", "Philanthropist", "Policy analyst", "Proposal writer", "Reporter", "Researcher", "Student", "Subject matter expert", "Technical writer" ],
+        "audience": 
+          [ "Academic", "Business", "Children/Youth", "Clients (B2B)", "Developers", "Educators", "General public", "Government", "Healthcare professionals", "Internal", "Investors", "Legal professionals", "Media", "Patients/Consumers", "Policy makers", "Professional", "Regulatory", "Researchers", "Students", "Subject matter experts", "Technical", "Users/Customers" ],
+        "reach": 
+          [ "Cross-organizational", "For informational purposes only", "Industry-specific", "Internal team", "International", "Local", "National", "Organization-wide", "Regional" ],
+        "topics": [
+          "topic 1 in Simplified Chinese",
+          "topic 2 in Simplified Chinese",
+          "topic 3 in Simplified Chinese"
+        ],
+        "summary": "Summary in Simplified Chinese",
+        "suggested_citation": "Harvard style"
+      },
+      "processing_metadata": {
+        "submission_file_name": "AuthorLastName_AbbreviatedTitle_YYYY.pdf",
+          "creation_date": "YYYY-MM-DD",
+          "word_count": 0,
+          "status": [ "corpus-JSON_pending", "vectorization_pending", "vectorization_complete" ],
+          "file_paths": {
+            "original": "gai/zho/submissions/AuthorLastName_AbbreviatedTitle_YYYY.pdf",
+            "processed": "gai/zho/processed/gai-zho_corpus-itemXXX.json"
+          },
+          "processing_notes": "Processing notes in English"
+      }
+    }
+  }  
+}

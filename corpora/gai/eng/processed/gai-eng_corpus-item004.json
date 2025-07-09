@@ -16,13 +16,7 @@
           },
           {
             "id": "p1_3",
-            "text": "The second big surprise came just last year. I'd been meeting with the team from OpenAI since 2016 and was impressed by their steady progress. In mid-2022, I was so excited about their work that I gave them a challenge: train an artificial intelligence to pass an Advanced Placement biology exam. Make it capable of answering questions that it hasn't been specifically trained for. (I picked AP Bio because the test is more than a simple regurgitation of scientific facts—it asks you to think critically about biology.) If you can do that, I said, then you'll have made a true breakthrough.",
-            "external_links": [
-              {
-                "marker": "OpenAI",
-                "url": "https://openai.com"
-              }
-            ]
+            "text": "The second big surprise came just last year. I'd been meeting with the team from OpenAI since 2016 and was impressed by their steady progress. In mid-2022, I was so excited about their work that I gave them a challenge: train an artificial intelligence to pass an Advanced Placement biology exam. Make it capable of answering questions that it hasn't been specifically trained for. (I picked AP Bio because the test is more than a simple regurgitation of scientific facts—it asks you to think critically about biology.) If you can do that, I said, then you'll have made a true breakthrough."
           },
           {
             "id": "p1_4",
@@ -30,13 +24,7 @@
           },
           {
             "id": "p1_5",
-            "text": "In September, when I met with them again, I watched in awe as they asked GPT, their AI model, 60 multiple-choice questions from the AP Bio exam—and it got 59 of them right. Then it wrote outstanding answers to six open-ended questions from the exam. We had an outside expert score the test, and GPT got a 5—the highest possible score, and the equivalent to getting an A or A+ in a college-level biology course.",
-            "external_links": [
-              {
-                "marker": "getting an A or A+",
-                "url": "https://apstudents.collegeboard.org/about-ap-scores/ap-score-scale-table"
-              }
-            ]
+            "text": "In September, when I met with them again, I watched in awe as they asked GPT, their AI model, 60 multiple-choice questions from the AP Bio exam—and it got 59 of them right. Then it wrote outstanding answers to six open-ended questions from the exam. We had an outside expert score the test, and GPT got a 5—the highest possible score, and the equivalent to getting an A or A+ in a college-level biology course."
           },
           {
             "id": "p1_6",
@@ -68,23 +56,11 @@
           },
           {
             "id": "p1_13",
-            "text": "In short, I'm excited about the impact that AI will have on issues that the Gates Foundation works on, and the foundation will have much more to say about AI in the coming months. The world needs to make sure that everyone—and not just people who are well-off—benefits from artificial intelligence. Governments and philanthropy will need to play a major role in ensuring that it reduces inequity and doesn't contribute to it. This is the priority for my own work related to AI.",
-            "external_links": [
-              {
-                "marker": "Gates Foundation",
-                "url": "http://gatesfoundation.org/"
-              }
-            ]
+            "text": "In short, I'm excited about the impact that AI will have on issues that the Gates Foundation works on, and the foundation will have much more to say about AI in the coming months. The world needs to make sure that everyone—and not just people who are well-off—benefits from artificial intelligence. Governments and philanthropy will need to play a major role in ensuring that it reduces inequity and doesn't contribute to it. This is the priority for my own work related to AI."
           },
           {
             "id": "p1_14",
-            "text": "Any new technology that's so disruptive is bound to make people uneasy, and that's certainly true with artificial intelligence. I understand why—it raises hard questions about the workforce, the legal system, privacy, bias, and more. AIs also make factual mistakes and experience hallucinations. Before I suggest some ways to mitigate the risks, I'll define what I mean by AI, and I'll go into more detail about some of the ways in which it will help empower people at work, save lives, and improve education.",
-            "external_links": [
-              {
-                "marker": "hallucinations",
-                "url": "https://www.wikiwand.com/en/Hallucination_(artificial_intelligence)"
-              }
-            ]
+            "text": "Any new technology that's so disruptive is bound to make people uneasy, and that's certainly true with artificial intelligence. I understand why—it raises hard questions about the workforce, the legal system, privacy, bias, and more. AIs also make factual mistakes and experience hallucinations. Before I suggest some ways to mitigate the risks, I'll define what I mean by AI, and I'll go into more detail about some of the ways in which it will help empower people at work, save lives, and improve education."
           }
         ]
       },
@@ -94,13 +70,7 @@
         "paragraphs": [
           {
             "id": "p2_1",
-            "text": "Technically, the term artificial intelligence refers to a model created to solve a specific problem or provide a particular service. What is powering things like ChatGPT is artificial intelligence. It is learning how to do chat better but can't learn other tasks. By contrast, the term artificial general intelligence refers to software that's capable of learning any task or subject. AGI doesn't exist yet—there is a robust debate going on in the computing industry about how to create it, and whether it can even be created at all.",
-            "external_links": [
-              {
-                "marker": "ChatGPT",
-                "url": "https://chatgptonline.net/"
-              }
-            ]
+            "text": "Technically, the term artificial intelligence refers to a model created to solve a specific problem or provide a particular service. What is powering things like ChatGPT is artificial intelligence. It is learning how to do chat better but can't learn other tasks. By contrast, the term artificial general intelligence refers to software that's capable of learning any task or subject. AGI doesn't exist yet—there is a robust debate going on in the computing industry about how to create it, and whether it can even be created at all."
           },
           {
             "id": "p2_2",
@@ -168,13 +138,7 @@
           },
           {
             "id": "p4_4",
-            "text": "For example, many people in those countries never get to see a doctor, and AIs will help the health workers they do see be more productive. (The effort to develop AI-powered ultrasound machines that can be used with minimal training is a great example of this.) AIs will even give patients the ability to do basic triage, get advice about how to deal with health problems, and decide whether they need to seek treatment.",
-            "external_links": [
-              {
-                "marker": "AI-powered ultrasound machines",
-                "url": "https://www.gatesnotes.com/The-Year-Ahead-2023#ALChapter6"
-              }
-            ]
+            "text": "For example, many people in those countries never get to see a doctor, and AIs will help the health workers they do see be more productive. (The effort to develop AI-powered ultrasound machines that can be used with minimal training is a great example of this.) AIs will even give patients the ability to do basic triage, get advice about how to deal with health problems, and decide whether they need to seek treatment."
           },
           {
             "id": "p4_5",
@@ -258,23 +222,11 @@
           },
           {
             "id": "p6_7",
-            "text": "But none of the breakthroughs of the past few months have moved us substantially closer to strong AI. Artificial intelligence still doesn't control the physical world and can't establish its own goals. A recent New York Times article about a conversation with ChatGPT where it declared it wanted to become a human got a lot of attention. It was a fascinating look at how human-like the model's expression of emotions can be, but it isn't an indicator of meaningful independence.",
-            "external_links": [
-              {
-                "marker": "New York Times article",
-                "url": "https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html"
-              }
-            ]
+            "text": "But none of the breakthroughs of the past few months have moved us substantially closer to strong AI. Artificial intelligence still doesn't control the physical world and can't establish its own goals. A recent New York Times article about a conversation with ChatGPT where it declared it wanted to become a human got a lot of attention. It was a fascinating look at how human-like the model's expression of emotions can be, but it isn't an indicator of meaningful independence."
           },
           {
             "id": "p6_8",
-            "text": "Three books have shaped my own thinking on this subject: Superintelligence, by Nick Bostrom; Life 3.0 by Max Tegmark; and A Thousand Brains, by Jeff Hawkins. I don't agree with everything the authors say, and they don't agree with each other either. But all three books are well written and thought-provoking.",
-            "external_links": [
-              {
-                "marker": "A Thousand Brains, by Jeff Hawkins",
-                "url": "https://www.gatesnotes.com/A-Thousand-Brains"
-              }
-            ]
+            "text": "Three books have shaped my own thinking on this subject: Superintelligence, by Nick Bostrom; Life 3.0 by Max Tegmark; and A Thousand Brains, by Jeff Hawkins. I don't agree with everything the authors say, and they don't agree with each other either. But all three books are well written and thought-provoking."
           }
         ]
       },

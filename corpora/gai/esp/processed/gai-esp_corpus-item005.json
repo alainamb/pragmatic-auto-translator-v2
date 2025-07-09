@@ -1,0 +1,217 @@
+{
+  "document_id": "gai-esp_corpus-item005",
+  "content": {
+    "sections": [
+      {
+        "id": "section_1",
+        "title": null,
+        "paragraphs": [
+          {
+            "id": "p1_1",
+            "text": "Investigador del Hub de IA del Tec compartió ventajas y algunos riesgos en la aplicación de la Inteligencia Artificial Generativa"
+          },
+          {
+            "id": "p1_2",
+            "text": "El profesor del Tec Guadalajara e investigador del Hub de Inteligencia Artificial, Juan Alberto Amézquita, describió qué es la Inteligencia Artificial Generativa y los factores que pueden ser de riesgo o ventaja al utilizarla."
+          },
+          {
+            "id": "p1_3",
+            "text": "De acuerdo con el investigador, la Inteligencia Artificial (IA) son sistemas computacionales que imitan ciertas funciones cognitivas."
+          },
+          {
+            "id": "p1_4",
+            "text": "Pero \"la Inteligencia Artificial Generativa se refiere a la combinación de bases de datos para generar un texto o imagen que antes no existía\", subrayó."
+          },
+          {
+            "id": "p1_5",
+            "text": "Es decir, cualquier IA que es utilizada en procesos creativos o de reflexión de parte del usuario para crear un nuevo contenido."
+          },
+          {
+            "id": "p1_6",
+            "text": "Los resultados obtenidos por la tecnología en cuestión integran elementos e indicaciones para crear algo nuevo: fotos, gráficos, composiciones visuales, códigos, frases o párrafos completos, música, etc."
+          }
+        ]
+      },
+      {
+        "id": "section_2",
+        "title": "Ventajas clave",
+        "paragraphs": [
+          {
+            "id": "p2_1",
+            "text": "Reconoció que el uso de la IA Generativa también implica educar al público, debido a que no se debe confiar en las respuestas que arrojen herramientas como ChatGPT a causa de a las limitaciones que éstas presentan."
+          },
+          {
+            "id": "p2_2",
+            "text": "Precisamente por esas limitaciones, el profesor recomendó siempre contrastar la información con otras fuentes y saber cuáles son las limitaciones y riesgos de la IA Generativa, debido a que son los aspectos negativos los que hacen que los humanos sean insustituibles. Con base a lo anterior, el académico enumeró algunas ventajas de usar la IA Generativa:"
+          }
+        ],
+        "subsections": [
+          {
+            "id": "section_2_1",
+            "title": "Fuente de ideas",
+            "paragraphs": [
+              {
+                "id": "p2_1_1",
+                "text": "Amézquita afirmó que la IA Generativa puede ser una fuente inagotable de lluvia de ideas para el trabajo que se realice. Se crean posibilidades de producir texto, imagen o sonido que de otra manera quizás no hubieran existido."
+              },
+              {
+                "id": "p2_1_2",
+                "text": "Permite, dijo, catalogar, clasificar la información, presentar los elementos de un modo distinto para que el usuario detecte o defina nuevos usos, interpretaciones o conclusiones."
+              }
+            ]
+          },
+          {
+            "id": "section_2_2",
+            "title": "Fomenta el pensamiento crítico",
+            "paragraphs": [
+              {
+                "id": "p2_2_1",
+                "text": "Si se maneja bien, explicó el profesor, la IA Generativa puede ser un factor que fomente el pensamiento crítico, en especial en el aula de clases."
+              },
+              {
+                "id": "p2_2_2",
+                "text": "Enfatizó que esto conlleva la adecuada planeación de actividades educativas por parte del docente en cuestión, pero que si se realiza un uso estratégico de la herramienta, se traducirá en una reflexión interesante de parte de los estudiantes."
+              },
+              {
+                "id": "p2_2_3",
+                "text": "De esta manera, permite recopilar información, creación de sumarios o resúmenes, pero con el fin de que la base sea el desarrollo del pensamiento crítico."
+              }
+              ]
+          },
+          {
+            "id": "section_2_3",
+            "title": "Impulso a la creatividad",
+            "paragraphs": [
+              {
+                "id": "2_3_1",
+                "text": "De la misma forma en la cual las herramientas de IA Generativa pueden fomentar el pensamiento crítico, también pueden dar un impulso a la creatividad del usuario o de quienes sean expuestos a las piezas resultantes de una solicitud realizada."
+              },
+              {
+                "id": "p2_3_2",
+                "text": "Por ejemplo, una imagen generada en IA Generativa puede tener elementos que nunca se le hubieran ocurrido al solicitante, pero que al observar dicho resultado, la persona puede imaginar una nueva forma, aplicación, versión o variante de dicho texto, diseño, audio o código."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_3",
+        "title": "Limitaciones y riesgos",
+        "paragraphs": [
+          {
+            "id": "p3_1",
+            "text": "Sin embargo, aseguró que el usuario debe considerar algunos riesgos de usar la IA Generativa. Estos son los 5 riesgos que compartió el profesor del Tec Guadalajara:"
+          }
+        ],
+        "subsections": [
+          {
+            "id": "section_3_1",
+            "title": "Obtener resultados negativos (evitar que la IA tome decisiones)",
+            "paragraphs": [
+              {
+                "id": "p3_1_1",
+                "text": "Señaló que las herramientas de IA siempre tienen la posibilidad de arrojar resultados negativos, sobre todo relacionados a la discriminación por raza, género y preferencia política."
+              },
+              {
+                "id": "p3_1_2",
+                "text": "\"No hay que dejarle la tarea de decidir a un modelo de IA porque va a cometer errores. Es mejor siempre tener una persona que esté lo suficientemente capacitada para supervisar las decisiones y suplir las deficiencias\", añadió."
+              }
+            ]
+          },
+          {
+            "id": "section_3_2",
+            "title": "Evitar apropiación de información",
+            "paragraphs": [
+              {
+                "id": "p3_2_1",
+                "text": "Puntualizó que todas las interacciones y preguntas que se realizan pasan a formar parte de la base de datos de esa misma herramienta de IA. Esto, porque es parte de los términos de uso."
+              },
+              {
+                "id": "p3_2_2",
+                "text": "\"Si le das información confidencial de una empresa, esa información termina siendo propiedad de la misma IA y hay posibilidad de que terceros intervengan en ella\", mencionó."
+              },
+              {
+                "id": "p3_2_3",
+                "text": "\"Todavía no sabemos cómo la IA utiliza nuestros datos y cómo utilizan nuestras interacciones. Es un problema ético real, la apropiación de tus conocimientos o información a través de los prompts (preguntas o solicitudes) que le haces a la herramienta\", subrayó."
+              }
+            ]
+          },
+          {
+            "id": "section_3_3",
+            "title": "Respuestas limitadas y alucinación",
+            "paragraphs": [
+              {
+                "id": "3_3_1",
+                "text": "Agregó que los modelos de IA responden según la forma en la que han sido entrenados y de acuerdo con las bases de datos que tienen únicamente."
+              },
+              {
+                "id": "p3_3_2",
+                "text": "De acuerdo con Amézquita, se le conoce como alucinación a la acción realizada por la IA para inventar o responder con información no fidedigna ante una pregunta compleja."
+              },
+              {
+                "id": "p3_3_3",
+                "text": "\"Las herramientas de IA generativa como ChatGPT están entrenadas para darte una respuesta y aunque no la sepa la va a inventar\", describió."
+              },
+              {
+                "id": "p3_3_4",
+                "text": "Por esa razón aseguró que, si bien las respuestas son útiles, siempre tienen la misma estructura por lo que tienden a ser repetitivas. Además, enfatizó que hay que contrastar la información con otras fuentes para conocer su veracidad."
+              }
+            ]
+          },
+          {
+            "id": "section_3_4",
+            "title": "Falta de confiabilidad",
+            "paragraphs": [
+              {
+                "id": "3_4_1",
+                "text": "El investigador expresó que \"lo que está claro es que estás herramientas no te pueden dar información confiable\". Son, dijo, más que nada una lluvia de ideas o elementos para que la persona integre las partes o agregue su pensamiento crítico y creatividad."
+              },
+              {
+                "id": "p3_4_2",
+                "text": "Agregó que la IA Generativa no se encuentra conectada a sistemas de internet y por lo tanto no tiene la capacidad de referenciar y dar conocimiento de dónde saca la información."
+              },
+              {
+                "id": "p3_4_3",
+                "text": "\"Es un error pedirle páginas web, referencias o fuentes de información porque no puede hacerlo. Pero si te puede dar una lluvia de ideas; puede organizar el material y orientarte hacia donde guiar tu producto\", afirmó."
+              }
+        ]
+      },
+          {
+            "id": "section_3_5",
+            "title": "Desmitificar la sustitución del ser humano",
+            "paragraphs": [
+              {
+                "id": "3_5_1",
+                "text": "El profesor dijo que \"hay reportes de distintas organizaciones que señalan que hay trabajos en los que la Inteligencia Artificial Generativa nos puede sustituir\"."
+              },
+              {
+                "id": "p3_5_2",
+                "text": "Sin embargo, aclaró que debemos concentrarnos en las tareas que el ser humano puede potencializar y con ello establecer un vínculo entre la tecnología y las habilidades humanas."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_4",
+        "title": "Interacciones humanas",
+        "paragraphs": [
+          {
+            "id": "p4_1",
+            "text": "Amézquita destacó que, en lugar de ver estas herramientas de IA como una amenaza o plagio, deben ser entendidas como una oportunidad de transformar la educación y múltiples áreas de la vida diaria."
+          },
+          {
+            "id": "p4_2",
+            "text": "Expresó que la IA Generativa nunca podrá sustituir completamente las interacciones humanas reales, debido a que no logrará remplazar la capacidad de un experto; en cambio, únicamente será un elemento de guía."
+          },{
+            "id": "p4_3",
+            "text": "Finalmente, resaltó que el uso correcto de herramientas de IA también representa el punto de partida para el desarrollo de la creatividad de múltiples estudiantes."
+          },{
+            "id": "p4_4",
+            "text": "\"Los chatbots tiene determinada forma de trabajar y tenemos que potenciar todo aquello que es humanamente insustituible como el pensamiento crítico, la creatividad y la imaginación\", concluyó."
+          }
+        ]
+      }
+    ]
+  }
+}

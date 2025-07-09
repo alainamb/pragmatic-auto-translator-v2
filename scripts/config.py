@@ -23,7 +23,7 @@ BASE_DIR = current_dir.parent
 # ==============================================================================
 
 # Supported languages
-LANGUAGES = ['eng', 'esp']
+LANGUAGES = ['eng', 'esp', 'zho']
 
 # Primary domain for this session
 DOMAIN = 'gai'
