@@ -109,7 +109,7 @@
           "original": "gai/esp/submissions/MejiaBerzunza_ConversandoConUnaComputadora_2023.pdf",
           "processed": "gai/esp/processed/gai-esp_corpus-item002.json"
         },
-        "processing_notes": "The date of publication is not listed. I’ve reached out to the publishers for confirmation on the date of publication. The references section is not included in the JSON contents file."
+        "processing_notes": "The date of publication is not listed. I’ve reached out to the publishers for confirmation on the date of publication. The references section is not included in the JSON contents file, nor are the footnotes."
       }
     },
     "gai-esp_corpus-item003": {
@@ -191,7 +191,55 @@
           "original": "gai/esp/submissions/Lagos_MéxicoAvanczaConPlanIA_2024.pdf",
           "processed": "gai/esp/processed/gai-esp_corpus-item004.json"
         },
-        "processing_notes": "A PDF of he article in html format was printed and the article was manually copied to MS Word."
+        "processing_notes": "A PDF of the article in html format was printed and the article was manually copied to MS Word. The external links are not included in the JSON contents file."
+      }
+    },
+    "gai-esp_corpus-item005": {
+      "document_metadata": {
+        "language_family": "esp",
+        "language_variant": "mex",
+        "title": "Inteligencia Artificial Generativa: ¿Qué es? ¿Es un riesgo o ventaja?",
+        "authors": [
+          {
+            "name": "Arleth Delgadillo",
+            "affiliation": "Tecnológico de Monterrey"
+          },
+          {
+            "name": "Carlos González",
+            "affiliation": "Tecnológico de Monterrey"
+          },
+          {
+            "name": "Juan Alberto Amézquita",
+            "affiliation": "Profesor e investigador del Hub de Inteligencia Artificial, Tec Guadalajara"
+          }
+        ],
+        "publisher": "Tecnológico de Monterrey",
+        "publication_year": "2023",
+        "domain": "GAI",
+        "text_type": "News article",
+        "purpose": "Informational",
+        "point_of_view": "Reporter",
+        "audience": "General public",
+        "reach": "Regional",
+        "topics": [
+          "inteligencia artificial generativa",
+          "riesgos de la IA",
+          "ventajas de la IA",
+          "aplicaciones de IA en la vida diaria"
+        ],
+        "summary": "El artículo explora el concepto de inteligencia artificial generativa, sus aplicaciones en la vida cotidiana y los posibles riesgos y ventajas que presenta. Un investigador del Hub de IA del Tec de Monterrey comparte perspectivas sobre cómo esta tecnología puede ser utilizada de manera beneficiosa, así como las consideraciones éticas y prácticas que deben tenerse en cuenta. Se discuten ejemplos concretos de aplicaciones y se analiza el equilibrio entre el potencial innovador y los desafíos que plantea esta tecnología emergente.",
+        "suggested_citation": "Delgadillo, A., González, C., & Amézquita, J. A. (2023). Inteligencia Artificial Generativa: ¿Qué es? ¿Es un riesgo o ventaja?. Tecnológico de Monterrey."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Delgadillo_IAGquéEs_2023.html",
+        "creation_date": "2025-07-08",
+        "word_count": 1200,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/esp/submissions/Delgadillo_IAGquéEs_2023.html",
+          "processed": "gai/esp/processed/gai-esp_corpus-item005.json"
+        },
+        "processing_notes": "A PDF of the article in html format was printed and the article was manually copied to MS Word. The external links are not included in the JSON contents file."
       }
     }
   }

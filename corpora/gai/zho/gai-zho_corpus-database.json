@@ -1,0 +1,108 @@
+{
+  "documents": {
+    "gai-zho_corpus-item001": {
+      "document_metadata": {
+        "language_family": "zho",
+        "language_variant": "chn",
+        "title": "大模型关键技术与未来发展方向——从 ChatGPT 谈起",
+        "authors": [
+          {
+            "name": "刘学博",
+            "affiliation": "哈尔滨工业大学(深圳)计算与智能研究院"
+          },
+          {
+            "name": "户保田",
+            "affiliation": "哈尔滨工业大学(深圳)计算与智能研究院"
+          },
+          {
+            "name": "陈科海",
+            "affiliation": "哈尔滨工业大学(深圳)计算与智能研究院"
+          },
+          {
+            "name": "张民",
+            "affiliation": "哈尔滨工业大学(深圳)计算与智能研究院"
+          }
+        ],
+        "publisher": "中国科学基金",
+        "publication_year": "2023",
+        "domain": "GAI",
+        "text_type": "Journal article",
+        "purpose": "Informational",
+        "point_of_view": "Researcher",
+        "audience": "Academic",
+        "reach": "National",
+        "topics": [
+          "大规模语言模型",
+          "ChatGPT技术",
+          "人工智能发展方向",
+          "多模态大模型",
+          "模型安全可控"
+        ],
+        "summary": "本文归纳总结了以ChatGPT为代表的生成式大模型技术研究现状和发展趋势，从大模型基座、人类偏好对齐、推理与评价、多模态大模型、安全可控五个方面讨论了当前大模型研究的现状和挑战，并结合我国人工智能研究特点，简要分析了大模型未来的重点发展方向。",
+        "suggested_citation": "Liu, X., Hu, B., Chen, K., & Zhang, M. (2023). 大模型关键技术与未来发展方向——从 ChatGPT 谈起. 中国科学基金, 37(5), 758-766."
+      },
+      "processing_metadata": {
+        "submission_file_name": "XueboLiu_大模型关键技术与未来发展方向_2023.pdf",
+        "creation_date": "2025-07-09",
+        "word_count": 8500,
+        "status": "corpus-JSON_pending",
+        "file_paths": {
+          "original": "gai/zho/submissions/XueboLiu_大模型关键技术与未来发展方向_2023.pdf",
+          "processed": "gai/zho/processed/gai-zho_corpus-item001.json"
+        },
+        "processing_notes": "References not included in processed content file."
+      }
+    },
+    "gai-zho_corpus-item002": {
+      "document_metadata": {
+        "language_family": "zho",
+        "language_variant": "chn",
+        "title": "ChatGPT及生成式人工智能现状及未来发展方向",
+        "authors": [
+          {
+            "name": "张熙",
+            "affiliation": "中国科学院自动化研究所"
+          },
+          {
+            "name": "杨小汕",
+            "affiliation": "中国科学院自动化研究所"
+          },
+          {
+            "name": "徐常胜",
+            "affiliation": "中国科学院自动化研究所"
+          }
+        ],
+        "publisher": "中国科学基金",
+        "publication_year": "2023",
+        "domain": "GAI",
+        "text_type": "Journal article",
+        "purpose": "Informational",
+        "point_of_view": "Researcher",
+        "audience": "Academic",
+        "reach": "National",
+        "topics": [
+          "生成式人工智能",
+          "ChatGPT技术发展",
+          "大语言模型",
+          "机器学习",
+          "人工智能未来发展",
+          "预训练技术",
+          "强化学习"
+        ],
+        "summary": "本文介绍了ChatGPT及生成式人工智能的研究现状与进展，包括预训练语言模型、上下文学习、基于人类反馈的强化学习等关键技术，分析了ChatGPT对自然语言处理、机器学习、人机交互、符号人工智能等领域的影响，并从更透彻的理解能力、模型轻量化、安全可控生成、可持续学习、类脑化认知和可解释性等方面探讨了未来发展方向。",
+        "suggested_citation": "Zhang, X., Yang, X., & Xu, C. (2023). ChatGPT及生成式人工智能现状及未来发展方向. 中国科学基金, 37(5), 743-750."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Zhang_ChatGPT及生成式人工智能现状及未来发展方向_2023.pdf",
+        "creation_date": "2025-07-09",
+        "word_count": 0,
+        "status": "corpus-JSON_pending",
+        "file_paths": {
+          "original": "gai/zho/submissions/Zhang_ChatGPT及生成式人工智能现状及未来发展方向_2023.pdf",
+          "processed": "gai/zho/processed/gai-zho_corpus-item002.json"
+        },
+        "processing_notes": "References not included in processed content file."
+      }
+    }
+  }
+}

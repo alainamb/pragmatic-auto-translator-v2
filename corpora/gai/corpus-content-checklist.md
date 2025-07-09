@@ -77,56 +77,49 @@ Examples:
 ## Text Formatting Guidelines
 
 ### Quotation Marks and Apostrophes
+
+**For English and Spanish**
+
 - **Use**: Straight quotes `""` and apostrophes `''`
 - **Avoid**: Curly quotes `“”` and apostrophes `‘’`
 
 **Correct**: `"I've seen two demonstrations..."`
 **Incorrect**: `"I’ve seen two demonstrations..."`
 
-### Escaped Characters
+*Escaped Characters*
 Quotation marks within JSON string values must be escaped with backslashes:
 
-```json
+```
+json
 "text": "Birhane and Prabhu note, echoing Ruha Benjamin, \"Feeding AI systems on the world's beauty, ugliness, and cruelty, but expecting it to reflect only the beauty is a fantasy.\" [p.1541]"
 ```
 
+**For Simplified Chinese**
+
+- **Use**: Curly quotes `“”` and apostrophes `‘’`
+- **Avoid**: Straight quotes `""` and apostrophes `''`
+
+Chinese quotation marks may also appear as:
+- Chinese full-width: “...”, ‘...’
+- Corner quotes: 「...」, 『...』 (in Traditional Chinese)
+
+*No Escaped Characters*
+Chinese typography consistently uses curly quotes as standard, and straight quotes are not natural or expected. Using and then escaping straight quotes in Chinese may therefore possibly confuse any downstream Chinese tokenizer and should be avoided.
+
 ### Text Styling
-- **Remove**: Italic and bold formatting (no asterisks or markup)
+- **Remove**: Italic, bold and underline formatting (no asterisks or markup)
 - **Use**: Plain text only to avoid vectorization issues
 
 ## Special Content Handling
 
 ### Footnotes
-Use Markdown syntax `[^1]` in paragraph text and collect in footnotes array:
-
-```json
-{
-  "id": "p1_1_1",
-  "text": "Here's a sentence with a footnote.[^1]",
-  "footnotes": [
-    {
-      "marker": "1",
-      "text": "Here is the contents of the footnote."
-    }
-  ]
-}
-```
+Remove footnote numbers from paragraph text. Do not collect footnotes.
 
 ### External Links
-Mark linked content in text and collect in external_links array:
+Remove underlining associated with hyperlinked text in paragraphs. Do not collect links.
 
-```json
-{
-  "id": "p1_1_1",
-  "text": "Here's a sentence with linked content.",
-  "external_links": [
-    {
-      "marker": "linked content",
-      "url": "www.linkedcontent.com"
-    }
-  ]
-}
-```
+### Pull Quotes
+Do not include pull quotes from articles from the web. The pull quote content is repetitious content that was already stated elsewhere in the article.
 
 ### Inline Equations
 Mark equations in text and provide LaTeX representation:

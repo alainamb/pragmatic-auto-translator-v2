@@ -60,6 +60,12 @@ your-project/
 │       │   │   ├── your_domain-esp_item002.json
 │       │   │   └── ...
 │       │   └── your_domain-esp_corpus-database.json
+│       ├── zho/
+│       │   ├── processed/
+│       │   │   ├── your_domain-zho_item001.json
+│       │   │   ├── your_domain-zho_item002.json
+│       │   │   └── ...
+│       │   └── your_domain-zho_corpus-database.json
 │       └── vectors/              # Generated during processing
 │           ├── your_domain-corpus-document-vectors.json
 │           ├── your_domain-corpus-section-vectors.json
@@ -88,7 +94,7 @@ your-project/
 ```python
 # Domain and language settings
 DOMAIN = 'your_domain'  # e.g., 'climate', 'immigration', 'wellness'
-LANGUAGES = ['eng', 'esp']  # Keep this if using Spanish and English
+LANGUAGES = ['eng', 'esp', 'zho']  # Keep this if using Spanish and English
 
 # Model settings - adjust based on your hardware
 MODEL_NAME = 'jinaai/jina-embeddings-v3'

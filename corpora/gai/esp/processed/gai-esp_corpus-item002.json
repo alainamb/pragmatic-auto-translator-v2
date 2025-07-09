@@ -48,17 +48,7 @@
         "paragraphs": [
           {
             "id": "p3_1",
-            "text": "Los lenguajes de programación surgieron para establecer la comunicación humano-máquina con las entonces nuevas computadoras digitales, pues éstas ya no tenían perillas o palancas mediante las cuales introducirles información y, si bien el lenguaje binario comparte genealogía con las tarjetas perforadas[^1], las computadoras digitales interpretaban y procesaban información mediante el lenguaje binario, es decir, en unos y ceros. El claro ejemplo de esta problemática fue la computadora BINAC, creada en 1949 por la compañía Echert-Mauchly, cuyos programadores eran aun matemáticos y físicos puros a los cuales se recurría por su dominio sobre expresiones lógicas. Al enfrentarse al problema del almacenamiento de la información y la necesidad de comunicarse con un dispositivo completamente digital, estos primeros programadores decidieron utilizar octal[^2] para \"abreviar\" los comandos en binario que la computadora podía entender (Murray Hopper, 1981).",
-            "footnotes": [
-              {
-                "marker": "1",
-                "text": "La presencia o ausencia de una perforación en la tarjeta es similar a la presencia de un 1 o un 0 en binario (Kaur et al., 2014)."
-              },
-              {
-                "marker": "2",
-                "text": "Sistema de numeración base 8, utiliza los dígitos del 0 al 7."
-              }
-            ]
+            "text": "Los lenguajes de programación surgieron para establecer la comunicación humano-máquina con las entonces nuevas computadoras digitales, pues éstas ya no tenían perillas o palancas mediante las cuales introducirles información y, si bien el lenguaje binario comparte genealogía con las tarjetas perforadas, las computadoras digitales interpretaban y procesaban información mediante el lenguaje binario, es decir, en unos y ceros. El claro ejemplo de esta problemática fue la computadora BINAC, creada en 1949 por la compañía Echert-Mauchly, cuyos programadores eran aun matemáticos y físicos puros a los cuales se recurría por su dominio sobre expresiones lógicas. Al enfrentarse al problema del almacenamiento de la información y la necesidad de comunicarse con un dispositivo completamente digital, estos primeros programadores decidieron utilizar octal para \"abreviar\" los comandos en binario que la computadora podía entender (Murray Hopper, 1981)."
           },
           {
             "id": "p3_2",
@@ -70,27 +60,11 @@
           },
           {
             "id": "p3_4",
-            "text": "Estos lenguajes de programación primitivos funcionaban bien para tareas como la computación de datos y cálculos matemáticos, pero conforme la tecnología avanzaba y las computadoras se volvían más y más potentes, surgía la necesidad de estandarizar los lenguajes de programación: se perdía mucho tiempo y dinero cada que una nueva computadora se ponía en operación, pues la mejora en la tecnología implicaba necesariamente el cambio en su arquitectura y el establecimiento de un nuevo lenguaje ensamblador[^3]. Entonces, aquellos programadores tempranos se propusieron crear una especie de lingua franca para la comunicación humano-máquina, un lenguaje que pudiera ser utilizado en la mayor cantidad de computadoras posibles sin importar su fabricante y que además fuera fácil de enseñar y aprender para los humanos que usarían dichas máquinas (Sammet & Holberton, 1981); comenzaba la historia de los lenguajes de programación modernos.",
-            "footnotes": [
-              {
-                "marker": "3",
-                "text": "Los lenguajes ensambladores son lenguajes de programación ligados directamente a la arquitectura de las computadoras, por lo que hay un lenguaje único para cada computadora dependiendo su fabricante."
-              }
-            ]
+            "text": "Estos lenguajes de programación primitivos funcionaban bien para tareas como la computación de datos y cálculos matemáticos, pero conforme la tecnología avanzaba y las computadoras se volvían más y más potentes, surgía la necesidad de estandarizar los lenguajes de programación: se perdía mucho tiempo y dinero cada que una nueva computadora se ponía en operación, pues la mejora en la tecnología implicaba necesariamente el cambio en su arquitectura y el establecimiento de un nuevo lenguaje ensamblador. Entonces, aquellos programadores tempranos se propusieron crear una especie de lingua franca para la comunicación humano-máquina, un lenguaje que pudiera ser utilizado en la mayor cantidad de computadoras posibles sin importar su fabricante y que además fuera fácil de enseñar y aprender para los humanos que usarían dichas máquinas (Sammet & Holberton, 1981); comenzaba la historia de los lenguajes de programación modernos."
           },
           {
             "id": "p3_5",
-            "text": "Desde la programación orientada a objetos hasta las aplicaciones del internet de las cosas[^4], los lenguajes de programación han ido cambiando junto con las computadoras, por mencionar algunos ejemplos[^5]: FORTRAN en 1954, ALGOL en 1958, COBOL en 1959, BASIC en 1964, Pascal en 1970, C en 1972, Java en 1995, Python en 1991 y C++ en 1998. Pero el avance de los lenguajes de programación se ha encontrado con una disyuntiva: un lenguaje de programación con el que es fácil escribir un programa, suele ser difícil de leer. Por ejemplo, crear un programa que pueda realizar cálculos con números complejos puede ser muy complicado si se utiliza un lenguaje que no esté específicamente destinado para realizar cálculos de ese tipo; tal es el caso de C++, que requeriría que el usuario \"extendiera\" el lenguaje para, lo que a su vez podría dificultar que otra persona pudiese entender el código a primera vista (Leendert, 1991).",
-            "footnotes": [
-              {
-                "marker": "4",
-                "text": "Internet of Things (IoT) es una tendencia en las ciencias de los sistemas de la comunicación que, durante la última década, ha logrado la interconexión de máquinas con otras máquinas, permitiendo una comunicación continua y discreta de información. Las aplicaciones del Internet of Things son cada vez más variadas y se estima que para el año 2025 habrán más de 50 mil millones de dispositivos conectados de esta manera (Farahmand, 2021)"
-              },
-              {
-                "marker": "5",
-                "text": "La lista aquí mostrada es sumamente general y contempla sólo los lenguajes debatiblemente más famosos"
-              }
-            ]
+            "text": "Desde la programación orientada a objetos hasta las aplicaciones del internet de las cosas, los lenguajes de programación han ido cambiando junto con las computadoras, por mencionar algunos ejemplos: FORTRAN en 1954, ALGOL en 1958, COBOL en 1959, BASIC en 1964, Pascal en 1970, C en 1972, Java en 1995, Python en 1991 y C++ en 1998. Pero el avance de los lenguajes de programación se ha encontrado con una disyuntiva: un lenguaje de programación con el que es fácil escribir un programa, suele ser difícil de leer. Por ejemplo, crear un programa que pueda realizar cálculos con números complejos puede ser muy complicado si se utiliza un lenguaje que no esté específicamente destinado para realizar cálculos de ese tipo; tal es el caso de C++, que requeriría que el usuario \"extendiera\" el lenguaje para, lo que a su vez podría dificultar que otra persona pudiese entender el código a primera vista (Leendert, 1991)."
           },
           {
             "id": "p3_6",
@@ -108,17 +82,7 @@
         "paragraphs": [
           {
             "id": "p4_1",
-            "text": "La búsqueda de la inteligencia artificial propiamente dicha no es tan moderna como se puede creer: en el siglo XVII, Thomas Hobbes proponía que \"los pensamientos no son expresables en lenguaje escrito o hablado, sino en una dimensión interna\" y que, por lo tanto, las operaciones lógicas que implica el raciocinio no están limitadas a las matemáticas, sino que son aplicadas a todo aquello que el individuo conoce (Haugeland, 1989). Alan Turing se basaría en ese concepto para responder la pregunta \"¿puede una computadora pensar?\", pregunta que lo llevaría a establecer el Test de Turing entre 1951 y 1952[^6] para poder discernir si una computadora es capaz de pensar por sí misma. Pero Turing no pretendió en ningún momento definir el pensamiento, mucho menos la mente, simplemente establecer criterios que pudieran diferenciar el verdadero raciocinio de la \"simple\" computación de información (Copeland, 2004). Es aquí donde surge el primer punto a esclarecer: la inteligencia artificial actual no está ni cerca de la verdadera inteligencia, pues el pensamiento lógico-verbal, la solución de problemas como se plantea en la definición del algoritmo, no representa el pensamiento humano completamente[^7]. Pero no por esto debe restársele valor a los esfuerzos conseguidos hasta ahora: en su estado actual, el concepto de inteligencia artificial se refiere a un programa computacional que recurre a redes neurales para aprender y procesar información.",
-            "footnotes": [
-              {
-                "marker": "6",
-                "text": "Una buena parte de la teoría que complementa al Test de Turing no se publicó hasta 1999 (Copeland, 2004)."
-              },
-              {
-                "marker": "7",
-                "text": "Para Luria (1989), existe un problema básico para definir el pensamiento humano: las estructuras psicológicas que pretenden describir el pensamiento (como la propuesta de la psicología cognitiva) conciben el mismo como un todo, cuando en realidad, las funciones cognitivas complejas son difusas."
-              }
-            ]
+            "text": "La búsqueda de la inteligencia artificial propiamente dicha no es tan moderna como se puede creer: en el siglo XVII, Thomas Hobbes proponía que \"los pensamientos no son expresables en lenguaje escrito o hablado, sino en una dimensión interna\" y que, por lo tanto, las operaciones lógicas que implica el raciocinio no están limitadas a las matemáticas, sino que son aplicadas a todo aquello que el individuo conoce (Haugeland, 1989). Alan Turing se basaría en ese concepto para responder la pregunta \"¿puede una computadora pensar?\", pregunta que lo llevaría a establecer el Test de Turing entre 1951 y 1952 para poder discernir si una computadora es capaz de pensar por sí misma. Pero Turing no pretendió en ningún momento definir el pensamiento, mucho menos la mente, simplemente establecer criterios que pudieran diferenciar el verdadero raciocinio de la \"simple\" computación de información (Copeland, 2004). Es aquí donde surge el primer punto a esclarecer: la inteligencia artificial actual no está ni cerca de la verdadera inteligencia, pues el pensamiento lógico-verbal, la solución de problemas como se plantea en la definición del algoritmo, no representa el pensamiento humano completamente. Pero no por esto debe restársele valor a los esfuerzos conseguidos hasta ahora: en su estado actual, el concepto de inteligencia artificial se refiere a un programa computacional que recurre a redes neurales para aprender y procesar información."
           },
           {
             "id": "p4_2",
@@ -140,13 +104,7 @@
         "paragraphs": [
           {
             "id": "p5_1",
-            "text": "Una vez que se tiene la idea general del funcionamiento de las redes neurales es más sencillo apreciar cuán lejos estamos de crear una verdadera inteligencia artificial[^8]: los asistentes virtuales (Siri o Alexa) e incluso los chatbots que tanto revuelo han causado últimamente (ChatGPT o Bing Chat), están aún muy lejos de una verdadera inteligencia (IBM, 2020). Hemos hablado de Thomas Hobbes y Alan Turing proponiendo lo que una máquina inteligente tendría que ser capaz de hacer, y a partir de esas propuestas, actualmente se consideran tres tipos de inteligencia artificial (Goertzel, 2014; IBM, 2020):",
-            "footnotes": [
-              {
-                "marker": "8",
-                "text": "En adelante \"IA\"."
-              }
-            ]
+            "text": "Una vez que se tiene la idea general del funcionamiento de las redes neurales es más sencillo apreciar cuán lejos estamos de crear una verdadera inteligencia artificial: los asistentes virtuales (Siri o Alexa) e incluso los chatbots que tanto revuelo han causado últimamente (ChatGPT o Bing Chat), están aún muy lejos de una verdadera inteligencia (IBM, 2020). Hemos hablado de Thomas Hobbes y Alan Turing proponiendo lo que una máquina inteligente tendría que ser capaz de hacer, y a partir de esas propuestas, actualmente se consideran tres tipos de inteligencia artificial (Goertzel, 2014; IBM, 2020):"
           },
           {
             "id": "p5_2",
@@ -166,59 +124,19 @@
           },
           {
             "id": "p5_6",
-            "text": "Pero entonces, si las IA no aprenden como los humanos y aun necesitan que sus programadores guíen ese aprendizaje, ¿cómo entienden las IA como ChatGPT, Dall-E o Stable Diffusion lo que les pedimos? Y realmente, los modelos de IA disponibles para el público al momento de escribir este artículo logran interpretar el tan elusivo \"lenguaje humano\" bastante bien. ChatGPT[^9], por ejemplo, es una \"IA conversacional que utiliza NPL[^10] para generar respuestas parecidas a las que daría un humano (real)\" (T. B. Brown et al., 2020). Esto quiere decir que ChatGPT utiliza una serie de redes neurales para entender y generar expresiones escritas: no es que ChatGPT entienda lo que le escribimos, al menos no en el sentido en el que un humano entiende. Cuando un humano observa una palabra escrita en su lengua materna, se dispara un complejo mecanismo cognitivo en su cerebro (pensamiento) que de forma simultánea recupera la pronunciación de dicha palabra (símbolo) y, particularmente, todo aquello que la persona relaciona con esa palabra (referente), producto de su aprendizaje, experiencia e ideología.",
-            "footnotes": [
-              {
-                "marker": "9",
-                "text": "GPT significa \"Generative Pre-trained Transformer\", literalmente \"Transformador Generativo Pre-entrenado\"."
-              },
-              {
-                "marker": "10",
-                "text": "Natural Language Processing."
-              }
-            ]
+            "text": "Pero entonces, si las IA no aprenden como los humanos y aun necesitan que sus programadores guíen ese aprendizaje, ¿cómo entienden las IA como ChatGPT, Dall-E o Stable Diffusion lo que les pedimos? Y realmente, los modelos de IA disponibles para el público al momento de escribir este artículo logran interpretar el tan elusivo \"lenguaje humano\" bastante bien. ChatGPT, por ejemplo, es una \"IA conversacional que utiliza NPL para generar respuestas parecidas a las que daría un humano (real)\" (T. B. Brown et al., 2020). Esto quiere decir que ChatGPT utiliza una serie de redes neurales para entender y generar expresiones escritas: no es que ChatGPT entienda lo que le escribimos, al menos no en el sentido en el que un humano entiende. Cuando un humano observa una palabra escrita en su lengua materna, se dispara un complejo mecanismo cognitivo en su cerebro (pensamiento) que de forma simultánea recupera la pronunciación de dicha palabra (símbolo) y, particularmente, todo aquello que la persona relaciona con esa palabra (referente), producto de su aprendizaje, experiencia e ideología."
           },
           {
             "id": "p5_7",
-            "text": "Este proceso cognitivo tan complejo ha sido replicado, desde luego en una escala mucho menor, en la red neural que ordena a la IA en cuestión: primero se tiene que diseñar un algoritmo con la serie de pasos que la IA tendría que seguir al encontrarse con una producción escrita, ese algoritmo entonces involucra su respectiva red neural en la cual se han de asignar los parámetros o weights. Evidentemente esto es más complicado de lo que parece, pues aun siendo una recreación bastante simple del proceso cognitivo que toma lugar en el cerebro humano, el entrenamiento del GPT-3, el modelo en el cual se basa ChatGPT[^11], tomó varios días ininterrumpidos de GPUs[^12] procesando información de entrenamiento. Ahora bien, ¿qué significa \"entrenamiento\" en el contexto de las inteligencias artificiales? El entrenamiento es, literalmente, el proceso mediante el que los programadores de un modelo de IA le enseñan a las redes neurales a procesar la información, pero sobre todo a establecer una diferencia entre los resultados (outputs) deseables de aquellos considerados errores (Radford et al., 2021). Lo que realmente hace único al modelo GPT-3 es la enorme cantidad de parámetros que posee en su red neural: cerca de 175 mil millones de parámetros (T. B. Brown et al., 2020). Como se ha mencionado anteriormente, al comienzo del entrenamiento la red neural comienza con parámetros aleatorios, derivados de los algoritmos particulares de cada modelo y, según las necesidades u objetivos de los desarrolladores, nuevos parámetros se van añadiendo o se van modificando los existentes.",
-            "footnotes": [
-              {
-                "marker": "11",
-                "text": "El 14 de marzo de 2023 OpenAI, la empresa responsable de ChatGPT, liberó oficialmente GPT-4 para sus usuarios de paga, no hay información clara, pero se asume que la versión gratuita sigue utilizando GPT-3."
-              },
-              {
-                "marker": "12",
-                "text": "Graphic Processor Unit, componentes principales de las tarjetas de video."
-              }
-            ]
+            "text": "Este proceso cognitivo tan complejo ha sido replicado, desde luego en una escala mucho menor, en la red neural que ordena a la IA en cuestión: primero se tiene que diseñar un algoritmo con la serie de pasos que la IA tendría que seguir al encontrarse con una producción escrita, ese algoritmo entonces involucra su respectiva red neural en la cual se han de asignar los parámetros o weights. Evidentemente esto es más complicado de lo que parece, pues aun siendo una recreación bastante simple del proceso cognitivo que toma lugar en el cerebro humano, el entrenamiento del GPT-3, el modelo en el cual se basa ChatGPT, tomó varios días ininterrumpidos de GPUs procesando información de entrenamiento. Ahora bien, ¿qué significa \"entrenamiento\" en el contexto de las inteligencias artificiales? El entrenamiento es, literalmente, el proceso mediante el que los programadores de un modelo de IA le enseñan a las redes neurales a procesar la información, pero sobre todo a establecer una diferencia entre los resultados (outputs) deseables de aquellos considerados errores (Radford et al., 2021). Lo que realmente hace único al modelo GPT-3 es la enorme cantidad de parámetros que posee en su red neural: cerca de 175 mil millones de parámetros (T. B. Brown et al., 2020). Como se ha mencionado anteriormente, al comienzo del entrenamiento la red neural comienza con parámetros aleatorios, derivados de los algoritmos particulares de cada modelo y, según las necesidades u objetivos de los desarrolladores, nuevos parámetros se van añadiendo o se van modificando los existentes."
           },
           {
             "id": "p5_8",
-            "text": "Modelos de IA como ChatGPT, DALL-E o Stable Diffusion[^13] están causando mucho revuelo al momento de escribir este artículo porque no sólo entienden lo que sus usuarios les piden, sino que pueden predecir y aprender sin necesidad de que sus programadores intervengan. Los modelos lingüísticos como ChatGPT, por ejemplo, fueron entrenados oponiendo conocimiento \"real\" con muestras de lenguaje que los programadores utilizaron para \"enseñarle\" a analizar construcciones escritas: una vez que la red neural logró entender esas construcciones muestra, se fueron añadiendo más capas o modificando las existentes[^14] (T. B. Brown et al., 2020; Vaswani et al., 2017), de tal forma que los chatbots que están actualmente a la vanguardia pueden hacer mucho más que los bots tradicionales: las redes sociales y los proveedores de correo electrónico llevan varios años utilizando bots[^15] para detectar spam, traducir mensajes e incluso detectar mensajes radicales u ofensivos, mientras que chatbots como ChatGPT o Bing Chat pueden identificar el contexto, las ideas claves e incluso detectar jerga o palabras características de un corpus particular (Kublik & Saboo, 2022). Lo que hace la diferencia entre los bots de detección de spam y los chatbots antes mencionados son los transformers, un tipo de red neural propuesto por investigadores de la universidad de Toronto (Kublik & Saboo, 2022) que, habiendo aprendido a identificar las funciones gramaticales de las palabras en distintas muestras de lenguaje durante su entrenamiento, se le ha programado para aplicar lo aprendido en nuevas muestras, que en otras palabras significa que estas redes neurales pueden aplicar lo que sus desarrolladores les han enseñado, mediante horas y horas de ensayo y error, para analizar producciones escritas completamente nuevas; es así como los modelos lingüísticos no solo \"entienden\" lo que se les pide sino que también pueden producir respuestas a partir de esa expresión inicial con base en los datos duros a los que tiene acceso además de lo que aprendió durante la fase de entrenamiento (T. B. Brown et al., 2020; Douglas Heaven, 2020).",
-            "footnotes": [
-              {
-                "marker": "13",
-                "text": "DALL-E y Stable DIffusion son modelos de generación de imágenes a partir de texto, dichos modelos serán explorados más adelante en este artículo."
-              },
-              {
-                "marker": "14",
-                "text": "Los procesos de entrenamiento de los principales modelos de AI no se han revelado de manera detallada por razones de propiedad intelectual."
-              },
-              {
-                "marker": "15",
-                "text": "En este contexto la palabra \"bot\" se refiere a un algoritmo de machine learning."
-              }
-            ]
+            "text": "Modelos de IA como ChatGPT, DALL-E o Stable Diffusion están causando mucho revuelo al momento de escribir este artículo porque no sólo entienden lo que sus usuarios les piden, sino que pueden predecir y aprender sin necesidad de que sus programadores intervengan. Los modelos lingüísticos como ChatGPT, por ejemplo, fueron entrenados oponiendo conocimiento \"real\" con muestras de lenguaje que los programadores utilizaron para \"enseñarle\" a analizar construcciones escritas: una vez que la red neural logró entender esas construcciones muestra, se fueron añadiendo más capas o modificando las existentes (T. B. Brown et al., 2020; Vaswani et al., 2017), de tal forma que los chatbots que están actualmente a la vanguardia pueden hacer mucho más que los bots tradicionales: las redes sociales y los proveedores de correo electrónico llevan varios años utilizando bots para detectar spam, traducir mensajes e incluso detectar mensajes radicales u ofensivos, mientras que chatbots como ChatGPT o Bing Chat pueden identificar el contexto, las ideas claves e incluso detectar jerga o palabras características de un corpus particular (Kublik & Saboo, 2022). Lo que hace la diferencia entre los bots de detección de spam y los chatbots antes mencionados son los transformers, un tipo de red neural propuesto por investigadores de la universidad de Toronto (Kublik & Saboo, 2022) que, habiendo aprendido a identificar las funciones gramaticales de las palabras en distintas muestras de lenguaje durante su entrenamiento, se le ha programado para aplicar lo aprendido en nuevas muestras, que en otras palabras significa que estas redes neurales pueden aplicar lo que sus desarrolladores les han enseñado, mediante horas y horas de ensayo y error, para analizar producciones escritas completamente nuevas; es así como los modelos lingüísticos no solo \"entienden\" lo que se les pide sino que también pueden producir respuestas a partir de esa expresión inicial con base en los datos duros a los que tiene acceso además de lo que aprendió durante la fase de entrenamiento (T. B. Brown et al., 2020; Douglas Heaven, 2020)."
           },
           {
             "id": "p5_9",
-            "text": "Para aclarar un poco más este proceso obsérvese la Figura 7, donde la flecha azul representa la forma en que el transformer le permite a la IA comparar lo que sabe sobre la palabra \"El\" y compararla con el resto de las palabras en una secuencia. En la figura antes mencionada se ha obviado que cada palabra de la oración pasa por el mismo proceso que las primeras dos: los transformers, las redes neurales que como se dijo anteriormente son características de los modelos lingüísticos, procesan las palabras de una producción escrita de manera simultánea, lo que les evita la necesidad de utilizar memoria física para guardar el texto completo durante todos los pasos el proceso y además, evita la interferencia de este durante los procesos intermedios. Esto es lo que caracteriza a los modelos lingüísticos que forman el núcleo de chatbots como ChatGPT o Bing Chat, pues al poder analizar los componentes de un texto dado de manera simultánea pueden entonces aplicar una fórmula matemática para calcular las palabras con mayor probabilidad[^16] de aparecer en el texto, a partir de lo cual, pueden incluso predecir la continuación de este (Vaswani et al., 2017). Esto le permite a ChatGPT, por ejemplo, producir una respuesta aceptable pese a no tener conocimiento sobre lo que el usuario le ha preguntado o solicitado; esto, combinado con la masiva red neural que compone el GPT-3, hace que ChatGPT siempre tenga una respuesta \"válida\".",
-            "footnotes": [
-              {
-                "marker": "16",
-                "text": "Se utilizan fórmulas de cálculo probabilístico que el algoritmo puede aplicar múltiples veces en múltiples pasos del proceso del análisis, desde luego la fórmula es única para cada modelo."
-              }
-            ]
+            "text": "Para aclarar un poco más este proceso obsérvese la Figura 7, donde la flecha azul representa la forma en que el transformer le permite a la IA comparar lo que sabe sobre la palabra \"El\" y compararla con el resto de las palabras en una secuencia. En la figura antes mencionada se ha obviado que cada palabra de la oración pasa por el mismo proceso que las primeras dos: los transformers, las redes neurales que como se dijo anteriormente son características de los modelos lingüísticos, procesan las palabras de una producción escrita de manera simultánea, lo que les evita la necesidad de utilizar memoria física para guardar el texto completo durante todos los pasos el proceso y además, evita la interferencia de este durante los procesos intermedios. Esto es lo que caracteriza a los modelos lingüísticos que forman el núcleo de chatbots como ChatGPT o Bing Chat, pues al poder analizar los componentes de un texto dado de manera simultánea pueden entonces aplicar una fórmula matemática para calcular las palabras con mayor probabilidad de aparecer en el texto, a partir de lo cual, pueden incluso predecir la continuación de este (Vaswani et al., 2017). Esto le permite a ChatGPT, por ejemplo, producir una respuesta aceptable pese a no tener conocimiento sobre lo que el usuario le ha preguntado o solicitado; esto, combinado con la masiva red neural que compone el GPT-3, hace que ChatGPT siempre tenga una respuesta \"válida\"."
           },
           {
             "id": "p5_10",
@@ -230,23 +148,11 @@
           },
           {
             "id": "p5_12",
-            "text": "El modelo sucesor de GPT-3, GPT-4, se puso al alcance del público el 14 de marzo de 2023. En el reporte oficial no hay una mención clara de lo que hace distintos a GPT-3 de GPT-4, pero se alude a que se han agregado más parámetros (weights), añadiendo varias capas a la red neural. Además, de acuerdo con OpenAI[^17] (OpenAI, 2023b), GPT-4 ha sido entrenado directamente con textos referentes a exámenes y cursos estandarizados de una gran variedad de ramas, algunas de las cuales incluyen: SAT Math, Medical Knowledge Self-Assessment Program, AP Art History, AP Biology, AP Chemistry, AP Language and Composition, AP Macro and Microeconomics, Advanced Sommelier, AP Psychology y AP Statistics.",
-            "footnotes": [
-              {
-                "marker": "17",
-                "text": "Empresa detrás de GPT y DALL-E."
-              }
-            ]
+            "text": "El modelo sucesor de GPT-3, GPT-4, se puso al alcance del público el 14 de marzo de 2023. En el reporte oficial no hay una mención clara de lo que hace distintos a GPT-3 de GPT-4, pero se alude a que se han agregado más parámetros (weights), añadiendo varias capas a la red neural. Además, de acuerdo con OpenAI (OpenAI, 2023b), GPT-4 ha sido entrenado directamente con textos referentes a exámenes y cursos estandarizados de una gran variedad de ramas, algunas de las cuales incluyen: SAT Math, Medical Knowledge Self-Assessment Program, AP Art History, AP Biology, AP Chemistry, AP Language and Composition, AP Macro and Microeconomics, Advanced Sommelier, AP Psychology y AP Statistics."
           },
           {
             "id": "p5_13",
-            "text": "GPT-4 ha logrado obtener puntajes por encima del promedio humano en casi todas las pruebas y exámenes relativos a estos campos. A diferencia de GPT-3, GPT-4 posee una cantidad masiva de información que ha estudiado extensivamente durante horas y horas de entrenamiento (OpenAI, 2023b). Pero más impresionante aun es la capacidad de GPT-4 de \"entender\" imágenes, describirlas, predecir contenido relativo a dichas e incluso producir contenido específico a una rama del conocimiento (véase figura 10). El potencial de este nuevo modelo lingüístico todavía está por verse[^18] y no cabe duda de que la competencia con Google y Microsoft impulsará la inteligencia artificial a niveles sorprendentes.",
-            "footnotes": [
-              {
-                "marker": "18",
-                "text": "En el livestream \"GPT-4 Developer Livestream\" (OpenAI, 2023a) disponible en YouTube, Greg Brockman, president y co-fundador de OpenAI le pide a GPT-4 que genere el código java necesario para crear un sitio web que se dibujó en una servilleta."
-              }
-            ]
+            "text": "GPT-4 ha logrado obtener puntajes por encima del promedio humano en casi todas las pruebas y exámenes relativos a estos campos. A diferencia de GPT-3, GPT-4 posee una cantidad masiva de información que ha estudiado extensivamente durante horas y horas de entrenamiento (OpenAI, 2023b). Pero más impresionante aun es la capacidad de GPT-4 de \"entender\" imágenes, describirlas, predecir contenido relativo a dichas e incluso producir contenido específico a una rama del conocimiento (véase figura 10). El potencial de este nuevo modelo lingüístico todavía está por verse y no cabe duda de que la competencia con Google y Microsoft impulsará la inteligencia artificial a niveles sorprendentes."
           }  
         ]
       },
@@ -268,13 +174,7 @@
           },
           {
             "id": "p6_4",
-            "text": "La codificación de imágenes ya lleva varios años siendo utilizada por bots moderadores en redes sociales: se entrenó a las redes neurales poco profundas a detectar patrones de píxeles[^19] característicos de contenido sensible que la plataforma en cuestión decide rechazar por defecto. El problema, de manera similar a los bots de detección de spam y traducción, es que estas redes neurales no aprenden, no se adaptan y mucho menos entienden las implicaciones lingüísticas de aquello que analizan. Una de las principales propuestas que marcaría la evolución de las inteligencias artificiales de generación de texto serían los Visual Auto Encoders (VAE), redes neurales que convierten una imagen dada en información que la IA pueda analizar mediante transformers (Goodfellow et al., 2014; Van Den Oord et al., 2017). Los VAE generan lo que los desarrolladores denominan un \"espacio latente\", un punto intermedio entre la codificación y la decodificación; en este espacio latente el VAE recurre a un codebook, una especie de vocabulario que los desarrolladores programan en el VAE, de tal forma que éste tiene que asignar partes de la imagen inicial a categorías en ese codebook (véase figura 11). Es un proceso muy largo que consume una enorme cantidad de recursos y necesita una gran cantidad de GPUs trabajando en conjunto, pero se descubrieron dos ventajas principales (Van Den Oord et al., 2017):",
-            "footnotes": [
-              {
-                "marker": "19",
-                "text": "Una imagen digital está conformada por píxeles, pequeñas extensiones cuadradas que poseen un cierto brillo y color."
-              }
-            ]
+            "text": "La codificación de imágenes ya lleva varios años siendo utilizada por bots moderadores en redes sociales: se entrenó a las redes neurales poco profundas a detectar patrones de píxeles característicos de contenido sensible que la plataforma en cuestión decide rechazar por defecto. El problema, de manera similar a los bots de detección de spam y traducción, es que estas redes neurales no aprenden, no se adaptan y mucho menos entienden las implicaciones lingüísticas de aquello que analizan. Una de las principales propuestas que marcaría la evolución de las inteligencias artificiales de generación de texto serían los Visual Auto Encoders (VAE), redes neurales que convierten una imagen dada en información que la IA pueda analizar mediante transformers (Goodfellow et al., 2014; Van Den Oord et al., 2017). Los VAE generan lo que los desarrolladores denominan un \"espacio latente\", un punto intermedio entre la codificación y la decodificación; en este espacio latente el VAE recurre a un codebook, una especie de vocabulario que los desarrolladores programan en el VAE, de tal forma que éste tiene que asignar partes de la imagen inicial a categorías en ese codebook (véase figura 11). Es un proceso muy largo que consume una enorme cantidad de recursos y necesita una gran cantidad de GPUs trabajando en conjunto, pero se descubrieron dos ventajas principales (Van Den Oord et al., 2017):"
           },
           {
             "id": "p6_6",
@@ -286,51 +186,19 @@
           },
           {
             "id": "p6_8",
-            "text": "Es importante mencionar que DALL-E no utiliza un VAE de forma explícita, OpenAI no explica a detalle cómo funciona este modelo, pero se cree que recurre a un proceso similar durante su entrenamiento, pues OpenAI afirma que este recurre al GPT-3, lo que les permitió entrenar el modelo más rápido y establecer el proceso de decodificación como un proceso discreto (Razavi et al., 2019; Van Den Oord et al., 2017). En otras palabras, lo único que DALL-E tiene que hacer es asignarles categorías a los tiles resultantes de la decodificación de la imagen input[^20]. DALL-E no está disponible para el público, al menos no del todo, pues se trata más de una prueba de concepto que de un modelo con una verdadera aplicación como, digamos, GPT-3 o como se verá más adelante, Stable Diffusion. OpenAI ha reconocido que los resultados de DALL-E presentados en sus artículos y reportes de estado están específicamente seleccionados de entre cientos (potencialmente miles) de imágenes generadas carentes de sentido (Jay Wang, 2021), pues, aunque este modelo es capaz de generar imágenes con buena calidad, además de lograr interpretar indicaciones escritas que podrían considerarse imposibles o carentes de sentido (véase figura 13).",
-            "footnotes": [
-              {
-                "marker": "20",
-                "text": "Desde luego, por ser parte de lo que hace a DALL-E único, OpenAI no explica este proceso a detalle."
-              }
-            ]
+            "text": "Es importante mencionar que DALL-E no utiliza un VAE de forma explícita, OpenAI no explica a detalle cómo funciona este modelo, pero se cree que recurre a un proceso similar durante su entrenamiento, pues OpenAI afirma que este recurre al GPT-3, lo que les permitió entrenar el modelo más rápido y establecer el proceso de decodificación como un proceso discreto (Razavi et al., 2019; Van Den Oord et al., 2017). En otras palabras, lo único que DALL-E tiene que hacer es asignarles categorías a los tiles resultantes de la decodificación de la imagen input. DALL-E no está disponible para el público, al menos no del todo, pues se trata más de una prueba de concepto que de un modelo con una verdadera aplicación como, digamos, GPT-3 o como se verá más adelante, Stable Diffusion. OpenAI ha reconocido que los resultados de DALL-E presentados en sus artículos y reportes de estado están específicamente seleccionados de entre cientos (potencialmente miles) de imágenes generadas carentes de sentido (Jay Wang, 2021), pues, aunque este modelo es capaz de generar imágenes con buena calidad, además de lograr interpretar indicaciones escritas que podrían considerarse imposibles o carentes de sentido (véase figura 13)."
           },
           {
             "id": "p6_9",
-            "text": "Pero hay otro problema: si bien es relativamente sencillo obtener información con la cual entrenar y establecer la base de conocimiento en modelos lingüísticos como GPT-3, los modelos generativos de imágenes como DALL-E necesitan, desde luego, muchas imágenes con las cuales aprender. Más importante aún, cada imagen necesita ir acompañada de una descripción más o menos detallada para que la IA pueda aplicar su entrenamiento y obtener resultados consistentes. A los conjuntos de imágenes acompañadas de texto se les denomina datasets, y a lo largo de los años compañías como Microsoft, Amazon y Google han construido sus propios datasets[^21], los cuales han sido instrumentales en el entrenamiento de modelos como DALL-E. Como se dijo anteriormente, este entrenamiento ha sido mucho más lento y problemático que el de los modelos lingüísticos que no generan imágenes, pues aún cuando se logran ajustar los parámetros de un modelo de manera satisfactoria, no hay ninguna garantía de que el modelo mantenga su consistencia al exponerlo a un dataset nuevo ya que, a diferencia de los humanos, las inteligencias artificiales carecen de un motor cognitivo que enlace experiencias, conocimientos e ideologías con los estímulos del exterior (Luria, 1989), por lo que la IA puede llegar a realizar descripciones extrañas (véase figura 14). Greimas (1987) explicaba (en humanos, desde luego) con su propuesta de los ejes semánticos: el mecanismo semiótico no se da por adición y substracción, sino por una concatenación de lo que el sujeto asume o conoce. Curiosamente, la forma en que las inteligencias artificiales de generación de imágenes como DALL-E parecen realizar un proceso similar al propuesto por Hjelmslev que es más matemático (Bigot, 2010), aunque no hay menciones directas a Hjelmslev en la literatura referente a DALL-E, Stable Diffusion, VAEs o clasificadores, se asume que la aproximación hjelmsleviana se adapta mejor a las fórmulas probabilísticas que componen el motor lógico de las redes neurales de estas inteligencias artificiales.",
-            "footnotes": [
-              {
-                "marker": "21",
-                "text": "Algunos ejemplos de datasets popularmente usados para entrenar inteligencias artificiales son ImageNet con 14 millones de imágenes (Stanford Vision Lab, 2020); Microsoft COCO con cerca de 330 mil imágenes (Lin et al., 2014) y CIFAR-10 que contiene imágenes de 32x32 píxeles con 10 distintas categorías de objetos (Krizhevsky, 2017)."
-              }
-            ]
+            "text": "Pero hay otro problema: si bien es relativamente sencillo obtener información con la cual entrenar y establecer la base de conocimiento en modelos lingüísticos como GPT-3, los modelos generativos de imágenes como DALL-E necesitan, desde luego, muchas imágenes con las cuales aprender. Más importante aún, cada imagen necesita ir acompañada de una descripción más o menos detallada para que la IA pueda aplicar su entrenamiento y obtener resultados consistentes. A los conjuntos de imágenes acompañadas de texto se les denomina datasets, y a lo largo de los años compañías como Microsoft, Amazon y Google han construido sus propios datasets, los cuales han sido instrumentales en el entrenamiento de modelos como DALL-E. Como se dijo anteriormente, este entrenamiento ha sido mucho más lento y problemático que el de los modelos lingüísticos que no generan imágenes, pues aún cuando se logran ajustar los parámetros de un modelo de manera satisfactoria, no hay ninguna garantía de que el modelo mantenga su consistencia al exponerlo a un dataset nuevo ya que, a diferencia de los humanos, las inteligencias artificiales carecen de un motor cognitivo que enlace experiencias, conocimientos e ideologías con los estímulos del exterior (Luria, 1989), por lo que la IA puede llegar a realizar descripciones extrañas (véase figura 14). Greimas (1987) explicaba (en humanos, desde luego) con su propuesta de los ejes semánticos: el mecanismo semiótico no se da por adición y substracción, sino por una concatenación de lo que el sujeto asume o conoce. Curiosamente, la forma en que las inteligencias artificiales de generación de imágenes como DALL-E parecen realizar un proceso similar al propuesto por Hjelmslev que es más matemático (Bigot, 2010), aunque no hay menciones directas a Hjelmslev en la literatura referente a DALL-E, Stable Diffusion, VAEs o clasificadores, se asume que la aproximación hjelmsleviana se adapta mejor a las fórmulas probabilísticas que componen el motor lógico de las redes neurales de estas inteligencias artificiales."
           },
           {
             "id": "p6_10",
-            "text": "A finales de 2022, Stability AI publicó el modelo 1.5 de Stable Diffusion en la página github.com[^22]. Aunque Stable Diffusion es comúnmente conocido como un generador de imágenes a partir de texto, este modelo no utiliza un modelo lingüístico como lo hace DALL-E, en su lugar recurre a una combinación de distintos modelos como VAEs y CLIP[^23] para ejecutar la síntesis de imágenes y, sobre todo, Stable Diffusion recurre a un proceso que añade ruido a la imagen durante varios pasos (véase figura 15). Por esta razón este modelo no entiende realmente lo que sus usuarios le piden mediante la caja de indicaciones o prompts (véase figura 16) como lo haría DALL-E, pues incluso cuando Stable Diffusion recurre a VAEs[^24], el proceso de difusión inversa mediante el que este modelo genera imágenes no involucra procesos lingüísticos (Ho et al., 2020; Kingma et al., 2021; Nichol & Dhariwal, 2021; Song et al., 2020).",
-            "footnotes": [
-              {
-                "marker": "22",
-                "text": "En diciembre de 2022 la misma compañía liberó el modelo 2.0."
-              },
-              {
-                "marker": "23",
-                "text": "Contrastive Language-Image Pre-Training (Radford et al., 2021)."
-              },
-              {
-                "marker": "24",
-                "text": "Stable Diffusion utiliza checkpoints, variaciones de su entrenamiento base que pueden omitir la necesidad de VAEs."
-              }
-            ]
+            "text": "A finales de 2022, Stability AI publicó el modelo 1.5 de Stable Diffusion en la página github.com. Aunque Stable Diffusion es comúnmente conocido como un generador de imágenes a partir de texto, este modelo no utiliza un modelo lingüístico como lo hace DALL-E, en su lugar recurre a una combinación de distintos modelos como VAEs y CLIP para ejecutar la síntesis de imágenes y, sobre todo, Stable Diffusion recurre a un proceso que añade ruido a la imagen durante varios pasos (véase figura 15). Por esta razón este modelo no entiende realmente lo que sus usuarios le piden mediante la caja de indicaciones o prompts (véase figura 16) como lo haría DALL-E, pues incluso cuando Stable Diffusion recurre a VAEs, el proceso de difusión inversa mediante el que este modelo genera imágenes no involucra procesos lingüísticos (Ho et al., 2020; Kingma et al., 2021; Nichol & Dhariwal, 2021; Song et al., 2020)."
           },
           {
             "id": "p6_11",
-            "text": "Para compensar esto, Stability AI ha hecho públicos tanto los parámetros generales de la red neural como el checkpoint de su entrenamiento[^25]. Un checkpoint puede entonces tomarse como base para re-entrenar el modelo con un cierto tipo de imágenes (Rombach et al., 2021), creando a su vez un nuevo checkpoint sumamente eficaz para generar un cierto tipo de imagen, pero sólo ese tipo de imagen (véase figura 17). Stability AI considera que esto es el punto fuerte de su modelo, pues ha sido entrenado con un dataset con un fuerte enfoque en muestras de arte, desde pinturas e ilustraciones hasta modelos tridimensionales, lo que le brinda una gran versatilidad al modelo para generar \"imágenes hermosas\" (Stability AI, 2022). Esto ha causado una gran controversia por haberse comprobado que Stability AI entrenó su modelo con los trabajos de artistas digitales sin su consentimiento (Vincent, 2023), pero sobre todo ha traído una importante pregunta a la mesa: ¿puede una inteligencia artificial \"crear\" arte?",
-            "footnotes": [
-              {
-                "marker": "25",
-                "text": "La comunidad de usuarios suele referirse a los checkpoints como modelos, lo cual puede llegar a provocar confusiones pues el modelo es Stable Diffusion, los checkpoints son información de entrenamiento."
-              }
-            ]
+            "text": "Para compensar esto, Stability AI ha hecho públicos tanto los parámetros generales de la red neural como el checkpoint de su entrenamiento. Un checkpoint puede entonces tomarse como base para re-entrenar el modelo con un cierto tipo de imágenes (Rombach et al., 2021), creando a su vez un nuevo checkpoint sumamente eficaz para generar un cierto tipo de imagen, pero sólo ese tipo de imagen (véase figura 17). Stability AI considera que esto es el punto fuerte de su modelo, pues ha sido entrenado con un dataset con un fuerte enfoque en muestras de arte, desde pinturas e ilustraciones hasta modelos tridimensionales, lo que le brinda una gran versatilidad al modelo para generar \"imágenes hermosas\" (Stability AI, 2022). Esto ha causado una gran controversia por haberse comprobado que Stability AI entrenó su modelo con los trabajos de artistas digitales sin su consentimiento (Vincent, 2023), pero sobre todo ha traído una importante pregunta a la mesa: ¿puede una inteligencia artificial \"crear\" arte?"
           },
           {
             "id": "p6_12",

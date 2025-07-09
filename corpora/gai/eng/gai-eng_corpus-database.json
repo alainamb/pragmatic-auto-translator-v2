@@ -64,7 +64,7 @@
           "original": "gai/eng/submissions/Vaswani_AttentionIsAllYouNeed_2017.pdf",
           "processed": "gai/eng/processed/gai-eng_corpus-item001.json"
         },
-        "processing_notes": "Have not yet determined a way to maintain italicized and bolded text in JSON files."
+        "processing_notes": "References and footnotes not included in the processed content file. Figure and table captions are included."
       }
     },
     "gai-eng_corpus-item002": {
@@ -118,7 +118,7 @@
           "original": "gai/eng/submissions/Bender_DangersOfStochasticParrots_2021.pdf",
           "processed": "gai/eng/processed/gai-eng_corpus-item002.json"
         },
-        "processing_notes": "References, figures and tables not included in processed content file."
+        "processing_notes": "References, footnotes, figures and tables not included in processed content file."
       }
     },
     "gai-eng_corpus-item003": {
@@ -162,7 +162,7 @@
           "original": "gai/eng/submissions/UNESCO_EthicsInAI_2022.pdf",
           "processed": "gai/eng/processed/gai-eng_corpus-item003.json"
         },
-        "processing_notes": "The JSON captures the main contents but omits the copyright content on page two and the content from the back cover."
+        "processing_notes": "The JSON captures the main contents but omits the copyright content on page two and the content from the back cover. Numbers from the numbered list system are not included."
       }
     },
     "gai-eng_corpus-item004": {
@@ -205,7 +205,7 @@
           "original": "gai/eng/submissions/Gates_AgeOfAIHasBegun_2023.pdf",
           "processed": "gai/eng/processed/gai-eng_corpus-item004.json"
         },
-        "processing_notes": "Eventually need to establish the standard format for modeling HTML content in JSONs. The standard format should take into account metadata related to SEO, images and alt text, etc."
+        "processing_notes": "Main article text included in processed content file. Eventually need to establish the standard format for modeling HTML content in JSONs. The standard format should take into account metadata related to SEO, images and alt text, external links, etc."
       }
     },
     "gai-eng_corpus-item005": {
@@ -322,7 +322,7 @@
           "original": "gai/eng/submissions/USCopyrightOffice_CopyrightGAITraining_2025.pdf",
           "processed": "gai/eng/processed/gai-eng_corpus-item001.json"
         },
-        "processing_notes": "Document is over 100 pages long and has nearly 600 footnotes. While some of the footnotes do contain beneficial information for vectorization purposes, footnotes have not been included in the processed content file."
+        "processing_notes": "The nearly 600 footnotes not included in processed content file."
       }
     }
   }  

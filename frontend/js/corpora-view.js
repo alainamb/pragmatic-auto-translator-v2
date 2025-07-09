@@ -9,6 +9,7 @@ async function loadCorpusSources() {
     const errorMessage = document.getElementById('errorMessage');
     const englishSection = document.getElementById('englishCorpus');
     const spanishSection = document.getElementById('spanishCorpus');
+    const chineseSection = document.getElementById('chineseCorpus');
 
     try {
         console.log('Attempting to load corpus data...');
@@ -18,13 +19,15 @@ async function loadCorpusSources() {
             ? '../corpora/gai/' 
             : '/pragmatic-auto-translator-v2/corpora/gai/';
             
-        const [englishData, spanishData] = await Promise.all([
+        const [englishData, spanishData, chineseData] = await Promise.all([
             fetchCorpusData(baseUrl + 'eng/gai-eng_corpus-database.json'),
-            fetchCorpusData(baseUrl + 'esp/gai-esp_corpus-database.json')
+            fetchCorpusData(baseUrl + 'esp/gai-esp_corpus-database.json'),
+            fetchCorpusData(baseUrl + 'zho/gai-zho_corpus-database.json')
         ]);
         
         console.log('English data loaded:', englishData);
         console.log('Spanish data loaded:', spanishData);
+        console.log('Chinese data loaded:', chineseData);
 
         // Hide loading indicator
         loadingIndicator.classList.add('hidden');
@@ -39,6 +42,12 @@ async function loadCorpusSources() {
         if (spanishData && Object.keys(spanishData.documents).length > 0) {
             displayCorpusItems('spanishCards', spanishData.documents, 'Spanish');
             spanishSection.classList.remove('hidden');
+        }
+
+        // Display Chinese sources
+        if (chineseData && Object.keys(chineseData.documents).length > 0) {
+            displayCorpusItems('chineseCards', chineseData.documents, 'Simplified Chinese');
+            chineseSection.classList.remove('hidden');
         }
 
     } catch (error) {
@@ -155,7 +164,8 @@ function formatLanguageVariant(variant, language) {
         'eur': 'European English',
         'mex': 'Mexican Spanish',
         'esp': 'European Spanish',
-        'syr': 'Syrian English'
+        'syr': 'Syrian English',
+        'chn': 'Simplified Chinese'
     };
 
     return variantMap[variant] || `${language} (${variant})`;
