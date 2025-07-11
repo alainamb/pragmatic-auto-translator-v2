@@ -9,38 +9,6 @@ import config from './config.js';
 // =====================================
 
 /**
- * Calculate cosine similarity between two vectors
- * @param {number[]} vectorA - First vector
- * @param {number[]} vectorB - Second vector
- * @returns {number} Similarity score (0-1, higher = more similar)
- */
-export function cosineSimilarity(vectorA, vectorB) {
-  if (!vectorA || !vectorB || vectorA.length !== vectorB.length) {
-    debugLog('Vector dimension mismatch or invalid vectors', 'error');
-    return 0;
-  }
-
-  let dotProduct = 0;
-  let normA = 0;
-  let normB = 0;
-
-  for (let i = 0; i < vectorA.length; i++) {
-    dotProduct += vectorA[i] * vectorB[i];
-    normA += vectorA[i] * vectorA[i];
-    normB += vectorB[i] * vectorB[i];
-  }
-
-  const magnitude = Math.sqrt(normA) * Math.sqrt(normB);
-  
-  if (magnitude === 0) {
-    debugLog('Zero magnitude vector detected', 'warn');
-    return 0;
-  }
-
-  return dotProduct / magnitude;
-}
-
-/**
  * Normalize a vector to unit length
  * @param {number[]} vector - Input vector
  * @returns {number[]} Normalized vector
@@ -338,75 +306,6 @@ function isJinaV3Compatible(modelName) {
     modelName === name || 
     modelName.includes('jina-embeddings-v3')
   );
-}
-
-/**
- * Validate vector data structure matches expected schema - UPDATED for flexible validation
- * @param {Object} vectorData - Vector data object
- * @returns {boolean} True if valid structure
- */
-export function isValidVectorData(vectorData) {
-  // Basic structure validation
-  if (!vectorData) {
-    debugLog('Vector data is null or undefined', 'error');
-    return false;
-  }
-  
-  if (!vectorData.metadata) {
-    debugLog('Vector data missing metadata', 'error');
-    return false;
-  }
-  
-  if (!vectorData.vectors) {
-    debugLog('Vector data missing vectors array', 'error');
-    return false;
-  }
-  
-  if (!Array.isArray(vectorData.vectors)) {
-    debugLog('Vector data vectors is not an array', 'error');
-    return false;
-  }
-  
-  // Model validation - more flexible for jina-embeddings-v3
-  if (!vectorData.metadata.model) {
-    debugLog('Vector metadata missing model field', 'error');
-    return false;
-  }
-  
-  if (!isJinaV3Compatible(vectorData.metadata.model)) {
-    debugLog(`Vector model "${vectorData.metadata.model}" is not compatible with jina-embeddings-v3`, 'error');
-    debugLog(`Expected model containing "jina-embeddings-v3", got: ${vectorData.metadata.model}`, 'warn');
-    return false;
-  }
-  
-  // Dimension validation - check for 1024D
-  if (!vectorData.metadata.dimension) {
-    debugLog('Vector metadata missing dimension field', 'error');
-    return false;
-  }
-  
-  const expectedDimension = config.MODELS.EMBEDDING.dimension;
-  if (vectorData.metadata.dimension !== expectedDimension) {
-    debugLog(`Vector dimension mismatch. Expected: ${expectedDimension}, got: ${vectorData.metadata.dimension}`, 'error');
-    return false;
-  }
-  
-  // Validate that vectors actually have the right dimension
-  if (vectorData.vectors.length > 0) {
-    const firstVector = vectorData.vectors[0];
-    if (firstVector.vector && Array.isArray(firstVector.vector)) {
-      if (firstVector.vector.length !== expectedDimension) {
-        debugLog(`First vector has wrong dimension. Expected: ${expectedDimension}, got: ${firstVector.vector.length}`, 'error');
-        return false;
-      }
-    } else {
-      debugLog('First vector missing or invalid vector array', 'error');
-      return false;
-    }
-  }
-  
-  debugLog(`Vector data validation passed: ${vectorData.vectors.length} vectors, model: ${vectorData.metadata.model}, dimension: ${vectorData.metadata.dimension}`, 'info');
-  return true;
 }
 
 /**

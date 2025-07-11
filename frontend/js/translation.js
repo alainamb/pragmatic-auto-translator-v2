@@ -368,9 +368,9 @@ function formatContextForDisplay(contextResults, documentDatabase) {
         documentId: item.document_id || item.id,
         id: item.id,
         priority: result.priority || 'standard' // Preserve the priority from similarity.js
+      });
+    });
   });
-});
-});
   
   // Sort by score descending
   details.sort((a, b) => b.score - a.score);
