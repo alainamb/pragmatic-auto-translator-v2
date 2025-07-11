@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Configuration for data loading
 const VISUALIZATION_CONFIG = {
     // Load the specific file
-    dataFile: 'data/gai_visualization_data_20250706_155702.json'
+    dataFile: 'data/gai_visualization_data_20250711_153240.json'
 };
 
 // Function to load the visualization JSON file
@@ -109,7 +109,7 @@ function updateCorpusStatistics(stats) {
     // Language breakdown (3 cards in a row)
     document.getElementById('stat-eng-docs').textContent = stats.languages.eng || 0;
     document.getElementById('stat-esp-docs').textContent = stats.languages.esp || 0;
-    document.getElementById('stat-chn-docs').textContent = stats.languages['zho-chn'] || 0;
+    document.getElementById('stat-chn-docs').textContent = stats.languages.zho || 0;
     
     // Total Vectors (full width)
     document.getElementById('stat-total-vectors').textContent = stats.total_vectors.toLocaleString();
@@ -121,6 +121,75 @@ function updateCorpusStatistics(stats) {
     
     // Coverage (full width)
     document.getElementById('stat-coverage').textContent = stats.coverage_percent + '%';
+}
+
+// Helper function to define legend order
+function getLegendOrder() {
+    return [
+        'ENG Document',
+        'ESP Document', 
+        'ZHO Document',
+        'ENG Section (L0)',
+        'ENG Section (L1+)',
+        'ESP Section (L0)',
+        'ESP Section (L1+)',
+        'ZHO Section (L0)',
+        'ZHO Section (L1+)',
+        'ENG Paragraph',
+        'ESP Paragraph',
+        'ZHO Paragraph'
+    ];
+}
+
+// Helper function to format text for popups with language-specific limits
+function formatTextForPopup(text) {
+    if (!text) return text;
+    
+    // Language-specific character limits
+    if (/[\u4e00-\u9fff]/.test(text)) {
+        // Chinese: 40 characters max (denser language)
+        const chineseMaxLength = 40;
+        let truncated = text.length > chineseMaxLength ? 
+            text.substring(0, chineseMaxLength) + '...' : text;
+        
+        // Smart line breaks that respect English words embedded in Chinese
+        return addSmartLineBreaks(truncated);
+    } else {
+        // English/Spanish: 80 characters max
+        const westernMaxLength = 80;
+        if (text.length > westernMaxLength) {
+            return text.substring(0, westernMaxLength) + '...';
+        }
+    }
+    
+    return text;
+}
+
+// Helper function to add line breaks intelligently for Chinese text with embedded English
+function addSmartLineBreaks(text) {
+    let result = '';
+    let position = 0;
+    const lineLength = 15;
+    
+    for (let i = 0; i < text.length; i++) {
+        result += text[i];
+        position++;
+        
+        // Check if we need a line break
+        if (position >= lineLength && i < text.length - 1) {
+            // Look ahead to see if we're in the middle of an English word
+            let isInEnglishWord = /[a-zA-Z]/.test(text[i]) && /[a-zA-Z]/.test(text[i + 1]);
+            
+            if (!isInEnglishWord) {
+                // Safe to break here
+                result += '<br>';
+                position = 0;
+            }
+            // If we're in an English word, wait for a better break point
+        }
+    }
+    
+    return result;
 }
 
 // Function to create 2D visualization
@@ -161,14 +230,30 @@ function create2DVisualization(chartData) {
         // Format popup with consistent and readable structure
         let popup = '';
         if (point.popup.type === 'DOCUMENT') {
-            popup = `<b>DOCUMENT</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${point.popup.document_title}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}`;
+            const formattedTitle = formatTextForPopup(point.popup.document_title);
+            popup = `<b>DOCUMENT</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${formattedTitle}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}`;
         } else if (point.popup.type === 'SECTION') {
-            popup = `<b>SECTION</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${point.popup.document_title}<br>Section ID: ${point.popup.section_id}<br>Section title: ${point.popup.section_title}<br>Excerpt: ${point.popup.excerpt}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}`;
+            const formattedTitle = formatTextForPopup(point.popup.document_title);
+            const formattedSectionTitle = formatTextForPopup(point.popup.section_title);
+            const formattedExcerpt = formatTextForPopup(point.popup.excerpt);
+            popup = `<b>SECTION</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${formattedTitle}<br>Section ID: ${point.popup.section_id}<br>Section title: ${formattedSectionTitle}<br>Excerpt: ${formattedExcerpt}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}`;
         } else if (point.popup.type === 'PARAGRAPH') {
-            popup = `<b>PARAGRAPH</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${point.popup.document_title}<br>Paragraph ID: ${point.popup.paragraph_id}<br>Section title: ${point.popup.section_title}<br>Excerpt: ${point.popup.excerpt}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}`;
+            const formattedTitle = formatTextForPopup(point.popup.document_title);
+            const formattedSectionTitle = formatTextForPopup(point.popup.section_title);
+            const formattedExcerpt = formatTextForPopup(point.popup.excerpt);
+            popup = `<b>PARAGRAPH</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${formattedTitle}<br>Paragraph ID: ${point.popup.paragraph_id}<br>Section title: ${formattedSectionTitle}<br>Excerpt: ${formattedExcerpt}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}`;
         }
         
         traces[key].customdata.push(popup);
+    });
+    
+    // Sort traces according to desired legend order
+    const legendOrder = getLegendOrder();
+    const sortedTraces = [];
+    legendOrder.forEach(key => {
+        if (traces[key]) {
+            sortedTraces.push(traces[key]);
+        }
     });
     
     const layout = {
@@ -180,7 +265,11 @@ function create2DVisualization(chartData) {
             bgcolor: 'white',
             bordercolor: 'gray',
             font: { size: 12, family: 'Arial, sans-serif' },
-            align: 'left'
+            align: 'left',
+            namelength: -1,
+            // Constrain hover box size and handle line breaks
+            borderwidth: 1,
+            maxwidth: 300
         }
     };
     
@@ -190,7 +279,7 @@ function create2DVisualization(chartData) {
         modeBarButtonsToRemove: ['autoScale2d']
     };
     
-    Plotly.newPlot('plot-2d-container', Object.values(traces), layout, config);
+    Plotly.newPlot('plot-2d-container', sortedTraces, layout, config);
     console.log('✅ 2D visualization created');
 }
 
@@ -234,14 +323,30 @@ function create3DVisualization(chartData) {
         // Format popup with consistent and readable structure and Z-axis
         let popup = '';
         if (point.popup.type === 'DOCUMENT') {
-            popup = `<b>DOCUMENT</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${point.popup.document_title}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}<br>Z: ${point.z.toFixed(3)}`;
+            const formattedTitle = formatTextForPopup(point.popup.document_title);
+            popup = `<b>DOCUMENT</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${formattedTitle}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}<br>Z: ${point.z.toFixed(3)}`;
         } else if (point.popup.type === 'SECTION') {
-            popup = `<b>SECTION</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${point.popup.document_title}<br>Section ID: ${point.popup.section_id}<br>Section title: ${point.popup.section_title}<br>Excerpt: ${point.popup.excerpt}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}<br>Z: ${point.z.toFixed(3)}`;
+            const formattedTitle = formatTextForPopup(point.popup.document_title);
+            const formattedSectionTitle = formatTextForPopup(point.popup.section_title);
+            const formattedExcerpt = formatTextForPopup(point.popup.excerpt);
+            popup = `<b>SECTION</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${formattedTitle}<br>Section ID: ${point.popup.section_id}<br>Section title: ${formattedSectionTitle}<br>Excerpt: ${formattedExcerpt}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}<br>Z: ${point.z.toFixed(3)}`;
         } else if (point.popup.type === 'PARAGRAPH') {
-            popup = `<b>PARAGRAPH</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${point.popup.document_title}<br>Paragraph ID: ${point.popup.paragraph_id}<br>Section title: ${point.popup.section_title}<br>Excerpt: ${point.popup.excerpt}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}<br>Z: ${point.z.toFixed(3)}`;
+            const formattedTitle = formatTextForPopup(point.popup.document_title);
+            const formattedSectionTitle = formatTextForPopup(point.popup.section_title);
+            const formattedExcerpt = formatTextForPopup(point.popup.excerpt);
+            popup = `<b>PARAGRAPH</b><br>Corpus item: ${point.popup.corpus_item}<br>Title: ${formattedTitle}<br>Paragraph ID: ${point.popup.paragraph_id}<br>Section title: ${formattedSectionTitle}<br>Excerpt: ${formattedExcerpt}<br><br><b>Coordinates:</b><br>X: ${point.x.toFixed(3)}<br>Y: ${point.y.toFixed(3)}<br>Z: ${point.z.toFixed(3)}`;
         }
         
         traces[key].customdata.push(popup);
+    });
+    
+    // Sort traces according to desired legend order
+    const legendOrder = getLegendOrder();
+    const sortedTraces = [];
+    legendOrder.forEach(key => {
+        if (traces[key]) {
+            sortedTraces.push(traces[key]);
+        }
     });
     
     const layout = {
@@ -256,7 +361,10 @@ function create3DVisualization(chartData) {
             bgcolor: 'white',
             bordercolor: 'gray',
             font: { size: 12, family: 'Arial, sans-serif' },
-            align: 'left'
+            align: 'left',
+            namelength: -1,
+            borderwidth: 1,
+            maxwidth: 300
         }
     };
     
@@ -265,10 +373,9 @@ function create3DVisualization(chartData) {
         responsive: true 
     };
     
-    Plotly.newPlot('plot-3d-container', Object.values(traces), layout, config);
+    Plotly.newPlot('plot-3d-container', sortedTraces, layout, config);
     console.log('✅ 3D visualization created');
 }
-
 
 // Function to create language distribution chart
 function createLanguageDistribution(chartData) {
@@ -289,7 +396,8 @@ function createLanguageDistribution(chartData) {
             color: distData.map(d => d.color),
             line: { color: 'white', width: 1 }
         },
-        hovertemplate: '<b>%{x}</b><br>Vectors: %{y}<extra></extra>'
+        // Show only the vector count since language is already on x-axis
+        hovertemplate: 'Vectors: %{y:,}<extra></extra>'
     };
     
     const layout = {
@@ -301,16 +409,31 @@ function createLanguageDistribution(chartData) {
         xaxis: { 
             title: 'Language',
             titlefont: { size: 14 },
-            tickfont: { size: 12 }
+            tickfont: { size: 12 },
+            showspikes: false
         },
         yaxis: { 
             title: 'Number of Vectors',
             titlefont: { size: 14 },
-            tickfont: { size: 12 }
+            tickfont: { size: 12 },
+            showspikes: false
         },
         margin: { l: 80, r: 40, t: 60, b: 60 },
         height: 280,
-        showlegend: false
+        showlegend: false,
+        // Hover only on data points (bars), not axes
+        hovermode: 'closest',
+        // Disable axis hover labels
+        spikedistance: -1,
+        dragmode: 'pan',
+        hoverlabel: {
+            bgcolor: 'white',
+            bordercolor: 'gray',
+            font: { size: 12, family: 'Arial, sans-serif' },
+            align: 'left',
+            borderwidth: 1,
+            namelength: 0
+        }
     };
     
     const config = { 

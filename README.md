@@ -48,12 +48,12 @@ pragmatic-auto-translator-v2/
 │       │   ├── processed/          
 │       │   ├── t9n-testing/        
 │       │   └── gai-esp_corpus-database.json
-│       ├── zho-chn/                # Simplified Chinese content  
+│       ├── zho/                # Simplified Chinese content  
 │       │   ├── for-processing/        
 │       │   ├── submissions/                
 │       │   ├── processed/          
 │       │   ├── t9n-testing/        
-│       │   └── gai-zho-chn_corpus-database.json
+│       │   └── gai-zho_corpus-database.json
 │       ├── vectors/                # Vectors for all languages in shared space
 │       │   ├── gai-corpus-document-vectors.json    # Document-level vectors
 │       │   ├── gai-corpus-section-vectors.json     # Section-level vectors
