@@ -126,9 +126,9 @@ async function getApiKey() {
   
   // Strategy 3: Try loading from api-config.js file
   try {
-    //const apiConfig = await getApiConfig();
-    // if (apiConfig?.JINA_CONFIG?.API_KEY) {
-      const key = process.env.JINA_API_KEY
+    const apiConfig = await getApiConfig();
+    if (apiConfig?.JINA_CONFIG?.API_KEY) {
+      const key = apiConfig.JINA_CONFIG.API_KEY;
       // Validate the key isn't a placeholder
       if (key && key !== 'your-jina-api-key-here' && key !== 'jina_API-KEY' && key.length > 10) {
         debugLog(`✅ Using API key from api-config.js (${environment})`, 'info');
@@ -136,9 +136,9 @@ async function getApiKey() {
       } else {
         debugLog('⚠️ API key in api-config.js appears to be a placeholder', 'warn');
       }
-    // } else {
-    //   debugLog('⚠️ No JINA_CONFIG.API_KEY found in api-config.js', 'warn');
-    // }
+    } else {
+      debugLog('⚠️ No JINA_CONFIG.API_KEY found in api-config.js', 'warn');
+    }
   } catch (error) {
     debugLog(`❌ Error accessing api-config.js: ${error.message}`, 'error');
   }

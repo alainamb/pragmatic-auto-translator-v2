@@ -1,8 +1,10 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
+import os
+
 #sub in db_username and db_passcode, for vercel or modal specifics depending
-uri = process.env.MongoDB_URI
+uri = os.getenv ("MONGODB_URI")
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
