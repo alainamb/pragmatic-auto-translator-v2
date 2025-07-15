@@ -7,8 +7,7 @@ import {
   debugLog, 
   createError, 
   safeAsync, 
-  startTimer, 
-  isValidVectorData,
+  startTimer,
   validateVectorDataDetailed,
   fromApiLanguageCode 
 } from './utils.js';
