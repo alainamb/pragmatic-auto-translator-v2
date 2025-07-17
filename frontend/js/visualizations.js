@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Configuration for data loading
 const VISUALIZATION_CONFIG = {
     // Load the specific file
-    dataFile: 'data/gai_visualization_data_20250711_153240.json'
+    dataFile: 'data/gai_vector-visualization_data_20250711_153240.json'
 };
 
 // Function to load the visualization JSON file

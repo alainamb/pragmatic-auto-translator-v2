@@ -7,80 +7,112 @@
   "members": {
     "member_001": {
       "name": "Alaina Brandt",
-      "role": ["Founder", "Linguistic Team"],
+      "role": ["Founder", "Linguistic Team", "Software Development"],
       "photo": "images/Alaina-Brandt-close-up.png",
       "description": "I’m currently researching how machine learning can be aplied to my areas of specialization: translation and localization. I have professional development certificates in GAI and ML and data science from MIT, with a web programming certificate on the way.",
       "natural-languages": ["US English", "Mexican Spanish"],
-      "programming-languages": ["Python", "HTML", "JavaScript"],
+      "programming-languages": ["Python", "HTML", "JavaScript", "CSS"],
       "connect": {
-        "github": "https://github.com/alainamb",
         "linkedin": "https://www.linkedin.com/in/alainambrandt/",
-        "orcid": "https://orcid.org/0009-0004-0530-203X"
+        "github": "https://github.com/alainamb",
+        "orcid": "https://orcid.org/0009-0004-0530-203X",
+        "email": "alainambrandt@gmail.com"
       }
     },
     "member_002": {
-      "name": "Team Member’s Name",
-      "role": ["Linguistic Team", "LLM Research"],
-      "photo": "images/smiley-paperclip.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit mauris, viverra pharetra placerat lobortis congue proin netus natoque felis, aptent vehicula laoreet mattis etiam faucibus consequat. Ad potenti massa arcu vivamus phasellus purus tempus eros, etiam ridiculus nec habitant commodo cras.",
-      "natural-languages": ["Mexican Spanish", "English"],
-      "programming-languages": ["Python", "R"],
+      "name": "Amber Wang",
+      "role": ["Linguistic Team", "LLM Research", "System Design"],
+      "photo": "images/Amber-Wang.jpg",
+      "description": "With a master’s degree in Localization Management, I work at the intersection of localization and globalization. I’m passionate about language technology and prompt engineering, and I like to think of myself as a “language solution architect.” Currently based in California.",
+      "natural-languages": ["English", "Simplified Chinese"],
+      "programming-languages": ["Python"],
       "connect": {
-        "linkedin": "https://linkedin.com/",
-        "researchgate": "https://researchgate.net/",
-        "email": "email@university.edu"
+        "linkedin": "https://www.linkedin.com/in/amber-wang-5a521628b/"
       }
     },
     "member_003": {
-      "name": "Team Member’s Name",
-      "role": "Software Development",
-      "photo": "images/smiley-paperclip.png", 
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit mauris, viverra pharetra placerat lobortis congue proin netus natoque felis, aptent vehicula laoreet mattis etiam faucibus consequat. Ad potenti massa arcu vivamus phasellus purus tempus eros, etiam ridiculus nec habitant commodo cras. ",
-      "natural-languages": ["Spanish", "English"],
-      "programming-languages": ["JavaScript", "Python", "TypeScript", "React", "Node.js"],
+      "name": "Evelyn Johnson",
+      "role": ["Software Development", "Corpus Auto-Processing Feature"],
+      "photo": "images/Evelyn-Johnson.png",
+      "description": "CS Senior at the University of Illinois Chicago (UIC) with an Art minor, pursuing a Masters in CS next. Passionate about software/graphic design and game creation focused on accessibility. Portfolio showcases award-winning artwork and games!",
+      "natural-languages": ["English", "Simplified Chinese"],
+      "programming-languages": ["Python", "JavaScript", "Java", "C++", "C", "FXML/HTML", "CSS"],
       "connect": {
-        "github": "https://github.com/",
-        "linkedin": "https://linkedin.com/",
-        "portfolio": "https://portfolio.dev"
+        "linkedin": "https://linkedin.com/in/evelynsjohnson",
+        "github": "https://github.com/evelynsjohnson",
+        "portfolio": "https://sites.google.com/view/evelynsjohnson",
+        "email": "ejohn50@uic.edu"
       }
     },
     "member_004": {
-      "name": "Team Member’s Name",
+      "name": "Carolina Carreola",
       "role": "Linguistic Team",
-      "photo": "images/smiley-paperclip.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit mauris, viverra pharetra placerat lobortis congue proin netus natoque felis, aptent vehicula laoreet mattis etiam faucibus consequat. Ad potenti massa arcu vivamus phasellus purus tempus eros, etiam ridiculus nec habitant commodo cras. ",
-      "natural-languages": ["Simplified Chinese", "US English"],
-      "programming-languages": ["Python", "R"],
+      "photo": "images/Carolina-Carreola.jpg",
+      "description": "BA in Translation student at UNAM with a strong interest in corpus linguistics, language technology, and cross-cultural communication. Currently contributing to the Pragmatic Auto-Translator project with a focus on Spanish-Mexico data curation.",
+      "natural-languages": ["Mexican Spanish", "English", "French"],
+      "programming-languages": ["Python"],
       "connect": {
-        "linkedin": "https://linkedin.com/",
-        "researchgate": "https://researchgate.net/",
-        "email": "email@university.edu"
+        "linkedin": "https://linkedin.com/in/carolinacarreola",
+        "github": "https://github.com/CarolinaCarreola",
+        "email": "carolinacarreola@comunidad.unam.mx"
       }
     },
     "member_005": {
-      "name": "Team Member’s Name",
-      "role": "Software Development", 
+      "name": "Abdurrahman Alyajouri",
+      "role": ["Software Development", "Corpus Auto-Processing Feature"],
       "photo": "images/smiley-paperclip.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit mauris, viverra pharetra placerat lobortis congue proin netus natoque felis, aptent vehicula laoreet mattis etiam faucibus consequat. Ad potenti massa arcu vivamus phasellus purus tempus eros, etiam ridiculus nec habitant commodo cras. ",
-      "natural-languages": ["US English", "Mexican Spanish"],
-      "programming-languages": ["Python", "PyTorch", "TensorFlow", "SQL", "Docker"],
+      "description": "I’m pursuing a Bachelor’s degree in Computer Science at Portland State University in Oregon. I have a strong interest in computer graphics, game and software development, and all things STEM. I love learning new concepts and applying them to build systems that solve real-world problems.",
+      "natural-languages": ["English"],
+      "programming-languages": ["C++", "C", "Python", "JavaScript", "HTML", "CSS", "GLSL"],
       "connect": {
-        "github": "https://github.com/",
-        "linkedin": "https://linkedin.com/",
-        "email": "email@university.edu"
+        "linkedin": "https://www.linkedin.com/in/abdurrahman-alyajouri-166334246/",
+        "github": "https://github.com/UsualSpace",
+        "portfolio": "https://abdualyajouri.artstation.com/",
+        "email": "abdu.alyajouri@gmail.com"
       }
     },
     "member_006": {
-      "name": "Team Member’s Name",
-      "role": "Research Coordination",
+      "name": "Alli Batell",
+      "role": ["Software Development", "Backend Operations"],
       "photo": "images/smiley-paperclip.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit mauris, viverra pharetra placerat lobortis congue proin netus natoque felis, aptent vehicula laoreet mattis etiam faucibus consequat. Ad potenti massa arcu vivamus phasellus purus tempus eros, etiam ridiculus nec habitant commodo cras.",
-      "natural-languages": ["US English", "Mexican Spanish", "Simplified Chinese"],
-      "programming-languages": ["R", "SPSS"],
+      "description": "I’m Alli, I’m majoring in CS, Digital Narrative and Interactive Design, and Studio Art at the University of Pittsburgh. I take a human-centered approach to software development and UX design.",
+      "natural-languages": ["English", "French"],
+      "programming-languages": ["Python", "Java", "C", "JavaScript", "HTML", "CSS"],
       "connect": {
-        "linkedin": "https://linkedin.com/",
-        "email": "email@university.edu",
-        "orcid": "https://orcid.org/"
+        "linkedin": "https://www.linkedin.com/in/allison-batell-827357343/"
+      }
+    },
+    "member_007": {
+      "name": "Lin Ouyang",
+      "role": "Linguistic Team", 
+      "photo": "images/Lin-Ouyang.jpg",
+      "description": "As a graduate student at Beihang University, my research interest lies in corpus linguistics, with a specific focus on Chinese-English contrastive analysis, aiming to enhance our understanding of language structure and use through quantitative analysis of naturally occurring language.",
+      "natural-languages": ["Simplified Chinese", "English"],
+      "programming-languages": ["R"],
+      "connect": {
+        "email": "oylouyanglin@126.com"
+      }
+    },
+    "member_008": {
+      "name": "Catherine Wang",
+      "role": ["Software Development", "Backend Operations"],
+      "photo": "images/Catherine-Wang.png",
+      "description": "Hi! I’m a Math & Computer Science major at University of California - San Diego. I love learning new things. For example, I’m currently studying Spanish. I also enjoy solving puzzles.",
+      "natural-languages": ["English", "Simplified Chinese"],
+      "programming-languages": ["Python", "Java", "JavaScript"],
+      "connect": {
+        "email": "caw026@ucsd.edu"
+      }
+    },
+    "member_009": {
+      "name": "Your Name Here",
+      "role": ["Join our team!"],
+      "photo": "images/smiley-paperclip.png",
+      "description": "If you are interested in contributing your skills in corpus linguistics, automatic translation, or software development to the Pragmatic Auto-Translator project, we’d love to hear from you! Connect with Alaina if you are interested in joining the team.",
+      "natural-languages": ["US English", "Mexican Spanish", "Simplified Chinese", "Additional Languages"],
+      "programming-languages": ["R", "Python", "JavaScript", "HTML", "CSS"],
+      "connect": {
+        "github": "https://github.com/alainamb/pragmatic-auto-translator-v2"
       }
     }
   }

@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "language": "zho",
+    "export_timestamp": "20250716_214012",
+    "assignment_method": "HDBSCAN_with_probabilities"
+  },
+  "paragraph_level": {
+    "gai-zho_corpus-item001_abstract": [
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_1": [
+      {
+        "cluster_id": "zho_para_cluster_06",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_2": [
+      {
+        "cluster_id": "zho_para_cluster_11",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_3": [
+      {
+        "cluster_id": "zho_para_cluster_12",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_4": [
+      {
+        "cluster_id": "zho_para_cluster_02",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_1_1": [
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_1_2": [
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_1_3": [
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_2_2": [
+      {
+        "cluster_id": "zho_para_cluster_13",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_2_3": [
+      {
+        "cluster_id": "zho_para_cluster_13",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_2_4": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_2_5": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_3_1": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_3_2": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_3_3": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_4_1": [
+      {
+        "cluster_id": "zho_para_cluster_04",
+        "confidence": 0.7082128314921974,
+        "primary": true
+      }
+    ],
+    "p1_4_2": [
+      {
+        "cluster_id": "zho_para_cluster_05",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_4_3": [
+      {
+        "cluster_id": "zho_para_cluster_05",
+        "confidence": 0.1391402925208365,
+        "primary": true
+      }
+    ],
+    "p1_4_4": [
+      {
+        "cluster_id": "zho_para_cluster_05",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_5_1": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_5_2": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_1": [
+      {
+        "cluster_id": "zho_para_cluster_12",
+        "confidence": 0.818874503210596,
+        "primary": true
+      }
+    ],
+    "p2_1_1": [
+      {
+        "cluster_id": "zho_para_cluster_08",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_1_2": [
+      {
+        "cluster_id": "zho_para_cluster_01",
+        "confidence": 0.22016550393613601,
+        "primary": true
+      }
+    ],
+    "p2_1_4": [
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "confidence": 0.477648637996641,
+        "primary": true
+      }
+    ],
+    "p2_2_1": [
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "confidence": 0.6273543847744746,
+        "primary": true
+      }
+    ],
+    "p2_2_2": [
+      {
+        "cluster_id": "zho_para_cluster_03",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_3": [
+      {
+        "cluster_id": "zho_para_cluster_03",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_4": [
+      {
+        "cluster_id": "zho_para_cluster_04",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_1": [
+      {
+        "cluster_id": "zho_para_cluster_12",
+        "confidence": 0.5503206475626563,
+        "primary": true
+      }
+    ],
+    "p2_3_2": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_3": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_4": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1": [
+      {
+        "cluster_id": "zho_para_cluster_12",
+        "confidence": 0.6390345664667589,
+        "primary": true
+      }
+    ],
+    "p1_1": [
+      {
+        "cluster_id": "zho_para_cluster_08",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_1_1_1": [
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_1_1_2": [
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_1_2_1": [
+      {
+        "cluster_id": "zho_para_cluster_09",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_1_2_2": [
+      {
+        "cluster_id": "zho_para_cluster_14",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_1_1_3": [
+      {
+        "cluster_id": "zho_para_cluster_13",
+        "confidence": 0.5567883594210873,
+        "primary": true
+      }
+    ],
+    "p1_2_1_1": [
+      {
+        "cluster_id": "zho_para_cluster_10",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_2_2_1": [
+      {
+        "cluster_id": "zho_para_cluster_10",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_2_3_1": [
+      {
+        "cluster_id": "zho_para_cluster_10",
+        "confidence": 0.17615469959426894,
+        "primary": true
+      }
+    ],
+    "p1_2_4_1": [
+      {
+        "cluster_id": "zho_para_cluster_09",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_4_1": [
+      {
+        "cluster_id": "zho_para_cluster_12",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_5_1": [
+      {
+        "cluster_id": "zho_para_cluster_11",
+        "confidence": 0.5017669933294644,
+        "primary": true
+      }
+    ],
+    "p2_6_1": [
+      {
+        "cluster_id": "zho_para_cluster_11",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ]
+  }
+}

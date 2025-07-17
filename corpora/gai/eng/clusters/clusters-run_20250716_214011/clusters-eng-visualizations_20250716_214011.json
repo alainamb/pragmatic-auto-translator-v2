@@ -1,0 +1,4540 @@
+{
+  "metadata": {
+    "language": "eng",
+    "export_timestamp": "20250716_214011",
+    "visualization_types": [
+      "umap_scatter",
+      "cluster_quality_metrics",
+      "term_frequency_distributions"
+    ]
+  },
+  "umap_scatter": {
+    "description": "2D UMAP projection of paragraph embeddings",
+    "data": []
+  },
+  "cluster_quality_metrics": {
+    "description": "Per-cluster quality visualization data",
+    "clusters": [
+      {
+        "cluster_id": "eng_para_cluster_00",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_01",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_02",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_03",
+        "silhouette_score": 0.9999998211860657,
+        "cohesion_score": 0.9999998211860657,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_04",
+        "silhouette_score": 0.9999573826789856,
+        "cohesion_score": 0.9999573826789856,
+        "size": 8,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_05",
+        "silhouette_score": 0.9999943375587463,
+        "cohesion_score": 0.9999943375587463,
+        "size": 4,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_06",
+        "silhouette_score": 0.9999999403953552,
+        "cohesion_score": 0.9999999403953552,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_07",
+        "silhouette_score": 0.9999999403953552,
+        "cohesion_score": 0.9999999403953552,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_08",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_09",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_10",
+        "silhouette_score": 0.9999998211860657,
+        "cohesion_score": 0.9999998211860657,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_11",
+        "silhouette_score": 0.999999463558197,
+        "cohesion_score": 0.999999463558197,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_12",
+        "silhouette_score": 0.9999985098838806,
+        "cohesion_score": 0.9999985098838806,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_13",
+        "silhouette_score": 0.9999995231628418,
+        "cohesion_score": 0.9999995231628418,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_14",
+        "silhouette_score": 0.999991238117218,
+        "cohesion_score": 0.999991238117218,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_15",
+        "silhouette_score": 0.999997615814209,
+        "cohesion_score": 0.999997615814209,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_16",
+        "silhouette_score": 0.9999960660934448,
+        "cohesion_score": 0.9999960660934448,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_17",
+        "silhouette_score": 0.9999993443489075,
+        "cohesion_score": 0.9999993443489075,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_18",
+        "silhouette_score": 0.9999828338623047,
+        "cohesion_score": 0.9999828338623047,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_19",
+        "silhouette_score": 0.9999927878379822,
+        "cohesion_score": 0.9999927878379822,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_20",
+        "silhouette_score": 0.9999895095825195,
+        "cohesion_score": 0.9999895095825195,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_21",
+        "silhouette_score": 0.9999803304672241,
+        "cohesion_score": 0.9999803304672241,
+        "size": 5,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_22",
+        "silhouette_score": 0.9999679923057556,
+        "cohesion_score": 0.9999679923057556,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_23",
+        "silhouette_score": 0.9999530911445618,
+        "cohesion_score": 0.9999530911445618,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_24",
+        "silhouette_score": 0.9999979138374329,
+        "cohesion_score": 0.9999979138374329,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_25",
+        "silhouette_score": 0.9999977946281433,
+        "cohesion_score": 0.9999977946281433,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_26",
+        "silhouette_score": 0.9999996423721313,
+        "cohesion_score": 0.9999996423721313,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_27",
+        "silhouette_score": 0.9999995827674866,
+        "cohesion_score": 0.9999995827674866,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_28",
+        "silhouette_score": 0.9999914169311523,
+        "cohesion_score": 0.9999914169311523,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_29",
+        "silhouette_score": 0.9999974370002747,
+        "cohesion_score": 0.9999974370002747,
+        "size": 4,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_30",
+        "silhouette_score": 0.9999790787696838,
+        "cohesion_score": 0.9999790787696838,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_31",
+        "silhouette_score": 0.9999957084655762,
+        "cohesion_score": 0.9999957084655762,
+        "size": 7,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_32",
+        "silhouette_score": 0.9999001026153564,
+        "cohesion_score": 0.9999001026153564,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_33",
+        "silhouette_score": 0.9999855160713196,
+        "cohesion_score": 0.9999855160713196,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_34",
+        "silhouette_score": 0.999987781047821,
+        "cohesion_score": 0.999987781047821,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_35",
+        "silhouette_score": 0.9999986290931702,
+        "cohesion_score": 0.9999986290931702,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_36",
+        "silhouette_score": 0.9999997019767761,
+        "cohesion_score": 0.9999997019767761,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_37",
+        "silhouette_score": 0.9996619820594788,
+        "cohesion_score": 0.9996619820594788,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_38",
+        "silhouette_score": 0.9999884963035583,
+        "cohesion_score": 0.9999884963035583,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_39",
+        "silhouette_score": 0.9999990463256836,
+        "cohesion_score": 0.9999990463256836,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_40",
+        "silhouette_score": 0.9999990463256836,
+        "cohesion_score": 0.9999990463256836,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_41",
+        "silhouette_score": 0.9999716877937317,
+        "cohesion_score": 0.9999716877937317,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_42",
+        "silhouette_score": 0.9999786615371704,
+        "cohesion_score": 0.9999786615371704,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_43",
+        "silhouette_score": 0.9999837875366211,
+        "cohesion_score": 0.9999837875366211,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_44",
+        "silhouette_score": 0.9999721646308899,
+        "cohesion_score": 0.9999721646308899,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_45",
+        "silhouette_score": 0.9999995231628418,
+        "cohesion_score": 0.9999995231628418,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_46",
+        "silhouette_score": 0.9999994039535522,
+        "cohesion_score": 0.9999994039535522,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_47",
+        "silhouette_score": 0.9999960064888,
+        "cohesion_score": 0.9999960064888,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_48",
+        "silhouette_score": 0.9999954104423523,
+        "cohesion_score": 0.9999954104423523,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_49",
+        "silhouette_score": 0.9999790191650391,
+        "cohesion_score": 0.9999790191650391,
+        "size": 4,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_50",
+        "silhouette_score": 0.9999904632568359,
+        "cohesion_score": 0.9999904632568359,
+        "size": 3,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_51",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_52",
+        "silhouette_score": 0.9999974966049194,
+        "cohesion_score": 0.9999974966049194,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_53",
+        "silhouette_score": 0.9999991655349731,
+        "cohesion_score": 0.9999991655349731,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_54",
+        "silhouette_score": 0.9999719858169556,
+        "cohesion_score": 0.9999719858169556,
+        "size": 6,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_55",
+        "silhouette_score": 0.9999980330467224,
+        "cohesion_score": 0.9999980330467224,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_56",
+        "silhouette_score": 0.9999957084655762,
+        "cohesion_score": 0.9999957084655762,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_57",
+        "silhouette_score": 0.9999871253967285,
+        "cohesion_score": 0.9999871253967285,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_58",
+        "silhouette_score": 0.9999967217445374,
+        "cohesion_score": 0.9999967217445374,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_59",
+        "silhouette_score": 0.9999990463256836,
+        "cohesion_score": 0.9999990463256836,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_60",
+        "silhouette_score": 0.9999906420707703,
+        "cohesion_score": 0.9999906420707703,
+        "size": 6,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_61",
+        "silhouette_score": 0.9999979138374329,
+        "cohesion_score": 0.9999979138374329,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_62",
+        "silhouette_score": 0.9999434351921082,
+        "cohesion_score": 0.9999434351921082,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_63",
+        "silhouette_score": 0.9999836087226868,
+        "cohesion_score": 0.9999836087226868,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_64",
+        "silhouette_score": 0.9999982714653015,
+        "cohesion_score": 0.9999982714653015,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_65",
+        "silhouette_score": 0.9999976754188538,
+        "cohesion_score": 0.9999976754188538,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_66",
+        "silhouette_score": 0.9999990463256836,
+        "cohesion_score": 0.9999990463256836,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_67",
+        "silhouette_score": 0.9999778270721436,
+        "cohesion_score": 0.9999778270721436,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_68",
+        "silhouette_score": 0.9999662637710571,
+        "cohesion_score": 0.9999662637710571,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_69",
+        "silhouette_score": 0.9999974370002747,
+        "cohesion_score": 0.9999974370002747,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_70",
+        "silhouette_score": 0.9999992847442627,
+        "cohesion_score": 0.9999992847442627,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_71",
+        "silhouette_score": 0.9999971389770508,
+        "cohesion_score": 0.9999971389770508,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_72",
+        "silhouette_score": 0.9999992251396179,
+        "cohesion_score": 0.9999992251396179,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_73",
+        "silhouette_score": 0.999981164932251,
+        "cohesion_score": 0.999981164932251,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_74",
+        "silhouette_score": 0.9999871253967285,
+        "cohesion_score": 0.9999871253967285,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_75",
+        "silhouette_score": 0.9999988079071045,
+        "cohesion_score": 0.9999988079071045,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_76",
+        "silhouette_score": 0.9999894499778748,
+        "cohesion_score": 0.9999894499778748,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_77",
+        "silhouette_score": 0.9999995827674866,
+        "cohesion_score": 0.9999995827674866,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_78",
+        "silhouette_score": 0.9999925494194031,
+        "cohesion_score": 0.9999925494194031,
+        "size": 6,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_79",
+        "silhouette_score": 0.9999985098838806,
+        "cohesion_score": 0.9999985098838806,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_80",
+        "silhouette_score": 0.9999971389770508,
+        "cohesion_score": 0.9999971389770508,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_81",
+        "silhouette_score": 0.9999814629554749,
+        "cohesion_score": 0.9999814629554749,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_82",
+        "silhouette_score": 0.9999995827674866,
+        "cohesion_score": 0.9999995827674866,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_83",
+        "silhouette_score": 0.9999753832817078,
+        "cohesion_score": 0.9999753832817078,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_84",
+        "silhouette_score": 0.9999969005584717,
+        "cohesion_score": 0.9999969005584717,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_85",
+        "silhouette_score": 0.9999870657920837,
+        "cohesion_score": 0.9999870657920837,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_86",
+        "silhouette_score": 0.9999958276748657,
+        "cohesion_score": 0.9999958276748657,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_87",
+        "silhouette_score": 0.9999988079071045,
+        "cohesion_score": 0.9999988079071045,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_88",
+        "silhouette_score": 0.9999915957450867,
+        "cohesion_score": 0.9999915957450867,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_89",
+        "silhouette_score": 0.9999986290931702,
+        "cohesion_score": 0.9999986290931702,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_90",
+        "silhouette_score": 0.999993085861206,
+        "cohesion_score": 0.999993085861206,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_91",
+        "silhouette_score": 0.9999944567680359,
+        "cohesion_score": 0.9999944567680359,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_92",
+        "silhouette_score": 0.9999935030937195,
+        "cohesion_score": 0.9999935030937195,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_93",
+        "silhouette_score": 0.9999237060546875,
+        "cohesion_score": 0.9999237060546875,
+        "size": 7,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_94",
+        "silhouette_score": 0.9999940991401672,
+        "cohesion_score": 0.9999940991401672,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_95",
+        "silhouette_score": 0.9999961256980896,
+        "cohesion_score": 0.9999961256980896,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_96",
+        "silhouette_score": 0.9999776482582092,
+        "cohesion_score": 0.9999776482582092,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_97",
+        "silhouette_score": 0.999994158744812,
+        "cohesion_score": 0.999994158744812,
+        "size": 2,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_98",
+        "silhouette_score": 0.9999107718467712,
+        "cohesion_score": 0.9999107718467712,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_99",
+        "silhouette_score": 0.9999998211860657,
+        "cohesion_score": 0.9999998211860657,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_100",
+        "silhouette_score": 0.9999475479125977,
+        "cohesion_score": 0.9999475479125977,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_101",
+        "silhouette_score": 0.9999634623527527,
+        "cohesion_score": 0.9999634623527527,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_102",
+        "silhouette_score": 0.9998902082443237,
+        "cohesion_score": 0.9998902082443237,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_103",
+        "silhouette_score": 0.999934732913971,
+        "cohesion_score": 0.999934732913971,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_104",
+        "silhouette_score": 0.999993085861206,
+        "cohesion_score": 0.999993085861206,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_105",
+        "silhouette_score": 0.9999698996543884,
+        "cohesion_score": 0.9999698996543884,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_106",
+        "silhouette_score": 0.9999538660049438,
+        "cohesion_score": 0.9999538660049438,
+        "size": 7,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_107",
+        "silhouette_score": 0.9999951124191284,
+        "cohesion_score": 0.9999951124191284,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_108",
+        "silhouette_score": 0.9999828338623047,
+        "cohesion_score": 0.9999828338623047,
+        "size": 5,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_109",
+        "silhouette_score": 0.9999929070472717,
+        "cohesion_score": 0.9999929070472717,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_110",
+        "silhouette_score": 0.9999977350234985,
+        "cohesion_score": 0.9999977350234985,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_111",
+        "silhouette_score": 0.9999964833259583,
+        "cohesion_score": 0.9999964833259583,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_112",
+        "silhouette_score": 0.9999799132347107,
+        "cohesion_score": 0.9999799132347107,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_113",
+        "silhouette_score": 0.9999949336051941,
+        "cohesion_score": 0.9999949336051941,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_114",
+        "silhouette_score": 0.9999943375587463,
+        "cohesion_score": 0.9999943375587463,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_115",
+        "silhouette_score": 0.9999740123748779,
+        "cohesion_score": 0.9999740123748779,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_116",
+        "silhouette_score": 0.9999998211860657,
+        "cohesion_score": 0.9999998211860657,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_117",
+        "silhouette_score": 0.999947726726532,
+        "cohesion_score": 0.999947726726532,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_118",
+        "silhouette_score": 0.9999905228614807,
+        "cohesion_score": 0.9999905228614807,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_119",
+        "silhouette_score": 0.9999983906745911,
+        "cohesion_score": 0.9999983906745911,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_120",
+        "silhouette_score": 0.9999609589576721,
+        "cohesion_score": 0.9999609589576721,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_121",
+        "silhouette_score": 0.9999977946281433,
+        "cohesion_score": 0.9999977946281433,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_122",
+        "silhouette_score": 0.9999804496765137,
+        "cohesion_score": 0.9999804496765137,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_123",
+        "silhouette_score": 0.9999992847442627,
+        "cohesion_score": 0.9999992847442627,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_124",
+        "silhouette_score": 0.9999785423278809,
+        "cohesion_score": 0.9999785423278809,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_125",
+        "silhouette_score": 0.999998152256012,
+        "cohesion_score": 0.999998152256012,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_126",
+        "silhouette_score": 0.9999985098838806,
+        "cohesion_score": 0.9999985098838806,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_127",
+        "silhouette_score": 0.999992311000824,
+        "cohesion_score": 0.999992311000824,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_128",
+        "silhouette_score": 0.9999940395355225,
+        "cohesion_score": 0.9999940395355225,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_129",
+        "silhouette_score": 0.9999996423721313,
+        "cohesion_score": 0.9999996423721313,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_130",
+        "silhouette_score": 0.9999842643737793,
+        "cohesion_score": 0.9999842643737793,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_131",
+        "silhouette_score": 0.9999973773956299,
+        "cohesion_score": 0.9999973773956299,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_132",
+        "silhouette_score": 0.9999997615814209,
+        "cohesion_score": 0.9999997615814209,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_133",
+        "silhouette_score": 0.9999915361404419,
+        "cohesion_score": 0.9999915361404419,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_134",
+        "silhouette_score": 0.9999996423721313,
+        "cohesion_score": 0.9999996423721313,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_135",
+        "silhouette_score": 0.9999956488609314,
+        "cohesion_score": 0.9999956488609314,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_136",
+        "silhouette_score": 0.9999761581420898,
+        "cohesion_score": 0.9999761581420898,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_137",
+        "silhouette_score": 0.9999919533729553,
+        "cohesion_score": 0.9999919533729553,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_138",
+        "silhouette_score": 0.9999803900718689,
+        "cohesion_score": 0.9999803900718689,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_139",
+        "silhouette_score": 0.9999949336051941,
+        "cohesion_score": 0.9999949336051941,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_140",
+        "silhouette_score": 0.9999996423721313,
+        "cohesion_score": 0.9999996423721313,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_141",
+        "silhouette_score": 0.9999945759773254,
+        "cohesion_score": 0.9999945759773254,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_142",
+        "silhouette_score": 0.9999990463256836,
+        "cohesion_score": 0.9999990463256836,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_143",
+        "silhouette_score": 0.9999963641166687,
+        "cohesion_score": 0.9999963641166687,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_144",
+        "silhouette_score": 0.9999992847442627,
+        "cohesion_score": 0.9999992847442627,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_145",
+        "silhouette_score": 0.9999933242797852,
+        "cohesion_score": 0.9999933242797852,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_146",
+        "silhouette_score": 0.9999995231628418,
+        "cohesion_score": 0.9999995231628418,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_147",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_148",
+        "silhouette_score": 0.9999992847442627,
+        "cohesion_score": 0.9999992847442627,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_149",
+        "silhouette_score": 0.9999868273735046,
+        "cohesion_score": 0.9999868273735046,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_150",
+        "silhouette_score": 0.999999463558197,
+        "cohesion_score": 0.999999463558197,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_151",
+        "silhouette_score": 0.9999985098838806,
+        "cohesion_score": 0.9999985098838806,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_152",
+        "silhouette_score": 0.999989926815033,
+        "cohesion_score": 0.999989926815033,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_153",
+        "silhouette_score": 0.9999998211860657,
+        "cohesion_score": 0.9999998211860657,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_154",
+        "silhouette_score": 0.9999998807907104,
+        "cohesion_score": 0.9999998807907104,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_155",
+        "silhouette_score": 0.9999954700469971,
+        "cohesion_score": 0.9999954700469971,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_156",
+        "silhouette_score": 0.9999925494194031,
+        "cohesion_score": 0.9999925494194031,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_157",
+        "silhouette_score": 0.9999778270721436,
+        "cohesion_score": 0.9999778270721436,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_158",
+        "silhouette_score": 0.9999892115592957,
+        "cohesion_score": 0.9999892115592957,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_159",
+        "silhouette_score": 0.9999871850013733,
+        "cohesion_score": 0.9999871850013733,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_160",
+        "silhouette_score": 0.9999976754188538,
+        "cohesion_score": 0.9999976754188538,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_161",
+        "silhouette_score": 0.9999980330467224,
+        "cohesion_score": 0.9999980330467224,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_162",
+        "silhouette_score": 0.9999925494194031,
+        "cohesion_score": 0.9999925494194031,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_163",
+        "silhouette_score": 0.9999986886978149,
+        "cohesion_score": 0.9999986886978149,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_164",
+        "silhouette_score": 0.9999758005142212,
+        "cohesion_score": 0.9999758005142212,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_165",
+        "silhouette_score": 0.9999944567680359,
+        "cohesion_score": 0.9999944567680359,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_166",
+        "silhouette_score": 0.9999756217002869,
+        "cohesion_score": 0.9999756217002869,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_167",
+        "silhouette_score": 0.9999935030937195,
+        "cohesion_score": 0.9999935030937195,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_168",
+        "silhouette_score": 0.9999788403511047,
+        "cohesion_score": 0.9999788403511047,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_169",
+        "silhouette_score": 0.9999703168869019,
+        "cohesion_score": 0.9999703168869019,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_170",
+        "silhouette_score": 0.9999973177909851,
+        "cohesion_score": 0.9999973177909851,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_171",
+        "silhouette_score": 0.9999966621398926,
+        "cohesion_score": 0.9999966621398926,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_172",
+        "silhouette_score": 0.9999951720237732,
+        "cohesion_score": 0.9999951720237732,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_173",
+        "silhouette_score": 0.999991238117218,
+        "cohesion_score": 0.999991238117218,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_174",
+        "silhouette_score": 0.9999814629554749,
+        "cohesion_score": 0.9999814629554749,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_175",
+        "silhouette_score": 0.9999961853027344,
+        "cohesion_score": 0.9999961853027344,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_176",
+        "silhouette_score": 0.9999894499778748,
+        "cohesion_score": 0.9999894499778748,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_177",
+        "silhouette_score": 0.9999982714653015,
+        "cohesion_score": 0.9999982714653015,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_178",
+        "silhouette_score": 0.999996542930603,
+        "cohesion_score": 0.999996542930603,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_179",
+        "silhouette_score": 0.9999964237213135,
+        "cohesion_score": 0.9999964237213135,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_180",
+        "silhouette_score": 0.9999986290931702,
+        "cohesion_score": 0.9999986290931702,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_181",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_182",
+        "silhouette_score": 0.9999865889549255,
+        "cohesion_score": 0.9999865889549255,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_183",
+        "silhouette_score": 0.9999815821647644,
+        "cohesion_score": 0.9999815821647644,
+        "size": 6,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_184",
+        "silhouette_score": 0.9999867081642151,
+        "cohesion_score": 0.9999867081642151,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_185",
+        "silhouette_score": 0.9999943971633911,
+        "cohesion_score": 0.9999943971633911,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_186",
+        "silhouette_score": 0.9999987483024597,
+        "cohesion_score": 0.9999987483024597,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_187",
+        "silhouette_score": 0.9999959468841553,
+        "cohesion_score": 0.9999959468841553,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_188",
+        "silhouette_score": 0.9999935030937195,
+        "cohesion_score": 0.9999935030937195,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_189",
+        "silhouette_score": 0.999992311000824,
+        "cohesion_score": 0.999992311000824,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_190",
+        "silhouette_score": 0.9999902248382568,
+        "cohesion_score": 0.9999902248382568,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_191",
+        "silhouette_score": 0.9999995231628418,
+        "cohesion_score": 0.9999995231628418,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_192",
+        "silhouette_score": 0.9999999403953552,
+        "cohesion_score": 0.9999999403953552,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_193",
+        "silhouette_score": 0.9999926686286926,
+        "cohesion_score": 0.9999926686286926,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_194",
+        "silhouette_score": 0.9999889135360718,
+        "cohesion_score": 0.9999889135360718,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_195",
+        "silhouette_score": 0.9999897480010986,
+        "cohesion_score": 0.9999897480010986,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_196",
+        "silhouette_score": 0.9999925494194031,
+        "cohesion_score": 0.9999925494194031,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_197",
+        "silhouette_score": 0.999989926815033,
+        "cohesion_score": 0.999989926815033,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_198",
+        "silhouette_score": 0.9999966025352478,
+        "cohesion_score": 0.9999966025352478,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "eng_para_cluster_199",
+        "silhouette_score": 0.9999718070030212,
+        "cohesion_score": 0.9999718070030212,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      }
+    ]
+  },
+  "term_frequency_distributions": {
+    "description": "Top terms by cluster for word clouds",
+    "clusters": [
+      {
+        "cluster_id": "eng_para_cluster_04",
+        "top_terms": [
+          {
+            "term": "projects",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "Lebanon",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Hala annotator HITL shares story",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "annotator HITL shares story light",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "HITL shares story light strict",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "shares story light strict labor",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "story light strict labor laws",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "light strict labor laws Lebanon",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "strict labor laws Lebanon paid",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "labor laws Lebanon paid projects",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_13",
+        "top_terms": [
+          {
+            "term": "treated freelancers employees results lack",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "freelancers employees results lack job",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "employees results lack job security",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "results lack job security stability",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lack job security stability combined",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "job security stability combined stressful",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "security stability combined stressful working",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "stability combined stressful working conditions",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "combined stressful working conditions negative",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "stressful working conditions negative impact",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_18",
+        "top_terms": [
+          {
+            "term": "line work governed time team",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "work governed time team supervisor",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "governed time team supervisor ensuring",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "time team supervisor ensuring smooth",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "team supervisor ensuring smooth project",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "supervisor ensuring smooth project progression",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ensuring smooth project progression meeting",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "smooth project progression meeting deadlines",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "project progression meeting deadlines responsibility",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "progression meeting deadlines responsibility oversee",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_23",
+        "top_terms": [
+          {
+            "term": "next generation tools much efficient",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "generation tools much efficient 'll",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tools much efficient 'll able",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "much efficient 'll able predict",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "efficient 'll able predict side",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "'ll able predict side effects",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "able predict side effects figure",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "predict side effects figure dosing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "side effects figure dosing levels",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "effects figure dosing levels One",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_24",
+        "top_terms": [
+          {
+            "term": "know lot teachers worried students",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lot teachers worried students using",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "teachers worried students using GPT",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "worried students using GPT write",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "students using GPT write essays",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "using GPT write essays Educators",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "GPT write essays Educators already",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "write essays Educators already discussing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "essays Educators already discussing ways",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Educators already discussing ways adapt",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_32",
+        "top_terms": [
+          {
+            "term": "past years ever since processing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "years ever since processing capacity",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ever since processing capacity caught",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "since processing capacity caught neural",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "processing capacity caught neural models",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "capacity caught neural models heady",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "caught neural models heady times",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "neural models heady times world",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "models heady times world NLP",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "heady times world NLP Neural",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_33",
+        "top_terms": [
+          {
+            "term": "Recalling terms Constitution UNESCO seeks",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "terms Constitution UNESCO seeks contribute",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Constitution UNESCO seeks contribute peace",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "UNESCO seeks contribute peace security",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "seeks contribute peace security promoting",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "contribute peace security promoting collaboration",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "peace security promoting collaboration among",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "security promoting collaboration among nations",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "promoting collaboration among nations education",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "collaboration among nations education sciences",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_35",
+        "top_terms": [
+          {
+            "term": "Emphasizing specific attention must paid",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "specific attention must paid LMICs",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "attention must paid LMICs including",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "must paid LMICs including limited",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "paid LMICs including limited LDCs",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "LMICs including limited LDCs LLDCs",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "including limited LDCs LLDCs SIDS",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "limited LDCs LLDCs SIDS capacity",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "LDCs LLDCs SIDS capacity underrepresented",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "LLDCs SIDS capacity underrepresented AI",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_38",
+        "top_terms": [
+          {
+            "term": "Additionally expect annotators highly accurate",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "expect annotators highly accurate tasks",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "annotators highly accurate tasks otherwise",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "highly accurate tasks otherwise tasks",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "accurate tasks otherwise tasks returned",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tasks otherwise tasks returned fix",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "otherwise tasks returned fix extra",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tasks returned fix extra work",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "returned fix extra work paid",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "fix extra work paid even",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_43",
+        "top_terms": [
+          {
+            "term": "development AI fundamental creation microprocessor",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI fundamental creation microprocessor personal",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "fundamental creation microprocessor personal computer",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "creation microprocessor personal computer Internet",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "microprocessor personal computer Internet mobile",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "personal computer Internet mobile phone",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "computer Internet mobile phone change",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Internet mobile phone change way",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "mobile phone change way people",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "phone change way people work",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_44",
+        "top_terms": [
+          {
+            "term": "'m lucky involved PC revolution",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lucky involved PC revolution Internet",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "involved PC revolution Internet revolution",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "PC revolution Internet revolution 'm",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "revolution Internet revolution 'm excited",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Internet revolution 'm excited moment",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "revolution 'm excited moment new",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "'m excited moment new technology",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "excited moment new technology help",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "moment new technology help people",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_52",
+        "top_terms": [
+          {
+            "term": "human",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "AI",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "rights",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "technologies",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Convinced Recommendation presented standard setting",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Recommendation presented standard setting instrument",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "presented standard setting instrument developed",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "standard setting instrument developed global",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "setting instrument developed global approach",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "instrument developed global approach based",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_53",
+        "top_terms": [
+          {
+            "term": "provide universal framework values principles",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "universal framework values principles actions",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "framework values principles actions guide",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "values principles actions guide States",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "principles actions guide States formulation",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "actions guide States formulation legislation",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "guide States formulation legislation policies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "States formulation legislation policies instruments",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "formulation legislation policies instruments regarding",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "legislation policies instruments regarding AI",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_54",
+        "top_terms": [
+          {
+            "term": "General",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "General Conference United Nations Educational",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Conference United Nations Educational Scientific",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "United Nations Educational Scientific Cultural",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Nations Educational Scientific Cultural Organization",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Educational Scientific Cultural Organization UNESCO",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Scientific Cultural Organization UNESCO meeting",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Cultural Organization UNESCO meeting Paris",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Organization UNESCO meeting Paris 24",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "UNESCO meeting Paris 24 November",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_56",
+        "top_terms": [
+          {
+            "term": "Rights",
+            "frequency": 9,
+            "c_value": 9.0
+          },
+          {
+            "term": "Convention",
+            "frequency": 8,
+            "c_value": 8.0
+          },
+          {
+            "term": "Human Rights Council 's resolution",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Declaration",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "United Nations General Assembly",
+            "frequency": 2,
+            "c_value": 5.0
+          },
+          {
+            "term": "Human Rights Council 's",
+            "frequency": 2,
+            "c_value": 4.666666666666667
+          },
+          {
+            "term": "Rights Council 's resolution",
+            "frequency": 2,
+            "c_value": 4.666666666666667
+          },
+          {
+            "term": "Human",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Discrimination",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "International",
+            "frequency": 4,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_57",
+        "top_terms": [
+          {
+            "term": "Recommends Member States apply voluntary",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Member States apply voluntary basis",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "States apply voluntary basis provisions",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "apply voluntary basis provisions Recommendation",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "voluntary basis provisions Recommendation taking",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "basis provisions Recommendation taking appropriate",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "provisions Recommendation taking appropriate steps",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Recommendation taking appropriate steps including",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "taking appropriate steps including whatever",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "appropriate steps including whatever legislative",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_58",
+        "top_terms": [
+          {
+            "term": "started journey without obstacles Even",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "journey without obstacles Even medication",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "without obstacles Even medication used",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "obstacles Even medication used treatment",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Even medication used treatment side",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "medication used treatment side effects",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "used treatment side effects journey",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "treatment side effects journey data",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "side effects journey data annotation",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "effects journey data annotation negative",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_59",
+        "top_terms": [
+          {
+            "term": "Many annotators feel compelled accept",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "annotators feel compelled accept available",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "feel compelled accept available work",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "compelled accept available work even",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "accept available work even fully",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "available work even fully available",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "work even fully available complete",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "even fully available complete due",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "fully available complete due irregular",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "available complete due irregular nature",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_60",
+        "top_terms": [
+          {
+            "term": "AI",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "'s",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "inequity",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "reduce",
+            "frequency": 3,
+            "c_value": 3.0
+          },
+          {
+            "term": "world",
+            "frequency": 3,
+            "c_value": 3.0
+          },
+          {
+            "term": "children",
+            "frequency": 3,
+            "c_value": 3.0
+          },
+          {
+            "term": "students",
+            "frequency": 3,
+            "c_value": 3.0
+          },
+          {
+            "term": "math",
+            "frequency": 3,
+            "c_value": 3.0
+          },
+          {
+            "term": "help",
+            "frequency": 3,
+            "c_value": 3.0
+          },
+          {
+            "term": "AI help",
+            "frequency": 3,
+            "c_value": 3.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_61",
+        "top_terms": [
+          {
+            "term": "Similarly governments philanthropy create incentives",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "governments philanthropy create incentives companies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "philanthropy create incentives companies share",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "create incentives companies share AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "incentives companies share AI generated",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "companies share AI generated insights",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "share AI generated insights crops",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI generated insights crops livestock",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "generated insights crops livestock raised",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "insights crops livestock raised people",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_62",
+        "top_terms": [
+          {
+            "term": "identified wide variety costs risks",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "wide variety costs risks associated",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "variety costs risks associated rush",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "costs risks associated rush ever",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "risks associated rush ever larger",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "associated rush ever larger LMs",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "rush ever larger LMs including",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ever larger LMs including environmental",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "larger LMs including environmental costs",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "LMs including environmental costs borne",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_69",
+        "top_terms": [
+          {
+            "term": "course AIs need lot training",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AIs need lot training development",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "need lot training development things",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lot training development things like",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "training development things like understand",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "development things like understand certain",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "things like understand certain student",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "like understand certain student learns",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "understand certain student learns best",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "certain student learns best motivates",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_70",
+        "top_terms": [
+          {
+            "term": "explosion companies working new uses",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "companies working new uses AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "working new uses AI well",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "new uses AI well ways",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "uses AI well ways improve",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI well ways improve technology",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "well ways improve technology example",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ways improve technology example companies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "improve technology example companies developing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "technology example companies developing new",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_71",
+        "top_terms": [
+          {
+            "term": "Thus call NLP researchers carefully",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "call NLP researchers carefully weigh",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "NLP researchers carefully weigh risks",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "researchers carefully weigh risks pursuing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "carefully weigh risks pursuing research",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "weigh risks pursuing research direction",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "risks pursuing research direction consider",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "pursuing research direction consider whether",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "research direction consider whether benefits",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "direction consider whether benefits outweigh",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_88",
+        "top_terms": [
+          {
+            "term": "Finally keep mind 're beginning",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "keep mind 're beginning AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "mind 're beginning AI accomplish",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "'re beginning AI accomplish Whatever",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "beginning AI accomplish Whatever limitations",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI accomplish Whatever limitations today",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "accomplish Whatever limitations today gone",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Whatever limitations today gone know",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Finally keep mind 're",
+            "frequency": 1,
+            "c_value": 2.0
+          },
+          {
+            "term": "keep mind 're beginning",
+            "frequency": 1,
+            "c_value": 2.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_97",
+        "top_terms": [
+          {
+            "term": "New tools created schools afford",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tools created schools afford buy",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "created schools afford buy need",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "schools afford buy need ensure",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "afford buy need ensure also",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "buy need ensure also created",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "need ensure also created available",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ensure also created available low",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "also created available low income",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "created available low income schools",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_99",
+        "top_terms": [
+          {
+            "term": "people",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "new technology 's disruptive bound",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "technology 's disruptive bound make",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "'s disruptive bound make people",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "disruptive bound make people uneasy",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "bound make people uneasy 's",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "make people uneasy 's certainly",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "people uneasy 's certainly true",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "uneasy 's certainly true artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "'s certainly true artificial intelligence",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_100",
+        "top_terms": [
+          {
+            "term": "Underlining strengthening global cooperation solidarity",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "strengthening global cooperation solidarity including",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "global cooperation solidarity including multilateralism",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "cooperation solidarity including multilateralism needed",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "solidarity including multilateralism needed facilitate",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "including multilateralism needed facilitate fair",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "multilateralism needed facilitate fair access",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "needed facilitate fair access AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "facilitate fair access AI technologies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "fair access AI technologies address",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_102",
+        "top_terms": [
+          {
+            "term": "protect promote respect human rights",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "promote respect human rights fundamental",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "respect human rights fundamental freedoms",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "human rights fundamental freedoms human",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "rights fundamental freedoms human dignity",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "fundamental freedoms human dignity equality",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "freedoms human dignity equality including",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "human dignity equality including gender",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "dignity equality including gender equality",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "equality including gender equality safeguard",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_104",
+        "top_terms": [
+          {
+            "term": "organizations",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Also conscious many existing national",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "conscious many existing national policies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "many existing national policies frameworks",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "existing national policies frameworks initiatives",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "national policies frameworks initiatives elaborated",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "policies frameworks initiatives elaborated relevant",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "frameworks initiatives elaborated relevant United",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "initiatives elaborated relevant United Nations",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "elaborated relevant United Nations entities",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_105",
+        "top_terms": [
+          {
+            "term": "guide actions individuals groups communities",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "actions individuals groups communities institutions",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "individuals groups communities institutions private",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "groups communities institutions private sector",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "communities institutions private sector companies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "institutions private sector companies ensure",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "private sector companies ensure embedding",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sector companies ensure embedding ethics",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "companies ensure embedding ethics stages",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ensure embedding ethics stages AI",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_113",
+        "top_terms": [
+          {
+            "term": "ethical",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "human rights fundamental freedoms",
+            "frequency": 2,
+            "c_value": 5.0
+          },
+          {
+            "term": "Considering AI technologies great service",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI technologies great service humanity",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "technologies great service humanity countries",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "great service humanity countries benefit",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "service humanity countries benefit also",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "humanity countries benefit also raise",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "countries benefit also raise fundamental",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "benefit also raise fundamental ethical",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_114",
+        "top_terms": [
+          {
+            "term": "AI",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "technologies",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "access",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Also recognizing AI technologies deepen",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "recognizing AI technologies deepen existing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI technologies deepen existing divides",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "technologies deepen existing divides inequalities",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "deepen existing divides inequalities world",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "existing divides inequalities world within",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "divides inequalities world within countries",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_115",
+        "top_terms": [
+          {
+            "term": "Finally note parts U.S. government",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "note parts U.S. government also",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "parts U.S. government also engaged",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "U.S. government also engaged important",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "government also engaged important issues",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "also engaged important issues addition",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "engaged important issues addition ongoing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "important issues addition ongoing activities",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "issues addition ongoing activities courts",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "addition ongoing activities courts Congress",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_116",
+        "top_terms": [
+          {
+            "term": "countries",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Conscious fact countries facing acceleration",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "fact countries facing acceleration use",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "countries facing acceleration use information",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "facing acceleration use information communication",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "acceleration use information communication technologies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "use information communication technologies AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "information communication technologies AI technologies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "communication technologies AI technologies well",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "technologies AI technologies well increasing",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_129",
+        "top_terms": [
+          {
+            "term": "Copyright Act grants copyright owners",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Act grants copyright owners set",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "grants copyright owners set exclusive",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "copyright owners set exclusive rights",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "owners set exclusive rights reproduce",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "set exclusive rights reproduce distribute",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "exclusive rights reproduce distribute publicly",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "rights reproduce distribute publicly perform",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "reproduce distribute publicly perform publicly",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "distribute publicly perform publicly display",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_133",
+        "top_terms": [
+          {
+            "term": "Recognizing development AI technologies necessitates",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "development AI technologies necessitates commensurate",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI technologies necessitates commensurate increase",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "technologies necessitates commensurate increase data",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "necessitates commensurate increase data media",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "commensurate increase data media information",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "increase data media information literacy",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "data media information literacy well",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "media information literacy well access",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "information literacy well access independent",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_134",
+        "top_terms": [
+          {
+            "term": "Three books shaped thinking subject",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "books shaped thinking subject Superintelligence",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "shaped thinking subject Superintelligence Nick",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "thinking subject Superintelligence Nick Bostrom",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "subject Superintelligence Nick Bostrom Life",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Superintelligence Nick Bostrom Life 3.0",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Nick Bostrom Life 3.0 Max",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Bostrom Life 3.0 Max Tegmark",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Life 3.0 Max Tegmark Thousand",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "3.0 Max Tegmark Thousand Brains",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_138",
+        "top_terms": [
+          {
+            "term": "human",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Recognizing profound dynamic positive negative",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "profound dynamic positive negative impacts",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "dynamic positive negative impacts artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "positive negative impacts artificial intelligence",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "negative impacts artificial intelligence AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "impacts artificial intelligence AI societies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "artificial intelligence AI societies environment",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "intelligence AI societies environment ecosystems",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI societies environment ecosystems human",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_150",
+        "top_terms": [
+          {
+            "term": "issues subject intense debate Dozens",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "subject intense debate Dozens lawsuits",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "intense debate Dozens lawsuits pending",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "debate Dozens lawsuits pending United",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Dozens lawsuits pending United States",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lawsuits pending United States focusing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "pending United States focusing application",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "United States focusing application copyright",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "States focusing application copyright 's",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "focusing application copyright 's fair",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_151",
+        "top_terms": [
+          {
+            "term": "questions",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Pursuant Register Copyrights statutory responsibility",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Register Copyrights statutory responsibility c]onduct",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Copyrights statutory responsibility c]onduct studies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "statutory responsibility c]onduct studies a]dvise",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "responsibility c]onduct studies a]dvise Congress",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "c]onduct studies a]dvise Congress national",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "studies a]dvise Congress national international",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "a]dvise Congress national international issues",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Congress national international issues relating",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_156",
+        "top_terms": [
+          {
+            "term": "Also recommends Member States engage",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "recommends Member States engage stakeholders",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Member States engage stakeholders including",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "States engage stakeholders including business",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "engage stakeholders including business enterprises",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "stakeholders including business enterprises ensure",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "including business enterprises ensure play",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "business enterprises ensure play respective",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "enterprises ensure play respective roles",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ensure play respective roles implementation",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_160",
+        "top_terms": [
+          {
+            "term": "Throughout history copyright law adapted",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "history copyright law adapted new",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "copyright law adapted new technology",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "law adapted new technology furthering",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "adapted new technology furthering progress",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "new technology furthering progress preserving",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "technology furthering progress preserving incentives",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "furthering progress preserving incentives creative",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "progress preserving incentives creative activity",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "preserving incentives creative activity enabled",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_161",
+        "top_terms": [
+          {
+            "term": "Section",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Part Report proceeds follows Section",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Report proceeds follows Section II",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "proceeds follows Section II provides",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "follows Section II provides technical",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Section II provides technical overview",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "II provides technical overview generative",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "provides technical overview generative AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "technical overview generative AI systems",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "overview generative AI systems developed",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_162",
+        "top_terms": [
+          {
+            "term": "models",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "generative",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "section describes copyrighted works used",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "describes copyrighted works used development",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "copyrighted works used development generative",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "works used development generative AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "used development generative AI models",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "development generative AI models begin",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "generative AI models begin explaining",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI models begin explaining machine",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_165",
+        "top_terms": [
+          {
+            "term": "AI",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "side many warned requiring AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "many warned requiring AI companies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "warned requiring AI companies license",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "requiring AI companies license works",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI companies license works training",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "companies license works training data",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "license works training data would",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "works training data would stifle",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "training data would stifle development",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_166",
+        "top_terms": [
+          {
+            "term": "extent uses copyrighted works train",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "uses copyrighted works train AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "copyrighted works train AI models",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "works train AI models require",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "train AI models require licensing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI models require licensing forms",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "models require licensing forms licensing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "require licensing forms licensing best",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "licensing forms licensing best accommodate",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "forms licensing best accommodate interests",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_167",
+        "top_terms": [
+          {
+            "term": "Office 's analysis necessarily limited",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "'s analysis necessarily limited current",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "analysis necessarily limited current circumstances",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "necessarily limited current circumstances publicly",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "limited current circumstances publicly available",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "current circumstances publicly available information",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "circumstances publicly available information recognize",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "publicly available information recognize technology",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "available information recognize technology markets",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "information recognize technology markets involved",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_177",
+        "top_terms": [
+          {
+            "term": "licensing",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "NOI asked several questions topic",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "asked several questions topic including",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "several questions topic including whether",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "questions topic including whether direct",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "topic including whether direct collective",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "including whether direct collective voluntary",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "whether direct collective voluntary licensing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "direct collective voluntary licensing feasible",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "collective voluntary licensing feasible creative",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_179",
+        "top_terms": [
+          {
+            "term": "stakes high consequences often described",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "high consequences often described existential",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "consequences often described existential terms",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "often described existential terms warn",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "described existential terms warn requiring",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "existential terms warn requiring AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "terms warn requiring AI companies",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "warn requiring AI companies license",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "requiring AI companies license copyrighted",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "AI companies license copyrighted works",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_184",
+        "top_terms": [
+          {
+            "term": "uses may qualify fair practical",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "may qualify fair practical solutions",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "qualify fair practical solutions critical",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "fair practical solutions critical support",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "practical solutions critical support ongoing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "solutions critical support ongoing innovation",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "critical support ongoing innovation Licensing",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "support ongoing innovation Licensing agreements",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ongoing innovation Licensing agreements AI",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "innovation Licensing agreements AI training",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_186",
+        "top_terms": [
+          {
+            "term": "use",
+            "frequency": 9,
+            "c_value": 9.0
+          },
+          {
+            "term": "fair",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "copyrighted",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "work",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Fair use judge made doctrine",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "use judge made doctrine codified",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "judge made doctrine codified Section",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "made doctrine codified Section 107",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "doctrine codified Section 107 1976",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "codified Section 107 1976 Copyright",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "eng_para_cluster_191",
+        "top_terms": [
+          {
+            "term": "works",
+            "frequency": 11,
+            "c_value": 11.0
+          },
+          {
+            "term": "use",
+            "frequency": 8,
+            "c_value": 8.0
+          },
+          {
+            "term": "use copyrighted works train AI",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "copyrighted works train AI models",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "training",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "fair",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "AI",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "copyrighted",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "use copyrighted works",
+            "frequency": 3,
+            "c_value": 4.846153846153847
+          },
+          {
+            "term": "use copyrighted works train",
+            "frequency": 2,
+            "c_value": 4.666666666666667
+          }
+        ]
+      }
+    ]
+  }
+}

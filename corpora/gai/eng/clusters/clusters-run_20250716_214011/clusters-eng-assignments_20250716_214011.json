@@ -1,0 +1,2907 @@
+{
+  "metadata": {
+    "language": "eng",
+    "export_timestamp": "20250716_214011",
+    "assignment_method": "HDBSCAN_with_probabilities"
+  },
+  "paragraph_level": {
+    "gai-eng_corpus-item001_abstract": [
+      {
+        "cluster_id": "eng_para_cluster_140",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_2": [
+      {
+        "cluster_id": "eng_para_cluster_150",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_3": [
+      {
+        "cluster_id": "eng_para_cluster_179",
+        "confidence": 0.5243389561135036,
+        "primary": true
+      }
+    ],
+    "p1_4": [
+      {
+        "cluster_id": "eng_para_cluster_151",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_1": [
+      {
+        "cluster_id": "eng_para_cluster_162",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2": [
+      {
+        "cluster_id": "eng_para_cluster_04",
+        "confidence": 0.5498000765336636,
+        "primary": true
+      }
+    ],
+    "p2_3": [
+      {
+        "cluster_id": "eng_para_cluster_58",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_4": [
+      {
+        "cluster_id": "eng_para_cluster_32",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1": [
+      {
+        "cluster_id": "eng_para_cluster_129",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2": [
+      {
+        "cluster_id": "eng_para_cluster_18",
+        "confidence": 0.8038305178038855,
+        "primary": true
+      }
+    ],
+    "p3_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_146",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_146",
+        "confidence": 0.2528896444240881,
+        "primary": true
+      }
+    ],
+    "p3_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_146",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_139",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_32",
+        "confidence": 0.1559260640081243,
+        "primary": true
+      }
+    ],
+    "p3_2_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_107",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_107",
+        "confidence": 0.9089896536053319,
+        "primary": true
+      }
+    ],
+    "p3_2_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_107",
+        "confidence": 0.9832014436785914,
+        "primary": true
+      }
+    ],
+    "p3_2_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_139",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_128",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_127",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_2_5": [
+      {
+        "cluster_id": "eng_para_cluster_127",
+        "confidence": 0.8232876251492092,
+        "primary": true
+      }
+    ],
+    "p3_2_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_103",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_103",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_117",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_3_4": [
+      {
+        "cluster_id": "eng_para_cluster_143",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_01",
+        "confidence": 0.14097399653363538,
+        "primary": true
+      }
+    ],
+    "p3_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_109",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_4_1": [
+      {
+        "cluster_id": "eng_para_cluster_188",
+        "confidence": 0.5642912723309103,
+        "primary": true
+      }
+    ],
+    "p3_5_1": [
+      {
+        "cluster_id": "eng_para_cluster_83",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_5_2": [
+      {
+        "cluster_id": "eng_para_cluster_27",
+        "confidence": 0.2735047845494186,
+        "primary": true
+      }
+    ],
+    "p3_5_3": [
+      {
+        "cluster_id": "eng_para_cluster_27",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_5_4": [
+      {
+        "cluster_id": "eng_para_cluster_27",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_5_5": [
+      {
+        "cluster_id": "eng_para_cluster_27",
+        "confidence": 0.11819183662063376,
+        "primary": true
+      }
+    ],
+    "p3_5_6": [
+      {
+        "cluster_id": "eng_para_cluster_28",
+        "confidence": 0.083317753080449,
+        "primary": true
+      }
+    ],
+    "p4_1": [
+      {
+        "cluster_id": "eng_para_cluster_129",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2": [
+      {
+        "cluster_id": "eng_para_cluster_186",
+        "confidence": 0.5561362697561363,
+        "primary": true
+      }
+    ],
+    "p4_3": [
+      {
+        "cluster_id": "eng_para_cluster_186",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4": [
+      {
+        "cluster_id": "eng_para_cluster_179",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_5": [
+      {
+        "cluster_id": "eng_para_cluster_191",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_6": [
+      {
+        "cluster_id": "eng_para_cluster_165",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1": [
+      {
+        "cluster_id": "eng_para_cluster_166",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_183",
+        "confidence": 0.050999751811334926,
+        "primary": true
+      }
+    ],
+    "p5_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_177",
+        "confidence": 0.9033328745338378,
+        "primary": true
+      }
+    ],
+    "p5_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_166",
+        "confidence": 0.5453620504050066,
+        "primary": true
+      }
+    ],
+    "p5_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_195",
+        "confidence": 0.4414094370041445,
+        "primary": true
+      }
+    ],
+    "p5_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_166",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_4_1": [
+      {
+        "cluster_id": "eng_para_cluster_163",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_4_3": [
+      {
+        "cluster_id": "eng_para_cluster_20",
+        "confidence": 0.03828458094501865,
+        "primary": true
+      }
+    ],
+    "p6_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_78",
+        "confidence": 0.26370811092967167,
+        "primary": true
+      }
+    ],
+    "p6_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_30",
+        "confidence": 0.14348397817828518,
+        "primary": true
+      }
+    ],
+    "p6_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_76",
+        "confidence": 0.5009250210312788,
+        "primary": true
+      }
+    ],
+    "p6_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_47",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_30",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_91",
+        "confidence": 0.16118106760797898,
+        "primary": true
+      }
+    ],
+    "p6_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_71",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_72",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_48",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_3_4": [
+      {
+        "cluster_id": "eng_para_cluster_50",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_3_5": [
+      {
+        "cluster_id": "eng_para_cluster_74",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p7_1": [
+      {
+        "cluster_id": "eng_para_cluster_70",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p7_2": [
+      {
+        "cluster_id": "eng_para_cluster_70",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p7_3": [
+      {
+        "cluster_id": "eng_para_cluster_134",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p7_4": [
+      {
+        "cluster_id": "eng_para_cluster_99",
+        "confidence": 0.6709730004293926,
+        "primary": true
+      }
+    ],
+    "gai-eng_corpus-item002_abstract": [
+      {
+        "cluster_id": "eng_para_cluster_63",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_5": [
+      {
+        "cluster_id": "eng_para_cluster_179",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_6": [
+      {
+        "cluster_id": "eng_para_cluster_161",
+        "confidence": 0.8885549969110327,
+        "primary": true
+      }
+    ],
+    "p2_5": [
+      {
+        "cluster_id": "eng_para_cluster_53",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_6": [
+      {
+        "cluster_id": "eng_para_cluster_105",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_7": [
+      {
+        "cluster_id": "eng_para_cluster_102",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_3": [
+      {
+        "cluster_id": "eng_para_cluster_38",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_4": [
+      {
+        "cluster_id": "eng_para_cluster_13",
+        "confidence": 0.06743838572515333,
+        "primary": true
+      }
+    ],
+    "p3_5": [
+      {
+        "cluster_id": "eng_para_cluster_04",
+        "confidence": 0.6580404808671367,
+        "primary": true
+      }
+    ],
+    "p3_6": [
+      {
+        "cluster_id": "eng_para_cluster_59",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_7": [
+      {
+        "cluster_id": "eng_para_cluster_58",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_8": [
+      {
+        "cluster_id": "eng_para_cluster_60",
+        "confidence": 0.6445128658654711,
+        "primary": true
+      }
+    ],
+    "p4_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_187",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_122",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_93",
+        "confidence": 0.32938138191628946,
+        "primary": true
+      }
+    ],
+    "p4_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_25",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_6": [
+      {
+        "cluster_id": "eng_para_cluster_25",
+        "confidence": 0.7983043304686535,
+        "primary": true
+      }
+    ],
+    "p4_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_187",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_193",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_169",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_93",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_174",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_122",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_94",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_4": [
+      {
+        "cluster_id": "eng_para_cluster_94",
+        "confidence": 0.504624377483367,
+        "primary": true
+      }
+    ],
+    "p4_3_5": [
+      {
+        "cluster_id": "eng_para_cluster_12",
+        "confidence": 0.07803509357209985,
+        "primary": true
+      }
+    ],
+    "p4_4_1": [
+      {
+        "cluster_id": "eng_para_cluster_174",
+        "confidence": 0.8477988324763831,
+        "primary": true
+      }
+    ],
+    "p4_4_2": [
+      {
+        "cluster_id": "eng_para_cluster_79",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2": [
+      {
+        "cluster_id": "eng_para_cluster_177",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_3": [
+      {
+        "cluster_id": "eng_para_cluster_04",
+        "confidence": 0.2891722903218453,
+        "primary": true
+      }
+    ],
+    "p5_4": [
+      {
+        "cluster_id": "eng_para_cluster_69",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_5": [
+      {
+        "cluster_id": "eng_para_cluster_97",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_1": [
+      {
+        "cluster_id": "eng_para_cluster_160",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_91",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_2_5": [
+      {
+        "cluster_id": "eng_para_cluster_91",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_2_6": [
+      {
+        "cluster_id": "eng_para_cluster_91",
+        "confidence": 0.5398248616792541,
+        "primary": true
+      }
+    ],
+    "p6_2_7": [
+      {
+        "cluster_id": "eng_para_cluster_90",
+        "confidence": 0.9188317062013543,
+        "primary": true
+      }
+    ],
+    "p6_2_8": [
+      {
+        "cluster_id": "eng_para_cluster_30",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_2_9": [
+      {
+        "cluster_id": "eng_para_cluster_90",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p7_5": [
+      {
+        "cluster_id": "eng_para_cluster_61",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p7_6": [
+      {
+        "cluster_id": "eng_para_cluster_60",
+        "confidence": 0.6430334481821142,
+        "primary": true
+      }
+    ],
+    "p7_7": [
+      {
+        "cluster_id": "eng_para_cluster_88",
+        "confidence": 0.7571828521083173,
+        "primary": true
+      }
+    ],
+    "p8_1": [
+      {
+        "cluster_id": "eng_para_cluster_32",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p8_2": [
+      {
+        "cluster_id": "eng_para_cluster_57",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p8_3": [
+      {
+        "cluster_id": "eng_para_cluster_62",
+        "confidence": 0.7883363256775111,
+        "primary": true
+      }
+    ],
+    "p8_4": [
+      {
+        "cluster_id": "eng_para_cluster_71",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_1": [
+      {
+        "cluster_id": "eng_para_cluster_54",
+        "confidence": 0.5361132094749095,
+        "primary": true
+      }
+    ],
+    "p0_2": [
+      {
+        "cluster_id": "eng_para_cluster_138",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_3": [
+      {
+        "cluster_id": "eng_para_cluster_33",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_4": [
+      {
+        "cluster_id": "eng_para_cluster_52",
+        "confidence": 0.29748165960856027,
+        "primary": true
+      }
+    ],
+    "p0_5": [
+      {
+        "cluster_id": "eng_para_cluster_33",
+        "confidence": 0.1964997418179846,
+        "primary": true
+      }
+    ],
+    "p0_6": [
+      {
+        "cluster_id": "eng_para_cluster_113",
+        "confidence": 0.5739691150164308,
+        "primary": true
+      }
+    ],
+    "p0_7": [
+      {
+        "cluster_id": "eng_para_cluster_114",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_8": [
+      {
+        "cluster_id": "eng_para_cluster_116",
+        "confidence": 0.061682371460211986,
+        "primary": true
+      }
+    ],
+    "p0_9": [
+      {
+        "cluster_id": "eng_para_cluster_138",
+        "confidence": 0.10745481946411767,
+        "primary": true
+      }
+    ],
+    "p0_10": [
+      {
+        "cluster_id": "eng_para_cluster_113",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_11": [
+      {
+        "cluster_id": "eng_para_cluster_54",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_12": [
+      {
+        "cluster_id": "eng_para_cluster_133",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_13": [
+      {
+        "cluster_id": "eng_para_cluster_52",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_14": [
+      {
+        "cluster_id": "eng_para_cluster_52",
+        "confidence": 0.4408424637804606,
+        "primary": true
+      }
+    ],
+    "p0_15": [
+      {
+        "cluster_id": "eng_para_cluster_52",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_16": [
+      {
+        "cluster_id": "eng_para_cluster_56",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_17": [
+      {
+        "cluster_id": "eng_para_cluster_56",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_18": [
+      {
+        "cluster_id": "eng_para_cluster_35",
+        "confidence": 0.6672015350835324,
+        "primary": true
+      }
+    ],
+    "p0_19": [
+      {
+        "cluster_id": "eng_para_cluster_104",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_20": [
+      {
+        "cluster_id": "eng_para_cluster_114",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_21": [
+      {
+        "cluster_id": "eng_para_cluster_100",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_22": [
+      {
+        "cluster_id": "eng_para_cluster_113",
+        "confidence": 0.46858080682042597,
+        "primary": true
+      }
+    ],
+    "p0_23": [
+      {
+        "cluster_id": "eng_para_cluster_54",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_24": [
+      {
+        "cluster_id": "eng_para_cluster_57",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p0_25": [
+      {
+        "cluster_id": "eng_para_cluster_156",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_7": [
+      {
+        "cluster_id": "eng_para_cluster_167",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_8": [
+      {
+        "cluster_id": "eng_para_cluster_115",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_9": [
+      {
+        "cluster_id": "eng_para_cluster_43",
+        "confidence": 0.13190742757962068,
+        "primary": true
+      }
+    ],
+    "p1_10": [
+      {
+        "cluster_id": "eng_para_cluster_60",
+        "confidence": 0.5099237032934919,
+        "primary": true
+      }
+    ],
+    "p1_11": [
+      {
+        "cluster_id": "eng_para_cluster_60",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_8": [
+      {
+        "cluster_id": "eng_para_cluster_105",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_9": [
+      {
+        "cluster_id": "eng_para_cluster_35",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_85",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "3_1_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_159",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "3_1_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_159",
+        "confidence": 0.5585714473273695,
+        "primary": true
+      }
+    ],
+    "3_1_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_86",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_139",
+        "confidence": 0.16227752458462963,
+        "primary": true
+      }
+    ],
+    "p3_1_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_137",
+        "confidence": 0.5548761400895225,
+        "primary": true
+      }
+    ],
+    "p3_1_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_102",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_159",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_35",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1_4_1": [
+      {
+        "cluster_id": "eng_para_cluster_158",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_1_4_3": [
+      {
+        "cluster_id": "eng_para_cluster_158",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_4_1": [
+      {
+        "cluster_id": "eng_para_cluster_138",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_5_1": [
+      {
+        "cluster_id": "eng_para_cluster_85",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_5_3": [
+      {
+        "cluster_id": "eng_para_cluster_106",
+        "confidence": 0.3507661470070785,
+        "primary": true
+      }
+    ],
+    "p3_2_6_1": [
+      {
+        "cluster_id": "eng_para_cluster_106",
+        "confidence": 0.9906513727728091,
+        "primary": true
+      }
+    ],
+    "p3_2_6_2": [
+      {
+        "cluster_id": "eng_para_cluster_22",
+        "confidence": 0.17091680063912668,
+        "primary": true
+      }
+    ],
+    "p3_2_7_1": [
+      {
+        "cluster_id": "eng_para_cluster_06",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_7_2": [
+      {
+        "cluster_id": "eng_para_cluster_06",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_7_4": [
+      {
+        "cluster_id": "eng_para_cluster_07",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_7_5": [
+      {
+        "cluster_id": "eng_para_cluster_07",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_8_2": [
+      {
+        "cluster_id": "eng_para_cluster_106",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_9_2": [
+      {
+        "cluster_id": "eng_para_cluster_93",
+        "confidence": 0.3381310909489923,
+        "primary": true
+      }
+    ],
+    "p3_2_10_1": [
+      {
+        "cluster_id": "eng_para_cluster_94",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_10_2": [
+      {
+        "cluster_id": "eng_para_cluster_124",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_5": [
+      {
+        "cluster_id": "eng_para_cluster_135",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_6": [
+      {
+        "cluster_id": "eng_para_cluster_117",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_8": [
+      {
+        "cluster_id": "eng_para_cluster_86",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_9": [
+      {
+        "cluster_id": "eng_para_cluster_93",
+        "confidence": 0.6298057823480767,
+        "primary": true
+      }
+    ],
+    "p4_2_10": [
+      {
+        "cluster_id": "eng_para_cluster_93",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_11": [
+      {
+        "cluster_id": "eng_para_cluster_112",
+        "confidence": 0.267172036573095,
+        "primary": true
+      }
+    ],
+    "p4_2_12": [
+      {
+        "cluster_id": "eng_para_cluster_136",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_13": [
+      {
+        "cluster_id": "eng_para_cluster_120",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_14": [
+      {
+        "cluster_id": "eng_para_cluster_101",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_15": [
+      {
+        "cluster_id": "eng_para_cluster_106",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_16": [
+      {
+        "cluster_id": "eng_para_cluster_112",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_2_17": [
+      {
+        "cluster_id": "eng_para_cluster_37",
+        "confidence": 0.1788254050497078,
+        "primary": true
+      }
+    ],
+    "p4_3_6": [
+      {
+        "cluster_id": "eng_para_cluster_11",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_7": [
+      {
+        "cluster_id": "eng_para_cluster_12",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_3": [
+      {
+        "cluster_id": "eng_para_cluster_36",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_4": [
+      {
+        "cluster_id": "eng_para_cluster_36",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_5": [
+      {
+        "cluster_id": "eng_para_cluster_157",
+        "confidence": 0.7139458226963281,
+        "primary": true
+      }
+    ],
+    "p4_4_6": [
+      {
+        "cluster_id": "eng_para_cluster_35",
+        "confidence": 0.06997800483005166,
+        "primary": true
+      }
+    ],
+    "p4_5_1": [
+      {
+        "cluster_id": "eng_para_cluster_174",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_5_3": [
+      {
+        "cluster_id": "eng_para_cluster_161",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_5_4": [
+      {
+        "cluster_id": "eng_para_cluster_17",
+        "confidence": 0.2317502445438541,
+        "primary": true
+      }
+    ],
+    "p4_5_5": [
+      {
+        "cluster_id": "eng_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_5_6": [
+      {
+        "cluster_id": "eng_para_cluster_00",
+        "confidence": 0.691899842558211,
+        "primary": true
+      }
+    ],
+    "p4_5_7": [
+      {
+        "cluster_id": "eng_para_cluster_00",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_5_8": [
+      {
+        "cluster_id": "eng_para_cluster_17",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_5_9": [
+      {
+        "cluster_id": "eng_para_cluster_137",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_6_1": [
+      {
+        "cluster_id": "eng_para_cluster_172",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_6_2": [
+      {
+        "cluster_id": "eng_para_cluster_181",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_6_3": [
+      {
+        "cluster_id": "eng_para_cluster_172",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_6_4": [
+      {
+        "cluster_id": "eng_para_cluster_125",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_6_5": [
+      {
+        "cluster_id": "eng_para_cluster_126",
+        "confidence": 0.6351303457368063,
+        "primary": true
+      }
+    ],
+    "p4_6_6": [
+      {
+        "cluster_id": "eng_para_cluster_126",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_6_7": [
+      {
+        "cluster_id": "eng_para_cluster_120",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_1": [
+      {
+        "cluster_id": "eng_para_cluster_14",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_2": [
+      {
+        "cluster_id": "eng_para_cluster_14",
+        "confidence": 0.1620493359553473,
+        "primary": true
+      }
+    ],
+    "p4_7_3": [
+      {
+        "cluster_id": "eng_para_cluster_15",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_4": [
+      {
+        "cluster_id": "eng_para_cluster_15",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_6": [
+      {
+        "cluster_id": "eng_para_cluster_14",
+        "confidence": 0.40618976589209405,
+        "primary": true
+      }
+    ],
+    "p4_7_7": [
+      {
+        "cluster_id": "eng_para_cluster_14",
+        "confidence": 0.18563224379242163,
+        "primary": true
+      }
+    ],
+    "p4_8_1": [
+      {
+        "cluster_id": "eng_para_cluster_97",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_8_2": [
+      {
+        "cluster_id": "eng_para_cluster_68",
+        "confidence": 0.23354877593366088,
+        "primary": true
+      }
+    ],
+    "p4_8_4": [
+      {
+        "cluster_id": "eng_para_cluster_117",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_8_5": [
+      {
+        "cluster_id": "eng_para_cluster_101",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_8_6": [
+      {
+        "cluster_id": "eng_para_cluster_117",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_8_7": [
+      {
+        "cluster_id": "eng_para_cluster_157",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_8_8": [
+      {
+        "cluster_id": "eng_para_cluster_157",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_8_9": [
+      {
+        "cluster_id": "eng_para_cluster_12",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_8_10": [
+      {
+        "cluster_id": "eng_para_cluster_87",
+        "confidence": 0.6734914245573879,
+        "primary": true
+      }
+    ],
+    "p4_8_11": [
+      {
+        "cluster_id": "eng_para_cluster_87",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_9_1": [
+      {
+        "cluster_id": "eng_para_cluster_96",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_9_3": [
+      {
+        "cluster_id": "eng_para_cluster_96",
+        "confidence": 0.6270789249237054,
+        "primary": true
+      }
+    ],
+    "p4_9_4": [
+      {
+        "cluster_id": "eng_para_cluster_96",
+        "confidence": 0.7377977245675058,
+        "primary": true
+      }
+    ],
+    "p4_10_1": [
+      {
+        "cluster_id": "eng_para_cluster_68",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_10_2": [
+      {
+        "cluster_id": "eng_para_cluster_68",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_10_3": [
+      {
+        "cluster_id": "eng_para_cluster_68",
+        "confidence": 0.348189781761103,
+        "primary": true
+      }
+    ],
+    "p4_10_4": [
+      {
+        "cluster_id": "eng_para_cluster_68",
+        "confidence": 0.4548124441374061,
+        "primary": true
+      }
+    ],
+    "p4_10_5": [
+      {
+        "cluster_id": "eng_para_cluster_123",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_1": [
+      {
+        "cluster_id": "eng_para_cluster_136",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_2": [
+      {
+        "cluster_id": "eng_para_cluster_66",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_3": [
+      {
+        "cluster_id": "eng_para_cluster_103",
+        "confidence": 0.6337533642478448,
+        "primary": true
+      }
+    ],
+    "p4_11_4": [
+      {
+        "cluster_id": "eng_para_cluster_22",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_5": [
+      {
+        "cluster_id": "eng_para_cluster_95",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_6": [
+      {
+        "cluster_id": "eng_para_cluster_95",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_7": [
+      {
+        "cluster_id": "eng_para_cluster_22",
+        "confidence": 0.5416351969359499,
+        "primary": true
+      }
+    ],
+    "p4_11_8": [
+      {
+        "cluster_id": "eng_para_cluster_22",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_9": [
+      {
+        "cluster_id": "eng_para_cluster_66",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_10": [
+      {
+        "cluster_id": "eng_para_cluster_37",
+        "confidence": 0.35629077164343026,
+        "primary": true
+      }
+    ],
+    "p4_11_11": [
+      {
+        "cluster_id": "eng_para_cluster_37",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_12": [
+      {
+        "cluster_id": "eng_para_cluster_93",
+        "confidence": 0.22867937070828506,
+        "primary": true
+      }
+    ],
+    "p4_11_13": [
+      {
+        "cluster_id": "eng_para_cluster_67",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_11_14": [
+      {
+        "cluster_id": "eng_para_cluster_66",
+        "confidence": 0.3274200602863881,
+        "primary": true
+      }
+    ],
+    "p4_11_15": [
+      {
+        "cluster_id": "eng_para_cluster_67",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_6": [
+      {
+        "cluster_id": "eng_para_cluster_24",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_7": [
+      {
+        "cluster_id": "eng_para_cluster_124",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_9": [
+      {
+        "cluster_id": "eng_para_cluster_34",
+        "confidence": 0.9846968427869406,
+        "primary": true
+      }
+    ],
+    "p6_2": [
+      {
+        "cluster_id": "eng_para_cluster_160",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_12": [
+      {
+        "cluster_id": "eng_para_cluster_60",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p1_14": [
+      {
+        "cluster_id": "eng_para_cluster_99",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7": [
+      {
+        "cluster_id": "eng_para_cluster_191",
+        "confidence": 0.28124044205204446,
+        "primary": true
+      }
+    ],
+    "p4_8": [
+      {
+        "cluster_id": "eng_para_cluster_23",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_9": [
+      {
+        "cluster_id": "eng_para_cluster_61",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_3": [
+      {
+        "cluster_id": "eng_para_cluster_186",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_4": [
+      {
+        "cluster_id": "eng_para_cluster_191",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_5": [
+      {
+        "cluster_id": "eng_para_cluster_184",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_6": [
+      {
+        "cluster_id": "eng_para_cluster_165",
+        "confidence": 0.6717570128043746,
+        "primary": true
+      }
+    ],
+    "p6_7": [
+      {
+        "cluster_id": "eng_para_cluster_167",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p6_8": [
+      {
+        "cluster_id": "eng_para_cluster_134",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p7_8": [
+      {
+        "cluster_id": "eng_para_cluster_44",
+        "confidence": 0.07514439915490677,
+        "primary": true
+      }
+    ],
+    "p2_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_147",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_147",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_162",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_168",
+        "confidence": 0.7869336944784884,
+        "primary": true
+      }
+    ],
+    "p2_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_168",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_164",
+        "confidence": 0.4558869717804211,
+        "primary": true
+      }
+    ],
+    "p2_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_110",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_111",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_5": [
+      {
+        "cluster_id": "eng_para_cluster_111",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_6": [
+      {
+        "cluster_id": "eng_para_cluster_149",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_7": [
+      {
+        "cluster_id": "eng_para_cluster_149",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_8": [
+      {
+        "cluster_id": "eng_para_cluster_50",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_2_9": [
+      {
+        "cluster_id": "eng_para_cluster_169",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_145",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_153",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_153",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_154",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_131",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_1_6": [
+      {
+        "cluster_id": "eng_para_cluster_131",
+        "confidence": 0.22631003583162923,
+        "primary": true
+      }
+    ],
+    "p2_3_1_7": [
+      {
+        "cluster_id": "eng_para_cluster_144",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_1_8": [
+      {
+        "cluster_id": "eng_para_cluster_169",
+        "confidence": 0.21295847308259172,
+        "primary": true
+      }
+    ],
+    "p2_3_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_145",
+        "confidence": 0.40835192881922716,
+        "primary": true
+      }
+    ],
+    "p2_3_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_145",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_145",
+        "confidence": 0.14046950566116362,
+        "primary": true
+      }
+    ],
+    "p2_3_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_131",
+        "confidence": 0.5722661335233767,
+        "primary": true
+      }
+    ],
+    "p2_3_2_5": [
+      {
+        "cluster_id": "eng_para_cluster_131",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_3_2_6": [
+      {
+        "cluster_id": "eng_para_cluster_145",
+        "confidence": 0.12254429505960238,
+        "primary": true
+      }
+    ],
+    "p2_4_1": [
+      {
+        "cluster_id": "eng_para_cluster_148",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_4_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_148",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_4_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_164",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_4_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_164",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_4_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_164",
+        "confidence": 0.43264725432943807,
+        "primary": true
+      }
+    ],
+    "p2_4_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_164",
+        "confidence": 0.8165430258938093,
+        "primary": true
+      }
+    ],
+    "p2_4_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_31",
+        "confidence": 0.010640349715644364,
+        "primary": true
+      }
+    ],
+    "p2_4_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_84",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_4_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_84",
+        "confidence": 0.18142039497579288,
+        "primary": true
+      }
+    ],
+    "p2_4_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_31",
+        "confidence": 0.0008837182023789802,
+        "primary": true
+      }
+    ],
+    "p2_4_2_5": [
+      {
+        "cluster_id": "eng_para_cluster_84",
+        "confidence": 0.06025860399977421,
+        "primary": true
+      }
+    ],
+    "p2_5_1": [
+      {
+        "cluster_id": "eng_para_cluster_169",
+        "confidence": 0.2287738205291459,
+        "primary": true
+      }
+    ],
+    "p2_5_2": [
+      {
+        "cluster_id": "eng_para_cluster_144",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_5_3": [
+      {
+        "cluster_id": "eng_para_cluster_01",
+        "confidence": 0.005651195880776811,
+        "primary": true
+      }
+    ],
+    "p2_5_4": [
+      {
+        "cluster_id": "eng_para_cluster_50",
+        "confidence": 0.831511292599452,
+        "primary": true
+      }
+    ],
+    "p2_5_5": [
+      {
+        "cluster_id": "eng_para_cluster_190",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p2_5_6": [
+      {
+        "cluster_id": "eng_para_cluster_190",
+        "confidence": 0.4841084146085489,
+        "primary": true
+      }
+    ],
+    "p2_5_7": [
+      {
+        "cluster_id": "eng_para_cluster_168",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_31",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_84",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_31",
+        "confidence": 0.08434040966542473,
+        "primary": true
+      }
+    ],
+    "p3_2_5": [
+      {
+        "cluster_id": "eng_para_cluster_31",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p3_2_6": [
+      {
+        "cluster_id": "eng_para_cluster_31",
+        "confidence": 0.3404339433313278,
+        "primary": true
+      }
+    ],
+    "p3_2_7": [
+      {
+        "cluster_id": "eng_para_cluster_31",
+        "confidence": 0.20045800395816668,
+        "primary": true
+      }
+    ],
+    "p4_1_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_192",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_196",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_152",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_152",
+        "confidence": 0.7552788901176959,
+        "primary": true
+      }
+    ],
+    "p4_1_2_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_175",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_152",
+        "confidence": 0.590634085968964,
+        "primary": true
+      }
+    ],
+    "p4_1_2_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_176",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_1_6": [
+      {
+        "cluster_id": "eng_para_cluster_176",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_198",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_132",
+        "confidence": 0.6448759488801551,
+        "primary": true
+      }
+    ],
+    "p4_1_2_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_189",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_2_5": [
+      {
+        "cluster_id": "eng_para_cluster_192",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_2_6": [
+      {
+        "cluster_id": "eng_para_cluster_132",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_152",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_199",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_199",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_4": [
+      {
+        "cluster_id": "eng_para_cluster_199",
+        "confidence": 0.7963494380274333,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_5": [
+      {
+        "cluster_id": "eng_para_cluster_199",
+        "confidence": 0.8037130871838617,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_6": [
+      {
+        "cluster_id": "eng_para_cluster_190",
+        "confidence": 0.0971198544638522,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_7": [
+      {
+        "cluster_id": "eng_para_cluster_01",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_8": [
+      {
+        "cluster_id": "eng_para_cluster_132",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_2_3_9": [
+      {
+        "cluster_id": "eng_para_cluster_189",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_64",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_64",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_65",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_3_5": [
+      {
+        "cluster_id": "eng_para_cluster_65",
+        "confidence": 0.21887848475838675,
+        "primary": true
+      }
+    ],
+    "p4_1_3_6": [
+      {
+        "cluster_id": "eng_para_cluster_65",
+        "confidence": 0.2705043691501798,
+        "primary": true
+      }
+    ],
+    "p4_1_3_7": [
+      {
+        "cluster_id": "eng_para_cluster_65",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_4_1": [
+      {
+        "cluster_id": "eng_para_cluster_193",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_1_4_2": [
+      {
+        "cluster_id": "eng_para_cluster_193",
+        "confidence": 0.44387419193915933,
+        "primary": true
+      }
+    ],
+    "p4_3_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_170",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_196",
+        "confidence": 0.713825159441691,
+        "primary": true
+      }
+    ],
+    "p4_3_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_175",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_197",
+        "confidence": 0.15313951046347027,
+        "primary": true
+      }
+    ],
+    "p4_3_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_197",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_197",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_170",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_175",
+        "confidence": 0.9035146244458887,
+        "primary": true
+      }
+    ],
+    "p4_3_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_198",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_3_4": [
+      {
+        "cluster_id": "eng_para_cluster_188",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_3_5": [
+      {
+        "cluster_id": "eng_para_cluster_169",
+        "confidence": 0.5344395575550714,
+        "primary": true
+      }
+    ],
+    "p4_3_3_6": [
+      {
+        "cluster_id": "eng_para_cluster_190",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_3_3_7": [
+      {
+        "cluster_id": "eng_para_cluster_196",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_155",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_188",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_81",
+        "confidence": 0.448338003126974,
+        "primary": true
+      }
+    ],
+    "p4_4_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_80",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_80",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_1_6": [
+      {
+        "cluster_id": "eng_para_cluster_01",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_81",
+        "confidence": 0.9429403211754686,
+        "primary": true
+      }
+    ],
+    "p4_4_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_82",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_82",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_81",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_155",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_194",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_194",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_3_4": [
+      {
+        "cluster_id": "eng_para_cluster_194",
+        "confidence": 0.7743526570679872,
+        "primary": true
+      }
+    ],
+    "p4_4_3_5": [
+      {
+        "cluster_id": "eng_para_cluster_178",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_3_6": [
+      {
+        "cluster_id": "eng_para_cluster_178",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_3_7": [
+      {
+        "cluster_id": "eng_para_cluster_171",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_4_1": [
+      {
+        "cluster_id": "eng_para_cluster_174",
+        "confidence": 0.6901368493370347,
+        "primary": true
+      }
+    ],
+    "p4_4_4_2": [
+      {
+        "cluster_id": "eng_para_cluster_51",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_4_3": [
+      {
+        "cluster_id": "eng_para_cluster_51",
+        "confidence": 0.5216163995341798,
+        "primary": true
+      }
+    ],
+    "p4_4_4_4": [
+      {
+        "cluster_id": "eng_para_cluster_51",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_4_5": [
+      {
+        "cluster_id": "eng_para_cluster_81",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_4_4_6": [
+      {
+        "cluster_id": "eng_para_cluster_171",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_8": [
+      {
+        "cluster_id": "eng_para_cluster_150",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_9": [
+      {
+        "cluster_id": "eng_para_cluster_161",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_10": [
+      {
+        "cluster_id": "eng_para_cluster_151",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_11": [
+      {
+        "cluster_id": "eng_para_cluster_166",
+        "confidence": 0.15720221489567204,
+        "primary": true
+      }
+    ],
+    "p4_7_13": [
+      {
+        "cluster_id": "eng_para_cluster_09",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_14": [
+      {
+        "cluster_id": "eng_para_cluster_165",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p4_7_15": [
+      {
+        "cluster_id": "eng_para_cluster_14",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_194",
+        "confidence": 0.4614667624861184,
+        "primary": true
+      }
+    ],
+    "p5_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_79",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_173",
+        "confidence": 0.7457395545057638,
+        "primary": true
+      }
+    ],
+    "p5_1_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_173",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_173",
+        "confidence": 0.2594402464185958,
+        "primary": true
+      }
+    ],
+    "p5_1_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_195",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_194",
+        "confidence": 0.8825602520289622,
+        "primary": true
+      }
+    ],
+    "p5_1_1_6": [
+      {
+        "cluster_id": "eng_para_cluster_195",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_1_7": [
+      {
+        "cluster_id": "eng_para_cluster_173",
+        "confidence": 0.6393616103422726,
+        "primary": true
+      }
+    ],
+    "p5_1_1_8": [
+      {
+        "cluster_id": "eng_para_cluster_185",
+        "confidence": 0.6403704353689678,
+        "primary": true
+      }
+    ],
+    "p5_1_1_9": [
+      {
+        "cluster_id": "eng_para_cluster_154",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_182",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_182",
+        "confidence": 0.9892717394831171,
+        "primary": true
+      }
+    ],
+    "p5_1_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_182",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_3_1": [
+      {
+        "cluster_id": "eng_para_cluster_185",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_1_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_185",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_1_1": [
+      {
+        "cluster_id": "eng_para_cluster_08",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_1_2": [
+      {
+        "cluster_id": "eng_para_cluster_08",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_1_3": [
+      {
+        "cluster_id": "eng_para_cluster_173",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_1_4": [
+      {
+        "cluster_id": "eng_para_cluster_08",
+        "confidence": 0.49549701156035014,
+        "primary": true
+      }
+    ],
+    "p5_2_1_5": [
+      {
+        "cluster_id": "eng_para_cluster_180",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_1_6": [
+      {
+        "cluster_id": "eng_para_cluster_181",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_1_7": [
+      {
+        "cluster_id": "eng_para_cluster_180",
+        "confidence": 0.819101813285488,
+        "primary": true
+      }
+    ],
+    "p5_2_2_1": [
+      {
+        "cluster_id": "eng_para_cluster_183",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_2_2": [
+      {
+        "cluster_id": "eng_para_cluster_183",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_2_3": [
+      {
+        "cluster_id": "eng_para_cluster_183",
+        "confidence": 0.12898300231496174,
+        "primary": true
+      }
+    ],
+    "p5_2_2_4": [
+      {
+        "cluster_id": "eng_para_cluster_177",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_3_2": [
+      {
+        "cluster_id": "eng_para_cluster_09",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_2_3_3": [
+      {
+        "cluster_id": "eng_para_cluster_10",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_3_4": [
+      {
+        "cluster_id": "eng_para_cluster_185",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_3_5": [
+      {
+        "cluster_id": "eng_para_cluster_185",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_3_6": [
+      {
+        "cluster_id": "eng_para_cluster_180",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_3_7": [
+      {
+        "cluster_id": "eng_para_cluster_183",
+        "confidence": 0.19925954707412058,
+        "primary": true
+      }
+    ],
+    "p5_3_8": [
+      {
+        "cluster_id": "eng_para_cluster_10",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_3_9": [
+      {
+        "cluster_id": "eng_para_cluster_184",
+        "confidence": 1.0,
+        "primary": true
+      }
+    ],
+    "p5_3_10": [
+      {
+        "cluster_id": "eng_para_cluster_183",
+        "confidence": 0.05337574237808125,
+        "primary": true
+      }
+    ]
+  }
+}

@@ -40,29 +40,33 @@ pragmatic-auto-translator-v2/
 │       │   ├── for-processing/     # Source files requiring processing     
 │       │   ├── submissions/        # Source files that have been processed
 │       │   ├── processed/          # JSON files (gai-eng_corpus-item001.json, etc.)
+│       │   ├── clusters/           # Clustering data (metadata, assignments, centroids, terms)
 │       │   ├── t9n-testing/        # Source files that have been reserved for testing auto-translator
 │       │   └── gai-eng_corpus-database.json
 │       ├── esp/                    # Spanish content  
-│       │   ├── for-processing/       
-│       │   ├── submissions/        
-│       │   ├── processed/          
-│       │   ├── t9n-testing/        
+│       │   ├── for-processing/
+│       │   ├── submissions/
+│       │   ├── processed/
+│       │   ├── clusters/
+│       │   ├── t9n-testing/
 │       │   └── gai-esp_corpus-database.json
-│       ├── zho/                # Simplified Chinese content  
-│       │   ├── for-processing/        
-│       │   ├── submissions/                
-│       │   ├── processed/          
-│       │   ├── t9n-testing/        
+│       ├── zho/                    # Simplified Chinese content  
+│       │   ├── for-processing/
+│       │   ├── submissions/
+│       │   ├── processed/
+│       │   ├── clusters/
+│       │   ├── t9n-testing/
 │       │   └── gai-zho_corpus-database.json
 │       ├── vectors/                # Vectors for all languages in shared space
-│       │   ├── gai-corpus-document-vectors.json    # Document-level vectors
-│       │   ├── gai-corpus-section-vectors.json     # Section-level vectors
-│       │   ├── gai-corpus-paragraph-vectors.json   # Paragraph-level vectors
-│       │   └── visualizations/                     # Vector mapping visualizations
-│       └── knowledge-graphs/       # Generated knowledge graphs
-│           ├── gai-multilingual.graphml     # Neo4j export format
-│           ├── cluster-mappings.json        # Cluster to concept mappings
-│           └── terminology-extractions.json # Sketch Engine comparisons
+│       │   ├── gai-corpus-document-vectors.json   # Document-level vectors
+│       │   ├── gai-corpus-section-vectors.json    # Section-level vectors
+│       │   ├── gai-corpus-paragraph-vectors.json  # Paragraph-level vectors
+│       │   └── visualizations/                    # Vector mapping visualizations
+│       └── knowledge-graphs/       # Multilingual knowledge graphs
+│           ├── gai-multilingual-auto.graphml      # Generated from clusters
+│           ├── gai-multilingual-refined.graphml   # Human-verified version
+│           ├── concept-mappings-auto.json         # Cluster-derived correspondences
+│           └── concept-mappings-refined.json      # Human-verified correspondences
 ├── frontend/                       # Auto-Translator website
 │   ├── css/                        # Website styles
 │   ├── js/                         # JavaScript modules

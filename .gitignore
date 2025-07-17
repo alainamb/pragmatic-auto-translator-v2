@@ -55,6 +55,7 @@ corpora/gai/esp/for-processing
 corpora/gai/esp/gai-esp_corpus-for-processing-database.json
 corpora/gai/zho/for-processing
 corpora/gai/vectors/visualizations/
+scripts/clustering/
 
 # Editor files
 # Please add these four lines to your .gitignore file too

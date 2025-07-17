@@ -1,0 +1,48 @@
+{
+  "run_info": {
+    "timestamp": "2025-07-16T21:40:12.308315",
+    "language": "esp",
+    "language_name": "Spanish",
+    "domain": "gai",
+    "clustering_method": "HDBSCAN",
+    "dimensionality_reduction": "UMAP",
+    "notebook_version": "clusters-monolingual.ipynb",
+    "export_timestamp": "20250716_214012"
+  },
+  "corpus_stats": {
+    "total_documents": 5,
+    "total_paragraphs": 238
+  },
+  "clustering_parameters": {
+    "umap_neighbors": 3,
+    "umap_min_dist": 0.1,
+    "hdbscan_min_cluster_size": 2,
+    "hdbscan_min_samples": 1
+  },
+  "clustering_results": {
+    "paragraph_level": {
+      "total_clusters": 119,
+      "noise_points": 10,
+      "noise_ratio": 0.0273972602739726,
+      "largest_cluster_size": 7,
+      "smallest_cluster_size": 2,
+      "avg_cluster_size": 2.9831932773109244
+    }
+  },
+  "quality_metrics": {
+    "silhouette_score": 0.6742620468139648,
+    "calinski_harabasz_score": 10869.984375
+  },
+  "extraction_priorities": {
+    "high_priority_clusters": 0,
+    "medium_priority_clusters": 119,
+    "low_priority_clusters": 0,
+    "minimal_priority_clusters": 0
+  },
+  "terminology_extraction": {
+    "total_terms_extracted": 1160,
+    "terms_with_definitions": 0,
+    "clusters_processed": 119,
+    "avg_terms_per_cluster": 20.0
+  }
+}

@@ -8,7 +8,7 @@ import sys
 import json
 from pathlib import Path
 
-print("Initializing local Pragmatic Auto-Translator environment...")
+print("\nInitializing local Pragmatic Auto-Translator environment...")
 
 # ==============================================================================
 # PROJECT STRUCTURE CONFIGURATION
@@ -62,6 +62,7 @@ def get_domain_paths(domain=None):
             'for_processing': lang_dir / 'for-processing',
             'submissions': lang_dir / 'submissions', 
             'processed': lang_dir / 'processed',
+            'clusters': lang_dir / 'clusters',
             't9n_testing': lang_dir / 't9n-testing',
             'database': lang_dir / f'{domain}-{lang}_corpus-database.json'
         }
@@ -150,7 +151,7 @@ def verify_corpus_databases(domain=None):
     
     paths = get_domain_paths(domain)
     
-    print(f"\n🔍 VERIFYING CORPUS DATABASES FOR DOMAIN: {domain.upper()}")
+    print(f"\nVERIFYING CORPUS DATABASES FOR DOMAIN: {domain.upper()}")
     print("-" * 50)
     
     all_good = True
@@ -179,7 +180,7 @@ def verify_corpus_databases(domain=None):
                 all_good = False
                 continue
             
-            print(f"✅ {language.upper()}: {count} documents")
+            print(f"{language.upper()}: {count} documents")
             
         except Exception as e:
             print(f"❌ {language.upper()}: Error reading - {e}")
@@ -195,8 +196,7 @@ def load_all_databases(domain=None):
     paths = get_domain_paths(domain)
     all_documents = {}
     
-    print(f"\n📚 LOADING ALL CORPUS DATABASES FOR DOMAIN: {domain.upper()}")
-    print("-" * 50)
+    print(f"\nLOADING ALL CORPUS DATABASES FOR DOMAIN: {domain.upper()}")
     
     for language in LANGUAGES:
         db_file = paths[language]['database']
@@ -231,8 +231,7 @@ def load_all_databases(domain=None):
             continue
     
     total_docs = sum(len(docs) for docs in all_documents.values())
-    print(f"\n📊 TOTAL: {total_docs} documents across {len(all_documents)} languages")
-    print("-" * 50)
+    print(f"TOTAL: {total_docs} documents across {len(all_documents)} languages")
     
     return all_documents
 
@@ -298,7 +297,7 @@ def initialize_project(domain=None, verbose=True):
     
     if verbose:
         print("\n" + "="*60)
-        print("🚀 PRAGMATIC AUTO-TRANSLATOR INITIALIZATION")
+        print("PRAGMATIC AUTO-TRANSLATOR INITIALIZATION")
         print("="*60)
         print(f"Domain: {domain.upper()}")
         print(f"Languages: {', '.join([get_language_info()[lang]['name'] for lang in LANGUAGES])}")

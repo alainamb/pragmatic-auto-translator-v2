@@ -1,0 +1,420 @@
+{
+  "metadata": {
+    "language": "zho",
+    "export_timestamp": "20250716_220102",
+    "visualization_types": [
+      "umap_scatter",
+      "cluster_quality_metrics",
+      "term_frequency_distributions"
+    ]
+  },
+  "umap_scatter": {
+    "description": "2D UMAP projection of paragraph embeddings",
+    "data": []
+  },
+  "cluster_quality_metrics": {
+    "description": "Per-cluster quality visualization data",
+    "clusters": [
+      {
+        "cluster_id": "zho_para_cluster_00",
+        "silhouette_score": 0.9988330602645874,
+        "cohesion_score": 0.9988330602645874,
+        "size": 11,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_01",
+        "silhouette_score": 0.9999054074287415,
+        "cohesion_score": 0.9999054074287415,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_02",
+        "silhouette_score": 0.999967098236084,
+        "cohesion_score": 0.999967098236084,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_03",
+        "silhouette_score": 0.9999497532844543,
+        "cohesion_score": 0.9999497532844543,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_04",
+        "silhouette_score": 0.9999272227287292,
+        "cohesion_score": 0.9999272227287292,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_05",
+        "silhouette_score": 0.9999162554740906,
+        "cohesion_score": 0.9999162554740906,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_06",
+        "silhouette_score": 0.9999386072158813,
+        "cohesion_score": 0.9999386072158813,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_07",
+        "silhouette_score": 0.9989587068557739,
+        "cohesion_score": 0.9989587068557739,
+        "size": 9,
+        "spread_across_documents": 2,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_08",
+        "silhouette_score": 0.9999287128448486,
+        "cohesion_score": 0.9999287128448486,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_09",
+        "silhouette_score": 0.9999566674232483,
+        "cohesion_score": 0.9999566674232483,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_10",
+        "silhouette_score": 0.9999575018882751,
+        "cohesion_score": 0.9999575018882751,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_11",
+        "silhouette_score": 0.9997110366821289,
+        "cohesion_score": 0.9997110366821289,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_12",
+        "silhouette_score": 0.9998034238815308,
+        "cohesion_score": 0.9998034238815308,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_13",
+        "silhouette_score": 0.9998936057090759,
+        "cohesion_score": 0.9998936057090759,
+        "size": 3,
+        "spread_across_documents": 2,
+        "extraction_priority": "high"
+      },
+      {
+        "cluster_id": "zho_para_cluster_14",
+        "silhouette_score": 0.9999659061431885,
+        "cohesion_score": 0.9999659061431885,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "high"
+      }
+    ]
+  },
+  "term_frequency_distributions": {
+    "description": "Top terms by cluster for word clouds",
+    "clusters": [
+      {
+        "cluster_id": "zho_para_cluster_02",
+        "top_terms": [
+          {
+            "term": "模型",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "然而 模型 技术 处于 初级",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "模型 技术 处于 初级 研究",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "技术 处于 初级 研究 阶段",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "处于 初级 研究 阶段 存在",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "初级 研究 阶段 存在 许多",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "研究 阶段 存在 许多 亟需",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "阶段 存在 许多 亟需 解决",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "存在 许多 亟需 解决 问题",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "许多 亟需 解决 问题 包括",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "zho_para_cluster_06",
+        "top_terms": [
+          {
+            "term": "模型",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "人工",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "智能",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "人工 智能",
+            "frequency": 5,
+            "c_value": 4.0
+          },
+          {
+            "term": "随着 技术 进步 创新 人工",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "技术 进步 创新 人工 智能",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "进步 创新 人工 智能 已经",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "创新 人工 智能 已经 成为",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "人工 智能 已经 成为 当今",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "智能 已经 成为 当今 世界",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "zho_para_cluster_08",
+        "top_terms": [
+          {
+            "term": "学习",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "模型",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "语言",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "ChatGPT",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "近年来 随着 深度 学习 技术",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "随着 深度 学习 技术 进一步",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "深度 学习 技术 进一步 发展",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "学习 技术 进一步 发展 互联网",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "技术 进一步 发展 互联网 文本",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "进一步 发展 互联网 文本 图像",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "zho_para_cluster_11",
+        "top_terms": [
+          {
+            "term": "生成式 人工 智能",
+            "frequency": 6,
+            "c_value": 10.961538461538462
+          },
+          {
+            "term": "学术 研究 技术 应用 取得",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "生成式",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "人工",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "智能",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "应用",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "生成式 人工 智能 已经",
+            "frequency": 2,
+            "c_value": 5.0
+          },
+          {
+            "term": "已经 能够 生成 质量",
+            "frequency": 2,
+            "c_value": 5.0
+          },
+          {
+            "term": "生成式 人工",
+            "frequency": 6,
+            "c_value": 4.857142857142858
+          },
+          {
+            "term": "人工 智能",
+            "frequency": 6,
+            "c_value": 4.840909090909091
+          }
+        ]
+      },
+      {
+        "cluster_id": "zho_para_cluster_12",
+        "top_terms": [
+          {
+            "term": "ChatGPT 及生 成式 人工 智能",
+            "frequency": 5,
+            "c_value": 20.0
+          },
+          {
+            "term": "智能",
+            "frequency": 19,
+            "c_value": 19.0
+          },
+          {
+            "term": "人工",
+            "frequency": 16,
+            "c_value": 16.0
+          },
+          {
+            "term": "人工 智能",
+            "frequency": 16,
+            "c_value": 14.825
+          },
+          {
+            "term": "及生 成式 人工 智能",
+            "frequency": 5,
+            "c_value": 13.333333333333334
+          },
+          {
+            "term": "ChatGPT 及生 成式 人工",
+            "frequency": 5,
+            "c_value": 13.2
+          },
+          {
+            "term": "生成式 人工 智能",
+            "frequency": 7,
+            "c_value": 13.0
+          },
+          {
+            "term": "成式 人工 智能",
+            "frequency": 6,
+            "c_value": 10.758620689655173
+          },
+          {
+            "term": "生成式",
+            "frequency": 9,
+            "c_value": 9.0
+          },
+          {
+            "term": "ChatGPT 及生 成式",
+            "frequency": 5,
+            "c_value": 8.428571428571429
+          }
+        ]
+      }
+    ]
+  }
+}

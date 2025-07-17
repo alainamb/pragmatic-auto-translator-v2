@@ -1,0 +1,48 @@
+{
+  "run_info": {
+    "timestamp": "2025-07-16T21:40:12.501234",
+    "language": "zho",
+    "language_name": "Chinese",
+    "domain": "gai",
+    "clustering_method": "HDBSCAN",
+    "dimensionality_reduction": "UMAP",
+    "notebook_version": "clusters-monolingual.ipynb",
+    "export_timestamp": "20250716_214012"
+  },
+  "corpus_stats": {
+    "total_documents": 2,
+    "total_paragraphs": 49
+  },
+  "clustering_parameters": {
+    "umap_neighbors": 3,
+    "umap_min_dist": 0.1,
+    "hdbscan_min_cluster_size": 2,
+    "hdbscan_min_samples": 1
+  },
+  "clustering_results": {
+    "paragraph_level": {
+      "total_clusters": 15,
+      "noise_points": 2,
+      "noise_ratio": 0.034482758620689655,
+      "largest_cluster_size": 11,
+      "smallest_cluster_size": 2,
+      "avg_cluster_size": 3.7333333333333334
+    }
+  },
+  "quality_metrics": {
+    "silhouette_score": 0.5808576941490173,
+    "calinski_harabasz_score": 284.2608642578125
+  },
+  "extraction_priorities": {
+    "high_priority_clusters": 15,
+    "medium_priority_clusters": 0,
+    "low_priority_clusters": 0,
+    "minimal_priority_clusters": 0
+  },
+  "terminology_extraction": {
+    "total_terms_extracted": 100,
+    "terms_with_definitions": 0,
+    "clusters_processed": 15,
+    "avg_terms_per_cluster": 20.0
+  }
+}
