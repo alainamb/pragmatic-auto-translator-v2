@@ -51,9 +51,12 @@ api-config.js
 backups/
 corpora/gai/eng/for-processing
 corpora/gai/eng/in-progress
+corpora/gai/eng/clusters/
 corpora/gai/esp/for-processing
 corpora/gai/esp/gai-esp_corpus-for-processing-database.json
+corpora/gai/esp/clusters/
 corpora/gai/zho/for-processing
+corpora/gai/zho/clusters/
 corpora/gai/vectors/visualizations/
 scripts/clustering/
 
