@@ -324,6 +324,78 @@
         },
         "processing_notes": "The nearly 600 footnotes not included in processed content file."
       }
+    },
+    "gai-eng_corpus-item007": {
+      "document_metadata": {
+        "language_family": "eng",
+        "language_variant": "usa",
+        "title": "Whose Opinions Do Language Models Reflect?",
+        "authors": [
+          {
+            "name": "Shibani Santurkar",
+            "affiliation": "Stanford"
+          },
+          {
+            "name": "Esin Durmus",
+            "affiliation": "Stanford"
+          },
+          {
+            "name": "Faisal Ladhak",
+            "affiliation": "Colombia University"
+          },
+          {
+            "name": "Cinoo Lee",
+            "affiliation": "Stanford"
+          },
+          {
+            "name": "Percy Liang",
+            "affiliation": "Stanford"
+          },
+          {
+            "name": "Tatsunori Hashimoto",
+            "affiliation": "Stanford"
+          }
+        ],
+        "publisher": "International Conference on Machine Learning",
+        "publication_year": "2023",
+        "domain": "gai",
+        "text_type": "Academic paper",
+        "purpose": "Informational",
+        "point_of_view": [
+          "Researcher",
+          "Academic"
+        ],
+        "audience": [
+          "Researchers",
+          "Academic",
+          "Policy makers",
+          "Developers"
+        ],
+        "reach": [
+          "Global",
+          "Academic"
+        ],
+        "topics": [
+          "computation and language",
+          "language models",
+          "computers and society",
+          "machine learning",
+          "AI ethics"
+        ],
+        "summary": "This paper introduces OpinionQA, a quantitative framework and dataset for evaluating how language models reflect human opinions across various demographic groups, revealing significant misalignments and biases.",
+        "suggested_citation": "Santurkar, S., Durmus, E., Ladhak, F., Lee, C., Liang, P. and Hashimoto, T. (2023) 'Whose opinions do language models reflect?', in International Conference on Machine Learning. PMLR, pp. 29971-30004."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Santurkar_WhoseOpinionsDoLanguageModelsReflect_2023.pdf",
+        "creation_date": "2025-08-20",
+        "word_count": 0,
+        "status": "vectorization_pending",
+        "file_paths": {
+          "original": "gai/eng/submissions/Santurkar_WhoseOpinionsDoLanguageModelsReflect_2023.pdf",
+          "processed": "gai/eng/processed/gai-eng_item007.json"
+        },
+        "processing_notes": "Omitted references, acknowledgements, table data and content from the appendix that was unrelated to generative AI."
+      }
     }
   }  
 }

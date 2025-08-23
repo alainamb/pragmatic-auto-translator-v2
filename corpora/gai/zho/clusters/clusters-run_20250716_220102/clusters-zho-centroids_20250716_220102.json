@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "language": "zho",
+    "export_timestamp": "20250716_220102",
+    "vector_dimensions": 1024
+  },
+  "paragraph_clusters": {
+    "zho_para_cluster_00": {
+      "centroid_vector": [
+        8.028267860412598,
+        0.31848424673080444,
+        3.769021511077881,
+        2.6319124698638916,
+        4.294963359832764,
+        9.35921573638916,
+        7.864097595214844,
+        6.0648088455200195,
+        5.16371488571167,
+        4.0020365715026855
+      ],
+      "representative_paragraphs": [
+        "unknown_31"
+      ],
+      "cluster_size": 11,
+      "cluster_description": "Paragraph cluster 00",
+      "avg_distance_to_centroid": 0.5815950632095337
+    },
+    "zho_para_cluster_01": {
+      "centroid_vector": [
+        11.160673141479492,
+        0.27070969343185425,
+        6.851470947265625,
+        3.176522731781006,
+        5.964444160461426,
+        8.703022956848145,
+        5.736321926116943,
+        3.061580181121826,
+        3.8054213523864746,
+        1.7960925102233887
+      ],
+      "representative_paragraphs": [
+        "p2_1_2"
+      ],
+      "cluster_size": 4,
+      "cluster_description": "Paragraph cluster 01",
+      "avg_distance_to_centroid": 0.1556461751461029
+    },
+    "zho_para_cluster_02": {
+      "centroid_vector": [
+        11.347808837890625,
+        0.16454119980335236,
+        6.964754581451416,
+        3.0259718894958496,
+        5.859984397888184,
+        8.832693099975586,
+        5.7620744705200195,
+        2.929065704345703,
+        3.815227508544922,
+        1.968719720840454
+      ],
+      "representative_paragraphs": [
+        "unknown_22"
+      ],
+      "cluster_size": 2,
+      "cluster_description": "Paragraph cluster 02",
+      "avg_distance_to_centroid": 0.07912476360797882
+    },
+    "zho_para_cluster_03": {
+      "centroid_vector": [
+        8.393545150756836,
+        4.551380157470703,
+        7.343520164489746,
+        3.9087703227996826,
+        2.7539806365966797,
+        6.76923942565918,
+        6.2513532638549805,
+        7.224862098693848,
+        5.5405473709106445,
+        2.559633255004883
+      ],
+      "representative_paragraphs": [
+        "p2_2_2"
+      ],
+      "cluster_size": 2,
+      "cluster_description": "Paragraph cluster 03",
+      "avg_distance_to_centroid": 0.10244747996330261
+    },
+    "zho_para_cluster_04": {
+      "centroid_vector": [
+        8.270702362060547,
+        4.7227559089660645,
+        7.4293670654296875,
+        4.018918514251709,
+        2.792752265930176,
+        6.6347222328186035,
+        6.154402256011963,
+        7.0987982749938965,
+        5.784885883331299,
+        2.448307752609253
+      ],
+      "representative_paragraphs": [
+        "unknown_27"
+      ],
+      "cluster_size": 3,
+      "cluster_description": "Paragraph cluster 04",
+      "avg_distance_to_centroid": 0.13021399080753326
+    },
+    "zho_para_cluster_05": {
+      "centroid_vector": [
+        8.062905311584473,
+        4.9844889640808105,
+        7.580267429351807,
+        4.230671405792236,
+        2.711451292037964,
+        6.400493621826172,
+        5.940132141113281,
+        6.881252765655518,
+        6.09035062789917,
+        2.2209866046905518
+      ],
+      "representative_paragraphs": [
+        "p1_4_4"
+      ],
+      "cluster_size": 3,
+      "cluster_description": "Paragraph cluster 05",
+      "avg_distance_to_centroid": 0.12996748089790344
+    },
+    "zho_para_cluster_06": {
+      "centroid_vector": [
+        9.558366775512695,
+        0.8272722959518433,
+        7.291515350341797,
+        4.376064300537109,
+        6.225185871124268,
+        7.54935359954834,
+        6.602292537689209,
+        4.738154888153076,
+        3.169992446899414,
+        3.417881488800049
+      ],
+      "representative_paragraphs": [
+        "p0_1"
+      ],
+      "cluster_size": 2,
+      "cluster_description": "Paragraph cluster 06",
+      "avg_distance_to_centroid": 0.103736013174057
+    },
+    "zho_para_cluster_07": {
+      "centroid_vector": [
+        9.346721649169922,
+        2.4878573417663574,
+        7.542209148406982,
+        3.8989524841308594,
+        4.859533309936523,
+        7.161247253417969,
+        6.267520904541016,
+        5.835681438446045,
+        4.122220993041992,
+        2.915024518966675
+      ],
+      "representative_paragraphs": [
+        "p1_1_3"
+      ],
+      "cluster_size": 9,
+      "cluster_description": "Paragraph cluster 07",
+      "avg_distance_to_centroid": 0.4853156507015228
+    },
+    "zho_para_cluster_08": {
+      "centroid_vector": [
+        9.31912612915039,
+        1.6018712520599365,
+        7.347393989562988,
+        4.106044769287109,
+        5.388235092163086,
+        7.0983171463012695,
+        6.445381164550781,
+        5.729735851287842,
+        3.5082638263702393,
+        3.4413444995880127
+      ],
+      "representative_paragraphs": [
+        "p2_1_1"
+      ],
+      "cluster_size": 2,
+      "cluster_description": "Paragraph cluster 08",
+      "avg_distance_to_centroid": 0.1189315915107727
+    },
+    "zho_para_cluster_09": {
+      "centroid_vector": [
+        7.924768447875977,
+        3.7472293376922607,
+        9.251686096191406,
+        6.0454182624816895,
+        4.113687515258789,
+        6.043270111083984,
+        7.512764930725098,
+        8.54261302947998,
+        3.3698301315307617,
+        2.194371223449707
+      ],
+      "representative_paragraphs": [
+        "p1_1_2_1"
+      ],
+      "cluster_size": 2,
+      "cluster_description": "Paragraph cluster 09",
+      "avg_distance_to_centroid": 0.13239061832427979
+    },
+    "zho_para_cluster_10": {
+      "centroid_vector": [
+        7.943223476409912,
+        3.7993671894073486,
+        9.429096221923828,
+        6.261762619018555,
+        4.129859924316406,
+        6.000360012054443,
+        7.570854187011719,
+        8.819342613220215,
+        3.323329210281372,
+        2.1396872997283936
+      ],
+      "representative_paragraphs": [
+        "p1_2_1_1"
+      ],
+      "cluster_size": 3,
+      "cluster_description": "Paragraph cluster 10",
+      "avg_distance_to_centroid": 0.10176002979278564
+    },
+    "zho_para_cluster_11": {
+      "centroid_vector": [
+        9.169768333435059,
+        1.214745044708252,
+        7.303494930267334,
+        4.405679702758789,
+        5.844020843505859,
+        7.194209575653076,
+        6.635847568511963,
+        5.427462100982666,
+        3.1924314498901367,
+        3.6701362133026123
+      ],
+      "representative_paragraphs": [
+        "p0_2"
+      ],
+      "cluster_size": 3,
+      "cluster_description": "Paragraph cluster 11",
+      "avg_distance_to_centroid": 0.2465508133172989
+    },
+    "zho_para_cluster_12": {
+      "centroid_vector": [
+        9.468114852905273,
+        1.2003114223480225,
+        7.318106174468994,
+        4.401472568511963,
+        5.560094356536865,
+        6.9110426902771,
+        6.7057785987854,
+        5.773387908935547,
+        3.1079821586608887,
+        3.6283600330352783
+      ],
+      "representative_paragraphs": [
+        "p0_3"
+      ],
+      "cluster_size": 5,
+      "cluster_description": "Paragraph cluster 12",
+      "avg_distance_to_centroid": 0.22037363052368164
+    },
+    "zho_para_cluster_13": {
+      "centroid_vector": [
+        7.847493648529053,
+        3.6449153423309326,
+        8.471423149108887,
+        5.129075527191162,
+        4.228983402252197,
+        6.106739521026611,
+        7.235779285430908,
+        7.388481616973877,
+        3.622638702392578,
+        2.461886405944824
+      ],
+      "representative_paragraphs": [
+        "p1_2_2"
+      ],
+      "cluster_size": 3,
+      "cluster_description": "Paragraph cluster 13",
+      "avg_distance_to_centroid": 0.1635235995054245
+    },
+    "zho_para_cluster_14": {
+      "centroid_vector": [
+        7.820908546447754,
+        3.6842992305755615,
+        8.782669067382812,
+        5.5232038497924805,
+        4.1784162521362305,
+        6.056452751159668,
+        7.295078277587891,
+        7.863834381103516,
+        3.5391483306884766,
+        2.3463850021362305
+      ],
+      "representative_paragraphs": [
+        "p1_1_2_2"
+      ],
+      "cluster_size": 2,
+      "cluster_description": "Paragraph cluster 14",
+      "avg_distance_to_centroid": 0.10722552984952927
+    }
+  }
+}

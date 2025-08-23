@@ -1,0 +1,2426 @@
+{
+  "metadata": {
+    "extraction_timestamp": "2025-07-16T22:01:02.922817",
+    "language": "zho",
+    "language_name": "Chinese",
+    "extraction_method": "c_value_plus_definitions",
+    "total_terms": 100,
+    "min_frequency_threshold": 1
+  },
+  "terms": [
+    {
+      "term_candidate": "模型",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 5.0,
+        "cluster_spread": 5,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_4",
+          "document_id": "gai-zho_corpus-item001",
+          "document_title": "",
+          "text_snippet": "然而,大模型技术还处于初级研究阶段,存在许多亟需解决的问题,包括但不限于模型的可解释性、模型机理的研究、与现实世界的可交互性、安全可控、伦理道德问题,以及如何更好地对接下游任务等。另一方面,作为核心技术的基座模型,更强的自主可控和建模能力是我国下一代大模型技术基础研究的两大核心任务。"
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "然而 模型 技术 处于 初级",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "模型 技术 处于 初级 研究",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "技术 处于 初级 研究 阶段",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "处于 初级 研究 阶段 存在",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "初级 研究 阶段 存在 许多",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "研究 阶段 存在 许多 亟需",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "阶段 存在 许多 亟需 解决",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "存在 许多 亟需 解决 问题",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "许多 亟需 解决 问题 包括",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "亟需 解决 问题 包括 限于",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "解决 问题 包括 限于 模型",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "问题 包括 限于 模型 解释性",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "包括 限于 模型 解释性 模型",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "限于 模型 解释性 模型 机理",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "模型 解释性 模型 机理 研究",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "解释性 模型 机理 研究 现实",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "模型 机理 研究 现实 世界",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "机理 研究 现实 世界 可交",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "研究 现实 世界 可交 互性",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_02",
+          "cluster_theme": "Concepts related to: 模型, 然而 模型 技术 处于 初级, 模型 技术 处于 初级 研究, 技术 处于 初级 研究 阶段, 处于 初级 研究 阶段 存在",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "模型",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 5,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "随着技术的进步和创新,人工智能已经成为当今世界经济和社会发展的重要支撑技术。机器学习是人工智能的子领域,根据不同的建模方式,机器学习模型可以分为判别式模型和生成式模型;判别模型直接对数据和预测类别的条件概率进行建模,而生成模型对联合概率分布进行建模。基于生成模型构建的生成式人工智能能够根据已经学习的内容创造性地生成新的内容,因此很可能成为专用性人工智能走向通用式人工智能的关键转折点。"
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "人工",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 5.0,
+        "cluster_spread": 3,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "随着技术的进步和创新,人工智能已经成为当今世界经济和社会发展的重要支撑技术。机器学习是人工智能的子领域,根据不同的建模方式,机器学习模型可以分为判别式模型和生成式模型;判别模型直接对数据和预测类别的条件概率进行建模,而生成模型对联合概率分布进行建模。基于生成模型构建的生成式人工智能能够根据已经学习的内容创造性地生成新的内容,因此很可能成为专用性人工智能走向通用式人工智能的关键转折点。"
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "智能",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 5.0,
+        "cluster_spread": 3,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "随着技术的进步和创新,人工智能已经成为当今世界经济和社会发展的重要支撑技术。机器学习是人工智能的子领域,根据不同的建模方式,机器学习模型可以分为判别式模型和生成式模型;判别模型直接对数据和预测类别的条件概率进行建模,而生成模型对联合概率分布进行建模。基于生成模型构建的生成式人工智能能够根据已经学习的内容创造性地生成新的内容,因此很可能成为专用性人工智能走向通用式人工智能的关键转折点。"
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 4.0,
+        "cluster_spread": 3,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "随着 技术 进步 创新 人工",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "技术 进步 创新 人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "进步 创新 人工 智能 已经",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "创新 人工 智能 已经 成为",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "人工 智能 已经 成为 当今",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "智能 已经 成为 当今 世界",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "已经 成为 当今 世界 经济",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "成为 当今 世界 经济 社会",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "当今 世界 经济 社会 发展",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "世界 经济 社会 发展 重要",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "经济 社会 发展 重要 支撑",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "社会 发展 重要 支撑 技术",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "发展 重要 支撑 技术 机器",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "重要 支撑 技术 机器 学习",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "支撑 技术 机器 学习 人工",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "技术 机器 学习 人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_06",
+          "cluster_theme": "Concepts related to: 模型, 人工, 智能, 人工 智能, 随着 技术 进步 创新 人工",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "学习",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 2,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p1_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "近年来,随着深度学习技术的进一步发展和互联网上文本、图像等数据的不断积累,基于深度学习的生成模型获得了飞跃发展。最具代表性的生成式模型之一就是 OpenAI公司于2022年构建的大型语言对话模型 ChatGPT。ChatGPT 是由生成式人工智能技术驱动的自然语言处理工具,能够通过理解和学习人类的语言进行对话,还能根据聊天的上下文进行互动,真正像人类一样交流和回答问题,并能够撰写邮件、文案、代码和..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "模型",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 5,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p1_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "近年来,随着深度学习技术的进一步发展和互联网上文本、图像等数据的不断积累,基于深度学习的生成模型获得了飞跃发展。最具代表性的生成式模型之一就是 OpenAI公司于2022年构建的大型语言对话模型 ChatGPT。ChatGPT 是由生成式人工智能技术驱动的自然语言处理工具,能够通过理解和学习人类的语言进行对话,还能根据聊天的上下文进行互动,真正像人类一样交流和回答问题,并能够撰写邮件、文案、代码和..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "语言",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 5.0,
+        "cluster_spread": 1,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p1_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "近年来,随着深度学习技术的进一步发展和互联网上文本、图像等数据的不断积累,基于深度学习的生成模型获得了飞跃发展。最具代表性的生成式模型之一就是 OpenAI公司于2022年构建的大型语言对话模型 ChatGPT。ChatGPT 是由生成式人工智能技术驱动的自然语言处理工具,能够通过理解和学习人类的语言进行对话,还能根据聊天的上下文进行互动,真正像人类一样交流和回答问题,并能够撰写邮件、文案、代码和..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "ChatGPT",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 5.0,
+        "cluster_spread": 2,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p1_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "近年来,随着深度学习技术的进一步发展和互联网上文本、图像等数据的不断积累,基于深度学习的生成模型获得了飞跃发展。最具代表性的生成式模型之一就是 OpenAI公司于2022年构建的大型语言对话模型 ChatGPT。ChatGPT 是由生成式人工智能技术驱动的自然语言处理工具,能够通过理解和学习人类的语言进行对话,还能根据聊天的上下文进行互动,真正像人类一样交流和回答问题,并能够撰写邮件、文案、代码和..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "近年来 随着 深度 学习 技术",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "随着 深度 学习 技术 进一步",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "深度 学习 技术 进一步 发展",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "学习 技术 进一步 发展 互联网",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "技术 进一步 发展 互联网 文本",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "进一步 发展 互联网 文本 图像",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "发展 互联网 文本 图像 数据",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "互联网 文本 图像 数据 不断",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "文本 图像 数据 不断 积累",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "图像 数据 不断 积累 基于",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "数据 不断 积累 基于 深度",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "不断 积累 基于 深度 学习",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "积累 基于 深度 学习 生成",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "基于 深度 学习 生成 模型",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "深度 学习 生成 模型 获得",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "学习 生成 模型 获得 飞跃",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_08",
+          "cluster_theme": "Concepts related to: 学习, 模型, 语言, ChatGPT, 近年来 随着 深度 学习 技术",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成式 人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 10.961538461538462,
+        "cluster_spread": 2,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "学术 研究 技术 应用 取得",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 2,
+        "c_value": 8.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成式",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 2,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_2",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "生成式人工智能可以利用网络上容易获取到的大规模无标记数据进行预训练,并通过简单适配和高效微调应用到大量的下游任务中。目前生成式人工智能已经在学术研究和技术应用上取得了突破性进展。在自然语言处理领域,生成式人工智能已经能够生成质量较高的自然语言文本,并在对话系统、机器翻译、文本摘要等领域得到应用。例如 OpenAI公司于 2020 年提出的第三代文本生成模型(GenerativePre-traine..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "人工",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 3,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_2",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "生成式人工智能可以利用网络上容易获取到的大规模无标记数据进行预训练,并通过简单适配和高效微调应用到大量的下游任务中。目前生成式人工智能已经在学术研究和技术应用上取得了突破性进展。在自然语言处理领域,生成式人工智能已经能够生成质量较高的自然语言文本,并在对话系统、机器翻译、文本摘要等领域得到应用。例如 OpenAI公司于 2020 年提出的第三代文本生成模型(GenerativePre-traine..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "智能",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 3,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_2",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "生成式人工智能可以利用网络上容易获取到的大规模无标记数据进行预训练,并通过简单适配和高效微调应用到大量的下游任务中。目前生成式人工智能已经在学术研究和技术应用上取得了突破性进展。在自然语言处理领域,生成式人工智能已经能够生成质量较高的自然语言文本,并在对话系统、机器翻译、文本摘要等领域得到应用。例如 OpenAI公司于 2020 年提出的第三代文本生成模型(GenerativePre-traine..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "应用",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 5.0,
+        "cluster_spread": 1,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_2",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "生成式人工智能可以利用网络上容易获取到的大规模无标记数据进行预训练,并通过简单适配和高效微调应用到大量的下游任务中。目前生成式人工智能已经在学术研究和技术应用上取得了突破性进展。在自然语言处理领域,生成式人工智能已经能够生成质量较高的自然语言文本,并在对话系统、机器翻译、文本摘要等领域得到应用。例如 OpenAI公司于 2020 年提出的第三代文本生成模型(GenerativePre-traine..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成式 人工 智能 已经",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 2,
+        "c_value": 5.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "已经 能够 生成 质量",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 2,
+        "c_value": 5.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成式 人工",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 4.857142857142858,
+        "cluster_spread": 2,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 4.840909090909091,
+        "cluster_spread": 3,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "学术 研究 技术 应用",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 2,
+        "c_value": 4.666666666666667,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "研究 技术 应用 取得",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 2,
+        "c_value": 4.666666666666667,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "领域",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 4,
+        "c_value": 4.0,
+        "cluster_spread": 2,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_2",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "生成式人工智能可以利用网络上容易获取到的大规模无标记数据进行预训练,并通过简单适配和高效微调应用到大量的下游任务中。目前生成式人工智能已经在学术研究和技术应用上取得了突破性进展。在自然语言处理领域,生成式人工智能已经能够生成质量较高的自然语言文本,并在对话系统、机器翻译、文本摘要等领域得到应用。例如 OpenAI公司于 2020 年提出的第三代文本生成模型(GenerativePre-traine..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 4,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_2",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "生成式人工智能可以利用网络上容易获取到的大规模无标记数据进行预训练,并通过简单适配和高效微调应用到大量的下游任务中。目前生成式人工智能已经在学术研究和技术应用上取得了突破性进展。在自然语言处理领域,生成式人工智能已经能够生成质量较高的自然语言文本,并在对话系统、机器翻译、文本摘要等领域得到应用。例如 OpenAI公司于 2020 年提出的第三代文本生成模型(GenerativePre-traine..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "模型",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 4,
+        "c_value": 4.0,
+        "cluster_spread": 5,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_2",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "生成式人工智能可以利用网络上容易获取到的大规模无标记数据进行预训练,并通过简单适配和高效微调应用到大量的下游任务中。目前生成式人工智能已经在学术研究和技术应用上取得了突破性进展。在自然语言处理领域,生成式人工智能已经能够生成质量较高的自然语言文本,并在对话系统、机器翻译、文本摘要等领域得到应用。例如 OpenAI公司于 2020 年提出的第三代文本生成模型(GenerativePre-traine..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成式 人工 智能 可以 利用",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "人工 智能 可以 利用 网络",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "智能 可以 利用 网络 容易",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "可以 利用 网络 容易 获取",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "利用 网络 容易 获取 大规模",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 1,
+        "c_value": 4.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_11",
+          "cluster_theme": "Concepts related to: 生成式 人工 智能, 学术 研究 技术 应用 取得, 生成式, 人工, 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "ChatGPT 及生 成式 人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 20.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "智能",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 19,
+        "c_value": 19.0,
+        "cluster_spread": 3,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "人工",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 16,
+        "c_value": 16.0,
+        "cluster_spread": 3,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 16,
+        "c_value": 14.825,
+        "cluster_spread": 3,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "及生 成式 人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 13.333333333333334,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "ChatGPT 及生 成式 人工",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 13.2,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成式 人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 7,
+        "c_value": 13.0,
+        "cluster_spread": 2,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "成式 人工 智能",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 10.758620689655173,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成式",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 9,
+        "c_value": 9.0,
+        "cluster_spread": 2,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "ChatGPT 及生 成式",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 8.428571428571429,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "技术",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 8,
+        "c_value": 8.0,
+        "cluster_spread": 1,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "模型",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 8,
+        "c_value": 8.0,
+        "cluster_spread": 5,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "及生 成式 人工",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 8.0,
+        "cluster_spread": 1,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "发展",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 7,
+        "c_value": 7.0,
+        "cluster_spread": 1,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "研究",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 7,
+        "c_value": 7.0,
+        "cluster_spread": 1,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "ChatGPT",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 2,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "成式",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 1,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "学习",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 6,
+        "c_value": 6.0,
+        "cluster_spread": 2,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "生成式 人工",
+      "term_type": "multi_word",
+      "extraction_metrics": {
+        "frequency": 7,
+        "c_value": 5.894736842105263,
+        "cluster_spread": 2,
+        "document_spread": 0
+      },
+      "context": [],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    },
+    {
+      "term_candidate": "领域",
+      "term_type": "single_word",
+      "extraction_metrics": {
+        "frequency": 5,
+        "c_value": 5.0,
+        "cluster_spread": 2,
+        "document_spread": 1
+      },
+      "context": [
+        {
+          "paragraph_id": "p0_3",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "未来,随着技术的不断发展,生成式人工智能将在各个领域发挥更加重要的作用。当前,ChatGPT及生成式人工智能已经引发了社会各界的广泛关注与激烈讨论,我们应该保持严肃审慎的态度认真思考,为生成式人工智能构建良好的发展环境。本文将先介绍 ChatGPT 等生成式语言模型的研究现状与进展,包括预训练语言模型、上下文学习、基于人类反馈的强化学习三个关键技术,以及对于自然语言处理、机器学习、人机交互、符号人..."
+        },
+        {
+          "paragraph_id": "p2_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "ChatGPT 及生成式人工智能的研究正处于快速发展阶段。随着深度学习技术的不断发展和进步,越来越多的生成式模型被提出,并能够生成具有创造性和多样性的各种内容。同时,生成式人工智能也在推动多个领域的前沿研究,包括自然语言处理、计算机视觉、机器人等领域。总之,生成式人工智能的研究可以增强人类创造力、推动跨学科研究、解决现实问题、推进社会进步,在未来有着广阔的发展前景和巨大的潜力。它也正逐渐走进我们的..."
+        },
+        {
+          "paragraph_id": "p3_1",
+          "document_id": "gai-zho_corpus-item002",
+          "document_title": "",
+          "text_snippet": "著名市场调查机构 Gartner在2022年的重要战略技术趋势报告中将生成式人工智能列为12项重要战略之首,并预计到2025年,生成式人工智能产生的数据占人类全部数据的比例将从目前的1%增长到10%。由此可见,ChatGPT 及生成式人工智能将会给人类社会带来深刻的影响与变革。但目前的生成式人工智能技术在学术研究和应用上还有很多不足之处需要改进:模型需要具有更透彻的理解能力与可控安全的内容生成能力..."
+        }
+      ],
+      "definition_candidate": null,
+      "cluster_associations": [
+        {
+          "cluster_id": "zho_para_cluster_12",
+          "cluster_theme": "Concepts related to: ChatGPT 及生 成式 人工 智能, 智能, 人工, 人工 智能, 及生 成式 人工 智能",
+          "extraction_priority": "high"
+        }
+      ],
+      "validation_status": "pending",
+      "notes": ""
+    }
+  ]
+}

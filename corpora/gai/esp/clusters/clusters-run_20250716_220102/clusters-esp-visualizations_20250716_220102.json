@@ -1,0 +1,4167 @@
+{
+  "metadata": {
+    "language": "esp",
+    "export_timestamp": "20250716_220102",
+    "visualization_types": [
+      "umap_scatter",
+      "cluster_quality_metrics",
+      "term_frequency_distributions"
+    ]
+  },
+  "umap_scatter": {
+    "description": "2D UMAP projection of paragraph embeddings",
+    "data": []
+  },
+  "cluster_quality_metrics": {
+    "description": "Per-cluster quality visualization data",
+    "clusters": [
+      {
+        "cluster_id": "esp_para_cluster_00",
+        "silhouette_score": 0.9999921917915344,
+        "cohesion_score": 0.9999921917915344,
+        "size": 4,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_01",
+        "silhouette_score": 0.9999997615814209,
+        "cohesion_score": 0.9999997615814209,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_02",
+        "silhouette_score": 0.9999998211860657,
+        "cohesion_score": 0.9999998211860657,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_03",
+        "silhouette_score": 0.9999959468841553,
+        "cohesion_score": 0.9999959468841553,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_04",
+        "silhouette_score": 0.9999918341636658,
+        "cohesion_score": 0.9999918341636658,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_05",
+        "silhouette_score": 0.9999940395355225,
+        "cohesion_score": 0.9999940395355225,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_06",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_07",
+        "silhouette_score": 0.9999964833259583,
+        "cohesion_score": 0.9999964833259583,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_08",
+        "silhouette_score": 0.9999998807907104,
+        "cohesion_score": 0.9999998807907104,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_09",
+        "silhouette_score": 0.9999996423721313,
+        "cohesion_score": 0.9999996423721313,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_10",
+        "silhouette_score": 0.999999463558197,
+        "cohesion_score": 0.999999463558197,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_11",
+        "silhouette_score": 0.9999954104423523,
+        "cohesion_score": 0.9999954104423523,
+        "size": 6,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_12",
+        "silhouette_score": 0.9999964237213135,
+        "cohesion_score": 0.9999964237213135,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_13",
+        "silhouette_score": 0.9999971985816956,
+        "cohesion_score": 0.9999971985816956,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_14",
+        "silhouette_score": 0.9999971389770508,
+        "cohesion_score": 0.9999971389770508,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_15",
+        "silhouette_score": 0.9999546408653259,
+        "cohesion_score": 0.9999546408653259,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_16",
+        "silhouette_score": 0.9999780058860779,
+        "cohesion_score": 0.9999780058860779,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_17",
+        "silhouette_score": 0.9999918937683105,
+        "cohesion_score": 0.9999918937683105,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_18",
+        "silhouette_score": 0.9999634027481079,
+        "cohesion_score": 0.9999634027481079,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_19",
+        "silhouette_score": 0.9999956488609314,
+        "cohesion_score": 0.9999956488609314,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_20",
+        "silhouette_score": 0.9999942183494568,
+        "cohesion_score": 0.9999942183494568,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_21",
+        "silhouette_score": 0.9999986290931702,
+        "cohesion_score": 0.9999986290931702,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_22",
+        "silhouette_score": 0.9999958276748657,
+        "cohesion_score": 0.9999958276748657,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_23",
+        "silhouette_score": 0.9999995231628418,
+        "cohesion_score": 0.9999995231628418,
+        "size": 2,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_24",
+        "silhouette_score": 0.9999984502792358,
+        "cohesion_score": 0.9999984502792358,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_25",
+        "silhouette_score": 0.999994695186615,
+        "cohesion_score": 0.999994695186615,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_26",
+        "silhouette_score": 0.9999902844429016,
+        "cohesion_score": 0.9999902844429016,
+        "size": 5,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_27",
+        "silhouette_score": 0.99998539686203,
+        "cohesion_score": 0.99998539686203,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_28",
+        "silhouette_score": 0.9999656677246094,
+        "cohesion_score": 0.9999656677246094,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_29",
+        "silhouette_score": 0.9999726414680481,
+        "cohesion_score": 0.9999726414680481,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_30",
+        "silhouette_score": 0.9999948143959045,
+        "cohesion_score": 0.9999948143959045,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_31",
+        "silhouette_score": 0.9999886155128479,
+        "cohesion_score": 0.9999886155128479,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_32",
+        "silhouette_score": 0.9999902248382568,
+        "cohesion_score": 0.9999902248382568,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_33",
+        "silhouette_score": 0.9999228715896606,
+        "cohesion_score": 0.9999228715896606,
+        "size": 7,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_34",
+        "silhouette_score": 0.999999463558197,
+        "cohesion_score": 0.999999463558197,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_35",
+        "silhouette_score": 0.999979555606842,
+        "cohesion_score": 0.999979555606842,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_36",
+        "silhouette_score": 0.9999946355819702,
+        "cohesion_score": 0.9999946355819702,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_37",
+        "silhouette_score": 0.9999706149101257,
+        "cohesion_score": 0.9999706149101257,
+        "size": 4,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_38",
+        "silhouette_score": 0.9999836683273315,
+        "cohesion_score": 0.9999836683273315,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_39",
+        "silhouette_score": 0.9999967813491821,
+        "cohesion_score": 0.9999967813491821,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_40",
+        "silhouette_score": 0.999998927116394,
+        "cohesion_score": 0.999998927116394,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_41",
+        "silhouette_score": 0.9999991059303284,
+        "cohesion_score": 0.9999991059303284,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_42",
+        "silhouette_score": 0.9999312162399292,
+        "cohesion_score": 0.9999312162399292,
+        "size": 6,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_43",
+        "silhouette_score": 0.9999935626983643,
+        "cohesion_score": 0.9999935626983643,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_44",
+        "silhouette_score": 0.9999966621398926,
+        "cohesion_score": 0.9999966621398926,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_45",
+        "silhouette_score": 0.9999924898147583,
+        "cohesion_score": 0.9999924898147583,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_46",
+        "silhouette_score": 0.9999908208847046,
+        "cohesion_score": 0.9999908208847046,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_47",
+        "silhouette_score": 0.999995231628418,
+        "cohesion_score": 0.999995231628418,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_48",
+        "silhouette_score": 0.9999954104423523,
+        "cohesion_score": 0.9999954104423523,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_49",
+        "silhouette_score": 0.9999933838844299,
+        "cohesion_score": 0.9999933838844299,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_50",
+        "silhouette_score": 0.9999933838844299,
+        "cohesion_score": 0.9999933838844299,
+        "size": 2,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_51",
+        "silhouette_score": 0.9999998807907104,
+        "cohesion_score": 0.9999998807907104,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_52",
+        "silhouette_score": 1.0,
+        "cohesion_score": 1.0,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_53",
+        "silhouette_score": 0.999994158744812,
+        "cohesion_score": 0.999994158744812,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_54",
+        "silhouette_score": 0.9999918341636658,
+        "cohesion_score": 0.9999918341636658,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_55",
+        "silhouette_score": 0.9999999403953552,
+        "cohesion_score": 0.9999999403953552,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_56",
+        "silhouette_score": 0.9999856948852539,
+        "cohesion_score": 0.9999856948852539,
+        "size": 2,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_57",
+        "silhouette_score": 0.9999736547470093,
+        "cohesion_score": 0.9999736547470093,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_58",
+        "silhouette_score": 0.999978244304657,
+        "cohesion_score": 0.999978244304657,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_59",
+        "silhouette_score": 0.9999754428863525,
+        "cohesion_score": 0.9999754428863525,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_60",
+        "silhouette_score": 0.9999728202819824,
+        "cohesion_score": 0.9999728202819824,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_61",
+        "silhouette_score": 0.999997615814209,
+        "cohesion_score": 0.999997615814209,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_62",
+        "silhouette_score": 0.9999549388885498,
+        "cohesion_score": 0.9999549388885498,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_63",
+        "silhouette_score": 0.9999399185180664,
+        "cohesion_score": 0.9999399185180664,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_64",
+        "silhouette_score": 0.9999715685844421,
+        "cohesion_score": 0.9999715685844421,
+        "size": 5,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_65",
+        "silhouette_score": 0.9999964237213135,
+        "cohesion_score": 0.9999964237213135,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_66",
+        "silhouette_score": 0.9999514222145081,
+        "cohesion_score": 0.9999514222145081,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_67",
+        "silhouette_score": 0.9999955892562866,
+        "cohesion_score": 0.9999955892562866,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_68",
+        "silhouette_score": 0.9999781250953674,
+        "cohesion_score": 0.9999781250953674,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_69",
+        "silhouette_score": 0.9999988675117493,
+        "cohesion_score": 0.9999988675117493,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_70",
+        "silhouette_score": 0.9999804496765137,
+        "cohesion_score": 0.9999804496765137,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_71",
+        "silhouette_score": 0.9999983310699463,
+        "cohesion_score": 0.9999983310699463,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_72",
+        "silhouette_score": 0.9999966621398926,
+        "cohesion_score": 0.9999966621398926,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_73",
+        "silhouette_score": 0.9999632239341736,
+        "cohesion_score": 0.9999632239341736,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_74",
+        "silhouette_score": 0.9999855160713196,
+        "cohesion_score": 0.9999855160713196,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_75",
+        "silhouette_score": 0.999992847442627,
+        "cohesion_score": 0.999992847442627,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_76",
+        "silhouette_score": 0.9999777674674988,
+        "cohesion_score": 0.9999777674674988,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_77",
+        "silhouette_score": 0.9998981356620789,
+        "cohesion_score": 0.9998981356620789,
+        "size": 5,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_78",
+        "silhouette_score": 0.999974250793457,
+        "cohesion_score": 0.999974250793457,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_79",
+        "silhouette_score": 0.9999706745147705,
+        "cohesion_score": 0.9999706745147705,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_80",
+        "silhouette_score": 0.9999833703041077,
+        "cohesion_score": 0.9999833703041077,
+        "size": 4,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_81",
+        "silhouette_score": 0.9999761581420898,
+        "cohesion_score": 0.9999761581420898,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_82",
+        "silhouette_score": 0.9999164342880249,
+        "cohesion_score": 0.9999164342880249,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_83",
+        "silhouette_score": 0.9999701976776123,
+        "cohesion_score": 0.9999701976776123,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_84",
+        "silhouette_score": 0.9999680519104004,
+        "cohesion_score": 0.9999680519104004,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_85",
+        "silhouette_score": 0.9999985694885254,
+        "cohesion_score": 0.9999985694885254,
+        "size": 2,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_86",
+        "silhouette_score": 0.9999973773956299,
+        "cohesion_score": 0.9999973773956299,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_87",
+        "silhouette_score": 0.9999814033508301,
+        "cohesion_score": 0.9999814033508301,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_88",
+        "silhouette_score": 0.9999973177909851,
+        "cohesion_score": 0.9999973177909851,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_89",
+        "silhouette_score": 0.9999876022338867,
+        "cohesion_score": 0.9999876022338867,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_90",
+        "silhouette_score": 0.9999967813491821,
+        "cohesion_score": 0.9999967813491821,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_91",
+        "silhouette_score": 0.9999987483024597,
+        "cohesion_score": 0.9999987483024597,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_92",
+        "silhouette_score": 0.9999975562095642,
+        "cohesion_score": 0.9999975562095642,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_93",
+        "silhouette_score": 0.9999997019767761,
+        "cohesion_score": 0.9999997019767761,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_94",
+        "silhouette_score": 0.9999600052833557,
+        "cohesion_score": 0.9999600052833557,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_95",
+        "silhouette_score": 0.9999691843986511,
+        "cohesion_score": 0.9999691843986511,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_96",
+        "silhouette_score": 0.9999647736549377,
+        "cohesion_score": 0.9999647736549377,
+        "size": 4,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_97",
+        "silhouette_score": 0.9999925494194031,
+        "cohesion_score": 0.9999925494194031,
+        "size": 3,
+        "spread_across_documents": 0,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_98",
+        "silhouette_score": 0.9999276399612427,
+        "cohesion_score": 0.9999276399612427,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_99",
+        "silhouette_score": 0.9999939799308777,
+        "cohesion_score": 0.9999939799308777,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_100",
+        "silhouette_score": 0.999985933303833,
+        "cohesion_score": 0.999985933303833,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_101",
+        "silhouette_score": 0.9999864101409912,
+        "cohesion_score": 0.9999864101409912,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_102",
+        "silhouette_score": 0.9999983906745911,
+        "cohesion_score": 0.9999983906745911,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_103",
+        "silhouette_score": 0.9999805092811584,
+        "cohesion_score": 0.9999805092811584,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_104",
+        "silhouette_score": 0.9999024271965027,
+        "cohesion_score": 0.9999024271965027,
+        "size": 5,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_105",
+        "silhouette_score": 0.9999982714653015,
+        "cohesion_score": 0.9999982714653015,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_106",
+        "silhouette_score": 0.9999773502349854,
+        "cohesion_score": 0.9999773502349854,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_107",
+        "silhouette_score": 0.9999531507492065,
+        "cohesion_score": 0.9999531507492065,
+        "size": 5,
+        "spread_across_documents": 2,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_108",
+        "silhouette_score": 0.9999811053276062,
+        "cohesion_score": 0.9999811053276062,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_109",
+        "silhouette_score": 0.9999030828475952,
+        "cohesion_score": 0.9999030828475952,
+        "size": 7,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_110",
+        "silhouette_score": 0.9998859167098999,
+        "cohesion_score": 0.9998859167098999,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_111",
+        "silhouette_score": 0.9999991059303284,
+        "cohesion_score": 0.9999991059303284,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_112",
+        "silhouette_score": 0.9999971985816956,
+        "cohesion_score": 0.9999971985816956,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_113",
+        "silhouette_score": 0.9999849796295166,
+        "cohesion_score": 0.9999849796295166,
+        "size": 3,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_114",
+        "silhouette_score": 0.9999217391014099,
+        "cohesion_score": 0.9999217391014099,
+        "size": 4,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_115",
+        "silhouette_score": 0.9999465942382812,
+        "cohesion_score": 0.9999465942382812,
+        "size": 5,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_116",
+        "silhouette_score": 0.9999948740005493,
+        "cohesion_score": 0.9999948740005493,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_117",
+        "silhouette_score": 0.9999946355819702,
+        "cohesion_score": 0.9999946355819702,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      },
+      {
+        "cluster_id": "esp_para_cluster_118",
+        "silhouette_score": 0.9999983310699463,
+        "cohesion_score": 0.9999983310699463,
+        "size": 2,
+        "spread_across_documents": 1,
+        "extraction_priority": "medium"
+      }
+    ]
+  },
+  "term_frequency_distributions": {
+    "description": "Top terms by cluster for word clouds",
+    "clusters": [
+      {
+        "cluster_id": "esp_para_cluster_03",
+        "top_terms": [
+          {
+            "term": "instrumento aplicó muestra conveniencia muestreo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "aplicó muestra conveniencia muestreo probabilístico",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "muestra conveniencia muestreo probabilístico según",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "conveniencia muestreo probabilístico según Otzen",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "muestreo probabilístico según Otzen Manterola",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "probabilístico según Otzen Manterola 2017",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "según Otzen Manterola 2017 permite",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Otzen Manterola 2017 permite seleccionar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Manterola 2017 permite seleccionar aquellos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "2017 permite seleccionar aquellos casos",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_04",
+        "top_terms": [
+          {
+            "term": "primera parte instrumento solicitó datos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "parte instrumento solicitó datos sociodemográficos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "instrumento solicitó datos sociodemográficos generales",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "solicitó datos sociodemográficos generales conocer",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "datos sociodemográficos generales conocer perfil",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sociodemográficos generales conocer perfil participantes",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "generales conocer perfil participantes correo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "conocer perfil participantes correo electrónico",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "perfil participantes correo electrónico edad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "participantes correo electrónico edad género",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_06",
+        "top_terms": [
+          {
+            "term": "mitad participantes manifestó tener 31",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "participantes manifestó tener 31 40",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "manifestó tener 31 40 años",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tener 31 40 años cumplidos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "31 40 años cumplidos siendo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "40 años cumplidos siendo mayoría",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "años cumplidos siendo mayoría hombres",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "cumplidos siendo mayoría hombres respondieron",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "siendo mayoría hombres respondieron instrumento",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "mayoría hombres respondieron instrumento casi",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_07",
+        "top_terms": [
+          {
+            "term": "Después completar apartado centraron 10",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "completar apartado centraron 10 ítems",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "apartado centraron 10 ítems usos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "centraron 10 ítems usos inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "10 ítems usos inteligencia artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ítems usos inteligencia artificial generativa",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "usos inteligencia artificial generativa manera",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "inteligencia artificial generativa manera usuarios",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "artificial generativa manera usuarios relacionan",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "generativa manera usuarios relacionan tecnologías",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_08",
+        "top_terms": [
+          {
+            "term": "siguentes ítems enfocaron opinión calidad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ítems enfocaron opinión calidad información",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "enfocaron opinión calidad información arrojada",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "opinión calidad información arrojada aplicaciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "calidad información arrojada aplicaciones inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "información arrojada aplicaciones inteligencia artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "arrojada aplicaciones inteligencia artificial generativa",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "aplicaciones inteligencia artificial generativa confiabilidad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "inteligencia artificial generativa confiabilidad utilidad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "artificial generativa confiabilidad utilidad corroboración",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_12",
+        "top_terms": [
+          {
+            "term": "modelo",
+            "frequency": 9,
+            "c_value": 9.0
+          },
+          {
+            "term": "Stability",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "AI",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "imágenes",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "Stable",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Diffusion",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "et",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Stability AI",
+            "frequency": 5,
+            "c_value": 4.0
+          },
+          {
+            "term": "finales 2022 Stability AI publicó",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "2022 Stability AI publicó modelo",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_15",
+        "top_terms": [
+          {
+            "term": "parámetros",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "entrenamiento",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "red",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "neural",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "modelo",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "proceso cognitivo tan complejo sido",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "cognitivo tan complejo sido replicado",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tan complejo sido replicado luego",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "complejo sido replicado luego escala",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sido replicado luego escala menor",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_16",
+        "top_terms": [
+          {
+            "term": "Totalmente",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "acuerdo",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "desacuerdo",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Ítem Creo inteligencia artificial influido",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Creo inteligencia artificial influido directamente",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "inteligencia artificial influido directamente mejora",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "artificial influido directamente mejora calidad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "influido directamente mejora calidad condiciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "directamente mejora calidad condiciones vida",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "mejora calidad condiciones vida sociedad",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_17",
+        "top_terms": [
+          {
+            "term": "preocupaciones introducen tecnologías disruptivas ver",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "introducen tecnologías disruptivas ver impacto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tecnologías disruptivas ver impacto pueden",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "disruptivas ver impacto pueden tener",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ver impacto pueden tener sistemas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "impacto pueden tener sistemas IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "pueden tener sistemas IA tremenda",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tener sistemas IA tremenda dependecia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sistemas IA tremenda dependecia usos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA tremenda dependecia usos desadaptativos",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_18",
+        "top_terms": [
+          {
+            "term": "artificial",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "inteligencia artificial generativa",
+            "frequency": 3,
+            "c_value": 5.0
+          },
+          {
+            "term": "inteligencia",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Dentro época notables avances términos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "época notables avances términos inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "notables avances términos inteligencia artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "avances términos inteligencia artificial generativa",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "términos inteligencia artificial generativa posible",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "inteligencia artificial generativa posible cerrar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "artificial generativa posible cerrar mirada",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_19",
+        "top_terms": [
+          {
+            "term": "Cabe destacar desarrollo implementación tecnologías",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "destacar desarrollo implementación tecnologías IAG",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desarrollo implementación tecnologías IAG conllevan",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "implementación tecnologías IAG conllevan desafíos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tecnologías IAG conllevan desafíos cuestiones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IAG conllevan desafíos cuestiones éticas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "conllevan desafíos cuestiones éticas relación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desafíos cuestiones éticas relación generación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "cuestiones éticas relación generación automática",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "éticas relación generación automática contenidos",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_20",
+        "top_terms": [
+          {
+            "term": "punto considerar ver responsabilidad usuarios",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "considerar ver responsabilidad usuarios difusión",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ver responsabilidad usuarios difusión información",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "responsabilidad usuarios difusión información precisa",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "usuarios difusión información precisa confiable",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "difusión información precisa confiable obtenida",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "información precisa confiable obtenida aplicaciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "precisa confiable obtenida aplicaciones IAG",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "confiable obtenida aplicaciones IAG preocupación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "obtenida aplicaciones IAG preocupación posible",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_21",
+        "top_terms": [
+          {
+            "term": "uso aplicaciones inteligencia artificial generativa",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "aplicaciones inteligencia artificial generativa textos",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "inteligencia artificial generativa textos ChatGPT",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "artificial generativa textos ChatGPT Copy.ai",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "generativa textos ChatGPT Copy.ai Jasper",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "textos ChatGPT Copy.ai Jasper Claude",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "ChatGPT Copy.ai Jasper Claude Bard",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Copy.ai Jasper Claude Bard similares",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "uso aplicaciones inteligencia artificial",
+            "frequency": 2,
+            "c_value": 4.666666666666667
+          },
+          {
+            "term": "Jasper Claude Bard similares",
+            "frequency": 2,
+            "c_value": 4.666666666666667
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_22",
+        "top_terms": [
+          {
+            "term": "VAE necesitan decodificar imagen input",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "necesitan decodificar imagen input píxel",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "decodificar imagen input píxel píxel",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "imagen input píxel píxel sino",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "input píxel píxel sino 32",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "píxel píxel sino 32 32",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "píxel sino 32 32 píxeles",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sino 32 32 píxeles tiles",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "32 32 píxeles tiles azulejos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "32 píxeles tiles azulejos dependiendo",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_23",
+        "top_terms": [
+          {
+            "term": "interés estudio destacan siguientes respuestas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "estudio destacan siguientes respuestas presentan",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "destacan siguientes respuestas presentan continuación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "interés estudio destacan siguientes",
+            "frequency": 1,
+            "c_value": 2.0
+          },
+          {
+            "term": "estudio destacan siguientes respuestas",
+            "frequency": 1,
+            "c_value": 2.0
+          },
+          {
+            "term": "destacan siguientes respuestas presentan",
+            "frequency": 1,
+            "c_value": 2.0
+          },
+          {
+            "term": "siguientes respuestas presentan continuación",
+            "frequency": 1,
+            "c_value": 2.0
+          },
+          {
+            "term": "interés",
+            "frequency": 1,
+            "c_value": 1.0
+          },
+          {
+            "term": "estudio",
+            "frequency": 1,
+            "c_value": 1.0
+          },
+          {
+            "term": "destacan",
+            "frequency": 1,
+            "c_value": 1.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_25",
+        "top_terms": [
+          {
+            "term": "inteligencias",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "artificiales",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Hoy nunca término inteligencia artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "nunca término inteligencia artificial llevando",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "término inteligencia artificial llevando humanidad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "inteligencia artificial llevando humanidad cuestionarse",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "artificial llevando humanidad cuestionarse cuánto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "llevando humanidad cuestionarse cuánto sabemos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "humanidad cuestionarse cuánto sabemos realmente",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "cuestionarse cuánto sabemos realmente hace",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_27",
+        "top_terms": [
+          {
+            "term": "aplicaciones inteligencia artificial generativa",
+            "frequency": 6,
+            "c_value": 16.5
+          },
+          {
+            "term": "aplicaciones inteligencia artificial generativa textos",
+            "frequency": 4,
+            "c_value": 16.0
+          },
+          {
+            "term": "aplicaciones inteligencia artificial",
+            "frequency": 6,
+            "c_value": 10.5
+          },
+          {
+            "term": "inteligencia artificial generativa",
+            "frequency": 6,
+            "c_value": 10.125
+          },
+          {
+            "term": "inteligencia artificial generativa textos",
+            "frequency": 4,
+            "c_value": 9.333333333333334
+          },
+          {
+            "term": "conocimiento",
+            "frequency": 9,
+            "c_value": 9.0
+          },
+          {
+            "term": "inteligencia artificial generativa textos herramientas",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "artificial generativa textos herramientas valiosas",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "generativa textos herramientas valiosas aprendizaje",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "textos herramientas valiosas aprendizaje investigación",
+            "frequency": 2,
+            "c_value": 8.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_28",
+        "top_terms": [
+          {
+            "term": "revolución",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "cuarta revolución industrial",
+            "frequency": 3,
+            "c_value": 5.0
+          },
+          {
+            "term": "cuarta",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "contexto evolución acelerada parecer imparable",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "evolución acelerada parecer imparable tecnologías",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "acelerada parecer imparable tecnologías IAG",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "parecer imparable tecnologías IAG introducen",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "imparable tecnologías IAG introducen transformación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tecnologías IAG introducen transformación significativa",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IAG introducen transformación significativa manera",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_29",
+        "top_terms": [
+          {
+            "term": "digital",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "tales circunstancias reto considerar tiempo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "circunstancias reto considerar tiempo seres",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "reto considerar tiempo seres humanos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "considerar tiempo seres humanos digital",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tiempo seres humanos digital dispuestos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "seres humanos digital dispuestos destinar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "humanos digital dispuestos destinar tareas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "digital dispuestos destinar tareas relacionadas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "dispuestos destinar tareas relacionadas información",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_30",
+        "top_terms": [
+          {
+            "term": "IAG",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "presente digital IAG constituye serie",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "digital IAG constituye serie sistemas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IAG constituye serie sistemas complejos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "constituye serie sistemas complejos lenguaje",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "serie sistemas complejos lenguaje supone",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sistemas complejos lenguaje supone avances",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "complejos lenguaje supone avances tecnológicos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lenguaje supone avances tecnológicos desafíos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "supone avances tecnológicos desafíos éticos",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_31",
+        "top_terms": [
+          {
+            "term": "inteligencia",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Tal mencionado anterioridad boga concerniente",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "mencionado anterioridad boga concerniente preocupaciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "anterioridad boga concerniente preocupaciones éticas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "boga concerniente preocupaciones éticas teóricos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "concerniente preocupaciones éticas teóricos materia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "preocupaciones éticas teóricos materia respecto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "éticas teóricos materia respecto uso",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "teóricos materia respecto uso aplicaciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "materia respecto uso aplicaciones inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_32",
+        "top_terms": [
+          {
+            "term": "AP",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "GPT-4",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "modelo sucesor GPT-3 GPT-4 puso",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sucesor GPT-3 GPT-4 puso alcance",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "GPT-3 GPT-4 puso alcance público",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "GPT-4 puso alcance público 14",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "puso alcance público 14 marzo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "alcance público 14 marzo 2023",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "público 14 marzo 2023 reporte",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "14 marzo 2023 reporte oficial",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_33",
+        "top_terms": [
+          {
+            "term": "Inteligencia Artificial Generativa refiere combinación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Artificial Generativa refiere combinación bases",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Generativa refiere combinación bases datos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "refiere combinación bases datos generar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "combinación bases datos generar texto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "bases datos generar texto imagen",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "datos generar texto imagen existía",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "generar texto imagen existía subrayó",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "resultados obtenidos tecnología cuestión integran",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "obtenidos tecnología cuestión integran elementos",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_34",
+        "top_terms": [
+          {
+            "term": "Generativa",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "IA",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "riesgos",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Investigador Hub IA Tec compartió",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Hub IA Tec compartió ventajas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA Tec compartió ventajas riesgos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Tec compartió ventajas riesgos aplicación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "compartió ventajas riesgos aplicación Inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ventajas riesgos aplicación Inteligencia Artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "riesgos aplicación Inteligencia Artificial Generativa",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_35",
+        "top_terms": [
+          {
+            "term": "Amézquita destacó lugar ver herramientas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "destacó lugar ver herramientas IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lugar ver herramientas IA amenaza",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ver herramientas IA amenaza plagio",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "herramientas IA amenaza plagio deben",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA amenaza plagio deben ser",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "amenaza plagio deben ser entendidas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "plagio deben ser entendidas oportunidad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "deben ser entendidas oportunidad transformar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ser entendidas oportunidad transformar educación",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_37",
+        "top_terms": [
+          {
+            "term": "país",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "RAM",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "implementación RAM adapta circunstancias características",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "RAM adapta circunstancias características únicas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "adapta circunstancias características únicas país",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "circunstancias características únicas país así",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "características únicas país así presupuesto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "únicas país así presupuesto disponible",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "país así presupuesto disponible proyecto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "así presupuesto disponible proyecto espera",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_40",
+        "top_terms": [
+          {
+            "term": "México",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "México igual naciones enfrenta enormes",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "igual naciones enfrenta enormes desafíos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "naciones enfrenta enormes desafíos lograr",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "enfrenta enormes desafíos lograr desarrollo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "enormes desafíos lograr desarrollo ético",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desafíos lograr desarrollo ético IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lograr desarrollo ético IA 2018",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desarrollo ético IA 2018 gobierno",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ético IA 2018 gobierno México",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_43",
+        "top_terms": [
+          {
+            "term": "chatbots determinada forma trabajar potenciar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "determinada forma trabajar potenciar aquello",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "forma trabajar potenciar aquello humanamente",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "trabajar potenciar aquello humanamente insustituible",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "potenciar aquello humanamente insustituible pensamiento",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "aquello humanamente insustituible pensamiento crítico",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "humanamente insustituible pensamiento crítico creatividad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "insustituible pensamiento crítico creatividad imaginación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "pensamiento crítico creatividad imaginación concluyó",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "chatbots determinada forma trabajar",
+            "frequency": 1,
+            "c_value": 2.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_48",
+        "top_terms": [
+          {
+            "term": "imágenes",
+            "frequency": 12,
+            "c_value": 12.0
+          },
+          {
+            "term": "Van Den Oord et 2017",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "modelos",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "imagen",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "inteligencias",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "artificiales",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "texto",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "lingüísticos",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "redes",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "inteligencias artificiales",
+            "frequency": 6,
+            "c_value": 4.9787234042553195
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_49",
+        "top_terms": [
+          {
+            "term": "DALL-E",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "modelo",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "Hazañas GPT-4 siendo capaz extraer",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "GPT-4 siendo capaz extraer información",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "siendo capaz extraer información fotografía",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "capaz extraer información fotografía dibujo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "extraer información fotografía dibujo servilleta",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "información fotografía dibujo servilleta generar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "fotografía dibujo servilleta generar output",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "dibujo servilleta generar output sumamente",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_50",
+        "top_terms": [
+          {
+            "term": "decir cualquier IA utilizada procesos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "cualquier IA utilizada procesos creativos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA utilizada procesos creativos reflexión",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "utilizada procesos creativos reflexión parte",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "procesos creativos reflexión parte usuario",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "creativos reflexión parte usuario crear",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "reflexión parte usuario crear nuevo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "parte usuario crear nuevo contenido",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "decir cualquier IA utilizada",
+            "frequency": 1,
+            "c_value": 2.0
+          },
+          {
+            "term": "cualquier IA utilizada procesos",
+            "frequency": 1,
+            "c_value": 2.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_51",
+        "top_terms": [
+          {
+            "term": "acuerdo investigador Inteligencia Artificial IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "investigador Inteligencia Artificial IA sistemas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Inteligencia Artificial IA sistemas computacionales",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Artificial IA sistemas computacionales imitan",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA sistemas computacionales imitan ciertas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sistemas computacionales imitan ciertas funciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "computacionales imitan ciertas funciones cognitivas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "acuerdo investigador Inteligencia Artificial",
+            "frequency": 1,
+            "c_value": 2.0
+          },
+          {
+            "term": "investigador Inteligencia Artificial IA",
+            "frequency": 1,
+            "c_value": 2.0
+          },
+          {
+            "term": "Inteligencia Artificial IA sistemas",
+            "frequency": 1,
+            "c_value": 2.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_52",
+        "top_terms": [
+          {
+            "term": "Hoy presentaré Comisión Permanente dos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "presentaré Comisión Permanente dos iniciativas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Comisión Permanente dos iniciativas moderniza",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Permanente dos iniciativas moderniza dota",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "dos iniciativas moderniza dota Instituto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "iniciativas moderniza dota Instituto Belisario",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "moderniza dota Instituto Belisario Domínguez",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "dota Instituto Belisario Domínguez Senado",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Instituto Belisario Domínguez Senado República",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Belisario Domínguez Senado República facultades",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_53",
+        "top_terms": [
+          {
+            "term": "Observar tema implica tecnologías tal",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tema implica tecnologías tal nivel",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "implica tecnologías tal nivel compromete",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tecnologías tal nivel compromete explorar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tal nivel compromete explorar perspectiva",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "nivel compromete explorar perspectiva ética",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "compromete explorar perspectiva ética posibilidad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "explorar perspectiva ética posibilidad implementar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "perspectiva ética posibilidad implementar marco",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ética posibilidad implementar marco normativo",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_54",
+        "top_terms": [
+          {
+            "term": "Definir marco protección propiedad intelectual",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "marco protección propiedad intelectual derechos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "protección propiedad intelectual derechos autor",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "propiedad intelectual derechos autor uso",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "intelectual derechos autor uso datos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "derechos autor uso datos obras",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "autor uso datos obras sistemas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "uso datos obras sistemas IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "datos obras sistemas IA Así",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "obras sistemas IA Así protección",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_55",
+        "top_terms": [
+          {
+            "term": "capacidades Instituto Mexicano Propiedad Industrial",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Instituto Mexicano Propiedad Industrial IMPI",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Mexicano Propiedad Industrial IMPI Instituto",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Propiedad Industrial IMPI Instituto Nacional",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Industrial IMPI Instituto Nacional Derecho",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "IMPI Instituto Nacional Derecho Autor",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Instituto Nacional Derecho Autor INDAUTOR",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Nacional Derecho Autor INDAUTOR materia",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Derecho Autor INDAUTOR materia protección",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "Autor INDAUTOR materia protección derechos",
+            "frequency": 2,
+            "c_value": 8.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_56",
+        "top_terms": [
+          {
+            "term": "Aunque México lidera inversión pública",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "México lidera inversión pública I+D",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "lidera inversión pública I+D Latinoamérica",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "inversión pública I+D Latinoamérica gasto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "pública I+D Latinoamérica gasto total",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "I+D Latinoamérica gasto total público",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Latinoamérica gasto total público privado",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "gasto total público privado I+D",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "total público privado I+D 0.28%",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "público privado I+D 0.28% PIB",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_57",
+        "top_terms": [
+          {
+            "term": "ChatGPT",
+            "frequency": 10,
+            "c_value": 10.0
+          },
+          {
+            "term": "palabras",
+            "frequency": 9,
+            "c_value": 9.0
+          },
+          {
+            "term": "IA",
+            "frequency": 8,
+            "c_value": 8.0
+          },
+          {
+            "term": "T. B. Brown et 2020",
+            "frequency": 2,
+            "c_value": 8.0
+          },
+          {
+            "term": "pueden",
+            "frequency": 7,
+            "c_value": 7.0
+          },
+          {
+            "term": "respuesta",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "frase",
+            "frequency": 6,
+            "c_value": 6.0
+          },
+          {
+            "term": "et",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "identificar",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "Vaswani et 2017",
+            "frequency": 3,
+            "c_value": 5.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_60",
+        "top_terms": [
+          {
+            "term": "Desarrollar herramientas estrategias permitan identificar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "herramientas estrategias permitan identificar contrarrestar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "estrategias permitan identificar contrarrestar desinformación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "permitan identificar contrarrestar desinformación generada",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "identificar contrarrestar desinformación generada IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "contrarrestar desinformación generada IA Así",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desinformación generada IA Así desarrollar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "generada IA Así desarrollar sistemas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA Así desarrollar sistemas detección",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Así desarrollar sistemas detección noticias",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_61",
+        "top_terms": [
+          {
+            "term": "Promover participación México mayor número",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "participación México mayor número procesos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "México mayor número procesos Gobernanza",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "mayor número procesos Gobernanza Digital",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "número procesos Gobernanza Digital estandarización",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "procesos Gobernanza Digital estandarización técnica",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Gobernanza Digital estandarización técnica definición",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Digital estandarización técnica definición estándares",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "estandarización técnica definición estándares marcos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "técnica definición estándares marcos referencia",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_63",
+        "top_terms": [
+          {
+            "term": "Expresó IA Generativa nunca podrá",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA Generativa nunca podrá sustituir",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Generativa nunca podrá sustituir completamente",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "nunca podrá sustituir completamente interacciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "podrá sustituir completamente interacciones humanas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sustituir completamente interacciones humanas reales",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "completamente interacciones humanas reales debido",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "interacciones humanas reales debido logrará",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "humanas reales debido logrará remplazar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "reales debido logrará remplazar capacidad",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_64",
+        "top_terms": [
+          {
+            "term": "digital",
+            "frequency": 5,
+            "c_value": 5.0
+          },
+          {
+            "term": "propósito contar visión integral país",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "contar visión integral país materia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "visión integral país materia digital",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "integral país materia digital poder",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "país materia digital poder implementar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "materia digital poder implementar recomendaciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "digital poder implementar recomendaciones vertidas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "poder implementar recomendaciones vertidas documento",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "implementar recomendaciones vertidas documento imperante",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_69",
+        "top_terms": [
+          {
+            "term": "Además adopción aprovechamiento desarrollo científico",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "adopción aprovechamiento desarrollo científico tecnológico",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "aprovechamiento desarrollo científico tecnológico tecnologías",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desarrollo científico tecnológico tecnologías basadas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "científico tecnológico tecnologías basadas IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tecnológico tecnologías basadas IA presentan",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tecnologías basadas IA presentan oportunidad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "basadas IA presentan oportunidad única",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA presentan oportunidad única impulsar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "presentan oportunidad única impulsar crecimiento",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_70",
+        "top_terms": [
+          {
+            "term": "Fortalecer capacidades Instituto Nacional Electoral",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "capacidades Instituto Nacional Electoral INE",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Instituto Nacional Electoral INE través",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Nacional Electoral INE través creación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Electoral INE través creación marco",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "INE través creación marco reglamentario",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "través creación marco reglamentario defina",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "creación marco reglamentario defina límites",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "marco reglamentario defina límites condiciones",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "reglamentario defina límites condiciones bajo",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_71",
+        "top_terms": [
+          {
+            "term": "Fortalecer capacidades Poder Judicial uso",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "capacidades Poder Judicial uso aplicación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Poder Judicial uso aplicación ético",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Judicial uso aplicación ético responsable",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "uso aplicación ético responsable tecnologías",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "aplicación ético responsable tecnologías basadas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ético responsable tecnologías basadas IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "responsable tecnologías basadas IA través",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tecnologías basadas IA través capacitación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "basadas IA través capacitación desarrollo",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_73",
+        "top_terms": [
+          {
+            "term": "Reconoció uso IA Generativa implica",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "uso IA Generativa implica educar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA Generativa implica educar público",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Generativa implica educar público debido",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "implica educar público debido debe",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "educar público debido debe confiar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "público debido debe confiar respuestas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "debido debe confiar respuestas arrojen",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "debe confiar respuestas arrojen herramientas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "confiar respuestas arrojen herramientas ChatGPT",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_74",
+        "top_terms": [
+          {
+            "term": "Así hace 15 meses crea",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "hace 15 meses crea Alianza",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "15 meses crea Alianza Nacional",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "meses crea Alianza Nacional Inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "crea Alianza Nacional Inteligencia Artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Alianza Nacional Inteligencia Artificial ANIA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Nacional Inteligencia Artificial ANIA mecanismo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Inteligencia Artificial ANIA mecanismo abierto",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Artificial ANIA mecanismo abierto colaborativo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ANIA mecanismo abierto colaborativo unió",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_75",
+        "top_terms": [
+          {
+            "term": "Reconocer contribuir agenda definida Alianza",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "contribuir agenda definida Alianza Nacional",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "agenda definida Alianza Nacional Inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "definida Alianza Nacional Inteligencia Artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Alianza Nacional Inteligencia Artificial ANIA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Nacional Inteligencia Artificial ANIA espacio",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Inteligencia Artificial ANIA espacio consultivo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Artificial ANIA espacio consultivo acción",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ANIA espacio consultivo acción pública",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "espacio consultivo acción pública Poder",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_77",
+        "top_terms": [
+          {
+            "term": "Desarrollar guías prácticas modelos contratos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "guías prácticas modelos contratos herramientas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "prácticas modelos contratos herramientas evaluación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "modelos contratos herramientas evaluación riesgos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "contratos herramientas evaluación riesgos ayudar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "herramientas evaluación riesgos ayudar mitigar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "evaluación riesgos ayudar mitigar posibles",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "riesgos ayudar mitigar posibles problemas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ayudar mitigar posibles problemas éticos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "mitigar posibles problemas éticos legales",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_78",
+        "top_terms": [
+          {
+            "term": "Nacional",
+            "frequency": 4,
+            "c_value": 4.0
+          },
+          {
+            "term": "Fortalecer competencias Comisión Nacional Derechos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "competencias Comisión Nacional Derechos Humanos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Comisión Nacional Derechos Humanos CNDH",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Nacional Derechos Humanos CNDH Centro",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Derechos Humanos CNDH Centro Nacional",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Humanos CNDH Centro Nacional Prevención",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "CNDH Centro Nacional Prevención Desastres",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Centro Nacional Prevención Desastres CENAPRED",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Nacional Prevención Desastres CENAPRED Instituto",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_80",
+        "top_terms": [
+          {
+            "term": "Definir políticas públicas inclusivas desarrollo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "políticas públicas inclusivas desarrollo IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "públicas inclusivas desarrollo IA Establecer",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "inclusivas desarrollo IA Establecer políticas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desarrollo IA Establecer políticas promuevan",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "IA Establecer políticas promuevan desarrollo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Establecer políticas promuevan desarrollo inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "políticas promuevan desarrollo inteligencia artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "promuevan desarrollo inteligencia artificial fines",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desarrollo inteligencia artificial fines interés",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_84",
+        "top_terms": [
+          {
+            "term": "Coordinación órganos poderes Colaborar estrechamente",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "órganos poderes Colaborar estrechamente sector",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "poderes Colaborar estrechamente sector privado",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Colaborar estrechamente sector privado academia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "estrechamente sector privado academia sociedad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sector privado academia sociedad civil",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "privado academia sociedad civil asegurar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "academia sociedad civil asegurar efectiva",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sociedad civil asegurar efectiva coordinación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "civil asegurar efectiva coordinación cooperación",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_90",
+        "top_terms": [
+          {
+            "term": "Garantizar aplicación principio constitucional paridad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "aplicación principio constitucional paridad género",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "principio constitucional paridad género dirección",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "constitucional paridad género dirección entidades",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "paridad género dirección entidades gubernamentales",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "género dirección entidades gubernamentales extensión",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "dirección entidades gubernamentales extensión diversos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "entidades gubernamentales extensión diversos niveles",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "gubernamentales extensión diversos niveles jerárquicos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "extensión diversos niveles jerárquicos funciones",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_102",
+        "top_terms": [
+          {
+            "term": "Integrar principios protección derechos humanos",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "principios protección derechos humanos desarrollo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "protección derechos humanos desarrollo uso",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "derechos humanos desarrollo uso aplicación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "humanos desarrollo uso aplicación tecnologías",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desarrollo uso aplicación tecnologías basadas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "uso aplicación tecnologías basadas IA",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "aplicación tecnologías basadas IA convenios",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "tecnologías basadas IA convenios tratados",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "basadas IA convenios tratados internacionales",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_107",
+        "top_terms": [
+          {
+            "term": "Identificación activos servicios críticos Desarrollar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "activos servicios críticos Desarrollar estrategias",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "servicios críticos Desarrollar estrategias específicas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "críticos Desarrollar estrategias específicas prevención",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "Desarrollar estrategias específicas prevención detección",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "estrategias específicas prevención detección amenazas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "específicas prevención detección amenazas diferenciando",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "prevención detección amenazas diferenciando claramente",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "detección amenazas diferenciando claramente seguridad",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "amenazas diferenciando claramente seguridad nacional",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_108",
+        "top_terms": [
+          {
+            "term": "recomendaciones detalladas documento sólo buscan",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "detalladas documento sólo buscan posicionar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "documento sólo buscan posicionar México",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sólo buscan posicionar México frente",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "buscan posicionar México frente uso",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "posicionar México frente uso ético",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "México frente uso ético legal",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "frente uso ético legal responsable",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "uso ético legal responsable tecnologías",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "ético legal responsable tecnologías basadas",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_116",
+        "top_terms": [
+          {
+            "term": "recomendaciones documento reflejan compromiso sólido",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "documento reflejan compromiso sólido multifacético",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "reflejan compromiso sólido multifacético orientar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "compromiso sólido multifacético orientar desarrollo",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "sólido multifacético orientar desarrollo implementación",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "multifacético orientar desarrollo implementación inteligencia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "orientar desarrollo implementación inteligencia artificial",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desarrollo implementación inteligencia artificial México",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "implementación inteligencia artificial México hacia",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "inteligencia artificial México hacia futuro",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      },
+      {
+        "cluster_id": "esp_para_cluster_118",
+        "top_terms": [
+          {
+            "term": "contexto maximizar beneficios requiere establecer",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "maximizar beneficios requiere establecer visión",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "beneficios requiere establecer visión nacional",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "requiere establecer visión nacional compartida",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "establecer visión nacional compartida desarrollar",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "visión nacional compartida desarrollar estrategias",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "nacional compartida desarrollar estrategias específicas",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "compartida desarrollar estrategias específicas transformen",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "desarrollar estrategias específicas transformen visión",
+            "frequency": 1,
+            "c_value": 4.0
+          },
+          {
+            "term": "estrategias específicas transformen visión acciones",
+            "frequency": 1,
+            "c_value": 4.0
+          }
+        ]
+      }
+    ]
+  }
+}
