@@ -60,7 +60,7 @@
     "member_005": {
       "name": "Abdurrahman Alyajouri",
       "role": ["Software Development", "Corpus Auto-Processing Feature"],
-      "photo": "images/smiley-paperclip.png",
+      "photo": "images/Abdu-Alyajouri.jpg",
       "description": "I’m pursuing a Bachelor’s degree in Computer Science at Portland State University in Oregon. I have a strong interest in computer graphics, game and software development, and all things STEM. I love learning new concepts and applying them to build systems that solve real-world problems.",
       "natural-languages": ["English"],
       "programming-languages": ["C++", "C", "Python", "JavaScript", "HTML", "CSS", "GLSL"],
@@ -74,12 +74,13 @@
     "member_006": {
       "name": "Alli Batell",
       "role": ["Software Development", "Backend Operations"],
-      "photo": "images/smiley-paperclip.png",
-      "description": "I’m Alli, I’m majoring in CS, Digital Narrative and Interactive Design, and Studio Art at the University of Pittsburgh. I take a human-centered approach to software development and UX design.",
-      "natural-languages": ["English", "French"],
-      "programming-languages": ["Python", "Java", "C", "JavaScript", "HTML", "CSS"],
+      "photo": "images/Alli-Batell.jpg",
+      "description": "Hi! I’m a student at the University of Pittsburgh majoring in Computer Science, Digital Narrative and Interactive Design, and Studio Art. I’m interested in the way we combine art and technology to express our thoughts and ideas. Some more interests of mine are game design, digital art, and painting.",
+      "natural-languages": ["English"],
+      "programming-languages": ["Java", "C", "Python", "HTML", "CSS"],
       "connect": {
-        "linkedin": "https://www.linkedin.com/in/allison-batell-827357343/"
+        "linkedin": "https://www.linkedin.com/in/alli-batell/",
+        "email": "alb594@pitt.edu"
       }
     },
     "member_007": {
@@ -94,17 +95,6 @@
       }
     },
     "member_008": {
-      "name": "Catherine Wang",
-      "role": ["Software Development", "Backend Operations"],
-      "photo": "images/Catherine-Wang.png",
-      "description": "Hi! I’m a Math & Computer Science major at University of California - San Diego. I love learning new things. For example, I’m currently studying Spanish. I also enjoy solving puzzles.",
-      "natural-languages": ["English", "Simplified Chinese"],
-      "programming-languages": ["Python", "Java", "JavaScript"],
-      "connect": {
-        "email": "caw026@ucsd.edu"
-      }
-    },
-    "member_009": {
       "name": "Your Name Here",
       "role": ["Join our team!"],
       "photo": "images/smiley-paperclip.png",

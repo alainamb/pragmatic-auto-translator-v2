@@ -103,6 +103,145 @@
         },
         "processing_notes": "References not included in processed content file."
       }
+    },
+      "gai-zho_corpus-item003": {
+      "document_metadata": {
+        "language_family": "zho",
+        "language_variant": "chn",
+        "title": "大语言模型时代的人工智能:技术内涵、行业应用与挑战",
+        "authors": [
+          {
+            "name": "陈光",
+            "affiliation": "北京邮电大学 人工智能学院"
+          }
+        ],
+        "publisher": "北京邮电大学学报",
+        "publication_year": "2024",
+        "domain": "GAI",
+        "text_type": "Journal article",
+        "purpose": "Informational",
+        "point_of_view": "Researcher",
+        "audience": "Academic",
+        "reach": "National",
+        "topics": [
+          "生成式人工智能",
+          "ChatGPT技术发展",
+          "大语言模型",
+          "多模态模型",
+          "可信性",
+          "可控性",
+          "体系化人工智能"
+        ],
+        "summary": "本文系统梳理了大语言模型（LLM）在技术演进、行业应用与面临挑战三个方面的关键议题。作者指出，LLM 的核心在于其强大的系统架构（如 Transformer）、预训练与微调策略、多模态融合与提示学习等能力，使其在教育、科研、医疗、金融与司法等领域展现出深远影响。同时，LLM 也面临可信性、可控性、安全性和法律伦理等多重挑战。为实现其可持续发展，文章提出从算法优化、数据治理、伦理规制和跨学科协同等角度制定综合对策。",
+        "suggested_citation": "Chen, G., & Guo, J. (2024). 大语言模型时代的人工智能：技术内涵、行业应用与挑战. 北京邮电大学学报, 47(4), 20–28."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Chen_大语言模型时代的人工智能技术内涵行业应用与挑战_2024.pdf",
+        "creation_date": "2025-07-20",
+        "word_count": 0,
+        "status": "corpus-JSON_pending",
+        "file_paths": {
+          "original": "gai/zho/submissions/Chen_大语言模型时代的人工智能技术内涵行业应用与挑战_2024.pdf",
+          "processed": "gai/zho/processed/gai-zho_corpus-item004.json"
+        },
+        "processing_notes": "References not included in processed content file."
+      }
+    },
+    
+    "gai-zho_corpus-item004": {
+      "document_metadata": {
+        "language_family": "zho",
+        "language_variant": "chn",
+        "title": "ChatGPT及生成式人工智能现状及未来发展方向人工智能文生视频大模型 Sora 对科技伦理的冲击及应对",
+        "authors": [
+          {
+            "name": "曹贤平",
+            "affiliation": "南昌工程学院 马克思主义学院"
+          }
+          
+        ],
+        "publisher": "新疆师范大学学报（哲学社会科学版）",
+        "publication_year": "2025",
+        "domain": "GAI",
+        "text_type": "Journal article",
+        "purpose": "Informational",
+        "point_of_view": "Researcher",
+        "audience": "Academic",
+        "reach": "National",
+        "topics": [
+          "生成式人工智能",
+          "Sora",
+          "科技伦理"
+        ],
+        "summary": "本文分析了人工智能文生视频大模型 Sora 的技术原理及其在推动影像生成的同时对科技伦理带来的五大冲击：削弱人的主体性、制造认知混乱、冲击伦理规范、侵犯隐私权、加剧数字歧视。作者提出应以人为本，通过加强数据治理、伦理设计、隐私保护与全民教育，引导 Sora 等生成式 AI 技术健康发展，确保科技与伦理协同进步。",
+        "suggested_citation": "Cao, X. (2025). 人工智能文生视频大模型 Sora 对科技伦理的冲击及应对. 新疆师范大学学报（哲学社会科学版）, 46(1), 142–148."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Cao_人工智能文生视频大模型 Sora 对科技伦理的冲击及应对_2025.pdf",
+        "creation_date": "2025-07-20",
+        "word_count": 0,
+        "status": "corpus-JSON_pending",
+        "file_paths": {
+          "original": "gai/zho/submissions/Cao_人工智能文生视频大模型 Sora 对科技伦理的冲击及应对_2025.pdf",
+          "processed": "gai/zho/processed/gai-zho_corpus-item004.json"
+        },
+        "processing_notes": "References not included in processed content file."
+      }
+    },
+        "gai-zho_corpus-item005": {
+      "document_metadata": {
+        "language_family": "zho",
+        "language_variant": "chn",
+        "title": "知识冲突:大语言模型教育应用的挑战与应对",
+        "authors": [
+          {
+            "name": "陈向东",
+            "affiliation": "华东师范大学 教育信息技术学系,上海"
+          },
+          {
+            "name": "周春红",
+            "affiliation": "华东师范大学 教育信息技术学系,上海"
+          },
+          {
+            "name": "刘泽民",
+            "affiliation": "华东师范大学 教育信息技术学系,上海"
+          },
+          {
+            "name": "张靖沅",
+            "affiliation": "华东师范大学 教育信息技术学系,上海"
+          }
+        ],
+        "publisher": "中国电化教育",
+        "publication_year": "2025",
+        "domain": "GAI",
+        "text_type": "Journal article",
+        "purpose": "Informational",
+        "point_of_view": "Researcher",
+        "audience": "Academic",
+        "reach": "National",
+        "topics": [
+          "生成式人工智能",
+          "只是冲突",
+          "大语言模型",
+          "教育应用",
+          "人工智能未来发展",
+          "训练数据",
+          "社会构建"
+        ],
+        "summary": "本文聚焦于大语言模型在教育场景中引发的“知识冲突”问题。作者指出，LLM 往往以“语义相似”替代“逻辑真实”，导致输出内容虽流畅自然却缺乏知识准确性，甚至形成“伪知识”。这对学生知识建构、批判性思维和教师角色提出挑战。文章提出四项应对策略：强化教学场景设计、引导学生批判使用 LLM、明确教师的主导地位，以及建立规范的教育治理体系，以实现 LLM 在教育中的安全、有效和有益应用。",
+        "suggested_citation": "Chen, G., & Guo, J. (2025). 知识冲突：大语言模型教育应用的挑战与应对. 中国电化教育, 46(3), 47–55."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Chen_知识冲突大语言模型教育应用的挑战与应对_2025.pdf",
+        "creation_date": "2025-07-20",
+        "word_count": 0,
+        "status": "corpus-JSON_pending",
+        "file_paths": {
+          "original": "gai/zho/submissions/Chen_知识冲突大语言模型教育应用的挑战与应对_2025.pdf",
+          "processed": "gai/zho/processed/gai-zho_corpus-item005.json"
+        },
+        "processing_notes": "References not included in processed content file."
+      }
     }
   }
 }

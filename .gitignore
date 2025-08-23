@@ -34,7 +34,7 @@ ENV/
 env.bak/
 venv.bak/
 
-# Node.js dependencies (future-proofing)
+# Node.js dependencies
 node_modules/
 package-lock.json
 yarn.lock
@@ -49,16 +49,38 @@ api-config.js
 
 # Project-specific ignores
 backups/
-corpora/gai/eng/for-processing
-corpora/gai/eng/in-progress
-corpora/gai/eng/clusters/
-corpora/gai/esp/for-processing
-corpora/gai/esp/gai-esp_corpus-for-processing-database.json
-corpora/gai/esp/clusters/
-corpora/gai/zho/for-processing
-corpora/gai/zho/clusters/
-corpora/gai/vectors/visualizations/
+
+## Corpus files and related files
+corpora/gai/knowledge-graphs/
+corpora/gai/vectors/visualizations/gai_vector-visualization_data_20250706_155702.json
 scripts/clustering/
+
+## GAI English Corpus and related files
+corpora/gai/eng/clusters/
+corpora/gai/eng/for-processing/
+corpora/gai/eng/for-review/
+corpora/gai/eng/in-progress/
+corpora/gai/eng/submissions/
+corpora/gai/eng/t9n-testing/
+corpora/gai/eng/txt-files/
+
+## GAI Spanish Corpus and related files
+corpora/gai/esp/clusters/
+corpora/gai/esp/for-processing/
+corpora/gai/esp/for-review/
+corpora/gai/esp/in-progress/
+corpora/gai/esp/submissions/
+corpora/gai/esp/t9n-testing/
+corpora/gai/esp/txt-files/
+
+## GAI Chinese Corpus and related files
+corpora/gai/zho/clusters/
+corpora/gai/zho/for-processing/
+corpora/gai/zho/for-review/
+corpora/gai/zho/in-progress/
+corpora/gai/zho/submissions/
+corpora/gai/zho/t9n-testing/
+corpora/gai/zho/txt-files/
 
 # Editor files
 # Please add these four lines to your .gitignore file too

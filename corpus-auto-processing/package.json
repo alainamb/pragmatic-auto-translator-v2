@@ -1,0 +1,28 @@
+{
+  "name": "pdf-processor",
+  "version": "1.0.0",
+  "description": "PDF to text to json processor",
+  "main": "scripts/pdfToText.js",
+  "scripts": {
+    "start": "node scripts/pdfToText.js scripts/pdfTextCleanup.js scripts/textToJson.js",
+    "pdftxtonly": "node scripts/pdfToText.js scripts/pdfTextCleanup.js",
+    "pdftotext": "node scripts/pdfToText.js",
+    "pdftextcleanup": "node scripts/pdfTextCleanup.js",
+    "texttojson": "node scripts/textToJson.js"
+  },
+  "dependencies": {
+    "canvas": "^3.1.2",
+    "fs-extra": "^10.1.0",
+    "openai": "^5.13.1",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "pdf-poppler": "^0.2.1",
+    "pdfjs-dist": "^3.11.174",
+    "sharp": "^0.34.3",
+    "tesseract.js": "^6.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

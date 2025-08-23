@@ -1,0 +1,616 @@
+{
+  "document_id": "Santurkar_WhoseOpinionsDoLanguageModelsReflect_2023_eng_001",
+  "content": {
+    "abstract": "Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reflected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as well as shaping the views of society at large. In this work, we put forth a quantitative framework to investigate the opinions reflected by LMs by leveraging high-quality public opinion polls and their associated human responses. Using this framework, we create OpinionQA, a new dataset for evaluating the alignment of LM opinions with those of 60 US demographic groups over topics ranging from abortion to automation. Across topics, we find substantial misalignment between the views reflected by current LMs and those of US demographic groups: on par with the Democrat-Republican divide on climate change. Notably, this misalignment persists even after explicitly steering the LMs towards particular demographic groups. Our analysis not only confirms prior observations about the left-leaning tendencies of some human feedback-tuned LMs, but also surfaces groups whose opinions are poorly reflected by current LMs (e.g., 65+ and widowed individuals). Our code and data are available at https://github.com/tatsu-lab/opinions_qa.",
+    "sections": [
+      {
+        "id": "section_1",
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "id": "p1_1",
+            "text": "Language models (LMs) are becoming ubiquitous in open-ended applications such as dialogue agents and writing assistants. In these settings, LMs have been observed to offer opinions in response to subjective queries: e.g., DeepMind's Sparrow says that the death penalty shouldn't exist (Glaese et al., 2022) while Anthropic's models claim that AI is not an existential threat to humanity (Bai et al., 2022). A priori, it is hard to predict how LMs will respond to such subjective queries. After all, many humans, with myriad opinions, shape these models: from internet users producing the training data, crowdworkers who provide feedback for improving the model, to the model designers themselves. This motivates the central question of our work: Whose opinions (if any) do language models reflect?"
+          },
+          {
+            "id": "p1_2",
+            "text": "Note that the answer to this question is an important factor in the success of LMs in open-ended applications. After all, unlike typical benchmark tasks, subjective queries do not have \"correct\" responses that we can direct the model towards. Instead, any response from the model (including refusal) encodes an opinion which can affect the user's experience and shape their subsequent beliefs. This suggests that a key evaluation for LMs in open-ended tasks will be not only to assess whether models are human-aligned broadly (Askell et al., 2021; Ouyang et al., 2022) but also to identify whose opinions are reflected by LMs."
+          },
+          {
+            "id": "p1_3",
+            "text": "Prior works hint at the types of human viewpoints that current LMs reflect. For instance, Perez et al. (2022b) and Hartmann et al. show that in certain contexts (e.g., gun rights and the compass test), LMs express strong views that are typically associated with the political left. Another line of recent works (Jiang et al., 2022; Argyle et al., 2022; Simmons, 2022; Hartmann et al., 2023) has shown that with conditioning on demographic attributes (e.g., party affiliation), LMs can mimic certain tendencies of the corresponding groups-e.g., the Presidential candidate they might vote for."
+          },
+          {
+            "id": "p1_4",
+            "text": "However, systematically answering our motivating question requires an expansive and quantitative framework for projecting the opinions expressed by LMs onto the space of human opinions. In particular, this entails: (i) identifying topics of public interest to probe models on, and (ii) defining methods for directly measuring the alignment between LM's responses on these topics to the diverse spectrum of views held by people."
+          },
+          {
+            "id": "p1_5",
+            "text": "Our contributions. We develop a framework to study the opinions reflected by LMs and their alignment with different human populations. Our approach is built on a simple observation: to characterize LM opinions, we can repurpose well-established tools for studying human opinions. Concretely, the tool we rely on is public opinion surveys, which offers several unique advantages over ad-hoc probing of LMs. The survey topics are chosen by experts; the questions are worded to be unambiguous and capture nuances of the topic (PewResearch); each question comes with responses of individuals from different demographic groups; and finally, the questions are posed in a multiple-choice format that can easily be adapted to a LM prompt."
+          },
+          {
+            "id": "p1_6",
+            "text": "Using this framework, we build the OpinionQA dataset using Pew Research's American Trends Panels, with 1498 questions spanning topics such as science, politics, and personal relationships. We then evaluate 9 LMs (350M to 178B parameters; from AI21 Labs and OpenAI) on this dataset (see Figure 1 for an example), comparing the resulting model opinion distribution on each question with that of the general US populace and of 60 demographic groups therein (e.g., Democrats or 65+ in age). We devise metrics for and analyze human-LM opinion alignment along three axes:"
+          },
+          {
+            "id": "p1_7",
+            "text": "1. Representativeness: How aligned is the default LM opinion distribution with the general US population (or a demographic group)?"
+          },
+          {
+            "id": "p1_8",
+            "text": "We find substantial misalignment between the opinions reflected in current LMs and that of the general US populace - on most topics, LM opinions agree with that of the US populace - on most topics, LM opinions agree with that of the US populace about as much as Democrats and Republicans on climate change. Moreover, human feedback (HF)-based fine-tuning (Ouyang et al., 2022; A21Labs, 2022), that is intended to make models more human-aligned, seems to only amplify this misalignment. We also note a substantial shift between base LMs and HF-tuned models in terms of the specific demographic groups that they best align to: towards more liberal (Perez et al., 2022b; Hartmann et al., 2023), educated, and wealthy people. In fact, recent reinforcement learning-based HF models such as text-davinci-003 fail to model the subtleties of human opinions entirely - they tend to just express the dominant viewpoint of certain groups (e.g., >99% approval rating for Joe Biden). Finally, we identify certain groups that make up a significant portion of the US population that are poorly represented by all models: e.g., 65+, Mormon and widowed."
+          },
+          {
+            "id": "p1_9",
+            "text": "2. Steerability: Can an LM emulate the opinion distribution of a group when appropriately prompted?"
+          },
+          {
+            "id": "p1_10",
+            "text": "Most models do tend to become better-aligned with a group when prompted to behave like it. However, these improvements are modest: none of the aforementioned representativeness problems are resolved by steering."
+          },
+          {
+            "id": "p1_11",
+            "text": "3. Consistency: Are the groups LMs align with consistent across topics (Saris & Sniderman, 2004)?"
+          },
+          {
+            "id": "p1_12",
+            "text": "Although specific LMs are preferentially aligned with certain groups (see 1. above), this skew is not consistent across topics. For instance, even generally liberal models such as text-davinci-002 and text-davinci-003 express conservative views on topics such as religion."
+          },
+          {
+            "id": "p1_13",
+            "text": "A probe rather than a benchmark. It is important to note that whether these properties are desirable or not is nuanced and application dependent. For instance, while we may not want LMs that can only represent a niche set of opinions, exactly matching the opinions of the US population may not be desirable either. Similarly, steerability, while helpful for personalization, could have undesirable side-effects such as exacerbating polarization and creating echo-chambers (Perez et al., 2022b). We thus view our dataset and metrics as probes to enable developers to better understand model behavior and for users to identify and flag representation failures, and not as a benchmark that should be indiscriminately optimized."
+          },
+          {
+            "id": "p1_14",
+            "text": "*While we use the term \"LM opinions\" for brevity, we do not view LMs as having their own opinions, but instead as reflecting those of humans involved in their design process."
+          },
+          {
+            "id": "p1_15",
+            "text": "Figure 1: Evaluating the opinions reflected by language models using the OpinionQA dataset. The pipeline is as follows: an LM (here, text-davinci-003) is prompted with a multiple-choice survey question from our dataset, preceded by an optional context (QA/BIO/PORTRAY) to steer it towards a persona (here, Democrats). The next-token log probabilities from the LM are then obtained for each of the answer choices (excluding refusal) and normalized to obtain the model's opinion distribution. Finally, this quantity is compared to reference human opinion distributions— obtained by aggregating human responses to the same survey question at a population level and by demographic. Model and human refusal rates are compared separately."
+          }
+        ]
+      },
+      {
+        "id": "section_2",
+        "title": "The OpinionQA Dataset",
+        "paragraphs": [
+          {
+            "id": "p2_1",
+            "text": "To curate a dataset on which to probe LM opinions, we must tackle three challenges. First, we must identify topics where these opinions are relevant and curate pertinent questions for them. Next, the questions must be designed such that we can easily extract LM opinions on them-which is challenging if the questions are fully open-ended due to the breadth of possible responses. Finally, we need a reference distribution of human opinions from representative groups to compare LMs to. We now discuss how we can address all these challenges by leveraging public opinion surveys."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "section_2_1",
+            "title": "The Power of surveys",
+            "paragraphs": [
+              {
+                "id": "p2_1_1",
+                "text": "We observe that the aforementioned challenges in studying LM opinions also arise when attempting to measure human opinions for research or policymaking. The primary approach for the latter currently is to use public opinion surveys. According to Pew Research: \"Much of what the country [US] knows about its media usage, labor and job markets, educational performance, crime victimization, and social conditions is based on data collected through polls.\" These surveys address the first of the three challenges with the help of experts, who identify topics of public interest and carefully design questions to capture the nuances of the topic. To tackle the difficulties associated with analyzing open-ended responses, survey designers craft the questions to be multiple-choice. Finally, surveys determine humans' opinions on these topics through extensive polling of the public at large. (A further discussion of the meticulous data collection process followed by survey designers is provided in Appendix A.1) These factors make public opinion surveys an ideal testbed to study LM opinions, and our work develops methods for querying LMs with these surveys, as well as evaluation metrics for quantifying their alignment w.r.t. human opinions."
+              }
+            ]
+          },
+          {
+            "id": "section_2_2",
+            "title": "Our framework",
+            "paragraphs": [
+              {
+                "id": "p2_2_1",
+                "text": "We now put forth a general methodology to convert multiple-choice public opinion surveys into datasets for evaluating LM opinions. Consider a survey with a set of questions Q, where a question q has a set of possible answers A(q). Each question is also categorized into a set of topics (it can have multiple associated topics), such that the questions belonging to a topic T (e.g., \"guns\" for Figure 1) are denoted by {Q}_{T}. As part of the survey, each question is presented to a carefully chosen pool of participants, where every individual (h) must select one answer F(h, q)."
+              },
+              {
+                "id": "p2_2_2",
+                "text": "To use this data for our study, we need to obtain the human opinion distribution against which we can compare LMs. For a question, we can build this distribution by aggregating the responses over a set of human respondents H, i.e., D_H(q) = \\sum{h \\in H} w_h F(h, q). During aggregation, we can weight respondents uniformly w_h = 1/|H|, or if available, using weights assigned by the survey to correct sampling biases (\\sum{h \\in H} w_h = 1). In this work, we will consider two different sets of respondents - all survey respondents (O) or a demographic group such as \"Democrats\" (G). We use D_O(q) and D_G(q) to denote the associated marginal opinion distributions respectively."
+              }
+            ]
+          },
+          {
+            "id": "section_2_3",
+            "title": "Instantiating OpinionQA",
+            "paragraphs": [
+              {
+                "id": "p2_3_1",
+                "text": "We now apply this methodology to the annual \"American Trends Panel\" (ATP) polls conducted by Pew research to build the OpinionQA dataset (details in Appendix A.2). Concretely, we use 15 ATP polls, chosen to cover a range of topics such as privacy, political views, and health. Each poll contains two key objects that we will use for our analysis: a set of multiple-choice questions (typically ~100) and answers from respondents (typically on the order of thousands) from across the US along with their demographic information (Appendix Table 1). We use individual survey responses - in conjunction with demographic information and participant weights - to obtain the per-question overall D_O(q) and group-level D_G(q) human opinion distributions for each of 60 demographic groups (Appendix Table 2). Pew surveys often touch upon a broad range of (often overlapping) issues-both ATP-W26 and ATP-W92 have questions about guns. Thus, we further aggregate the dataset questions into the 23 coarse and 40 fine-grained topic categories shown in Appendix Table 3."
+              },
+              {
+                "id": "p2_3_2",
+                "text": "Note: While our methodology is general, the OpinionQA dataset itself is English and US-centric. Thus, our subsequent analysis is limited to the US populace and demographic groups within (see Section 9 for a discussion)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_3",
+        "title": "Measuring human-LM alignment",
+        "paragraphs": [
+          {
+            "id": "p3_1",
+            "text": "We now discuss how to probe language model opinions on questions from our OpinionQA dataset and compare them to the previously-obtained human opinion distributions."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "section_3_1",
+            "title": "Interfacing with models",
+            "paragraphs": [
+              {
+                "id": "p3_1_1",
+                "text": "Prompting the model. Due to the multiple-choice nature of samples in our dataset, we can use standard prompting approaches used for traditional question answering (QA) tasks (Hendrycks et al., 2020; Liang et al., 2022). Concretely, we format each question into the prompt template shown in Figure 1. Unless otherwise specified, we present the options in the order they are provided by the survey designers, which captures the ordinal structure of the options-e.g., \"A great deal\" to \"Not at all\" in Figure 1. We then evaluate LMs on these questions in two settings, distinguished by the additional context provided to the model."
+              },
+              {
+                "id": "p3_1_2",
+                "text": "When evaluating representativeness (Sections 1 and 2), the goal is to understand the LM's default opinion distribution, and we prompt the model using this standard QA template without any added context. In contrast, measuring steerability (Section 3) involves testing the model's ability to adapt to a particular demographic group. In this steered setting, we thus prepend additional context to the prompt describing the group that we want the model to emulate. We consider three approaches to supply demographic information to the LM (examples in Figure 1):"
+              },
+              {
+                "id": "p3_1_3",
+                "text": "1. QA: The group information is provided as a response to a previous multiple-choice survey question, using the phrasing used by Pew to collect this information."
+              },
+              {
+                "id": "p3_1_4",
+                "text": "2. BIO: The group information is provided as a free-text response to a biographic question (e.g., asking about party affiliation), akin to Argyle et al. ."
+              },
+              {
+                "id": "p3_1_5",
+                "text": "3. PORTRAY: The LM is instructed to pretend to be a member of said group (e.g. pretend you are a Democrat), similar to the crowd-sourcing design of Kambhatla et al. ."
+              },
+              {
+                "id": "p3_1_6",
+                "text": "Extracting the output distribution. In contrast to factual QA tasks, there is no \"correct\" answer in our setting. Instead, for a model m, we are interested in the distribution of model opinions D_m(q) for each question across its corresponding set of answer choices. To obtain this distribution, we prompt the model and obtain the next-token log probabilities. Specifically we measure the log probabilities assigned to each of the answer choices (e.g., 'A', 'B', ... in Figure 1) - ignoring all other possible completions (See Appendix A.3 for details)."
+              },
+              {
+                "id": "p3_1_7",
+                "text": "For reasons that we will discuss in Section 3.2 we treat the refusal and non-refusal answer choices (\"E\" and \"A\"-\"D\" in Figure 1) separately. Concretely, to compute Dm(q), we exponentiate and normalize the scores for all answer choices except refusal. Then, for questions with a refusal option, we also measure the model's refusal probability as the ratio of the exponentiated log probability of refusal vs. the exponentiated cumulative log probabilities for all the choices (e.g., \\frac{e^{lp(E)}}{\\sum{o \\in \\{A,B,C,D,E\\}} e^{lp(o)}} for the Figure 1 example)."
+              }
+            ]
+          },
+          {
+            "id": "section_3_2",
+            "title": "Evaluating the model's response",
+            "paragraphs": [
+              {
+                "id": "p3_2_1",
+                "text": "Aggregating human responses from the opinion surveys, as well as probing LMs, provide us with a set of opinion distributions D_i(q) (i.e., overall, group-level and per-LM) over the answer choices. To answer our question of whose opinions LMs reflect, we must now define a similarity measure over pairs of such distributions. Although we could use any distributional divergence to compare two distributions, there are some subtleties in the structure of survey questions that we would like to capture. Specifically, unlike standard QA benchmarks, the answer choices to survey questions typically have an ordinal structure (e.g., ranging from \"A great deal\" to \"Not at all\", along with a refusal option in Figure 1). This means that divergences for non-metric probability measures such as the Kullback-Liebler or total variation can provide misleading estimates of disagreement. For instance, if all humans answered \"A great deal\", a model that assigns all its probability mass to \"A fair amount\" and another one that assigns all its mass to \"Not at all\" would be incorrectly deemed equally similar based on such measures."
+              },
+              {
+                "id": "p3_2_2",
+                "text": "We thus choose the 1-Wasserstein distance (WD), which for a pair of distributions D_1 and D_2, is defined as the minimum cost for transforming D_1 into D_2. Note that here the cost of transformation accounts for the similarity between answer choices. To project the ordinal answer choices to a metric space suitable for WD, we simply map them to the corresponding positive integers (e.g., {'A':1, 'B': 2, ..., 'D': 4} for Figure 1). There are two exceptions: (i) due to its non-ordinal nature, we omit the 'Refused' option (if present) in computing WD and compare human and model refusals separately, and (ii) if the last option is hedging (e.g., \"Neither\" and \"About the same\"), we map it to the mean of the remaining ordinal keys (see Appendix A.4 for details)."
+              },
+              {
+                "id": "p3_2_3",
+                "text": "Measuring opinion alignment. We define alignment between two opinion distributions D_1 and D_2 on a set of questions Q as:"
+              },
+              {
+                "id": "p3_2_4",
+                "text": "A(D_1, D_2; Q) = \\frac{1}{|Q|} \\sum{q \\in Q} 1 - \\frac{WD(D_1(q), D_2(q))}{N - 1}"
+              },
+              {
+                "id": "p3_2_5",
+                "text": "Where, N is the number of answer choices (excluding refusal) and the normalization factor N-1 is the maximum WD between any pair of distributions in this metric space. This metric is bounded between 0 and 1, with a value of 1 implying a perfect match between the two opinion distributions. In our study, we use this metric to compare the LM opinion distribution D_m to that of all survey respondents (D_o) and that of specific groups (D_g)."
+              },
+              {
+                "id": "p3_2_6",
+                "text": "On the use of the term alignment. We use the term alignment to describe our metric as it measures one aspect of alignment - alignment of opinions and preferences between LMs and humans. Crucially, in contrast to prior work, our work treats human alignment as an inherently subjective quantity that depends on who it is measured against, rather than it being a single quantity that can be improved. In fact, based on our definition, higher human-LM alignment to certain groups might not always be desirable (e.g., matching racist views) or even possible (e.g., aligning with both Democrats and Republicans on abortion) - see Section 6."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_4",
+        "title": "Whose views do current LMs express?",
+        "paragraphs": [
+          {
+            "id": "4_1",
+            "text": "We now evaluate existing models on OpinionQA and analyze their opinion agreement with respect to people in the US. We study a set of 9 LMs-with different providers (OpenAI and AI21 Labs), scales (350M to 178B parameters), data collection, and training strategies. These models can be roughly grouped into (i) base LMs, that have only been pre-trained on internet data (ada, davinci, davinci, j1-grande and j1-jumbo), and (ii) human feedback (HF)-tuned LMs that have been adapted to be more human-aligned using supervised or reinforcement learning (text-+*and j1-grande-v2-beta) (Ouyang et al., 2022; AI21Labs, 2022)."
+          },
+          {
+            "id": "p4_2",
+            "text": "Robustness. In general, LMs can be somewhat sensitive to the formatting of their input prompt (Jiang et al., 2020). We ensure that all our subsequent results are robust to such design choices by replicating our analysis with (i) different prompt templates, and (ii) permuting the order in which answer choices are presented to the model-see Appendix B.4."
+          },
+          {
+            "id": "p4_3",
+            "text": "Figure 2: Overall representativeness R_m^O of LMs: A higher score (lighter) indicates that, on average across the dataset, the LM’s opinion distribution is more similar to that of the total population of survey respondents (Section 4.1). For context, we show the representativeness measures for: (i) demographic groups that are randomly chosen (‘avg’) and least representative of the overall US population (‘worst’), and (ii) pairs of demographic groups on topics of interest."
+          }
+        ],
+        "subsubsections": [
+          {
+            "id": "section_4_1",
+            "title": "Representativeness",
+            "paragraphs": [
+              {
+                "id": "p4_1_1",
+                "text": "We begin by analyzing the default representativeness of LMs, at an overall (does its opinion distribution match that of the overall US populace?) and group level (does it match a particular group's opinion?). To measure this, we evaluate model opinion distribution on OpinionQA questions without any context (beyond the question itself)."
+              },
+              {
+                "id": "p4_1_2",
+                "text": "The metric. We define the representativeness of an LM with respect to the overall population as the average alignment (Section 3.2)-across questions-between the default opinion distribution of the model and that of the overall population, i.e., Rm^O(Q) = A(D_m, D_O, Q)."
+              },
+              {
+                "id": "p4_1_3",
+                "text": "Analogously, we can define the group representativeness of an LM w.r.t. to a particular demographic group G as Rm^G(Q) := A(D_m, D_G, Q). A higher overall (group) representativeness score indicates that out-of-the-box, the LM is better aligned with the distribution of viewpoints held by the overall US populace (that group). While the maximum possible of this score is 1, it cannot be achieved for all of the groups. This is due to the fact that there are irreconcilable differences between the opinions of certain groups (e.g., Democrats and Republicans on guns in Figure 1)-making it impossible for the model's opinion distribution Dm to simultaneously match all of them."
+              },
+              {
+                "id": "p4_1_3",
+                "text": "Figure 3: Group representativeness scores R_m^G of LMs as a function of political ideology and income: A higher score (lighter) indicates that, on average across dataset questions, the LMs opinion distribution is more similar to that of survey respondents from the specified group (i.e., R_m^G(Q) is larger). The coloring is normalized by column to highlight the groups a given model (column) is most/least aligned to. We find that the demographic groups with the highest representativeness shift from base LM (moderate to conservative with low income) to the RLHF trained ones (liberal and high income). Other demographic categories are shown in Appendix 8."
+              },              
+              {
+                "id": "p4_1_4",
+                "text": "Are current LMs representative? Figure 1 depicts the overall representativeness scores R_m^O of different LMs. Overall, we observe that none of the models are perfectly representative of the general populace (of survey respondents). In fact, more recent models trained to be more human-aligned (Ouyang et al., 2022; AI21Labs, 2022) are actually worse-cf. OpenAI's text-davinci-003 and davinci models. To put these results into context, we compare them to salient human baselines:"
+              },
+              {
+                "id": "p4_1_5",
+                "text": "First, we consider the alignment between the opinions of each of our 60 demographic groups and the general populace (R_G^O(Q) = A(D_G, D_O, Q)). We see that every one of these groups is more representative of the overall populace than any of the LMs we consider (i.e., cf representativeness scores of 'human (worst)' to all the LMs)."
+              },
+              {
+                "id": "p4_1_6",
+                "text": "Second, we construct a scale of alignment values between pairs of demographic groups on questions from specific contentious topics (R_{G_1}^{G_2}(Q_T) = A(D_{G_1}, D_{G_2}, Q_T)). On this scale, we see that Rm^O for most models is comparable to the opinion alignment of agnostic and orthodox people on abortion or Democrats and Republicans on climate change."
+              },
+              {
+                "id": "p4_1_7",
+                "text": "Group representativeness. The group representativeness scores for all the base LMs share striking similarities-e.g., being most aligned with lower income, moderate, and Protestant or Roman Catholic groups. This might be because all these models were trained on snapshots of the internet-and thus mimic similar pools of human writers. While AI21's HF-tuned model (j1-grande-v2-beta) behaves similarly to base LMs, the corresponding OpenAI instruct series models (text-*) are markedly different. The opinions reflected by these models align more with people who are liberal, high income, well-educated, and not religious or belong to religions other than Buddhists, Muslims, and Hindus. These groups line up with the demographics of the crowd-workers reported in OpenAI's InstructGPT paper (Ouyang et al., 2022)-e.g., predominantly young Southeast Asian and White with a college degree. Finally, a broader analysis across all the groups in the Pew survey highlights several that have low representativeness scores for all LMs, such as individuals of age 65+, widowed, and high religious attendance (Appendix 8). In the case of age, the InstructGPT paper similarly shows that there were almost no individuals of age 65+ that were part of the crowdsourcing process, and it is likely that the other groups (widowed, high religious attendance) may also be difficult to recruit through standard crowdsourcing vendors."
+              },
+              {
+                "id": "p4_1_8",
+                "text": "Figure 4. (a) The alignment of LM opinions with the actual and modal views of different ideological groups on contentious topics. (b) Steerability of LMs towards specific demographic groups: we compare the group representativeness of models by default (x-axis, R_m^G) and with steering S_m^G (y-axis). Each point represents a choice of model m and target group G, and points above the x = y line indicate pairs where the model’s opinion alignment improves under steering. Shaded lines indicate linear trends for each model m, and we generally observe that models improve from steering (above x = y) but the amount of improvement is limited."
+              },
+              {
+                "id": "p4_1_9",
+                "text": "Modal representativeness. In Figures 1 and 3 we saw that human-feedback tuned models (and most notably text-davinci-003) are less representative of overall opinions. A closer look at text-davinci-003's opinion distribution provides some insight into why this might be the case. Specifically, it has an extremely sharp (and low entropy) opinion distribution for most questions (Appendix Figure 9)-it typically assigns > 0.99 probability to one of the options. This is unlike humans, who even on contentious topics (like gun rights), tend to exhibit some diversity in opinions (see the Democratic respondent distribution in Figure 1). This prompts us to ask: is text-davinci-003 actually unrepresentative, or does it collapse to the most-frequent and modal opinion of certain groups? To test this, we construct a \"modal\" opinion distribution of a group by applying temperature scaling to the group's opinion distribution D_G(q) (Appendix A.5). In Figure 4a we then compare the relative tendencies of LMs to match the actual and modal opinions of different political groups on contentious topics."
+              },
+              {
+                "id": "p4_1_10",
+                "text": "We observe that the behavior of text-davinci-003 is quite unique: its opinion distribution seems to converge to the modal views of liberals and moderates. This indicates that the dominant approach of aligning LMs with RL based human-feedback not only skews the model's opinions towards certain groups (liberals), but also pushes the model to almost embody caricatures of those groups (e.g., 99% approval of Joe Biden). From a different standpoint, this finding highlights the importance of considering the entire spectrum of human responses rather than just the mode. A modal analysis of text-davinci-003 would conclude that the model is highly representative of Democrats, where in reality its representation collapses the diversity of opinions held by different Democrats into a single, modal response."
+              },
+              {
+                "id": "p4_1_11",
+                "text": "Refusals. In our comparison of human and LM opinions so far, we omitted the \"refusal\" option for all questions due to its non-ordinal nature. In Appendix B.1 we thus separately compare the refusal rates of LMs and human respondents. We find that all models have low refusal rates. Although human feedback-tuned models are encouraged to refuse to take a stance on contentious issues (Askell et al. 2021; Ouyang et al., 2022), they tend to rarely do so in our multiple-choice setting-with refusal rates as low as 1-2%."
+              }
+            ]
+          },
+          {
+            "id": "section_4_2",
+            "title": "Steerability",
+            "paragraphs": [
+              {
+                "id": "p4_2_1",
+                "text": "We now shift our focus from measuring the default alignment of LM opinions with those of various demographics groups without prompting, to studying their steerability with group-specific prompting. This is especially important in settings such as personalization, where a key measure of performance is an LM's ability to adapt to represent the opinion of various demographic groups."
+              },
+              {
+                "id": "p4_2_2",
+                "text": "The metric. We measure steerability as the average opinion alignment, across dataset questions, between an LM and a particular demographic group G - where the model is prompted with group information in its context. Since our goal is to test whether a model can be steered toward a group, we consider three prompting strategies-QA, BIO, PORTRAY (see Section 3.1)-for each question and choose the one that works best. Concretely, we measure steerability as: S_m^G(Q) = \\frac{1}{|Q|} \\sum{q \\in Q} \\max{c_G \\in \\{QA,BIO,PORTRAY\\}} A(D_m(q; c_G), D_G(q)) where D_m(q; c_G) denotes the LM opinion distribution conditioned on the group-specific context c_G. A higher S_m^G score indicates that the model is better aligned to the opinions of the given group. Note that unlike default subgroup representativeness, an LM's steerability could be simultaneously high for multiple (disagreeing) groups. In fact, in many cases we might want disparities in the default subgroup representativeness scores of an LM to be remedied by steering."
+              },
+              {
+                "id": "p4_2_3",
+                "text": "Steering does not solve opinion misalignment. We attempt to steer current LMs towards one of 22 demographic groups (e.g., Republican, Asian, Jewish) listed in Appendix Table 4 on a subset Q_s of 500 highly contentious questions from OpinionQA. In Figure 4b, we compare different LMs in terms of their ability to match the opinions of a subgroup on these questions, by default and with steering (S_m^G(Q_S) from Section 4.1)."
+              },
+              {
+                "id": "p4_2_4",
+                "text": "Most LMs (with the exception of ada) do become somewhat more representative of a subpopulation post-steering. However, none of the disparities in group opinion alignment of an LM disappear after steering, with text-davinci-002 showing the smallest post-steering alignment gap across groups. In most cases, we see the representativeness of all groups improving by a constant factor-indicating that the LM still does better on some groups than others. In Appendix Figure 11 we visualize which LMs are most effective at adapting towards a particular group: e.g., j1-grande-v2-beta for Southerners and text-davinci-002 for liberals."
+              },
+              {
+                "id": "p4_2_5",
+                "text": "Figure 5: Consistency of different LMs (columns) across topics (rows) on different demographic attributes (panels). Each dot indicates an LM-topic pair, with the color indicating the group to which the model is best aligned, and the size of the dot indicates the strength of this alignment (computed as the ratio of the best and worst subgroup representativeness for that topic, see Appendix B.3 for details). We find significant topic-level inconsistencies, especially for base LMs, and strong educational attainment consistency for RLHF trained LMs."
+              }
+            ]
+          },
+          {
+            "id": "section_4_3",
+            "title": "Consistency",
+            "paragraphs": [
+              {
+                "id": "p4_3_1",
+                "text": "Our earlier default representativeness analysis (Section 4.1) showed marked skews in the views expressed by LMs, with base LMs reflecting opinions consistent with lower income and education and the opposite for human-feedback tuned ones. However, we might want to go beyond this aggregate analysis and ask: are the views expressed by LMs consistent across topics? (Saris & Sniderman, 2004). For instance, is text-davinci-002 politically Liberal on all matters or does it take a Conservative stance in some cases? We now leverage the fine-grained topic taxonomy in our OpinionQA dataset to answer this question. To this end, we inspect human-LM opinion similarity on a topic level by computing alignment on a subset of questions Q_T."
+              },
+              {
+                "id": "p4_3_2",
+                "text": "Are LMs consistent? In Figure 5 we break down the subgroups that various LMs (columns) most closely align to (colors) across 23 topic categories (rows) by political ideology, education and income. Of all the LMs we study, the base models from both providers and the RLHF-trained text-davinci-003 from OpenAI seem to be the most consistent - albeit towards different sets of groups. None of the models are perfectly consistent however, and even text-davinci-00{2,3} aligns with conservatives on topics like religion."
+              },
+              {
+                "id": "p4_3_3",
+                "text": "The metric. To distill these trends into a single measure, we ask what is the fraction of topics for which an LM's most aligned group overall (weighting topics equally) matches the LM's most aligned group on the given topic (with questions Q_t). Specifically for a model, we first identify the group it best aligns to across topics as: G_m^{best} := \\underset{G}{\\arg \\max} \\left( \\frac{1}{T} \\sum{T'} R_M^G(Q_{T'}) \\right). We then define consistency as: C_m := \\frac{1}{T} \\sum_T \\mathbf{1} \\left[ \\left( \\underset{G}{\\arg \\max} R_M^G(Q_T) \\right) = G_m^{best} \\right]"
+              },
+              {
+                "id": "p4_3_4",
+                "text": "Our metric C_m is bounded between 0 and 1, and a higher score implies that the model agrees with the views of the same subgroups across all topics. In Figure 6 we visualize the average consistency score of a model across demographic traits (religion/income/ideology, etc). We find that the overall consistency scores of current LMs are fairly low-indicating that they are expressing a patchwork of disparate opinions. Note that this may not always be problematic-after all even individuals can hold seemingly inconsistent beliefs."
+              },
+              {
+                "id": "p4_2_5",
+                "text": "Figure 6. Consistency of LM opinions C_m, where a higher score (lighter) indicates that an LM aligns with the same set of groups across topics."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_5",
+        "title": "Related work",
+        "paragraphs": [
+          {
+            "id": "p5_1",
+            "text": "Evaluating LM personas. There has been growing interest in probing the ability of LMs to mimic human behaviors. One line of work asks whether LMs can replicate results from well-known human experiments, e.g., in cognitive science, social science, and economics (Uchendu et al., 2021; Karra et al., 2022; Aher et al., 2022; Binz & Schulz, 2022; Srivastava et al., 2022). Another set of studies have examined whether LMs can be used to simulate personas (Park et al., 2022; Argyle et al., 2022; Jiang et al., 2022; Simmons, 2022), akin to our notion of steerability. Through case studies in specific settings, these works gauge whether prompting LMs with demographic information (e.g., political identity) leads to human-like responses: Argyle et al. look at voting patterns and word associations, and Simmons consider moral biases. By leveraging public opinion surveys, we are able to improve our understanding of LM steerability in three ways: (i) breadth: both in the range of different topics and steering groups, (ii) distributional view: gauging whether LMs can match the spectrum of opinions of a group rather than its modal opinion, and (iii) measurability using metrics grounded in human response distributions."
+          },
+          {
+            "id": "p5_2",
+            "text": "Finally, recent works have examined the slants in the opinions of LMs-by prompting them with contentious propositions/questions generated by LMs Perez et al. (2022b) or from political tests Hartmann et al. (2023). Similar to our work, they find that human-feedback trained models often exhibit a left-leaning, pro-environmental stance. However, since our approach is based on public opinion surveys, we can go beyond the modal perspective taken by these works (comparing models to dominant viewpoints of specific groups, e.g., pro-immigration for liberals). Instead, we can ask whether models reflect the varied perspectives held by real human subpopulations, and if they do so (consistently) across a range of topics. We find that these two perspectives can often lead to different conclusions-e.g., text-davinci-003, while very pro-liberal based on the modal view, does not capture liberal viewpoints in a nuanced and consistent manner according to our study."
+          },
+          {
+            "id": "p5_3",
+            "text": "Subjectivity in evaluations. There has been a long-standing push within the NLP community to consider the subjective and affective dimensions of language in evaluating models (Alm, 2011). Prior works show that for many tasks-from toxicity detection (Gordon et al., 2021; 2022; Davani et al., 2022; Sap et al., 2022; Goyal et al., 2022), ethics judgements (Lourie et al., 2021), and inference (Pavlick & Kwiatkowski, 2019)-there is inherent variability in what different humans consider the \"correct answer\". These studies serve as a motivation for our work, where we approach the problem of evaluating opinions expressed by LMs through the use of surveys."
+          },
+          {
+            "id": "p5_4",
+            "text": "Human-LM alignment. There is a growing body of work seeking to make LMs more human-aligned (Askell et al., 2021; Ouyang et al., 2022; Glaese et al., 2022; Bai et al., 2022). While these works recognize the subjectivity of the alignment problem, they do not focus on it-seeking instead to identify values to encode in models and building techniques to do so. Our work delves deeper into the issue of subjectivity, asking who are the humans that we are/should be aligning the models to?"
+          },
+          {
+            "id": "p5_5",
+            "text": "Bias, toxicity, and truthfulness. There is a long line of work studying the bias and fairness of NLP systems (Nadeem et al., 2020; Dhamala et al., 2021; De-Arteaga et al., 2019; Brown et al., 2020; Gao et al., 2021; Srivastava et al., 2022; Liang et al., 2022; Xu et al., 2021; Perez et al., 2022a; Ganguli et al., 2022). These works study properties of LMs such as bias, toxicity, and truthfulness, focusing on flagging undesirable outcomes when the gold standard behavior is somewhat well-defined (e.g., don't use slurs). Our work takes a complementary perspective: evaluating LMs on inherently subjective questions taken from Pew Research. This allows us to gain quantitative insights into the representativeness of opinions expressed by LMs on contentious but important topics such as religion or privacy."
+          }
+        ]
+      },
+      {
+        "id": "section_6",
+        "title": "Conclusion",
+        "paragraphs": [
+          {
+            "id": "p6_1",
+            "text": "Our work puts forth a framework to examine the opinions reflected by LMs through the lens of public opinion polls. Using our OpinionQA dataset, we identify a number of ways in which LMs are not well-aligned with human opinions, including overall representativeness with respect to people in the US; subgroup representativeness on groups such as 65+, Mormon, and widowed; and steerability. Our work also contributes to the broader discourse around LMs, including questions of whether instruct-tuning distorts opinion distributions, and whether models hold consistent biases towards liberal views."
+          }
+        ]
+      },
+      {
+        "id": "section_7",
+        "title": "Limitations",
+        "paragraphs": [
+          {
+            "id": "p7_1",
+            "text": "While our work provides a quantitative lens into LM opinions, it suffers from three key limitations discussed below."
+          },
+          {
+            "id": "p7_2",
+            "text": "Limitations of alignment. Our approach analyzes LM opinions through the lens of who they align with. This approach allows us to precisely define our metrics and collect data, but also warrants caution - LMs that perfectly represent human opinions may not necessarily be desirable as they may also, in the process, replicate human biases. We view our metrics as useful ways to understand the behavior of LMs, and to allow model developers to identify when their models misrepresent specific groups, and not necessarily as benchmarks that should be blindly optimized."
+          },
+          {
+            "id": "p7_3",
+            "text": "Limitations of the ATP and surveys. While our methodology to build an evaluation dataset can be easily adapted to any multiple-choice survey, the OpinionQA dataset we instantiate is based on the American Trends Panel. Surveys in general may be sensitive to details such as question specificity (Berinsky, 2017) and the ATP in particular has had past issues with social desirability bias (Yan, 2021) that may affect the accuracy of the human opinion distribution. Beyond that, the ATP survey targets individuals in the US, making our conclusions valid only for the populations in the US. Many societies differ from WEIRD (Western, Educated, Industrialized, Rich and Democratic) societies such as the United States (Henrich et al., 2010) and there is a need for future work on global equivalents to OpinionQA."
+          },
+          {
+            "id": "p7_4",
+            "text": "Limitations of the multiple-choice format. Our work focuses on probing LM behaviors using a multiple-choice prompt taken from public opinion surveys. While the multiple-choice format allows us to precisely evaluate the models, it also differs from the open-ended text generation setting in which LMs are being increasingly used. It is an open question whether opinion alignment that is measured through multiple choice will be reflected in the downstream use cases of LMs - for example, will the liberal-leaning opinion alignment of RLHF fine-tuned models appear in a dialogue context or open-ended QA? Some recent works suggest that the group-alignment effects (e.g., to liberals) do reflect in other settings (Perez et al., 2022b; Hartmann et al., 2023), but whether these results transfer broadly warrants further investigation."
+          }
+        ]
+      },
+      {
+        "id": "section_8",
+        "title": "Setup and experimental details",
+        "subsections": [
+          {
+            "id": "section_8_1",
+            "title": "Table 5: LLMs we evaluate in our study. In some cases, we attempt to report size/training details of models to the best of our ability as these are often not clearly disclosed.",
+            "paragraphs": [
+              {
+                "id": "p8_1_1",
+                "text": "j1-Grande AI21 Labs 17B Auto-regressive model from Lieber et al."
+              },
+              {
+                "id": "p8_1_2",
+                "text": "j1-Jumbo AI21 Labs 178B Auto-regressive model from Lieber et al."
+              },
+              {
+                "id": "p8_1_3",
+                "text": "j1-Grande v2 beta AI21 Labs 17B Instruct tuned version of j1-Grande, trained specifically to handle zero-shot prompts"
+              },
+              {
+                "id": "p8_1_4",
+                "text": "ada OpenAI 350M Base GPT-3 model from Brown et al."
+              },
+              {
+                "id": "p8_1_5",
+                "text": "davinci OpenAI 175B Base GPT-3 model from Brown et al."
+              },
+              {
+                "id": "p8_1_6",
+                "text": "text-davinci-001 OpenAI 175B Human-feedback model (Ouyang et al., 2022); trained via supervised fine-tuning on human-written demonstrations"
+              },
+              {
+                "id": "p8_1_7",
+                "text": "text-davinci-002 OpenAI 175B Human-feedback model based on code-davinci-002 (Ouyang et al., 2022); trained via supervised fine-tuning on human-written demonstrations"
+              },
+              {
+                "id": "p8_1_8",
+                "text": "text-davinci-003 OpenAI 175B Improved version of text-davinci-002 (Ouyang et al., 2022)"
+              }
+            ]
+          },
+          {
+            "id": "section_8_2",
+            "title": "Models",
+            "paragraphs": [
+              {
+                "id": "p8_2_1",
+                "text": "For our analysis, we use a series of models from OpenAI and AI21 labs, detailed in Table 5. Since the model training process is not always publicly known, we attempt to report this to the best of our knowledge. Further documentation can be found at beta.openai.com/docs/model-index-for-researchers and docs.ai21.com/docs/."
+              },
+              {
+                "id": "p8_2_2",
+                "text": "Once we prompt a model with a given question, we simply evaluate the log probabilities that each of the answer choices is the next-token. We then take these token log probabilities for each answer, exponentiate and then normalize them to get the model opinion distribution, i.e., D_M = [e^{lp_A}, e^{lp_B}, ...] / sum([e^{lp_A}, e^{lp_B}, ...])"
+              },
+              {
+                "id": "p8_2_3",
+                "text": "Currently, OpenAI and AI21 limit the number of log probabilities they return via their API to 100 and 10 respectively. Thus, if one of the option choices (say 'A') is not in the set of returned log probabilities, we attempt to bound it as follows. Let's say the model returns a set of K (100 or 64) token-log probabilities pairs {t_k, lp_k}. We compute the total assigned mass as p_{assigned} = \\sum_{k \\in K} e^{lp_k}. The remaining mass is thus p_{missing} = 1 - M. We also find p_{min} = \\min{k \\in K} e^{lp_k}, i.e., the minimum probability assigned to any of the K token choices. Then, we assign the missing token 'A' the probability \\min(p_{missing}, p_{min}). Note that this is an upper bound on the true probability mass the model assigns to token 'A'."
+              },
+              {
+                "id": "p8_2_4",
+                "text": "As a baseline, we also consider a random model that chooses one of the answers choices per question at random."
+              }
+            ]
+          },
+          {
+            "id": "section_8_3",
+            "title": "Metrics",
+            "paragraphs": [
+              {
+                "id": "p8_3_1",
+                "text": "To compute the Wasserstein distance between human and LM opinion distributions to a question, we must map the options to a metric space. To do so, we leverage the ordinal structure of the options (as provided by Pew surveys). For instance, we would map the set of options 'Strong Agree', 'Agree', 'Disagree' and 'Strong Disagree' to the integers 1 through 4. We follow this approach in most cases, with the exception being questions for which the penultimate option is non-ordinal. For instance, if the choices were 'Very good', 'Very bad', and 'Neither good nor bad', in this case, we map the answers to 1, 2 and 1.5 respectively."
+              }
+            ]
+          },
+          {
+            "id": "section_8_4",
+            "title": "Temperature scaling",
+            "paragraphs": [
+              {
+                "id": "p8_3_1",
+                "text": "In Section 4.1 we compare the model opinion distribution to a sharpened version of its human counterpart. This sharpening makes the human opinion distribution collapse towards its dominant mode. To do so, we use the standard temperature scaling approach from Guo et al. (2017). We use a temperature of 1e-3 in our analysis, but find that our results are fairly robust to the choice of temperature."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_9",
+        "title": "Additional experimental results",
+        "paragraphs": [
+          {
+            "id": "p9_1",
+            "text": "In Appendix Figure 7, we visualize how much cumulative probability mass models assign to one of the answer choices (excluding refusal). We calculate this by simply summing the exponentiated log probabilities over all options. Ideally, we would like this number to be close to one for all questions. While this value varies across models-being notably high for human feedback-tuned ones-in general, it is typically reasonable (at least 30% on average). This is a necessary sanity check to ensure that the distributions we are deriving (by normalizing the log probabilities over answers) are meaningful and not just noise."
+          },
+          {
+            "id": "p9_2",
+            "text": "Figure 7: Distribution of probability mass assigned by different models to one of the answer choices."
+          }
+        ],
+        "subsections": [
+          {
+            "id": "section_9_1",
+            "title": "Representativeness",
+            "paragraphs": [
+              {
+                "id": "p9_1_1",
+                "text": "Appendix Figure 8 is an extended version of Figure 3 visualizing the subgroup representativeness scores for demographic attributes that were omitted from the main paper in the interest of space."
+              },
+              {
+                "id": "p9_1_2",
+                "text": "Modal response. In Appendix Figure 9 we compare the entropy of the per-question response distributions of humans and various LMs."
+              },
+              {
+                "id": "p9_1_3",
+                "text": "Refusal. As discussed in Section 3, in computing LM/human opinion distributions, we omit the refusal option. This is because, when we are computing similarity, we would like to take into account the ordinal structure of the options-see Section 3.2-and it is unclear what is the right way to project refusal onto this metric space. In Appendix Figure 10 we thus separately compare the refusal rates of various LMs to that of the overall human populace. Here, we measure the overall probability mass assigned to the refusal option across all dataset questions. In general, we see that the human-feedback tuned models actually have a lower tendency to refuse an answer-and their refusal rates are closest to that of humans."
+              },
+              {
+                "id": "p9_1_4",
+                "text": "Figure 8: Extended version of subgroup representativeness scores R_m^O of LMs from Figure 3. A higher score (lighter) indicates that, on average across dataset questions, the LMs opinion distribution is more similar to that of survey respondents from the specified subgroup."
+              },
+              {
+                "id": "p9_1_5",
+                "text": "Figure 9: A comparison of the entropy of LM response distributions: text-davinci-003 tends to assign most of its probability mass to a single option. This is in contrast to human opinions which tend to have a fair amount of variability."
+              },
+              {
+                "id": "p9_1_6",
+                "text": "Figure 10: Refusal rates across OpinionQA for different LMs and Pew survey respondents."
+              }
+            ]
+          },
+          {
+            "id": "section_9_2",
+            "title": "Steerability",
+            "paragraphs": [
+              {
+                "id": "p9_2_1",
+                "text": "In Appendix Figure 11 we compare how successful different LMs are at personalizing the opinions of a given subgroup."
+              },
+              {
+                "id": "p9_2_2",
+                "text": "Figure 11: A breakdown of the post-steering representativeness scores of different LMs by the subgroup they are steered to."
+              }
+            ]
+          },
+          {
+            "id": "section_9_3",
+            "title": "Consistency",
+            "paragraphs": [
+              {
+                "id": "p9_3_1",
+                "text": "In Appendix Figure 12 we visualize the per-topic alignment of LMs along the fine-grained topics displayed in Appendix Table 3. We construct this figure, as well as Figure 5, as follows. Let's say we have a model M with a per-question opinion distribution of D_M(q). Further, consider a demographic attribute L (e.g., political ideology) with corresponding subgroups G_1, G_2, ..., G_l (very liberal, liberal, ..., very conservative). Further, say that the dataset topics are grouped into topic categories T1, T1, ..., T_K (e.g., abortion, personal finance, ...)."
+              },
+              {
+                "id": "p9_3_2",
+                "text": "For each topic T_k, we consider the dataset questions G{T_k} belonging to that topic. On these questions, we then find the best representative subgroup as: G_{T_k}^{best} = \\underset{G \\in \\{G_1, G_2, ..., G_l\\}}{\\arg \\max} \\; R_M^G(Q_{T_k})"
+              },
+              {
+                "id": "p9_3_3",
+                "text": "We also assign a significance score to this group as: \\alpha{T_k}^{best} = \\frac{\\max{G \\in \\{G_1, G_2, ..., G_l\\}} R_M^G(Q_{T_k})}{\\min{G \\in \\{G_1, G_2, ..., G_l\\}} R_M^G(Q_{T_k})}"
+              },
+              {
+                "id": "p9_3_4",
+                "text": "In Figures 5 and Appendix Figure 12 we then denote the G_{T_k}^{best} for each topic using a color, and the significance \\alpha{T_k}^{best} using dot size. For instance, a large red dot implies that a model is strongly aligned with conservatives on that topic."
+              },
+              {
+                "id": "p9_3_5",
+                "text": "Figure 12: Subgroups that various LMs are best aligned with by fine-grained topic (indicated by dot color), along the axes of political ideology, education, and income levels. The size of the dot indicates how significant the bias towards that group is: computed as the ratio of the best and worst subgroup representativeness for that topic."
+              }
+            ]
+          },
+          {
+            "id": "section_9_4",
+            "title": "Robustness",
+            "paragraphs": [
+              {
+                "id": "p9_4_1",
+                "text": "Although current LMs perform remarkably well in the zero-shot setting, they are still known to be sensitive to the exact format of their prompt (see Gao et al. ; Liang et al. ; Srivastava et al. for extensive evaluations). Thus, one might wonder: Are the distributions we are obtaining from LMs robust to such design choices? Before we delve into this further, it is important to note that humans also exhibit a similar sensitivity. In the context of Pew surveys, human respondents are also sensitive to factors such as option ordering and question formatting. Nevertheless, we test how robust our analysis is to: (i) the order in which options for a question are presented to the model and (ii) prompt formatting. Even though we see small fluctuations in the actual representativeness scores through these interventions, the overall trends remain unchanged-the relative ranking of models and the subgroups they tend to align with."
+              }
+            ],
+            "subsubsections": [
+              {
+                "id": "section_9_4_1",
+                "title": "Sensitivity to option ordering",
+                "paragraphs": [
+                  {
+                    "id": "p9_4_1_1",
+                    "text": "We exactly repeat our analysis from the main paper, but present the model with answer choices for a question in a randomly permuted (rather than the default ordinal) order. For instance, for the question in Figure 1 we might present the options as \"A: Not too much, B: A great deal, C: A fair amount, D: Not at all\". For a given question, the same random permutation is used across LMs."
+                  },
+                  {
+                    "id": "p9_4_1_2",
+                    "text": "Under such permutations, we see a small drop in the representativeness scores of all models. We believe that this is at least partly because the reference human distribution is based on survey responses where humans were presented options in an ordinal manner rather than randomly. Since humans are also sensitive to option ordering, we believe this has some effect on the observed human opinion distribution. However, as mentioned above, the overall and subgroup-level trends remain largely consistent as seen from Figure 13."
+                  }
+                ]
+              },
+              {
+                "id": "section_9_4_2",
+                "title": "B.4.2 Sensitivity to prompt format",
+                "paragraphs": [
+                  {
+                    "id": "p9_4_2_1",
+                    "text": "We vary prompt we feed into LMs so as to get their opinion distribution. Specifically before asking the model a question-as in Figure 1 we consider adding a set of instructions. The instructions are in one of two formats:"
+                  },
+                  {
+                    "id": "p9_4_2_2",
+                    "text": "General: Please read the following multiple-choice question carefully and select ONE of the listed options."
+                  },
+                  {
+                    "id": "p9_4_2_3",
+                    "text": "Example: Please read the multiple-choice question below carefully and select ONE of the listed options. Here is an example of the format: Question: Question1 A. Option1 B. Option2 C. Option3 Answer: C"
+                  },
+                  {
+                    "id": "p9_4_2_4",
+                    "text": "In both cases, the instruction is followed by the question of interest from the dataset."
+                  },
+                  {
+                    "id": "p9_4_2_5",
+                    "text": "We then repeat our analysis with these prompt variants (where 'standard' denotes our approach from the main paper), focusing on the 500 questions from Section 4.2 for computational reasons-see Appendix Figure 14. We only include a subset of demographic attributes in the figure below for brevity, as the results are similar to Appendix Figure 13."
+                  },
+                  {
+                    "id": "p9_4_2_6",
+                    "text": "Figure 13: Effect of option ordering on overall and subgroup representativeness (continued on next pages)."
+                  },
+                  {
+                    "id": "p9_4_2_7",
+                    "text": "Figure 14: Effect of prompt formatting on overall and subgroup representativeness (continued on next page)."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
