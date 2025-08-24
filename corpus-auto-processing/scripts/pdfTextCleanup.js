@@ -5,7 +5,7 @@ const path = require('path');
 const https = require('https');
 
 // Configuration
-const API_KEY = 'sk-5121dd6d7f1d4cceb78e5443cfa95af4';
+const API_KEY = 'sk-your-key-here';
 const API_HOST = 'api.deepseek.com';
 const API_PATH = '/v1/chat/completions';
 const INPUT_FOLDER = 'corpus_items/pdf_to_text_output';
