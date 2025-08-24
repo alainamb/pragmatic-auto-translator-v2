@@ -5,7 +5,7 @@ const openAI = require('openai')
 
 //const pdf = require('pdf-parse')
 
-const DEEPSEEK_API_KEY = 'sk-5121dd6d7f1d4cceb78e5443cfa95af4'
+const DEEPSEEK_API_KEY = 'sk-your-key-here'
 const deepSeek = new openAI({
         baseURL: 'https://api.deepseek.com',
         apiKey: DEEPSEEK_API_KEY
