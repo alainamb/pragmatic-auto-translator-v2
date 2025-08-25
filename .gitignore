@@ -44,7 +44,6 @@ yarn.lock
 
 # API Configuration (local development only)
 # Please make sure that your API keys ARE NOT uploaded to your GitHub repo
-frontend/js/api-config.js
 api-config.js
 
 # Project-specific ignores
@@ -52,7 +51,7 @@ backups/
 
 ## Corpus files and related files
 corpora/gai/knowledge-graphs/
-corpora/gai/vectors/visualizations/gai_vector-visualization_data_20250706_155702.json
+corpora/gai/vectors/visualizations/
 scripts/clustering/
 
 ## GAI English Corpus and related files
@@ -83,7 +82,6 @@ corpora/gai/zho/t9n-testing/
 corpora/gai/zho/txt-files/
 
 # Editor files
-# Please add these four lines to your .gitignore file too
 .vscode/
 .idea/
 *.swp

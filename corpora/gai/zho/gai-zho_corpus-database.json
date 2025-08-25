@@ -95,7 +95,7 @@
       "processing_metadata": {
         "submission_file_name": "Zhang_ChatGPT及生成式人工智能现状及未来发展方向_2023.pdf",
         "creation_date": "2025-07-09",
-        "word_count": 0,
+        "word_count": 8163,
         "status": "corpus-JSON_pending",
         "file_paths": {
           "original": "gai/zho/submissions/Zhang_ChatGPT及生成式人工智能现状及未来发展方向_2023.pdf",
@@ -138,7 +138,7 @@
       "processing_metadata": {
         "submission_file_name": "Chen_大语言模型时代的人工智能技术内涵行业应用与挑战_2024.pdf",
         "creation_date": "2025-07-20",
-        "word_count": 0,
+        "word_count": 8020,
         "status": "corpus-JSON_pending",
         "file_paths": {
           "original": "gai/zho/submissions/Chen_大语言模型时代的人工智能技术内涵行业应用与挑战_2024.pdf",
@@ -179,7 +179,7 @@
       "processing_metadata": {
         "submission_file_name": "Cao_人工智能文生视频大模型 Sora 对科技伦理的冲击及应对_2025.pdf",
         "creation_date": "2025-07-20",
-        "word_count": 0,
+        "word_count": 7798,
         "status": "corpus-JSON_pending",
         "file_paths": {
           "original": "gai/zho/submissions/Cao_人工智能文生视频大模型 Sora 对科技伦理的冲击及应对_2025.pdf",
@@ -234,7 +234,7 @@
       "processing_metadata": {
         "submission_file_name": "Chen_知识冲突大语言模型教育应用的挑战与应对_2025.pdf",
         "creation_date": "2025-07-20",
-        "word_count": 0,
+        "word_count": 13853,
         "status": "corpus-JSON_pending",
         "file_paths": {
           "original": "gai/zho/submissions/Chen_知识冲突大语言模型教育应用的挑战与应对_2025.pdf",
@@ -242,6 +242,100 @@
         },
         "processing_notes": "References not included in processed content file."
       }
+    },
+    "gai-zho_corpus-item006": {
+      "document_metadata": {
+        "language_family": "zho",
+        "language_variant": "chn",
+        "title": "人工智能通用大模型教育应用影响探析",
+        "authors": [
+          {
+            "name": "吴砥",
+            "affiliation": "华中师范大学国家数字化学习工程技术研究中心"
+          },
+          {
+            "name": "李环",
+            "affiliation": "华中师范大学国家数字化学习工程技术研究中心"
+          },
+          {
+            "name": "陈旭",
+            "affiliation": "华中师范大学国家数字化学习工程技术研究中心"
+          }
+        ],
+        "publisher": "开放教育研究",
+        "publication_year": "2025",
+        "domain": "GAI",
+        "text_type": "Journal article",
+        "purpose": "Informational",
+        "point_of_view": "Researcher",
+        "audience": "Academic",
+        "reach": "National",
+        "topics": [
+          "人工智能",
+          "通用大模型",
+          "ChatGPT",
+          "教育数字化转型"
+        ],
+        "summary": "本文探讨了人工智能，尤其是以 ChatGPT 为代表的通用大模型对教育的影响。文章梳理了人工智能在教育中的发展历程：从机器学习的统计自动化（“能存会算”），到深度学习的感知能力（“能看会听”），再到通用大模型的认知能力（“能理解会创作”）。通用大模型凭借其强大的泛化与生成能力，正在推动教育应用从专用走向通用，教学流程从资源分发转向内容生成，学习场景从单一扩展为多元。这一转变为教育带来个性化、高效化和沉浸式的新机遇，同时也引发了人才培养目标变化、教学形态更替以及伦理与安全风险等挑战。作者强调，教育与人工智能的融合必须坚持以人为本，注重学生高阶思维的培养，并建立健全的伦理规范体系。",
+        "suggested_citation": "Wu, D., Li, H., & Chen, X. (2023). 人工智能通用大模型教育应用影响探析. 开放教育研究, 29(2), 19-25, 45."
+      },
+      "processing_metadata": {
+        "submission_file_name": "Wu_人工智能通用大模型教育应用影响探析_2023.pdf",
+        "creation_date": "2025-08-21",
+        "word_count": 6335,
+        "status": "corpus-JSON_pending",
+        "file_paths": {
+          "original": "gai/zho/submissions/Wu_人工智能通用大模型教育应用影响探析_2023.pdf",
+          "processed": "gai/zho/processed/gai-zho_corpus-item006.json"
+        },
+        "processing_notes": "References not included in processed content file."
+      }
+    },
+    "gai-zho_corpus-item007": {
+    "document_metadata": {
+      "language_family": "zho",
+      "language_variant": "chn",
+      "title": "生成式人工智能时代的传播与人类新境遇——2024年新媒体研究述评",
+      "authors": [
+        {
+          "name": "苏涛",
+          "affiliation": "云南民族大学文学院；云南省广告与品牌研究院"
+        },
+        {
+          "name": "彭兰",
+          "affiliation": "中国人民大学新闻与社会发展研究中心；中国人民大学新闻学院"
+        }
+      ],
+      "publisher": "国际新闻界",
+      "publication_year": "2025",
+      "domain": "GAI",
+      "text_type": "Journal article",
+      "purpose": "Informational",
+      "point_of_view": "Researcher",
+      "audience": "Academic",
+      "reach": "National",
+      "topics": [
+        "生成式人工智能",
+        "知识生产范式",
+        "人机关系",
+        "新媒体",
+        "数字游民",
+        "微短剧"
+      ],
+      "summary": "本文对2024年核心期刊中的新媒体研究进行述评，围绕生成式人工智能推动的知识生产范式变革、人机关系的新局面与新问题、人工智能时代的跨界交往与新情感实践、数字游民研究、微短剧研究等五大议题进行梳理与评析，旨在为相关研究提供参考与借鉴。",
+      "suggested_citation": "Su, T., & Peng, L. (2025). 生成式人工智能时代的传播与人类新境遇——2024年新媒体研究述评. 国际新闻界, 1."
+    },
+    "processing_metadata": {
+      "submission_file_name": "007.pdf",
+      "creation_date": "2025-08-22",
+      "word_count": 11291,
+      "status": "corpus-JSON_pending",
+      "file_paths": {
+        "original": "gai/zho/submissions/007.pdf",
+        "processed": "gai/zho/processed/gai-zho_corpus-item007.json"
+      },
+      "processing_notes": "References not included in processed content file."
     }
+  }
   }
 }

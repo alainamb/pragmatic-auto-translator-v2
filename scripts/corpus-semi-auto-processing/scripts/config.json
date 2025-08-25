@@ -1,0 +1,131 @@
+{
+  "corpus": {
+    "domain": "gai",
+    "language": {
+      "family": "zho",
+      "variant": "chn"
+    }
+  },
+  "language_mapping": {
+    "to_api_codes": {
+      "eng": "en",
+      "esp": "es", 
+      "zho": "zh"
+    },
+    "from_api_codes": {
+      "en": "eng",
+      "es": "esp",
+      "zh": "zho"
+    },
+    "to_ocr_codes": {
+      "eng": "eng",
+      "esp": "spa",
+      "zho-chn": "chi_sim"
+    },
+    "from_ocr_codes": {
+      "eng": "eng",
+      "spa": "esp",
+      "chi_sim": "zho-chn"
+    }
+  },
+  "directories": {
+    "pdf_input": "../corpus_items/pdf_to_text_input",
+    "pdf_output": "../corpus_items/pdf_to_text_output",
+    "temp_images": "../corpus_items/temp_images",
+    "text_input": "../corpus_items/pdf_to_text_output",
+    "text_output": "../corpus_items/text_to_json_input",
+    "json_input": "../corpus_items/text_to_json_input",
+    "json_output": "../corpus_items/text_to_json_output",
+    "metadata_input": "../corpus_items/pdf_to_text_output",
+    "metadata_output": "../corpus_items/text_to_metadata_output"
+  },
+  "processing": {
+    "pdf_to_text": {
+      "dpi": 600,
+      "ocr_language": "eng",
+      "image_width": 2480,
+      "threshold": 180
+    },
+    "text_cleanup": {
+      "max_chunk_size": 5000,
+      "api_delay_ms": 2000,
+      "request_timeout_ms": 120000,
+      "max_tokens": 8000,
+      "temperature": 0.1
+    },
+    "text_to_json": {
+      "max_chunk_size": 5000,
+      "api_delay_ms": 2000,
+      "request_timeout_ms": 120000,
+      "max_tokens": 4000,
+      "temperature": 0.1
+    },
+    "metadata": {
+      "max_words_to_read": 1000,
+      "max_topics": 10
+    }
+  },
+  "ocr_services": {
+    "default": "tesseract",
+    "providers": {
+      "tesseract": {
+        "enabled": true,
+        "config": {
+          "oem": 1,
+          "psm": 1,
+          "preserve_interword_spaces": 1,
+          "user_defined_dpi": 600
+        }
+      },
+      "google_vision": {
+        "enabled": true,
+        "config": {
+          "image_context": {
+            "language_hints": ["zh", "en"]
+          }
+        }
+      },
+      "azure_cognitive": {
+        "enabled": false,
+        "config": {
+          "read_operation_location": ""
+        }
+      },
+      "aws_textract": {
+        "enabled": false,
+        "config": {
+          "feature_types": ["TABLES", "FORMS"]
+        }
+      },
+      "paddle_ocr": {
+        "enabled": false,
+        "config": {
+          "use_angle_cls": true,
+          "use_gpu": false,
+          "lang": "ch"
+        }
+      }
+    },
+    "language_overrides": {
+      "zho-chn": {
+        "preferred_provider": "google_vision",
+        "fallback_provider": "paddle_ocr",
+        "tesseract_disabled": true,
+        "reason": "Superior accuracy for Chinese characters"
+      }
+    },
+    "quality_thresholds": {
+      "min_confidence": 70,
+      "retry_on_low_confidence": true,
+      "max_retries": 2
+    }
+  },
+  "accepted_domains": [
+    "gai"
+  ],
+  "accepted_languages": {
+    "eng": ["usa", "gbr", "aus", "can"],
+    "esp": ["mex", "esp", "arg", "col"],
+    "zho": ["chn", "twn", "hkg"]
+  }
+}
